@@ -1,4 +1,5 @@
 import os
+import json
 import requests
 
 
@@ -68,5 +69,54 @@ class StakingRewardsAPIClient:
         )
         response.raise_for_status()
         return response.json()
+
+    def get_assets(self, symbols=None, limit=None, where=None):
+        """
+        Query assets from the StakingRewards API.
+
+        Args:
+            symbols (list, optional): List of asset symbols to filter by (e.g., ["ETH", "BTC"])
+            limit (int, optional): Maximum number of results to return
+            where (dict, optional): Additional where conditions for filtering
+
+        Returns:
+            dict: The JSON response containing assets data
+
+        Raises:
+            requests.exceptions.RequestException: If the request fails
+        """
+        # Build where clause
+        where_clause = where or {}
+        if symbols:
+            where_clause["symbols"] = symbols
+
+        # Build query arguments
+        args = []
+        if where_clause:
+            # Convert to GraphQL syntax (no quotes around keys)
+            where_parts = []
+            for key, value in where_clause.items():
+                where_parts.append(f"{key}: {json.dumps(value)}")
+            where_str = "{" + ", ".join(where_parts) + "}"
+            args.append(f"where: {where_str}")
+        if limit is not None:
+            args.append(f"limit: {limit}")
+
+        args_str = f"({', '.join(args)})" if args else ""
+
+        # Build GraphQL query
+        query = f"""
+        {{
+          assets{args_str} {{
+            id
+            name
+            slug
+            description
+            symbol
+          }}
+        }}
+        """
+
+        return self._execute_query(query)
 
     # Query methods will be added here as you provide them

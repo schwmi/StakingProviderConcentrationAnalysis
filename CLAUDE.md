@@ -49,4 +49,27 @@ status = client.get_billing_status()
 **Returns**: Dictionary with billing status information
 
 ### GraphQL Query Methods
-GraphQL query methods will be added as queries are defined. Each method will parameterize the corresponding GraphQL query for easy use.
+
+#### `get_assets(symbols=None, limit=None, where=None)`
+Query assets from the StakingRewards API.
+
+**Parameters:**
+- `symbols` (list, optional): List of asset symbols to filter by (e.g., `["ETH", "BTC"]`)
+- `limit` (int, optional): Maximum number of results to return
+- `where` (dict, optional): Additional where conditions for filtering
+
+**Returns**: Dictionary with assets data
+
+**Example:**
+```python
+# Get single ETH asset
+assets = client.get_assets(symbols=["ETH"], limit=1)
+
+# Get multiple assets
+assets = client.get_assets(symbols=["ETH", "BTC"])
+
+# Get all assets (no filter)
+assets = client.get_assets()
+```
+
+**Fields returned:** id, name, slug, description, symbol
