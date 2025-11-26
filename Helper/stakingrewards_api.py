@@ -183,4 +183,114 @@ class StakingRewardsAPIClient:
 
         return self._execute_query(query)
 
+    def get_providers(self, asset_slug, is_verified=True, order_by_metric="assets_under_management", limit=10, metric_keys=None):
+        """
+        Query providers for a specific asset from the StakingRewards API.
+
+        Args:
+            asset_slug (str): Asset slug to filter providers by (e.g., "cosmos", "ethereum-2-0")
+            is_verified (bool, optional): Filter for verified providers only (default: True)
+            order_by_metric (str, optional): Metric key to order by descending (default: "assets_under_management")
+            limit (int, optional): Maximum number of providers to return (default: 10)
+            metric_keys (list, optional): List of metric keys to fetch (default: ["reward_rate"])
+
+        Returns:
+            dict: The JSON response containing providers data
+
+        Raises:
+            requests.exceptions.RequestException: If the request fails
+        """
+        # Default metric keys
+        if metric_keys is None:
+            metric_keys = ["reward_rate"]
+
+        # Build providers where clause
+        where_parts = []
+        where_parts.append(f"rewardOptions: {{inputAsset: {{slugs: [{json.dumps(asset_slug)}]}}}}")
+        where_parts.append(f"isVerified: {json.dumps(is_verified)}")
+        providers_where = "{" + ", ".join(where_parts) + "}"
+
+        # Build order clause
+        order_clause = f"{{metricKey_desc: {json.dumps(order_by_metric)}}}"
+
+        # Build GraphQL query
+        query = f"""
+        {{
+          providers(
+            where: {providers_where}
+            order: {order_clause}
+            limit: {limit}
+          ) {{
+            slug
+            rewardOptions(
+              where: {{inputAsset: {{slugs: [{json.dumps(asset_slug)}]}}}}
+              limit: 1
+            ) {{
+              metrics(
+                where: {{metricKeys: {json.dumps(metric_keys)}}}
+                limit: 1
+              ) {{
+                defaultValue
+              }}
+            }}
+          }}
+        }}
+        """
+
+        return self._execute_query(query)
+
+    def get_metrics(self, asset=None, provider=None, reward_option=None, validator=None, metric_keys=None, limit=1):
+        """
+        Query metrics from the StakingRewards API.
+
+        When all filters (asset, provider, reward_option, validator) are None,
+        this returns global market metrics.
+
+        Args:
+            asset (str, optional): Asset filter (default: None for global metrics)
+            provider (str, optional): Provider filter (default: None)
+            reward_option (str, optional): Reward option filter (default: None)
+            validator (str, optional): Validator filter (default: None)
+            metric_keys (list, optional): List of metric keys to fetch (default: ["marketcap"])
+            limit (int, optional): Maximum number of metrics to return (default: 1)
+
+        Returns:
+            dict: The JSON response containing metrics data
+
+        Raises:
+            requests.exceptions.RequestException: If the request fails
+        """
+        # Default metric keys
+        if metric_keys is None:
+            metric_keys = ["marketcap"]
+
+        # Build where clause
+        where_parts = []
+
+        # For None values, use null in GraphQL
+        where_parts.append(f"asset: {json.dumps(asset) if asset is not None else 'null'}")
+        where_parts.append(f"provider: {json.dumps(provider) if provider is not None else 'null'}")
+        where_parts.append(f"rewardOption: {json.dumps(reward_option) if reward_option is not None else 'null'}")
+        where_parts.append(f"validator: {json.dumps(validator) if validator is not None else 'null'}")
+        where_parts.append(f"metricKeys: {json.dumps(metric_keys)}")
+
+        where_str = "{" + ", ".join(where_parts) + "}"
+
+        # Build GraphQL query
+        query = f"""
+        {{
+          metrics(
+            where: {where_str}
+            limit: {limit}
+          ) {{
+            defaultValue
+            changeAbsolutes
+            changePercentages
+            createdAt
+          }}
+        }}
+        """
+
+        return self._execute_query(query)
+
     # Query methods will be added here as you provide them
