@@ -73,3 +73,37 @@ assets = client.get_assets()
 ```
 
 **Fields returned:** id, name, slug, description, symbol
+
+#### `get_asset_metrics(slug, metric_keys=None, created_before=None, metrics_limit=None, order=None)`
+Query an asset with its metrics.
+
+**Parameters:**
+- `slug` (str): Asset slug to query (e.g., `"polkadot"`, `"ethereum-2-0"`)
+- `metric_keys` (list, optional): List of metric keys to filter (e.g., `["reward_rate"]`)
+- `created_before` (str, optional): Filter metrics created before this date (ISO format: `"2023-06-28"`)
+- `metrics_limit` (int, optional): Maximum number of metrics to return
+- `order` (dict, optional): Order clause for metrics (default: `{"createdAt": "desc"}`)
+
+**Returns**: Dictionary with asset and metrics data
+
+**Example:**
+```python
+# Get Polkadot asset with reward_rate metrics
+result = client.get_asset_metrics(
+    slug="polkadot",
+    metric_keys=["reward_rate"],
+    created_before="2023-06-28",
+    metrics_limit=10
+)
+
+# Get Ethereum metrics with default ordering
+result = client.get_asset_metrics(
+    slug="ethereum-2-0",
+    metric_keys=["reward_rate"],
+    metrics_limit=5
+)
+```
+
+**Fields returned:**
+- Asset: id, slug, logoUrl
+- Metrics: defaultValue, createdAt
