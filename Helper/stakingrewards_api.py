@@ -52,4 +52,21 @@ class StakingRewardsAPIClient:
         response.raise_for_status()
         return response.json()
 
+    def get_billing_status(self):
+        """
+        Get billing status including available credits and subscription information.
+
+        Returns:
+            dict: The JSON response with billing status information
+
+        Raises:
+            requests.exceptions.RequestException: If the request fails
+        """
+        response = requests.get(
+            "https://api.stakingrewards.com/public/billing/status",
+            headers=self.headers
+        )
+        response.raise_for_status()
+        return response.json()
+
     # Query methods will be added here as you provide them

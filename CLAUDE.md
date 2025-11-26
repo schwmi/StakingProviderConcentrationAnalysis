@@ -32,5 +32,21 @@ client = StakingRewardsAPIClient(api_key="your_api_key_here")
 #### Environment Variables
 - `X_API_KEY` - Your StakingRewards API key
 
+**Setup**: Add your API key to the `.env` file:
+```
+X_API_KEY=your_actual_api_key_here
+```
+
 ## Methods
-Methods will be added as GraphQL queries are defined. Each method will parameterize the corresponding GraphQL query for easy use.
+
+### `get_billing_status()`
+Get billing status including available credits and subscription information.
+
+```python
+status = client.get_billing_status()
+```
+
+**Returns**: Dictionary with billing status information
+
+### GraphQL Query Methods
+GraphQL query methods will be added as queries are defined. Each method will parameterize the corresponding GraphQL query for easy use.
