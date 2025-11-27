@@ -183,6 +183,61 @@ class StakingRewardsAPIClient:
 
         return self._execute_query(query)
 
+    def get_validators(self, symbol, limit=1):
+        """
+        Query validators for a specific symbol
+        """
+        query = f"""
+        {{
+          assets(where: {{ symbols: ["{symbol}"] }}, limit: 1) {{
+            id
+            name
+            slug
+            description
+            symbol
+            metrics(where: {{ metricKeys: ["active_validators"] }}, limit: {limit}) {{
+              metricKey
+              label
+              defaultValue
+            }}
+          }}
+        }}
+        """
+
+        return self._execute_query(query)
+
+    def get_staked_tokens(self, asset_slug, limit=1):
+        """
+        Query the staked tokens
+        """
+        query = """
+               {{
+         rewardOptions(
+           where: {{
+             inputAsset: {{ slugs: ["{asset_slug}"] }}
+             typeKeys: ["pos"]
+           }}
+           limit: 10
+           offset: 0
+         ) {{
+           providers(limit: 1) {{
+             slug
+           }}
+           validators(limit: {limit}) {{
+             address
+             status {{
+               label
+             }}
+             metrics(where: {{ metricKeys: ["staked_tokens"] }}, limit: 1) {{
+               metricKey
+               defaultValue
+             }}
+           }}
+         }}
+        }}""".format(asset_slug=asset_slug, limit=limit)
+
+        return self._execute_query(query)
+
     def get_providers(self, asset_slug, is_verified=True, order_by_metric="assets_under_management", limit=10, metric_keys=None):
         """
         Query providers for a specific asset from the StakingRewards API.
