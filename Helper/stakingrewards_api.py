@@ -119,6 +119,14 @@ class StakingRewardsAPIClient:
 
         return self._execute_query(query)
 
+    def execute_raw_query(self, query):
+        """
+        Executes an raw query string 1:1
+        """
+
+        return self._execute_query(query)
+
+
     def get_asset_metrics(self, slug, metric_keys=None, created_before=None, metrics_limit=None, order=None):
         """
         Query an asset with its metrics from the StakingRewards API.
