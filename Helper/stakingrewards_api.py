@@ -1,6 +1,8 @@
 import os
 import json
+import hashlib
 import requests
+from pathlib import Path
 
 
 class StakingRewardsAPIClient:
@@ -10,13 +12,14 @@ class StakingRewardsAPIClient:
 
     BASE_URL = "https://api.stakingrewards.com/public/query"
 
-    def __init__(self, api_key=None):
+    def __init__(self, api_key=None, cache_dir="api_response_cache"):
         """
         Initialize the StakingRewards API client.
 
         Args:
             api_key (str, optional): API key for authentication.
                                      If not provided, will read from X_API_KEY environment variable.
+            cache_dir (str, optional): Directory to store cached API responses (default: "api_response_cache")
         """
         self.api_key = api_key or os.getenv('X_API_KEY')
         if not self.api_key:
@@ -27,13 +30,39 @@ class StakingRewardsAPIClient:
             "Content-Type": "application/json"
         }
 
-    def _execute_query(self, query, variables=None):
+        # Set up cache directory
+        self.cache_dir = Path(cache_dir)
+        self.cache_dir.mkdir(exist_ok=True)
+
+    def _get_cache_key(self, query, variables=None):
         """
-        Execute a GraphQL query against the StakingRewards API.
+        Generate a unique cache key for a query and its variables.
 
         Args:
             query (str): The GraphQL query string
             variables (dict, optional): Variables for the GraphQL query
+
+        Returns:
+            str: A unique cache key (hash)
+        """
+        # Create a deterministic representation of the query and variables
+        cache_data = {
+            "query": query.strip(),
+            "variables": variables or {}
+        }
+        # Convert to JSON string with sorted keys for consistency
+        cache_string = json.dumps(cache_data, sort_keys=True)
+        # Generate hash
+        return hashlib.sha256(cache_string.encode()).hexdigest()
+
+    def _execute_query(self, query, variables=None, use_cache=True):
+        """
+        Execute a GraphQL query against the StakingRewards API with caching support.
+
+        Args:
+            query (str): The GraphQL query string
+            variables (dict, optional): Variables for the GraphQL query
+            use_cache (bool, optional): Whether to use cached responses (default: True)
 
         Returns:
             dict: The JSON response from the API
@@ -41,6 +70,20 @@ class StakingRewardsAPIClient:
         Raises:
             requests.exceptions.RequestException: If the request fails
         """
+        # Generate cache key
+        cache_key = self._get_cache_key(query, variables)
+        cache_file = self.cache_dir / f"{cache_key}.json"
+
+        # Try to load from cache if enabled
+        if use_cache and cache_file.exists():
+            try:
+                with open(cache_file, 'r') as f:
+                    return json.load(f)
+            except (json.JSONDecodeError, IOError):
+                # If cache is corrupted, continue to make API call
+                pass
+
+        # Make API call
         payload = {"query": query}
         if variables:
             payload["variables"] = variables
@@ -51,7 +94,18 @@ class StakingRewardsAPIClient:
             headers=self.headers
         )
         response.raise_for_status()
-        return response.json()
+        result = response.json()
+
+        # Save to cache
+        if use_cache:
+            try:
+                with open(cache_file, 'w') as f:
+                    json.dump(result, f, indent=2)
+            except IOError:
+                # If we can't write to cache, continue anyway
+                pass
+
+        return result
 
     def get_billing_status(self):
         """
@@ -70,7 +124,7 @@ class StakingRewardsAPIClient:
         response.raise_for_status()
         return response.json()
 
-    def get_assets(self, symbols=None, limit=None, where=None):
+    def get_assets(self, symbols=None, limit=None, where=None, use_cache=True):
         """
         Query assets from the StakingRewards API.
 
@@ -78,6 +132,7 @@ class StakingRewardsAPIClient:
             symbols (list, optional): List of asset symbols to filter by (e.g., ["ETH", "BTC"])
             limit (int, optional): Maximum number of results to return
             where (dict, optional): Additional where conditions for filtering
+            use_cache (bool, optional): Whether to use cached responses (default: True)
 
         Returns:
             dict: The JSON response containing assets data
@@ -117,17 +172,24 @@ class StakingRewardsAPIClient:
         }}
         """
 
-        return self._execute_query(query)
+        return self._execute_query(query, use_cache=use_cache)
 
-    def execute_raw_query(self, query):
+    def execute_raw_query(self, query, use_cache=True):
         """
         Executes an raw query string 1:1
+
+        Args:
+            query (str): The raw GraphQL query string
+            use_cache (bool, optional): Whether to use cached responses (default: True)
+
+        Returns:
+            dict: The JSON response from the API
         """
 
-        return self._execute_query(query)
+        return self._execute_query(query, use_cache=use_cache)
 
 
-    def get_asset_metrics(self, slug, metric_keys=None, created_before=None, metrics_limit=None, order=None):
+    def get_asset_metrics(self, slug, metric_keys=None, created_before=None, metrics_limit=None, order=None, use_cache=True):
         """
         Query an asset with its metrics from the StakingRewards API.
 
@@ -137,6 +199,7 @@ class StakingRewardsAPIClient:
             created_before (str, optional): Filter metrics created before this date (ISO format: "2023-06-28")
             metrics_limit (int, optional): Maximum number of metrics to return
             order (dict, optional): Order clause for metrics (default: {"createdAt": "desc"})
+            use_cache (bool, optional): Whether to use cached responses (default: True)
 
         Returns:
             dict: The JSON response containing asset and metrics data
@@ -189,11 +252,19 @@ class StakingRewardsAPIClient:
         }}
         """
 
-        return self._execute_query(query)
+        return self._execute_query(query, use_cache=use_cache)
 
-    def get_validators(self, symbol, limit=1):
+    def get_validators(self, symbol, limit=1, use_cache=True):
         """
         Query validators for a specific symbol
+
+        Args:
+            symbol (str): Asset symbol to query
+            limit (int, optional): Maximum number of metrics to return (default: 1)
+            use_cache (bool, optional): Whether to use cached responses (default: True)
+
+        Returns:
+            dict: The JSON response containing validator data
         """
         query = f"""
         {{
@@ -212,11 +283,19 @@ class StakingRewardsAPIClient:
         }}
         """
 
-        return self._execute_query(query)
+        return self._execute_query(query, use_cache=use_cache)
 
-    def get_staked_tokens(self, asset_slug, limit=1):
+    def get_staked_tokens(self, asset_slug, limit=1, use_cache=True):
         """
         Query the staked tokens
+
+        Args:
+            asset_slug (str): Asset slug to query
+            limit (int, optional): Maximum number of validators to return (default: 1)
+            use_cache (bool, optional): Whether to use cached responses (default: True)
+
+        Returns:
+            dict: The JSON response containing staked tokens data
         """
         query = """
                {{
@@ -244,9 +323,9 @@ class StakingRewardsAPIClient:
          }}
         }}""".format(asset_slug=asset_slug, limit=limit)
 
-        return self._execute_query(query)
+        return self._execute_query(query, use_cache=use_cache)
 
-    def get_providers(self, asset_slug, is_verified=True, order_by_metric="assets_under_management", limit=10, metric_keys=None):
+    def get_providers(self, asset_slug, is_verified=True, order_by_metric="assets_under_management", limit=10, metric_keys=None, use_cache=True):
         """
         Query providers for a specific asset from the StakingRewards API.
 
@@ -256,6 +335,7 @@ class StakingRewardsAPIClient:
             order_by_metric (str, optional): Metric key to order by descending (default: "assets_under_management")
             limit (int, optional): Maximum number of providers to return (default: 10)
             metric_keys (list, optional): List of metric keys to fetch (default: ["reward_rate"])
+            use_cache (bool, optional): Whether to use cached responses (default: True)
 
         Returns:
             dict: The JSON response containing providers data
@@ -300,9 +380,9 @@ class StakingRewardsAPIClient:
         }}
         """
 
-        return self._execute_query(query)
+        return self._execute_query(query, use_cache=use_cache)
 
-    def get_metrics(self, asset=None, provider=None, reward_option=None, validator=None, metric_keys=None, limit=1):
+    def get_metrics(self, asset=None, provider=None, reward_option=None, validator=None, metric_keys=None, limit=1, use_cache=True):
         """
         Query metrics from the StakingRewards API.
 
@@ -316,6 +396,7 @@ class StakingRewardsAPIClient:
             validator (str, optional): Validator filter (default: None)
             metric_keys (list, optional): List of metric keys to fetch (default: ["marketcap"])
             limit (int, optional): Maximum number of metrics to return (default: 1)
+            use_cache (bool, optional): Whether to use cached responses (default: True)
 
         Returns:
             dict: The JSON response containing metrics data
@@ -354,6 +435,6 @@ class StakingRewardsAPIClient:
         }}
         """
 
-        return self._execute_query(query)
+        return self._execute_query(query, use_cache=use_cache)
 
     # Query methods will be added here as you provide them
