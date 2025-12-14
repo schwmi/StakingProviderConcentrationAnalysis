@@ -1,0 +1,45 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "id": "2HvPGpm5slQCvekiT10J9Q==",
+        "inputAssets": [
+          {
+            "slug": "solana"
+          }
+        ],
+        "metrics": [
+          {
+            "defaultValue": 9938572.238318413
+          }
+        ],
+        "validators": [
+          {
+            "id": "61671f01540b1d00076dd10d",
+            "address": "DdCNGDpP7qMgoAy6paFzhhak2EeyCZcgjH7ak5u5v28m"
+          },
+          {
+            "id": "668703ef0cac9717026caf27",
+            "address": "HCvnhbT3Sn5RsueDisWzzn5FkW8tAqoQK1dr7cvAVzin"
+          },
+          {
+            "id": "67c875373e68b89bfbdb76f5",
+            "address": "wl_node_solana_Kiln-validator_1"
+          },
+          {
+            "id": "67c875383e68b89bfbdb76fb",
+            "address": "wl_node_solana_Kiln-validator_2"
+          },
+          {
+            "id": "67c875393e68b89bfbdb7701",
+            "address": "wl_node_solana_Kiln-validator_3"
+          },
+          {
+            "id": "6826b61cfd65c3641574c2a5",
+            "address": "7k6puiEcBsMABVJPqF8dRPc2LG5H4ewBR9aDhRChxfwb"
+          }
+        ]
+      }
+    ]
+  }
+}

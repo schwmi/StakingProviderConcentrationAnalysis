@@ -1,0 +1,406 @@
+{
+  "data": {
+    "assets": [
+      {
+        "slug": "cardano",
+        "id": "5d27aa08e03dd80007d1ea6e"
+      },
+      {
+        "slug": "waves",
+        "id": "5d27aa0ae03dd80007d1eabf"
+      },
+      {
+        "slug": "stellar",
+        "id": "5d27aa0ae03dd80007d1eac8"
+      },
+      {
+        "slug": "eos",
+        "id": "5d27aa0be03dd80007d1ead1"
+      },
+      {
+        "slug": "tron",
+        "id": "5d27aa0ce03dd80007d1eb2e"
+      },
+      {
+        "slug": "cosmos",
+        "id": "5d27aa0de03dd80007d1eb42"
+      },
+      {
+        "slug": "ethereum-2-0",
+        "id": "5d27aa0de03dd80007d1eb49"
+      },
+      {
+        "slug": "ontology",
+        "id": "5d27aa0de03dd80007d1eb59"
+      },
+      {
+        "slug": "algorand",
+        "id": "5d27aa0ee03dd80007d1eb6a"
+      },
+      {
+        "slug": "polkadot",
+        "id": "5d27aa0ee03dd80007d1eb6d"
+      },
+      {
+        "slug": "chainlink",
+        "id": "5d27aa0ee03dd80007d1eb70"
+      },
+      {
+        "slug": "gnosis",
+        "id": "5d27aa0ee03dd80007d1eb79"
+      },
+      {
+        "slug": "livepeer",
+        "id": "5d27aa0ee03dd80007d1eb8b"
+      },
+      {
+        "slug": "irisnet",
+        "id": "5d27aa0fe03dd80007d1ebb8"
+      },
+      {
+        "slug": "dai",
+        "id": "5d27aa0fe03dd80007d1ebc7"
+      },
+      {
+        "slug": "energi",
+        "id": "5d27aa0fe03dd80007d1ebca"
+      },
+      {
+        "slug": "secret-network",
+        "id": "5d27aa10e03dd80007d1ebeb"
+      },
+      {
+        "slug": "orbs",
+        "id": "5d27aa10e03dd80007d1ebfa"
+      },
+      {
+        "slug": "terra",
+        "id": "5d27aa10e03dd80007d1ec0c"
+      },
+      {
+        "slug": "tezos",
+        "id": "5d34818ecb1d1f0007826c32"
+      },
+      {
+        "slug": "havven",
+        "id": "5d46b5c3761531000737af0f"
+      },
+      {
+        "slug": "harmony",
+        "id": "5d46b5c3761531000737af10"
+      },
+      {
+        "slug": "solana",
+        "id": "5dc6d77ab3b1090007f5c041"
+      },
+      {
+        "slug": "near-protocol",
+        "id": "5dc82fc27b2b64000719f9ca"
+      },
+      {
+        "slug": "kava",
+        "id": "5dc833b7b3b1090007f5d425"
+      },
+      {
+        "slug": "crypto-com-coin",
+        "id": "5dc8355491a51900085071ed"
+      },
+      {
+        "slug": "skale",
+        "id": "5dc83e0bb3b1090007f5d427"
+      },
+      {
+        "slug": "avalanche",
+        "id": "5dc925cfb3b1090007f5e1fd"
+      },
+      {
+        "slug": "fantom",
+        "id": "5e04fdb0cfd82b00079c6bfc"
+      },
+      {
+        "slug": "elrond",
+        "id": "5e1c9f9bcfd82b00079d9f7f"
+      },
+      {
+        "slug": "kusama",
+        "id": "5e27000a9d431a0009f71db1"
+      },
+      {
+        "slug": "coti",
+        "id": "5e4a38d77c73a50008093985"
+      },
+      {
+        "slug": "makerdao",
+        "id": "5e50ee1072e9230008bee2be"
+      },
+      {
+        "slug": "telos",
+        "id": "5e563eda5a212700076c40ae"
+      },
+      {
+        "slug": "chromia",
+        "id": "5e7f921416a20400085172e7"
+      },
+      {
+        "slug": "usd-coin",
+        "id": "5ea986d7e306ac0007dc73e3"
+      },
+      {
+        "slug": "bitcoin",
+        "id": "5ea986dae306ac0007dc73ed"
+      },
+      {
+        "slug": "tether",
+        "id": "5ea986dcf92c230007fce1f8"
+      },
+      {
+        "slug": "aave",
+        "id": "5ea986dee306ac0007dc73f2"
+      },
+      {
+        "slug": "maker",
+        "id": "5ea986def92c230007fce1fb"
+      },
+      {
+        "slug": "trueusd",
+        "id": "5ea986dfe306ac0007dc73f4"
+      },
+      {
+        "slug": "decentraland",
+        "id": "5ea986dfe306ac0007dc73f6"
+      },
+      {
+        "slug": "nusd",
+        "id": "5ea986e0e306ac0007dc73fd"
+      },
+      {
+        "slug": "kyber-network",
+        "id": "5ea986e0f92c230007fce200"
+      },
+      {
+        "slug": "matic-network",
+        "id": "5f01d33f1165d300072d7b8b"
+      },
+      {
+        "slug": "band-protocol",
+        "id": "5f0451c22d373700079534e6"
+      },
+      {
+        "slug": "e-money",
+        "id": "5f0451d1aff7a5000815c172"
+      },
+      {
+        "slug": "yearn-finance",
+        "id": "5f253f23a3a32b0007819c20"
+      },
+      {
+        "slug": "true-usd",
+        "id": "5f3652b6926c4e0007c2a1ae"
+      },
+      {
+        "slug": "curve-dao-token",
+        "id": "5f368e70611bd80007462e1d"
+      },
+      {
+        "slug": "paxos-standard",
+        "id": "5f398c9693ab870007f0fb77"
+      },
+      {
+        "slug": "litecoin",
+        "id": "5f398c974597420008464382"
+      },
+      {
+        "slug": "ripple",
+        "id": "5f398c9893ab870007f0fb7e"
+      },
+      {
+        "slug": "gemini-dollar",
+        "id": "5f398c994597420008464387"
+      },
+      {
+        "slug": "persistence",
+        "id": "5f3fd4b22371d100079dacd6"
+      },
+      {
+        "slug": "the-graph",
+        "id": "5f3fd5832371d100079dacd7"
+      },
+      {
+        "slug": "akash",
+        "id": "5f3fd6205b8f8400073ca00d"
+      },
+      {
+        "slug": "stafi-protocol",
+        "id": "5f4a3e04cb00770007c6ccb2"
+      },
+      {
+        "slug": "mantra-dao",
+        "id": "5f5f995a52aeae0007644ee8"
+      },
+      {
+        "slug": "pax-gold",
+        "id": "5f62efb3a2f74b00079b0797"
+      },
+      {
+        "slug": "nimiq",
+        "id": "5f8416366dc081000709917f"
+      },
+      {
+        "slug": "uniswap",
+        "id": "5f91144753487f00075ea5f5"
+      },
+      {
+        "slug": "sushi",
+        "id": "601d7c9d3cb0e00007487917"
+      },
+      {
+        "slug": "pancakeswap",
+        "id": "6025303bf12a3a0007c993a6"
+      },
+      {
+        "slug": "binance-smart-chain",
+        "id": "603107824fc34e0007cd7ba6"
+      },
+      {
+        "slug": "flow",
+        "id": "6042977a2f17040008b6ea35"
+      },
+      {
+        "slug": "injective-protocol",
+        "id": "604a42b7c5c421000777822b"
+      },
+      {
+        "slug": "certik",
+        "id": "6053aa7b1887d50007942643"
+      },
+      {
+        "slug": "fuse-network-token",
+        "id": "605cd3dd82ef2700083d63bd"
+      },
+      {
+        "slug": "filecoin",
+        "id": "60649116e85224000730ef20"
+      },
+      {
+        "slug": "orchid-protocol",
+        "id": "606b4f1ce852240007318131"
+      },
+      {
+        "slug": "balancer",
+        "id": "606b5982e852240007884363"
+      },
+      {
+        "slug": "wrapped-bitcoin",
+        "id": "606f58c1b6ba6300072e32f2"
+      },
+      {
+        "slug": "sentinel",
+        "id": "608679c9a015e40007c4b8bd"
+      },
+      {
+        "slug": "stasis-eurs",
+        "id": "60888229097df60007889a67"
+      },
+      {
+        "slug": "regen",
+        "id": "609536028ff47a00076d0ffb"
+      },
+      {
+        "slug": "mina",
+        "id": "6095360cfe3b3b000794f2b1"
+      },
+      {
+        "slug": "hydra",
+        "id": "60a3dc01b75cc60008b3127f"
+      },
+      {
+        "slug": "euro-coin",
+        "id": "610b72b9fa2ebc0008677b16"
+      },
+      {
+        "slug": "dydx",
+        "id": "610d6818e209350007f6811e"
+      },
+      {
+        "slug": "axie-infinity",
+        "id": "611bb540b04a9f000751ef8a"
+      },
+      {
+        "slug": "akropolis",
+        "id": "612e4c2c1f58f50007efc84e"
+      },
+      {
+        "slug": "api3",
+        "id": "612e4c371f58f50007efc84f"
+      },
+      {
+        "slug": "sifchain",
+        "id": "61692aa37a9cb70007cd5120"
+      },
+      {
+        "slug": "dogecoin",
+        "id": "617af46d3f890a0008212f28"
+      },
+      {
+        "slug": "rocket-pool",
+        "id": "618b7a80e09e9e00072337af"
+      },
+      {
+        "slug": "paraswap",
+        "id": "61929a969749480007216551"
+      },
+      {
+        "slug": "presearch",
+        "id": "619386bc16c77700074b4a76"
+      },
+      {
+        "slug": "osmosis",
+        "id": "61d2a28463359d00071f76c4"
+      },
+      {
+        "slug": "staked-near",
+        "id": "61f3f1ac8559e30009f9346d"
+      },
+      {
+        "slug": "evmos",
+        "id": "621e82cd53140f0008432db7"
+      },
+      {
+        "slug": "radix",
+        "id": "6228e60c53140f0009ac9d2e"
+      },
+      {
+        "slug": "comdex",
+        "id": "6228e6389c34940009d1c35c"
+      },
+      {
+        "slug": "phala-network",
+        "id": "6231d35b8e830a0009dce501"
+      },
+      {
+        "slug": "apecoin",
+        "id": "6239cd05001cca0009b824f5"
+      },
+      {
+        "slug": "aavegotchi",
+        "id": "62469c4ab7d7b8000921199d"
+      },
+      {
+        "slug": "asset-mantle",
+        "id": "62826c5ef9b212000866eb2e"
+      },
+      {
+        "slug": "terra-luna-2",
+        "id": "629101c6a40a120008684feb"
+      },
+      {
+        "slug": "frax",
+        "id": "62b31d09349030000922b6c2"
+      },
+      {
+        "slug": "ethereum-name-service",
+        "id": "62b4727106461c00087180c0"
+      }
+    ]
+  }
+}

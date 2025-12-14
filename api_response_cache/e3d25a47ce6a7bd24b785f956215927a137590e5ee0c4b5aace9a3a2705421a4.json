@@ -1,0 +1,189 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "inputAssets": [
+          {
+            "slug": "regen"
+          }
+        ],
+        "metrics": [
+          {
+            "defaultValue": 5.54051497564349e+41
+          }
+        ],
+        "validators": [
+          {
+            "address": "regenvaloper1vmps9sn7vlgnd5latct889qyh62ulmgk72umu8",
+            "metrics": [
+              {
+                "label": "Commission",
+                "metricKey": "commission",
+                "defaultValue": 5
+              },
+              {
+                "label": "Net Staking Flow 7d",
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": 15290.834915852658
+              },
+              {
+                "label": "Reward Rate",
+                "metricKey": "reward_rate",
+                "defaultValue": 5.54051497564349e+41
+              },
+              {
+                "label": "Self-Staked Tokens",
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 6686
+              },
+              {
+                "label": "Staked Tokens",
+                "metricKey": "staked_tokens",
+                "defaultValue": 2540338.779393
+              },
+              {
+                "label": "Staking Share",
+                "metricKey": "staking_share",
+                "defaultValue": 0.019801327713382028
+              },
+              {
+                "label": "Staking Wallets",
+                "metricKey": "staking_wallets",
+                "defaultValue": 217
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "inputAssets": [
+          {
+            "slug": "energi"
+          }
+        ],
+        "metrics": [
+          {
+            "defaultValue": 82.76689655172413
+          }
+        ],
+        "validators": null
+      },
+      {
+        "inputAssets": [
+          {
+            "slug": "asset-mantle"
+          }
+        ],
+        "metrics": [
+          {
+            "defaultValue": 78.14855896825543
+          }
+        ],
+        "validators": [
+          {
+            "address": "mantlevaloper16q7tsm4eadhw3sgqrlg2e32g6mfm8xzhjame6j",
+            "metrics": [
+              {
+                "label": "Commission",
+                "metricKey": "commission",
+                "defaultValue": 5
+              },
+              {
+                "label": "Net Staking Flow 7d",
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": 0
+              },
+              {
+                "label": "Reward Rate",
+                "metricKey": "reward_rate",
+                "defaultValue": 78.14855896825543
+              },
+              {
+                "label": "Self-Staked Tokens",
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 855051.118506
+              },
+              {
+                "label": "Staked Tokens",
+                "metricKey": "staked_tokens",
+                "defaultValue": 125071582.52413796
+              },
+              {
+                "label": "Staking Share",
+                "metricKey": "staking_share",
+                "defaultValue": 0.0697691746601359
+              },
+              {
+                "label": "Staking Wallets",
+                "metricKey": "staking_wallets",
+                "defaultValue": 899
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "inputAssets": [
+          {
+            "slug": "bitcanna"
+          }
+        ],
+        "metrics": [
+          {
+            "defaultValue": 78.0829632485858
+          }
+        ],
+        "validators": [
+          {
+            "address": "bcnavaloper188uwwh9mqm95fltpx6f62x77lke5a0etwn45h3",
+            "metrics": [
+              {
+                "label": null,
+                "metricKey": "commission",
+                "defaultValue": 0
+              },
+              {
+                "label": null,
+                "metricKey": "reward_rate",
+                "defaultValue": 78.0829632485858
+              },
+              {
+                "label": null,
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 1
+              },
+              {
+                "label": "Staked Tokens",
+                "metricKey": "staked_tokens",
+                "defaultValue": 16460363.571986007
+              },
+              {
+                "label": null,
+                "metricKey": "staking_share",
+                "defaultValue": 0.21660755753154556
+              },
+              {
+                "label": "Staking Wallets",
+                "metricKey": "staking_wallets",
+                "defaultValue": 243
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "inputAssets": [
+          {
+            "slug": "asset-mantle"
+          }
+        ],
+        "metrics": [
+          {
+            "defaultValue": 76.61510430767716
+          }
+        ],
+        "validators": null
+      }
+    ]
+  }
+}

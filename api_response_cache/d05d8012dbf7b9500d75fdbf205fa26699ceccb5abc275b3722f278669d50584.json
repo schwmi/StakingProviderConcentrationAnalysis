@@ -1,0 +1,806 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "inputAssets": [
+          {
+            "slug": "tron"
+          }
+        ],
+        "metrics": [
+          {
+            "defaultValue": 1200164932.0
+          }
+        ],
+        "validators": [
+          {
+            "address": "TQzd66b9EFVHJfZK5AmiVhBjtJvXGeSPPZ",
+            "metrics": [
+              {
+                "label": "Commission",
+                "metricKey": "commission",
+                "defaultValue": 5
+              },
+              {
+                "label": "Net Staking Flow 7d",
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": 0
+              },
+              {
+                "label": "Reward Rate",
+                "metricKey": "reward_rate",
+                "defaultValue": 3.19837099549781
+              },
+              {
+                "label": "Self-Staked Tokens",
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 26792257.0
+              },
+              {
+                "label": "Staked Tokens",
+                "metricKey": "staked_tokens",
+                "defaultValue": 1200164932.0
+              },
+              {
+                "label": "Staking Share",
+                "metricKey": "staking_share",
+                "defaultValue": 0.027715012313458305
+              },
+              {
+                "label": null,
+                "metricKey": "staking_wallets",
+                "defaultValue": 2393
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "inputAssets": [
+          {
+            "slug": "cardano"
+          }
+        ],
+        "metrics": [
+          {
+            "defaultValue": 655522521.648227
+          }
+        ],
+        "validators": [
+          {
+            "address": "78da8fa2f5089964963a0ab7ad1402e8c656f203bef622cf9f5ee3c6",
+            "metrics": [
+              {
+                "label": "Commission",
+                "metricKey": "commission",
+                "defaultValue": 6.7396613414273165
+              },
+              {
+                "label": "Net Staking Flow 7d",
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": -162887.478537313
+              },
+              {
+                "label": "Reward Rate",
+                "metricKey": "reward_rate",
+                "defaultValue": 2.585759358461941
+              },
+              {
+                "label": "Self-Staked Tokens",
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 4455.5927
+              },
+              {
+                "label": "Staked Tokens",
+                "metricKey": "staked_tokens",
+                "defaultValue": 55138654.070523
+              },
+              {
+                "label": "Staking Share",
+                "metricKey": "staking_share",
+                "defaultValue": 0.0026231748111225505
+              },
+              {
+                "label": "Staking Wallets",
+                "metricKey": "staking_wallets",
+                "defaultValue": 89
+              }
+            ]
+          },
+          {
+            "address": "4e0356a826bbf3e0525cd4612061a1304710b0c8d12df5457ac17cdf",
+            "metrics": [
+              {
+                "label": "Commission",
+                "metricKey": "commission",
+                "defaultValue": 4.583870337335092
+              },
+              {
+                "label": "Net Staking Flow 7d",
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": 43772.46672594491
+              },
+              {
+                "label": "Reward Rate",
+                "metricKey": "reward_rate",
+                "defaultValue": 2.0851524965615247
+              },
+              {
+                "label": "Self-Staked Tokens",
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 3123.536559
+              },
+              {
+                "label": "Staked Tokens",
+                "metricKey": "staked_tokens",
+                "defaultValue": 75118206.233398
+              },
+              {
+                "label": "Staking Share",
+                "metricKey": "staking_share",
+                "defaultValue": 0.0035736850993158377
+              },
+              {
+                "label": "Staking Wallets",
+                "metricKey": "staking_wallets",
+                "defaultValue": 64
+              }
+            ]
+          },
+          {
+            "address": "66958f34aa3334825ea628ee90d9c2f85ca204d62a8cc1759db22262",
+            "metrics": [
+              {
+                "label": "Commission",
+                "metricKey": "commission",
+                "defaultValue": 4.294137957533086
+              },
+              {
+                "label": "Net Staking Flow 7d",
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": 28921.7370518337
+              },
+              {
+                "label": "Reward Rate",
+                "metricKey": "reward_rate",
+                "defaultValue": 2.58392255530536
+              },
+              {
+                "label": "Self-Staked Tokens",
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 3175.59407
+              },
+              {
+                "label": "Staked Tokens",
+                "metricKey": "staked_tokens",
+                "defaultValue": 74191675.102863
+              },
+              {
+                "label": "Staking Share",
+                "metricKey": "staking_share",
+                "defaultValue": 0.003529606164776889
+              },
+              {
+                "label": "Staking Wallets",
+                "metricKey": "staking_wallets",
+                "defaultValue": 40
+              }
+            ]
+          },
+          {
+            "address": "dacdbb3e160587423dc699830ace34969d3280ed48cea25551633e1a",
+            "metrics": [
+              {
+                "label": "Commission",
+                "metricKey": "commission",
+                "defaultValue": 4.51599017875358
+              },
+              {
+                "label": "Net Staking Flow 7d",
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": 25470.335713766715
+              },
+              {
+                "label": "Reward Rate",
+                "metricKey": "reward_rate",
+                "defaultValue": 2.1745413464552104
+              },
+              {
+                "label": "Self-Staked Tokens",
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 3196.718331
+              },
+              {
+                "label": "Staked Tokens",
+                "metricKey": "staked_tokens",
+                "defaultValue": 75256072.333591
+              },
+              {
+                "label": "Staking Share",
+                "metricKey": "staking_share",
+                "defaultValue": 0.0035802439623753425
+              },
+              {
+                "label": null,
+                "metricKey": "staking_wallets",
+                "defaultValue": 37
+              }
+            ]
+          },
+          {
+            "address": "7b75bdba3b996dc88fdc00099d794d1460cf6bf7a5997a0da1197f4e",
+            "metrics": [
+              {
+                "label": "Commission",
+                "metricKey": "commission",
+                "defaultValue": 6.360504006709049
+              },
+              {
+                "label": "Net Staking Flow 7d",
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": 1340450.0669191023
+              },
+              {
+                "label": "Reward Rate",
+                "metricKey": "reward_rate",
+                "defaultValue": 2.490776811498957
+              },
+              {
+                "label": "Self-Staked Tokens",
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 4811.423691
+              },
+              {
+                "label": "Staked Tokens",
+                "metricKey": "staked_tokens",
+                "defaultValue": 73196584.601364
+              },
+              {
+                "label": "Staking Share",
+                "metricKey": "staking_share",
+                "defaultValue": 0.0034822655761767235
+              },
+              {
+                "label": "Staking Wallets",
+                "metricKey": "staking_wallets",
+                "defaultValue": 40
+              }
+            ]
+          },
+          {
+            "address": "4744b317cba46d5f247e51d4df3d72c9e2a8b18231c30ba1708bd65b",
+            "metrics": [
+              {
+                "label": "Commission",
+                "metricKey": "commission",
+                "defaultValue": 11.747533375362412
+              },
+              {
+                "label": "Net Staking Flow 7d",
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": 968016.6202756909
+              },
+              {
+                "label": "Reward Rate",
+                "metricKey": "reward_rate",
+                "defaultValue": 1.298686752352658
+              },
+              {
+                "label": "Self-Staked Tokens",
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 7647.820743
+              },
+              {
+                "label": "Staked Tokens",
+                "metricKey": "staked_tokens",
+                "defaultValue": 109234895.882144
+              },
+              {
+                "label": "Staking Share",
+                "metricKey": "staking_share",
+                "defaultValue": 0.005196757741078402
+              },
+              {
+                "label": "Staking Wallets",
+                "metricKey": "staking_wallets",
+                "defaultValue": 34080
+              }
+            ]
+          },
+          {
+            "address": "daf97e5cf7b24fddbc0235684a1edff9c078c257d05df90d3fc6dc5f",
+            "metrics": [
+              {
+                "label": null,
+                "metricKey": "commission",
+                "defaultValue": 4.414924166273083
+              },
+              {
+                "label": null,
+                "metricKey": "reward_rate",
+                "defaultValue": 2.4771855788986974
+              },
+              {
+                "label": null,
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 3247.358822
+              },
+              {
+                "label": null,
+                "metricKey": "staked_tokens",
+                "defaultValue": 70781260.072094
+              },
+              {
+                "label": null,
+                "metricKey": "staking_share",
+                "defaultValue": 0.0033673585554546736
+              },
+              {
+                "label": null,
+                "metricKey": "staking_wallets",
+                "defaultValue": 21
+              }
+            ]
+          },
+          {
+            "address": "e81076184cf505790a526960a7a79a1bcc2f3c9f3fed15e7b8713c02",
+            "metrics": [
+              {
+                "label": null,
+                "metricKey": "commission",
+                "defaultValue": 4.598892307649356
+              },
+              {
+                "label": null,
+                "metricKey": "reward_rate",
+                "defaultValue": 1.9438294022374527
+              },
+              {
+                "label": null,
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 3515.502107
+              },
+              {
+                "label": null,
+                "metricKey": "staked_tokens",
+                "defaultValue": 79822374.69868
+              },
+              {
+                "label": null,
+                "metricKey": "staking_share",
+                "defaultValue": 0.0037974819335588705
+              },
+              {
+                "label": null,
+                "metricKey": "staking_wallets",
+                "defaultValue": 30
+              }
+            ]
+          },
+          {
+            "address": "2d93bd7c54e3bd327c0af41c38ebdb03498df11e5b325aff5789a02d",
+            "metrics": [
+              {
+                "label": null,
+                "metricKey": "commission",
+                "defaultValue": 8.537310423558264
+              },
+              {
+                "label": null,
+                "metricKey": "reward_rate",
+                "defaultValue": 2.5469939434617785
+              },
+              {
+                "label": null,
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 2366.016708
+              },
+              {
+                "label": null,
+                "metricKey": "staked_tokens",
+                "defaultValue": 27525154.288512
+              },
+              {
+                "label": null,
+                "metricKey": "staking_share",
+                "defaultValue": 0.0013094859245120067
+              },
+              {
+                "label": null,
+                "metricKey": "staking_wallets",
+                "defaultValue": 55
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "inputAssets": [
+          {
+            "slug": "harmony"
+          }
+        ],
+        "metrics": [
+          {
+            "defaultValue": 277262795.8479129
+          }
+        ],
+        "validators": [
+          {
+            "address": "one149j0j8jx4mrjzzlnh299hmrd3rzr8ptyhksht9",
+            "metrics": [
+              {
+                "label": null,
+                "metricKey": "commission",
+                "defaultValue": 10
+              },
+              {
+                "label": null,
+                "metricKey": "reward_rate",
+                "defaultValue": 9.38036077079513
+              },
+              {
+                "label": null,
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 10000
+              },
+              {
+                "label": null,
+                "metricKey": "staked_tokens",
+                "defaultValue": 76581305.0219248
+              },
+              {
+                "label": null,
+                "metricKey": "staking_share",
+                "defaultValue": 0.0240041350723002
+              },
+              {
+                "label": null,
+                "metricKey": "staking_wallets",
+                "defaultValue": 30
+              }
+            ]
+          },
+          {
+            "address": "one1gghrrqjs0jgurfmye4rl67w2hth5xs08zn05nm",
+            "metrics": [
+              {
+                "label": null,
+                "metricKey": "commission",
+                "defaultValue": 10
+              },
+              {
+                "label": null,
+                "metricKey": "reward_rate",
+                "defaultValue": 10.204635525351504
+              },
+              {
+                "label": null,
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 10000
+              },
+              {
+                "label": null,
+                "metricKey": "staked_tokens",
+                "defaultValue": 200681490.82598814
+              },
+              {
+                "label": null,
+                "metricKey": "staking_share",
+                "defaultValue": 0.06290289269578861
+              },
+              {
+                "label": null,
+                "metricKey": "staking_wallets",
+                "defaultValue": 17
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "inputAssets": [
+          {
+            "slug": "iota"
+          }
+        ],
+        "metrics": [
+          {
+            "defaultValue": 261250031.32369223
+          }
+        ],
+        "validators": [
+          {
+            "address": "0x303db99c56283dba10c014f90fce2691cba6e7ea661fd3331d95b6e76ada9a19",
+            "metrics": [
+              {
+                "label": null,
+                "metricKey": "commission",
+                "defaultValue": 10
+              },
+              {
+                "label": null,
+                "metricKey": "reward_rate",
+                "defaultValue": 11.47271323397694
+              },
+              {
+                "label": null,
+                "metricKey": "staked_tokens",
+                "defaultValue": 12688942.62682942
+              },
+              {
+                "label": null,
+                "metricKey": "staking_share",
+                "defaultValue": 0.005274620012875874
+              }
+            ]
+          },
+          {
+            "address": "0x843151a92e25b320fa722272be32951eb1a164cd1c658afa48c900beede75bc8",
+            "metrics": [
+              {
+                "label": null,
+                "metricKey": "commission",
+                "defaultValue": 10
+              },
+              {
+                "label": null,
+                "metricKey": "reward_rate",
+                "defaultValue": 11.681157381900688
+              },
+              {
+                "label": null,
+                "metricKey": "staked_tokens",
+                "defaultValue": 197243267.48391965
+              },
+              {
+                "label": null,
+                "metricKey": "staking_share",
+                "defaultValue": 0.0819913303001254
+              }
+            ]
+          },
+          {
+            "address": "0x9fd70830febdaff0a1ccd99923085de52621e97173e31649f2c1c7a1699205fd",
+            "metrics": [
+              {
+                "label": null,
+                "metricKey": "commission",
+                "defaultValue": 10
+              },
+              {
+                "label": null,
+                "metricKey": "reward_rate",
+                "defaultValue": 11.67437911118675
+              },
+              {
+                "label": null,
+                "metricKey": "staked_tokens",
+                "defaultValue": 51317821.21294317
+              },
+              {
+                "label": null,
+                "metricKey": "staking_share",
+                "defaultValue": 0.021332116847517915
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "inputAssets": null,
+        "metrics": [
+          {
+            "defaultValue": 256063156.1343954
+          }
+        ],
+        "validators": null
+      },
+      {
+        "inputAssets": null,
+        "metrics": [
+          {
+            "defaultValue": 239748579.32498473
+          }
+        ],
+        "validators": null
+      },
+      {
+        "inputAssets": [
+          {
+            "slug": "sei-network"
+          }
+        ],
+        "metrics": [
+          {
+            "defaultValue": 133355834.29421999
+          }
+        ],
+        "validators": [
+          {
+            "address": "seivaloper1uxlf7mvr8nep3gm7udf2u9remms2jyjq6ee35g",
+            "metrics": [
+              {
+                "label": null,
+                "metricKey": "commission",
+                "defaultValue": 5
+              },
+              {
+                "label": null,
+                "metricKey": "reward_rate",
+                "defaultValue": 4.734308362584736
+              },
+              {
+                "label": null,
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 1
+              },
+              {
+                "label": null,
+                "metricKey": "staked_tokens",
+                "defaultValue": 133355834.29421999
+              },
+              {
+                "label": null,
+                "metricKey": "staking_share",
+                "defaultValue": 0.03062534438941451
+              },
+              {
+                "label": null,
+                "metricKey": "staking_wallets",
+                "defaultValue": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "inputAssets": [
+          {
+            "slug": "matic-network"
+          }
+        ],
+        "metrics": [
+          {
+            "defaultValue": 130623008.02057134
+          }
+        ],
+        "validators": [
+          {
+            "address": "0xf3ad5b5d88d864559ad12e4d9b19c4f8b346c465",
+            "metrics": [
+              {
+                "label": "Commission",
+                "metricKey": "commission",
+                "defaultValue": 5
+              },
+              {
+                "label": "Net Staking Flow 7d",
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": 747453.9032497763
+              },
+              {
+                "label": "Reward Rate",
+                "metricKey": "reward_rate",
+                "defaultValue": 2.8366716524518645
+              },
+              {
+                "label": "Self-Staked Tokens",
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 135962.06751288704
+              },
+              {
+                "label": "Staked Tokens",
+                "metricKey": "staked_tokens",
+                "defaultValue": 130623008.02057134
+              },
+              {
+                "label": "Staking Share",
+                "metricKey": "staking_share",
+                "defaultValue": 0.038659999190968866
+              },
+              {
+                "label": "Staking Wallets",
+                "metricKey": "staking_wallets",
+                "defaultValue": 430
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "inputAssets": null,
+        "metrics": [
+          {
+            "defaultValue": 130137311.27883646
+          }
+        ],
+        "validators": null
+      },
+      {
+        "inputAssets": [
+          {
+            "slug": "fetch-ai"
+          }
+        ],
+        "metrics": [
+          {
+            "defaultValue": 98581537.0640161
+          }
+        ],
+        "validators": [
+          {
+            "address": "fetchvaloper146mj09yzu3mvz7pmy4dvs4z9wr2mst7ryjvncp",
+            "metrics": [
+              {
+                "label": null,
+                "metricKey": "commission",
+                "defaultValue": 10
+              },
+              {
+                "label": null,
+                "metricKey": "reward_rate",
+                "defaultValue": 5.2641461027222265
+              },
+              {
+                "label": null,
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 2
+              },
+              {
+                "label": null,
+                "metricKey": "staked_tokens",
+                "defaultValue": 2775384.2228018506
+              },
+              {
+                "label": null,
+                "metricKey": "staking_share",
+                "defaultValue": 0.004968055977907737
+              },
+              {
+                "label": null,
+                "metricKey": "staking_wallets",
+                "defaultValue": 391
+              }
+            ]
+          },
+          {
+            "address": "fetchvaloper1uxlf7mvr8nep3gm7udf2u9remms2jyjqlr0wzf",
+            "metrics": [
+              {
+                "label": null,
+                "metricKey": "commission",
+                "defaultValue": 10
+              },
+              {
+                "label": null,
+                "metricKey": "reward_rate",
+                "defaultValue": 5.264443212771589
+              },
+              {
+                "label": null,
+                "metricKey": "self_staked_tokens",
+                "defaultValue": 1
+              },
+              {
+                "label": null,
+                "metricKey": "staked_tokens",
+                "defaultValue": 95806152.84121425
+              },
+              {
+                "label": null,
+                "metricKey": "staking_share",
+                "defaultValue": 0.17149709450413594
+              },
+              {
+                "label": null,
+                "metricKey": "staking_wallets",
+                "defaultValue": 101
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

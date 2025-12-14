@@ -1,0 +1,100 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "id": "5f809d56404ff60007e44277",
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0"
+          }
+        ],
+        "validators": null
+      },
+      {
+        "id": "5Tm3f809KkfpB2Os62l9WQ==",
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0"
+          }
+        ],
+        "validators": null
+      },
+      {
+        "id": "6305cba6668ae600091442fb",
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0"
+          }
+        ],
+        "validators": null
+      },
+      {
+        "id": "631f537a63e1b00008ec86a3",
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0"
+          }
+        ],
+        "validators": null
+      },
+      {
+        "id": "631f538363e1b00008ec86a5",
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0"
+          }
+        ],
+        "validators": null
+      },
+      {
+        "id": "632015c67255c40009e4637f",
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0"
+          }
+        ],
+        "validators": [
+          {
+            "id": "632015c67255c40009e4637f"
+          }
+        ]
+      },
+      {
+        "id": "6390b40e6a6fa8000895b393",
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0"
+          }
+        ],
+        "validators": null
+      },
+      {
+        "id": "6406de9861c3e00008561e4c",
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0"
+          }
+        ],
+        "validators": null
+      },
+      {
+        "id": "64185d81071e770008c51692",
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0"
+          }
+        ],
+        "validators": null
+      },
+      {
+        "id": "64b7d2a90bf9f30008ba262b",
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0"
+          }
+        ],
+        "validators": null
+      }
+    ]
+  }
+}

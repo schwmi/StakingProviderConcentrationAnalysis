@@ -1,0 +1,120 @@
+{
+  "data": {
+    "validators": [
+      {
+        "id": "5d349314e03dd8000780b833",
+        "address": null,
+        "metrics": [
+          {
+            "metricKey": "commission",
+            "defaultValue": 10
+          },
+          {
+            "metricKey": "minimum",
+            "defaultValue": 162940.32071960907
+          },
+          {
+            "metricKey": "reward_frequency",
+            "defaultValue": 86400
+          },
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7416284238649247
+          }
+        ]
+      },
+      {
+        "id": "5d349314e03dd8000780b832",
+        "address": null,
+        "metrics": [
+          {
+            "metricKey": "commission",
+            "defaultValue": 10
+          },
+          {
+            "metricKey": "minimum",
+            "defaultValue": 50.08064962363278
+          },
+          {
+            "metricKey": "reward_frequency",
+            "defaultValue": 7776000.000000001
+          },
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.151321499955685
+          }
+        ]
+      },
+      {
+        "id": "5d349314e03dd8000780b821",
+        "address": null,
+        "metrics": [
+          {
+            "metricKey": "commission",
+            "defaultValue": 10
+          },
+          {
+            "metricKey": "minimum",
+            "defaultValue": 1000
+          },
+          {
+            "metricKey": "reward_frequency",
+            "defaultValue": 86400
+          },
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 23.535412047497115
+          }
+        ]
+      },
+      {
+        "id": "5d349313e03dd8000780b800",
+        "address": null,
+        "metrics": [
+          {
+            "metricKey": "commission",
+            "defaultValue": 8
+          },
+          {
+            "metricKey": "lockup_time",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "minimum",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_frequency",
+            "defaultValue": 62062.18941441438
+          },
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.602597058989995
+          }
+        ]
+      },
+      {
+        "id": "5d349314e03dd8000780b836",
+        "address": null,
+        "metrics": [
+          {
+            "metricKey": "commission",
+            "defaultValue": 25
+          },
+          {
+            "metricKey": "minimum",
+            "defaultValue": 1000
+          },
+          {
+            "metricKey": "reward_frequency",
+            "defaultValue": 86400
+          },
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.612843372914263
+          }
+        ]
+      }
+    ]
+  }
+}

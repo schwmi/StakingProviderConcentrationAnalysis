@@ -1,0 +1,84 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "providers": [
+          {
+            "name": "Blockdaemon",
+            "country": "US"
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "name": "InfStones",
+            "country": "US"
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "name": "Chorus One",
+            "country": "CH"
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "name": "StakeWise",
+            "country": "EE"
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "name": "stakefish",
+            "country": "VG"
+          }
+        ]
+      },
+      {
+        "providers": null
+      },
+      {
+        "providers": [
+          {
+            "name": "P2P.org",
+            "country": "KY"
+          },
+          {
+            "name": "Lido Finance",
+            "country": ""
+          }
+        ]
+      },
+      {
+        "providers": null
+      },
+      {
+        "providers": [
+          {
+            "name": "Stakely",
+            "country": "ES"
+          },
+          {
+            "name": "Lido Finance",
+            "country": ""
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "name": "ANKR",
+            "country": "AE"
+          }
+        ]
+      }
+    ]
+  }
+}

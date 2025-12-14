@@ -1,0 +1,722 @@
+{
+  "data": {
+    "providers": [
+      {
+        "name": "Staked",
+        "logoUrl": "https://storage.googleapis.com/stakingrewards-static/images/providers/production/eigenlayer/0x6573629204b65faac121c1b556b91a694d0e23c8.png",
+        "country": "us",
+        "rewardOptions": [
+          {
+            "id": "5d34930fe03dd8000780b7a3",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "30d_apr",
+                "defaultValue": 0.08998984800567686
+              },
+              {
+                "metricKey": "activation_time",
+                "defaultValue": 1532036007.0
+              },
+              {
+                "metricKey": "assets_under_management",
+                "defaultValue": 22360156.097643968
+              },
+              {
+                "metricKey": "available_capacity",
+                "defaultValue": 3661230.503659999
+              },
+              {
+                "metricKey": "available_delegation_capacity",
+                "defaultValue": 24664762.766617008
+              },
+              {
+                "metricKey": "available_staking_capacity",
+                "defaultValue": 6863735.164232004
+              },
+              {
+                "metricKey": "baking_power",
+                "defaultValue": 35710374679032.0
+              },
+              {
+                "metricKey": "block_fees",
+                "defaultValue": 12602468.0
+              },
+              {
+                "metricKey": "block_rewards",
+                "defaultValue": 4031413283.0
+              },
+              {
+                "metricKey": "capacity",
+                "defaultValue": 13579097.84568
+              }
+            ]
+          },
+          {
+            "id": "5ef361ad97cfa00007ba4596",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "assets_under_management",
+                "defaultValue": 2249635.543255118
+              },
+              {
+                "metricKey": "available_capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "commission",
+                "defaultValue": 10
+              },
+              {
+                "metricKey": "daily_validator_revenue",
+                "defaultValue": 548.3239296617271
+              },
+              {
+                "metricKey": "delegated_tokens",
+                "defaultValue": 23507117.961391
+              },
+              {
+                "metricKey": "lockup_time",
+                "defaultValue": 1814400.0
+              },
+              {
+                "metricKey": "minimum",
+                "defaultValue": 1e-05
+              },
+              {
+                "metricKey": "net_staking_flow",
+                "defaultValue": -1372.763554070556
+              },
+              {
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": -12210.423326042
+              }
+            ]
+          },
+          {
+            "id": "5ef6218d41746e0008003c0f",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "lockup_time",
+                "defaultValue": 1239035.0
+              },
+              {
+                "metricKey": "minimum",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "reward_frequency",
+                "defaultValue": 86400
+              },
+              {
+                "metricKey": "reward_rate",
+                "defaultValue": 11.793236982236134
+              }
+            ]
+          },
+          {
+            "id": "5ef622268105cb0007142f17",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "assets_under_management",
+                "defaultValue": 311950303.348056
+              },
+              {
+                "metricKey": "available_capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "candidate_reward",
+                "defaultValue": 35363066.275753036
+              },
+              {
+                "metricKey": "capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "commission",
+                "defaultValue": 10
+              },
+              {
+                "metricKey": "daily_validator_revenue",
+                "defaultValue": 1667.393863385
+              },
+              {
+                "metricKey": "delegated_tokens",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "lockup_time",
+                "defaultValue": 259200
+              },
+              {
+                "metricKey": "minimum",
+                "defaultValue": 1
+              },
+              {
+                "metricKey": "net_staking_flow",
+                "defaultValue": 6599.342700000001
+              }
+            ]
+          },
+          {
+            "id": "5ef62302b3a6250007455b00",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "minimum",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "reward_frequency",
+                "defaultValue": 604800
+              },
+              {
+                "metricKey": "reward_rate",
+                "defaultValue": 42.27786171660726
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Figment",
+        "logoUrl": "https://storage.googleapis.com/stakingrewards-static/images/providers/production/figment_logo.png?random=0.725224064232785",
+        "country": "CA",
+        "rewardOptions": [
+          {
+            "id": "5f05c86c3ff67100084831e1",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "assets_under_management",
+                "defaultValue": 139628.46555304457
+              },
+              {
+                "metricKey": "available_capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "commission",
+                "defaultValue": 10
+              },
+              {
+                "metricKey": "daily_validator_revenue",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "delegated_tokens",
+                "defaultValue": 389738.4192380006
+              },
+              {
+                "metricKey": "lockup_time",
+                "defaultValue": 1814400.0
+              },
+              {
+                "metricKey": "net_staking_flow",
+                "defaultValue": 0.00017769792874273847
+              },
+              {
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": -105610.87474246
+              },
+              {
+                "metricKey": "oracle_status",
+                "defaultValue": 0
+              }
+            ]
+          },
+          {
+            "id": "5f884f4b79d36100077ec8f7",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "assets_under_management",
+                "defaultValue": 62745767.59978991
+              },
+              {
+                "metricKey": "available_capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "commission",
+                "defaultValue": 10
+              },
+              {
+                "metricKey": "daily_validator_revenue",
+                "defaultValue": 429.4273181704287
+              },
+              {
+                "metricKey": "delegated_tokens",
+                "defaultValue": 37926870.23171681
+              },
+              {
+                "metricKey": "lockup_time",
+                "defaultValue": 172800
+              },
+              {
+                "metricKey": "net_staking_flow",
+                "defaultValue": 2733349.166097336
+              },
+              {
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": -8835830.573432663
+              },
+              {
+                "metricKey": "other",
+                "defaultValue": 5
+              }
+            ]
+          },
+          {
+            "id": "5ff6d5221acf780007736bb8",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "assets_under_management",
+                "defaultValue": 2042889.9465273388
+              },
+              {
+                "metricKey": "bounty_per_month",
+                "defaultValue": 2481170.944958082
+              },
+              {
+                "metricKey": "commission",
+                "defaultValue": 15
+              },
+              {
+                "metricKey": "daily_validator_revenue",
+                "defaultValue": 11924.479694963571
+              },
+              {
+                "metricKey": "delegated_tokens",
+                "defaultValue": 280000341.0
+              },
+              {
+                "metricKey": "id",
+                "defaultValue": 15
+              },
+              {
+                "metricKey": "minimum",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "monthly_rewards",
+                "defaultValue": 1519790.007925754
+              },
+              {
+                "metricKey": "net_staking_flow",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": 0
+              }
+            ]
+          },
+          {
+            "id": "602cda8df12a3a0007b376ac",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "assets_under_management",
+                "defaultValue": 1661414531.2643225
+              },
+              {
+                "metricKey": "available_capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "commission",
+                "defaultValue": 7.000000000000001
+              },
+              {
+                "metricKey": "daily_validator_revenue",
+                "defaultValue": 147.99701250636656
+              },
+              {
+                "metricKey": "delegated_tokens",
+                "defaultValue": 12568382.867571848
+              },
+              {
+                "metricKey": "lockup_time",
+                "defaultValue": 432000
+              },
+              {
+                "metricKey": "minimum",
+                "defaultValue": 1e-05
+              },
+              {
+                "metricKey": "net_staking_flow",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": -1263578.348337707
+              }
+            ]
+          },
+          {
+            "id": "623b6166216825000900ba0d",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "assets_under_management",
+                "defaultValue": 12239931.698603088
+              },
+              {
+                "metricKey": "available_capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "commission",
+                "defaultValue": 8
+              },
+              {
+                "metricKey": "daily_validator_revenue",
+                "defaultValue": 585.773216696069
+              },
+              {
+                "metricKey": "delegated_tokens",
+                "defaultValue": 101703735.48227853
+              },
+              {
+                "metricKey": "lockup_time",
+                "defaultValue": 1814400.0
+              },
+              {
+                "metricKey": "net_staking_flow",
+                "defaultValue": 4811.24
+              },
+              {
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": 855809.3177564782
+              },
+              {
+                "metricKey": "performance",
+                "defaultValue": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chorus One",
+        "logoUrl": "https://storage.googleapis.com/stakingrewards-static/images/providers/production/eigenlayer/0xf80b7ba7e778abf08a63426886ca40189c7ef48a.png",
+        "country": "CH",
+        "rewardOptions": [
+          {
+            "id": "1haw82vD6WDxtOk4bwj8PQ==",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "assets_under_management",
+                "defaultValue": 1868672.2567910554
+              },
+              {
+                "metricKey": "available_capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "commission",
+                "defaultValue": 7.5
+              },
+              {
+                "metricKey": "daily_validator_revenue",
+                "defaultValue": 84.93765928417211
+              },
+              {
+                "metricKey": "delegated_tokens",
+                "defaultValue": 4105549.9669589987
+              },
+              {
+                "metricKey": "lockup_time",
+                "defaultValue": 2145337344.0
+              },
+              {
+                "metricKey": "minimum",
+                "defaultValue": 1
+              },
+              {
+                "metricKey": "net_staking_flow",
+                "defaultValue": 1244.0371281659097
+              },
+              {
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": 62788.40393540002
+              }
+            ]
+          },
+          {
+            "id": "5d34930fe03dd8000780b7bc",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "assets_under_management",
+                "defaultValue": 11862106.633960225
+              },
+              {
+                "metricKey": "available_capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "commission",
+                "defaultValue": 7.5
+              },
+              {
+                "metricKey": "daily_validator_revenue",
+                "defaultValue": 213.78041792909585
+              },
+              {
+                "metricKey": "delegated_tokens",
+                "defaultValue": 5491696.034240845
+              },
+              {
+                "metricKey": "lockup_time",
+                "defaultValue": 1814400.0
+              },
+              {
+                "metricKey": "max_commission",
+                "defaultValue": 0.25
+              },
+              {
+                "metricKey": "max_commission_change",
+                "defaultValue": 0.02
+              },
+              {
+                "metricKey": "minimum",
+                "defaultValue": 0
+              }
+            ]
+          },
+          {
+            "id": "5da99e27f72d5f00081e53de",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "assets_under_management",
+                "defaultValue": 4919330.594773743
+              },
+              {
+                "metricKey": "available_capacity",
+                "defaultValue": 445975.9188409995
+              },
+              {
+                "metricKey": "capacity",
+                "defaultValue": 17254342.195586998
+              },
+              {
+                "metricKey": "commission",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "delegated_tokens",
+                "defaultValue": 6101093.558219
+              },
+              {
+                "metricKey": "lockup_time",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "minimum",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": -6697.325164019736
+              },
+              {
+                "metricKey": "performance",
+                "defaultValue": 96.06087346339578
+              },
+              {
+                "metricKey": "reward_frequency",
+                "defaultValue": 105317.37872117404
+              }
+            ]
+          },
+          {
+            "id": "5eda48e7ec338500073ed615",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "assets_under_management",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "available_capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "commission",
+                "defaultValue": 14.999999999999998
+              },
+              {
+                "metricKey": "daily_validator_revenue",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "delegated_tokens",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "lockup_time",
+                "defaultValue": 604800
+              },
+              {
+                "metricKey": "minimum",
+                "defaultValue": 13.5
+              },
+              {
+                "metricKey": "net_staking_flow",
+                "defaultValue": 147072.63263361898
+              },
+              {
+                "metricKey": "net_staking_flow_7d",
+                "defaultValue": 0
+              }
+            ]
+          },
+          {
+            "id": "5ff6d5221acf780007736bc3",
+            "type": {
+              "key": "pos",
+              "label": "pos"
+            },
+            "metrics": [
+              {
+                "metricKey": "assets_under_management",
+                "defaultValue": 5162895.9139638515
+              },
+              {
+                "metricKey": "available_capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "bounty_per_month",
+                "defaultValue": 945945.2707390641
+              },
+              {
+                "metricKey": "capacity",
+                "defaultValue": 0
+              },
+              {
+                "metricKey": "commission",
+                "defaultValue": 9.526380033865461
+              },
+              {
+                "metricKey": "daily_validator_revenue",
+                "defaultValue": 3748.678004958075
+              },
+              {
+                "metricKey": "delegated_tokens",
+                "defaultValue": 252346889.0
+              },
+              {
+                "metricKey": "id",
+                "defaultValue": 52
+              },
+              {
+                "metricKey": "lockup_time",
+                "defaultValue": 5184000.0
+              },
+              {
+                "metricKey": "minimum",
+                "defaultValue": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Simple POS Pool",
+        "logoUrl": "https://cms.stakingrewards.com/wp-content/uploads/2019/05/simplepospool.png",
+        "country": null,
+        "rewardOptions": null
+      },
+      {
+        "name": "Stakinglab",
+        "logoUrl": "https://cms.stakingrewards.com/wp-content/uploads/2019/05/stakinglab.png",
+        "country": "de",
+        "rewardOptions": null
+      }
+    ]
+  }
+}

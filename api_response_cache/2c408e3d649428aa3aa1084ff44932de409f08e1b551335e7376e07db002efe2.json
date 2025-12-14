@@ -1,0 +1,16 @@
+{
+  "errors": [
+    {
+      "message": "unable to parse paging argument: limit field is required",
+      "path": [
+        "assets"
+      ],
+      "extensions": {
+        "code": 400
+      }
+    }
+  ],
+  "data": {
+    "assets": null
+  }
+}

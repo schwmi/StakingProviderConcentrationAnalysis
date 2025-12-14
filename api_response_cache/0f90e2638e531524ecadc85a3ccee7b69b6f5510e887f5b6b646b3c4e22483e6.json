@@ -1,0 +1,219 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "providers": null,
+        "validators": [
+          {
+            "address": null,
+            "status": {
+              "label": "unknown"
+            },
+            "metrics": null
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "chorus-one"
+          }
+        ],
+        "validators": [
+          {
+            "address": "cosmosvaloper15urq2dtp9qce4fyc85m6upwm9xul3049e02707",
+            "status": {
+              "label": "active"
+            },
+            "metrics": [
+              {
+                "metricKey": "staked_tokens",
+                "defaultValue": 5441954.218616845
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "nansen"
+          }
+        ],
+        "validators": [
+          {
+            "address": "cosmosvaloper1jlr62guqwrwkdt4m3y00zh2rrsamhjf9num5xr",
+            "status": {
+              "label": "active"
+            },
+            "metrics": [
+              {
+                "metricKey": "staked_tokens",
+                "defaultValue": 3904364.943484367
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "p2p-validator"
+          }
+        ],
+        "validators": [
+          {
+            "address": "cosmosvaloper132juzk0gdmwuxvx4phug7m3ymyatxlh9734g4w",
+            "status": {
+              "label": "active"
+            },
+            "metrics": [
+              {
+                "metricKey": "staked_tokens",
+                "defaultValue": 5343398.7922978895
+              }
+            ]
+          },
+          {
+            "address": "wl_node_cosmos_p2p-validator_1",
+            "status": {
+              "label": "active"
+            },
+            "metrics": [
+              {
+                "metricKey": "staked_tokens",
+                "defaultValue": 249258
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "dokia-capital"
+          }
+        ],
+        "validators": [
+          {
+            "address": "cosmosvaloper14lultfckehtszvzw4ehu0apvsr77afvyju5zzy",
+            "status": {
+              "label": "active"
+            },
+            "metrics": [
+              {
+                "metricKey": "staked_tokens",
+                "defaultValue": 8634035.287632905
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "spark-pool"
+          }
+        ],
+        "validators": [
+          {
+            "address": "cosmosvaloper1rwh0cxa72d3yle3r4l8gd7vyphrmjy2kpe4x72",
+            "status": {
+              "label": "active"
+            },
+            "metrics": [
+              {
+                "metricKey": "staked_tokens",
+                "defaultValue": 1349205.6443729976
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "iqlusion"
+          }
+        ],
+        "validators": [
+          {
+            "address": "cosmosvaloper1grgelyng2v6v3t8z87wu3sxgt9m5s03xfytvz7",
+            "status": {
+              "label": "active"
+            },
+            "metrics": [
+              {
+                "metricKey": "staked_tokens",
+                "defaultValue": 1733652.7178310659
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "01node"
+          }
+        ],
+        "validators": [
+          {
+            "address": "cosmosvaloper17mggn4znyeyg25wd7498qxl7r2jhgue8u4qjcq",
+            "status": {
+              "label": "active"
+            },
+            "metrics": [
+              {
+                "metricKey": "staked_tokens",
+                "defaultValue": 454568.46738800657
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "coinone-node"
+          }
+        ],
+        "validators": [
+          {
+            "address": "cosmosvaloper1te8nxpc2myjfrhaty0dnzdhs5ahdh5agzuym9v",
+            "status": {
+              "label": "active"
+            },
+            "metrics": [
+              {
+                "metricKey": "staked_tokens",
+                "defaultValue": 1861050.1639289823
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stake-fish"
+          }
+        ],
+        "validators": [
+          {
+            "address": "cosmosvaloper1sjllsnramtg3ewxqwwrwjxfgc4n4ef9u2lcnj0",
+            "status": {
+              "label": "active"
+            },
+            "metrics": [
+              {
+                "metricKey": "staked_tokens",
+                "defaultValue": 4368047.533091974
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

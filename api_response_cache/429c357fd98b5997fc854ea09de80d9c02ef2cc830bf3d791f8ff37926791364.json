@@ -1,0 +1,30 @@
+{
+  "data": {
+    "assets": [
+      {
+        "metrics": [
+          {
+            "metricKey": "page_views_12h",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "page_views_24h",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "page_views_30d",
+            "defaultValue": 4
+          },
+          {
+            "metricKey": "page_views_trend",
+            "defaultValue": -100
+          },
+          {
+            "metricKey": "page_views_trend_24h",
+            "defaultValue": -100
+          }
+        ]
+      }
+    ]
+  }
+}

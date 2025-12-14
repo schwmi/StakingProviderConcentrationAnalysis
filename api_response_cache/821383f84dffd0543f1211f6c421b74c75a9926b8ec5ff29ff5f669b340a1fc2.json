@@ -1,0 +1,94 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "id": "5f809d56404ff60007e44277",
+        "providers": [
+          {
+            "name": "Blockdaemon",
+            "country": "US"
+          }
+        ]
+      },
+      {
+        "id": "5Tm3f809KkfpB2Os62l9WQ==",
+        "providers": [
+          {
+            "name": "InfStones",
+            "country": "US"
+          }
+        ]
+      },
+      {
+        "id": "6305cba6668ae600091442fb",
+        "providers": [
+          {
+            "name": "Chorus One",
+            "country": "CH"
+          }
+        ]
+      },
+      {
+        "id": "631f537a63e1b00008ec86a3",
+        "providers": [
+          {
+            "name": "StakeWise",
+            "country": "EE"
+          }
+        ]
+      },
+      {
+        "id": "631f538363e1b00008ec86a5",
+        "providers": [
+          {
+            "name": "stakefish",
+            "country": "VG"
+          }
+        ]
+      },
+      {
+        "id": "632015c67255c40009e4637f",
+        "providers": null
+      },
+      {
+        "id": "6390b40e6a6fa8000895b393",
+        "providers": [
+          {
+            "name": "P2P.org",
+            "country": "KY"
+          },
+          {
+            "name": "Lido Finance",
+            "country": ""
+          }
+        ]
+      },
+      {
+        "id": "6406de9861c3e00008561e4c",
+        "providers": null
+      },
+      {
+        "id": "64185d81071e770008c51692",
+        "providers": [
+          {
+            "name": "Stakely",
+            "country": "ES"
+          },
+          {
+            "name": "Lido Finance",
+            "country": ""
+          }
+        ]
+      },
+      {
+        "id": "64b7d2a90bf9f30008ba262b",
+        "providers": [
+          {
+            "name": "ANKR",
+            "country": "AE"
+          }
+        ]
+      }
+    ]
+  }
+}
