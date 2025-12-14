@@ -93,7 +93,17 @@ class StakingRewardsAPIClient:
             json=payload,
             headers=self.headers
         )
-        response.raise_for_status()
+        try:
+            response.raise_for_status()
+        except requests.exceptions.HTTPError as http_err:
+            # Bubble up richer context for easier debugging
+            try:
+                error_body = response.json()
+            except Exception:
+                error_body = response.text
+            raise requests.exceptions.HTTPError(
+                f"HTTP {response.status_code} for {self.BASE_URL}: {error_body}"
+            ) from http_err
         result = response.json()
 
         # Save to cache
@@ -324,6 +334,232 @@ class StakingRewardsAPIClient:
         }}""".format(asset_slug=asset_slug, limit=limit)
 
         return self._execute_query(query, use_cache=use_cache)
+
+    def get_provider_staked_tokens(self, asset_slug, limit=100, is_active=True, use_cache=True):
+        """
+        Query all providers for an asset and return their staked token amounts.
+
+        Args:
+            asset_slug (str): Asset slug to query (e.g., "solana")
+            limit (int, optional): Maximum number of reward options/providers to return (default: 100)
+            is_active (bool|None, optional): If True/False, results are filtered client-side by provider.isActive.
+                                             Set to None to skip filtering (default: True).
+            use_cache (bool, optional): Whether to use cached responses (default: True)
+
+        Returns:
+            dict: The JSON response containing provider slugs and their staked token metrics
+        """
+        query = f"""
+        {{
+          rewardOptions(
+            where: {{
+              inputAsset: {{ slugs: [{json.dumps(asset_slug)}] }}
+              typeKeys: ["pos"]
+            }}
+            limit: {limit}
+            order: {{ metricKey_desc: "staked_tokens" }}
+          ) {{
+            id
+            providers(limit: 1) {{
+              slug
+              isActive
+            }}
+            metrics(where: {{ metricKeys: ["staked_tokens"] }}, limit: 1) {{
+              metricKey
+              defaultValue
+            }}
+          }}
+        }}
+        """
+
+        result = self._execute_query(query, use_cache=use_cache)
+
+        if isinstance(is_active, bool):
+            filtered = []
+            for ro in result.get("data", {}).get("rewardOptions", []):
+                provider = (ro.get("providers") or [{}])[0]
+                if provider.get("isActive") is is_active:
+                    filtered.append(ro)
+            if "data" in result and "rewardOptions" in result["data"]:
+                result["data"]["rewardOptions"] = filtered
+
+        return result
+
+    def get_provider_stake_for_asset(self, provider_slug, asset_slug, limit=20, validators_limit=0, use_cache=True):
+        """
+        Query staked tokens for a specific provider on a given asset.
+
+        Args:
+            provider_slug (str): Provider slug to query (e.g., "kiln")
+            asset_slug (str): Asset slug to query (e.g., "solana")
+            limit (int, optional): Maximum number of reward options to return (default: 20)
+            validators_limit (int, optional): Number of validators to include (0 to skip, default: 0)
+            use_cache (bool, optional): Whether to use cached responses (default: True)
+
+        Returns:
+            dict: The JSON response containing staked token metrics for the provider
+        """
+        validators_block = ""
+        if validators_limit and validators_limit > 0:
+            validators_block = f"""
+            validators(limit: {validators_limit}) {{
+              id
+              address
+            }}"""
+
+        query = f"""
+        {{
+          rewardOptions(
+            where: {{
+              providers: {{ slugs: [{json.dumps(provider_slug)}] }}
+              inputAsset: {{ slugs: [{json.dumps(asset_slug)}] }}
+              typeKeys: ["pos"]
+            }}
+            limit: {limit}
+            order: {{ metricKey_desc: "staked_tokens" }}
+          ) {{
+            id
+            inputAssets(limit: 1) {{ slug }}
+            providers(limit: 1) {{ slug }}
+            metrics(where: {{ metricKeys: ["staked_tokens"] }}, limit: 2) {{
+              defaultValue
+            }}
+            {validators_block}
+          }}
+        }}
+        """
+
+        return self._execute_query(query, use_cache=use_cache)
+
+    def get_total_staked_tokens(self, asset_slug, metrics_limit=1, use_cache=True):
+        """
+        Get the staked_tokens metric for an asset (aggregate, not per-provider).
+
+        Args:
+            asset_slug (str): Asset slug to query (e.g., "solana")
+            metrics_limit (int, optional): Number of metric records to return (default: 1, latest)
+            use_cache (bool, optional): Whether to use cached responses (default: True)
+
+        Returns:
+            dict: The JSON response containing the asset's staked_tokens metric(s)
+        """
+        query = f"""
+        {{
+          assets(where: {{ slugs: [{json.dumps(asset_slug)}] }}, limit: 1) {{
+            slug
+            metrics(
+              where: {{ metricKeys: ["staked_tokens"] }}
+              order: {{ createdAt: desc }}
+              limit: {metrics_limit}
+            ) {{
+              metricKey
+              defaultValue
+              createdAt
+            }}
+          }}
+        }}
+        """
+
+        return self._execute_query(query, use_cache=use_cache)
+
+    def get_provider_stake_shares(self, asset_slug, limit=200, is_active=True, include_reward_rate=True, use_cache=True):
+        """
+        Get provider staked tokens plus share of the asset's total staked tokens.
+
+        Args:
+            asset_slug (str): Asset slug to query (e.g., "solana")
+            limit (int, optional): Maximum number of reward options/providers to return (default: 200)
+            is_active (bool|None, optional): If True/False, providers are filtered client-side on isActive.
+                                             Set to None to skip filtering (default: True).
+            include_reward_rate (bool, optional): Include provider reward_rate metric if available (default: True)
+            use_cache (bool, optional): Whether to use cached responses (default: True)
+
+        Returns:
+            dict: {
+                "total_staked_tokens": <float|None>,
+                "providers": [
+                    {
+                        "provider": <slug>,
+                        "staked_tokens": <float|None>,
+                        "share": <float|None>,
+                        "reward_rate": <float|None>
+                    }, ...
+                ]
+            }
+        """
+        metric_keys = ["staked_tokens"]
+        if include_reward_rate:
+            metric_keys.append("reward_rate")
+
+        query = f"""
+        {{
+          rewardOptions(
+            where: {{
+              inputAsset: {{ slugs: [{json.dumps(asset_slug)}] }}
+              typeKeys: ["pos"]
+            }}
+            limit: {limit}
+            order: {{ metricKey_desc: "staked_tokens" }}
+          ) {{
+            providers(limit: 1) {{
+              slug
+              name
+              isActive
+            }}
+            metrics(where: {{ metricKeys: {json.dumps(metric_keys)} }}, limit: 5) {{
+              metricKey
+              defaultValue
+            }}
+          }}
+        }}
+        """
+
+        ro_result = self._execute_query(query, use_cache=use_cache)
+
+        # Fetch total staked tokens (aggregate)
+        total_resp = self.get_total_staked_tokens(asset_slug=asset_slug, metrics_limit=1, use_cache=use_cache)
+        total = None
+        try:
+            total = total_resp["data"]["assets"][0]["metrics"][0]["defaultValue"]
+        except Exception:
+            total = None
+
+        providers = []
+        reward_options = ro_result.get("data", {}).get("rewardOptions", []) or []
+
+        for ro in reward_options:
+            provider_info = (ro.get("providers") or [{}])[0]
+            if isinstance(is_active, bool) and provider_info.get("isActive") is not is_active:
+                continue
+
+            metrics = ro.get("metrics") or []
+            staked = None
+            reward_rate = None
+            for m in metrics:
+                if m.get("metricKey") == "staked_tokens":
+                    staked = m.get("defaultValue")
+                elif m.get("metricKey") == "reward_rate":
+                    reward_rate = m.get("defaultValue")
+
+            share = None
+            if total not in (None, 0) and staked is not None:
+                try:
+                    share = staked / total
+                except Exception:
+                    share = None
+
+            providers.append({
+                "provider": provider_info.get("slug"),
+                "name": provider_info.get("name"),
+                "staked_tokens": staked,
+                "reward_rate": reward_rate,
+                "share": share,
+            })
+
+        return {
+            "total_staked_tokens": total,
+            "providers": providers,
+        }
 
     def get_providers(self, asset_slug, is_verified=True, order_by_metric="assets_under_management", limit=10, metric_keys=None, use_cache=True):
         """

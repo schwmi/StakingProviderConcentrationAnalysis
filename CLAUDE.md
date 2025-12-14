@@ -143,6 +143,105 @@ providers = client.get_providers(
 - Provider: slug
 - RewardOptions: metrics with defaultValue
 
+#### `get_provider_staked_tokens(asset_slug, limit=100)`
+Query all providers for an asset and return their staked token metrics.
+
+**Parameters:**
+- `asset_slug` (str): Asset slug to query (e.g., `"solana"`)
+- `limit` (int, optional): Maximum number of reward options/providers to return (default: `100`)
+- `is_active` (bool|None, optional): If True/False, providers are filtered client-side on `provider.isActive`.
+  Set to `None` to skip filtering (default: `True`).
+
+**Returns**: Dictionary with provider slugs and their `staked_tokens` metric
+
+**Example:**
+```python
+# Fetch staked tokens for all Solana providers
+response = client.get_provider_staked_tokens(asset_slug="solana")
+providers = []
+for reward_option in response["data"]["rewardOptions"]:
+    provider = (reward_option.get("providers") or [{}])[0].get("slug")
+    staked = (reward_option.get("metrics") or [{}])[0].get("defaultValue")
+    providers.append({"provider": provider, "staked_tokens": staked})
+```
+
+#### `get_total_staked_tokens(asset_slug, metrics_limit=1)`
+Get the aggregated `staked_tokens` metric for an asset (latest by default).
+
+**Parameters:**
+- `asset_slug` (str): Asset slug (e.g., `"solana"`)
+- `metrics_limit` (int, optional): Number of metric records to return (default: `1`, latest)
+
+**Returns**: Dictionary with the asset’s `staked_tokens` metric(s)
+
+**Example:**
+```python
+resp = client.get_total_staked_tokens(asset_slug="solana")
+latest = resp["data"]["assets"][0]["metrics"][0]["defaultValue"]
+print(latest)
+```
+
+#### `get_provider_stake_shares(asset_slug, limit=200, is_active=True, include_reward_rate=True)`
+Get provider staked tokens plus share of the asset's total staked tokens.
+
+**Parameters:**
+- `asset_slug` (str): Asset slug (e.g., `"solana"`)
+- `limit` (int, optional): Maximum number of reward options/providers to return (default: `200`)
+- `is_active` (bool|None, optional): If True/False, filter providers client-side on `provider.isActive`. `None` skips filtering.
+- `include_reward_rate` (bool, optional): Include provider `reward_rate` metric if available (default: `True`)
+
+**Returns**: Dictionary with `total_staked_tokens` and `providers` (each having `provider`, `name`, `staked_tokens`, `reward_rate`, `share`)
+
+**Example:**
+```python
+resp = client.get_provider_stake_shares(asset_slug="solana", limit=200, is_active=True)
+print(resp["total_staked_tokens"])
+for p in resp["providers"]:
+    print(p["provider"], p["staked_tokens"], p["reward_rate"], p["share"])
+```
+
+#### `get_total_staked_tokens(asset_slug, metrics_limit=1)`
+Get the aggregated `staked_tokens` metric for an asset (latest by default).
+
+**Parameters:**
+- `asset_slug` (str): Asset slug (e.g., `"solana"`)
+- `metrics_limit` (int, optional): Number of metric records to return (default: `1`, latest)
+
+**Returns**: Dictionary with the asset’s `staked_tokens` metric(s)
+
+**Example:**
+```python
+resp = client.get_total_staked_tokens(asset_slug="solana")
+latest = resp["data"]["assets"][0]["metrics"][0]["defaultValue"]
+print(latest)
+```
+
+#### `get_provider_stake_for_asset(provider_slug, asset_slug, limit=20, validators_limit=0)`
+Query staked tokens for a specific provider on a given asset.
+
+**Parameters:**
+- `provider_slug` (str): Provider slug (e.g., `"kiln"`)
+- `asset_slug` (str): Asset slug (e.g., `"solana"`)
+- `limit` (int, optional): Maximum reward options to return (default: `20`)
+- `validators_limit` (int, optional): Include this many validators (0 to skip)
+
+**Returns**: Dictionary with provider slug, input asset, and `staked_tokens` metric
+
+**Example:**
+```python
+resp = client.get_provider_stake_for_asset(
+    provider_slug="kiln",
+    asset_slug="solana",
+    validators_limit=10,
+)
+total = sum(
+    ro["metrics"][0]["defaultValue"]
+    for ro in resp["data"]["rewardOptions"]
+    if ro.get("metrics") and ro["metrics"][0].get("defaultValue") is not None
+)
+print(total)
+```
+
 #### `get_metrics(asset=None, provider=None, reward_option=None, validator=None, metric_keys=None, limit=1)`
 Query metrics with optional filters. When all filters are None, returns global market metrics.
 
