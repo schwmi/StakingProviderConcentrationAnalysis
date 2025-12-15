@@ -477,6 +477,8 @@ class StakingRewardsAPIClient:
         Returns:
             dict: {
                 "total_staked_tokens": <float|None>,
+                "untracked_staked_tokens": <float|None>,
+                "untracked_share": <float|None>,
                 "providers": [
                     {
                         "provider": <slug>,
@@ -556,8 +558,23 @@ class StakingRewardsAPIClient:
                 "share": share,
             })
 
+        sum_tracked = sum(
+            p["staked_tokens"] for p in providers if p.get("staked_tokens") not in (None, 0)
+        ) if providers else 0
+        untracked = None
+        untracked_share = None
+        if total not in (None, 0):
+            try:
+                untracked = total - sum_tracked
+                untracked_share = untracked / total
+            except Exception:
+                untracked = None
+                untracked_share = None
+
         return {
             "total_staked_tokens": total,
+            "untracked_staked_tokens": untracked,
+            "untracked_share": untracked_share,
             "providers": providers,
         }
 

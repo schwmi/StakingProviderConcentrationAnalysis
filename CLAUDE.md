@@ -190,12 +190,13 @@ Get provider staked tokens plus share of the asset's total staked tokens.
 - `is_active` (bool|None, optional): If True/False, filter providers client-side on `provider.isActive`. `None` skips filtering.
 - `include_reward_rate` (bool, optional): Include provider `reward_rate` metric if available (default: `True`)
 
-**Returns**: Dictionary with `total_staked_tokens` and `providers` (each having `provider`, `name`, `staked_tokens`, `reward_rate`, `share`)
+**Returns**: Dictionary with `total_staked_tokens`, `untracked_staked_tokens`, `untracked_share`, and `providers` (each having `provider`, `name`, `staked_tokens`, `reward_rate`, `share`)
 
 **Example:**
 ```python
 resp = client.get_provider_stake_shares(asset_slug="solana", limit=200, is_active=True)
 print(resp["total_staked_tokens"])
+print(resp["untracked_staked_tokens"], resp["untracked_share"])
 for p in resp["providers"]:
     print(p["provider"], p["staked_tokens"], p["reward_rate"], p["share"])
 ```
