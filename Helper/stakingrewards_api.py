@@ -11,6 +11,7 @@ class StakingRewardsAPIClient:
     """
 
     BASE_URL = "https://api.stakingrewards.com/public/query"
+    DEFAULT_TYPE_KEYS = ["pos", "solo-staking", "liquid-staking"]
 
     def __init__(self, api_key=None, cache_dir="api_response_cache"):
         """
@@ -307,12 +308,13 @@ class StakingRewardsAPIClient:
         Returns:
             dict: The JSON response containing staked tokens data
         """
+        type_keys = json.dumps(self.DEFAULT_TYPE_KEYS)
         query = """
                {{
          rewardOptions(
            where: {{
              inputAsset: {{ slugs: ["{asset_slug}"] }}
-             typeKeys: ["pos"]
+             typeKeys: {type_keys}
            }}
            limit: 10
            offset: 0
@@ -329,9 +331,9 @@ class StakingRewardsAPIClient:
                metricKey
                defaultValue
              }}
-           }}
-         }}
-        }}""".format(asset_slug=asset_slug, limit=limit)
+            }}
+          }}
+        }}""".format(asset_slug=asset_slug, limit=limit, type_keys=type_keys)
 
         return self._execute_query(query, use_cache=use_cache)
 
@@ -349,12 +351,13 @@ class StakingRewardsAPIClient:
         Returns:
             dict: The JSON response containing provider slugs and their staked token metrics
         """
+        type_keys = json.dumps(self.DEFAULT_TYPE_KEYS)
         query = f"""
         {{
           rewardOptions(
             where: {{
               inputAsset: {{ slugs: [{json.dumps(asset_slug)}] }}
-              typeKeys: ["pos"]
+              typeKeys: {type_keys}
             }}
             limit: {limit}
             order: {{ metricKey_desc: "staked_tokens" }}
@@ -407,13 +410,14 @@ class StakingRewardsAPIClient:
               address
             }}"""
 
+        type_keys = json.dumps(self.DEFAULT_TYPE_KEYS)
         query = f"""
         {{
           rewardOptions(
             where: {{
               providers: {{ slugs: [{json.dumps(provider_slug)}] }}
               inputAsset: {{ slugs: [{json.dumps(asset_slug)}] }}
-              typeKeys: ["pos"]
+              typeKeys: {type_keys}
             }}
             limit: {limit}
             order: {{ metricKey_desc: "staked_tokens" }}
@@ -493,12 +497,13 @@ class StakingRewardsAPIClient:
         if include_reward_rate:
             metric_keys.append("reward_rate")
 
+        type_keys = json.dumps(self.DEFAULT_TYPE_KEYS)
         query = f"""
         {{
           rewardOptions(
             where: {{
               inputAsset: {{ slugs: [{json.dumps(asset_slug)}] }}
-              typeKeys: ["pos"]
+              typeKeys: {type_keys}
             }}
             limit: {limit}
             order: {{ metricKey_desc: "staked_tokens" }}
