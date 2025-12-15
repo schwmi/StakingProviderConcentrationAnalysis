@@ -466,7 +466,7 @@ class StakingRewardsAPIClient:
 
         return self._execute_query(query, use_cache=use_cache)
 
-    def get_provider_stake_shares(self, asset_slug, limit=200, is_active=True, include_reward_rate=True, use_cache=True):
+    def get_provider_stake_shares(self, asset_slug, limit=200, is_active=True, include_reward_rate=True, use_cache=True, type_keys=None):
         """
         Get provider staked tokens plus share of the asset's total staked tokens.
 
@@ -477,6 +477,8 @@ class StakingRewardsAPIClient:
                                              Set to None to skip filtering (default: True).
             include_reward_rate (bool, optional): Include provider reward_rate metric if available (default: True)
             use_cache (bool, optional): Whether to use cached responses (default: True)
+            type_keys (list|None, optional): List of staking type keys to filter rewardOptions by.
+                                             Defaults to None (no type filter); pass a list to narrow results.
 
         Returns:
             dict: {
@@ -497,31 +499,36 @@ class StakingRewardsAPIClient:
         if include_reward_rate:
             metric_keys.append("reward_rate")
 
-        type_keys = json.dumps(self.DEFAULT_TYPE_KEYS)
-        query = f"""
-        {{
-          rewardOptions(
-            where: {{
-              inputAsset: {{ slugs: [{json.dumps(asset_slug)}] }}
-              typeKeys: {type_keys}
+        def fetch_reward_options(type_keys_list):
+            type_keys_line = f"typeKeys: {json.dumps(type_keys_list)}" if type_keys_list else ""
+            query = f"""
+            {{
+              rewardOptions(
+                where: {{
+                  inputAsset: {{ slugs: [{json.dumps(asset_slug)}] }}
+                  {type_keys_line}
+                }}
+                limit: {limit}
+                order: {{ metricKey_desc: "staked_tokens" }}
+              ) {{
+                providers(limit: 1) {{
+                  slug
+                  name
+                  isActive
+                }}
+                metrics(where: {{ metricKeys: {json.dumps(metric_keys)} }}, limit: 5) {{
+                  metricKey
+                  defaultValue
+                }}
+              }}
             }}
-            limit: {limit}
-            order: {{ metricKey_desc: "staked_tokens" }}
-          ) {{
-            providers(limit: 1) {{
-              slug
-              name
-              isActive
-            }}
-            metrics(where: {{ metricKeys: {json.dumps(metric_keys)} }}, limit: 5) {{
-              metricKey
-              defaultValue
-            }}
-          }}
-        }}
-        """
+            """
+            return self._execute_query(query, use_cache=use_cache)
 
-        ro_result = self._execute_query(query, use_cache=use_cache)
+        # Default: no type filter. Users can pass explicit type_keys to narrow if needed.
+        requested_type_keys = [] if type_keys is None else type_keys
+        ro_result = fetch_reward_options(requested_type_keys)
+        reward_options = ro_result.get("data", {}).get("rewardOptions", []) or []
 
         # Fetch total staked tokens (aggregate)
         total_resp = self.get_total_staked_tokens(asset_slug=asset_slug, metrics_limit=1, use_cache=use_cache)
@@ -532,7 +539,6 @@ class StakingRewardsAPIClient:
             total = None
 
         providers = []
-        reward_options = ro_result.get("data", {}).get("rewardOptions", []) or []
 
         for ro in reward_options:
             provider_info = (ro.get("providers") or [{}])[0]
@@ -571,7 +577,12 @@ class StakingRewardsAPIClient:
         if total not in (None, 0):
             try:
                 untracked = total - sum_tracked
-                untracked_share = untracked / total
+                # If provider totals exceed the aggregate (e.g., mixed staking types), avoid negative remainder.
+                if untracked < 0:
+                    untracked = None
+                    untracked_share = None
+                else:
+                    untracked_share = untracked / total
             except Exception:
                 untracked = None
                 untracked_share = None
