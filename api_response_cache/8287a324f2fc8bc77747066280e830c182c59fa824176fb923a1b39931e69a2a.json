@@ -1,0 +1,16 @@
+{
+  "data": {
+    "assets": [
+      {
+        "slug": "sei-network",
+        "metrics": [
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4355061964.149014,
+            "createdAt": "2025-12-15T20:15:05.877717Z"
+          }
+        ]
+      }
+    ]
+  }
+}

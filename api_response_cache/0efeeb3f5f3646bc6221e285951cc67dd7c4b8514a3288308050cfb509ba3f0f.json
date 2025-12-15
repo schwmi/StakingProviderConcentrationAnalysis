@@ -1,0 +1,101 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "providers": [
+          {
+            "slug": "valkyrie-investments",
+            "name": "Valkyrie Investments",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.2511280269759504
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4309100150.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "poloniex",
+            "name": "Poloniex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.203496344188773
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3213295723.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tronalliance",
+            "name": "TRONALLIANCE",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.208460923487956
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3056736185.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "crypto-labs",
+            "name": "Crypto Labs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.215316283437715
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2864047230.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "binance-staking",
+            "name": "Binance Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5906709382491817
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2363662108.0
+          }
+        ]
+      }
+    ]
+  }
+}

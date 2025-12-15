@@ -1,0 +1,16 @@
+{
+  "data": {
+    "assets": [
+      {
+        "slug": "aleo",
+        "metrics": [
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1337065735.366634,
+            "createdAt": "2025-12-15T20:03:19.21556Z"
+          }
+        ]
+      }
+    ]
+  }
+}

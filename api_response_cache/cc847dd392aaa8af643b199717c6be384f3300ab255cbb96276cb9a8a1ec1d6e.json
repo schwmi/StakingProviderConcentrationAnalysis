@@ -1,0 +1,16 @@
+{
+  "data": {
+    "assets": [
+      {
+        "slug": "tezos",
+        "metrics": [
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 638639620.7166274,
+            "createdAt": "2025-12-15T20:03:20.493491Z"
+          }
+        ]
+      }
+    ]
+  }
+}

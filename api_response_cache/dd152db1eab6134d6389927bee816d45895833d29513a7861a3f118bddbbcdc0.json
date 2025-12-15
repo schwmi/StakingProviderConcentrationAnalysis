@@ -1,0 +1,16 @@
+{
+  "data": {
+    "assets": [
+      {
+        "slug": "tron",
+        "metrics": [
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 43312913874.0,
+            "createdAt": "2025-12-14T20:06:02.646261Z"
+          }
+        ]
+      }
+    ]
+  }
+}

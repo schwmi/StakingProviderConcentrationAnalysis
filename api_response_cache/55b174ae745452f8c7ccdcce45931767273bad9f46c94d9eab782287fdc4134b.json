@@ -1,0 +1,16 @@
+{
+  "data": {
+    "assets": [
+      {
+        "slug": "avalanche",
+        "metrics": [
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 208570455.99126706,
+            "createdAt": "2025-12-14T19:02:37.290919Z"
+          }
+        ]
+      }
+    ]
+  }
+}

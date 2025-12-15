@@ -1,0 +1,16 @@
+{
+  "data": {
+    "assets": [
+      {
+        "slug": "iota",
+        "metrics": [
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2407805367.9710646,
+            "createdAt": "2025-12-15T20:03:33.666887Z"
+          }
+        ]
+      }
+    ]
+  }
+}

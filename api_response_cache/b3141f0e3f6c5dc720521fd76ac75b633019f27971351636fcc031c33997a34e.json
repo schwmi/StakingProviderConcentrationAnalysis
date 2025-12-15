@@ -1,0 +1,760 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "providers": [
+          {
+            "slug": "xverse",
+            "name": "Xverse",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.893873256960191
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 144201538.138345
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "l2-labs-1",
+            "name": "L2-Labs #1",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.829235966542726
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 74989152.876659
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "l2-labs-2",
+            "name": "L2-Labs #2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.873484073289895
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 59819000.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stacking-dao",
+            "name": "Stacking DAO",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.47
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 54529832.27569779
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "fast-pool-stacks",
+            "name": "Fast Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.669492190948702
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 48957510.393356
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "l2-labs-3",
+            "name": "L2-Labs #3",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 9.320498772965635
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 40297000.0
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.487507181489917
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 34000000.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stackingdao",
+            "name": "StackingDAO",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.755741876943134
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 28835615.58157
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stacking-dao",
+            "name": "Stacking DAO",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.642874475187057
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 24363512.018007
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "kiln",
+            "name": "Kiln",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.776035247588238
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 23128430.370273
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "chorus-one",
+            "name": "Chorus One",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.909005506992125
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 20173180.0
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.898000677561946
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10000000.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "planbetter",
+            "name": "Planbetter",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.849631385054124
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9444834.084102
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 7.960577400507063
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9030475.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "fast-pool-v2",
+            "name": "Fast Pool v2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 9.02064218920735
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8858809.268561
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "alum-labs",
+            "name": "alum-labs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.812184367483589
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7900000.0
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 7.518962752959446
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7000500.3
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "despread",
+            "name": "DeSpread",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.843422600135398
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7000000.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "blockdaemon",
+            "name": "Blockdaemon",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.625568669293138
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6960000.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "infstones",
+            "name": "InfStones",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.843510487462147
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6900000.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "swyke",
+            "name": "Swyke",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.843510487462147
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6900000.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "luganodes",
+            "name": "Luganodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.656108958869346
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6844999.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "hashquark",
+            "name": "HashKey Cloud",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.843445570686725
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6600000.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "foundry",
+            "name": "Foundry",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.843445570686725
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6600000.0
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.84349479329618
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6300000.0
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 9.593459758931289
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4049000.0
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.179202659952978
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2627008.276755
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "degen-lab",
+            "name": "degen-lab",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.188433639153203
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2550000.0
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.751780715240052
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2352000.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "lisa",
+            "name": "lisa",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.696426387977894
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2194816.969805
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 9.095088971306353
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2100000.0
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.278659645897733
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1019990.0
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "senseinode",
+            "name": "SenseiNode",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.7215492806949015
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 181000
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.104840188196683
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 173000
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 10.421677059247791
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 160000
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "senseinode",
+            "name": "SenseiNode",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 10.421677059247791
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 160000
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "planbetter-pool",
+            "name": "Planbetter Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 10.421677059247791
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 160000
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stackingdao-pool",
+            "name": "StackingDAO Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 10.421677059247791
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 160000
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "fast-pool-stacks",
+            "name": "Fast Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 10.421677059247791
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 160000
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "xverse-pool",
+            "name": "Xverse Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 10.421677059247791
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 160000
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "fast-pool-v2",
+            "name": "Fast Pool v2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 10.421677059247791
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 160000
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "blockdaemon",
+            "name": "Blockdaemon",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 10.421677059247791
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 160000
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "luganodes",
+            "name": "Luganodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 10.421677059247791
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 160000
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.801180160595765
+          }
+        ]
+      }
+    ]
+  }
+}
