@@ -1,0 +1,2628 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "providers": [
+          {
+            "slug": "lido-finance",
+            "name": "Lido Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.427875
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9372167.515604459
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "ether-fi",
+            "name": "Ether.fi",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.0234194289670637
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3390931.822708569
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "binance-staking",
+            "name": "Binance Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.42944
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3174368.736356341
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "kelp-dao",
+            "name": "Kelp",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.87
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 537439.5792168627
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "rocket-pool",
+            "name": "Rocket Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.386970589788928
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 417699.8490109737
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "coinbase",
+            "name": "Coinbase",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.85575
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 393750.6013650619
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "liquid-collective",
+            "name": "Liquid Collective",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.2202781656472155
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 282613.8998937099
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "ether-fi",
+            "name": "Ether.fi",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.77
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 261350
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "darma-capital",
+            "name": "DARMA Capital",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.86
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 243008
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "p2p-validator",
+            "name": "P2P.org",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.7466425915999997
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 238080
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stakewise",
+            "name": "StakeWise",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 233646.46645718167
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "rockx",
+            "name": "RockX",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.83
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "lido-finance",
+            "name": "Lido Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.82
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stakely",
+            "name": "Stakely",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.83
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "chorus-one",
+            "name": "Chorus One",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.85
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "infstones",
+            "name": "InfStones",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.88
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "hashquark",
+            "name": "HashKey Cloud",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.77
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "staking-facilities",
+            "name": "Staking Facilities",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.81
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stake-fish",
+            "name": "stakefish",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.88
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "blockscape",
+            "name": "Blockscape",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.84
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "lido-finance",
+            "name": "Lido Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.87
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "lido-finance",
+            "name": "Lido Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.8
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "simply-staking",
+            "name": "Simply Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.84
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "lido-finance",
+            "name": "Lido Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.85
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "allnodes",
+            "name": "Allnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.9
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "lido-finance",
+            "name": "Lido Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.79
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "lido-finance",
+            "name": "Lido Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.91
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "chainlayer",
+            "name": "ChainLayer",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.82
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "blockdaemon",
+            "name": "Blockdaemon",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.83
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stakin",
+            "name": "Stakin by The Tie",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.84
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "figment-networks",
+            "name": "Figment",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.82
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "dsrv",
+            "name": "DSRV",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.94
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223840
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "attestant",
+            "name": "Bitwise Onchain Solutions",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.76
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223808
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "launchnodes",
+            "name": "Launchnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.84
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223808
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "lido-finance",
+            "name": "Lido Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.85
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223808
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "lido-finance",
+            "name": "Lido Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.8
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223808
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "lido-finance",
+            "name": "Lido Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.9
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223808
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "lido-finance",
+            "name": "Lido Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.84
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 223808
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "renzo",
+            "name": "Renzo Protocol",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5645603174959675
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 220232.67426042317
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stake-fish",
+            "name": "stakefish",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.86
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 178427
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "luganodes",
+            "name": "Luganodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.91
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 163209
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "allnodes",
+            "name": "Allnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.82
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 152320
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "nodemonster",
+            "name": "Node.Monster",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.83
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 143712
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stader-labs",
+            "name": "Staderlabs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.49
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 137634.98958618354
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "hashquark",
+            "name": "HashKey Cloud",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.72
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 128640
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "ether-fi",
+            "name": "Ether.fi",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.76
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 113211
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "coinbase-cloud",
+            "name": "Coinbase Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.81
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 109792
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "lido-finance",
+            "name": "Lido Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.8
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 103584
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "chainnodes",
+            "name": "Chainnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.86
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 103360
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "consensys",
+            "name": "Consensys Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.85
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 101504
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "golem-foundation",
+            "name": "Golem Foundation",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.83
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 100352
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "validation-cloud",
+            "name": "Validation Cloud",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.87
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 100096
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "infstones",
+            "name": "InfStones",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.84
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 96000
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "a41",
+            "name": "a41",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.79
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 95192.34006323584
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "frax-finance",
+            "name": "Frax Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.8029900842357467
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 83255.28544899874
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "dsrv",
+            "name": "DSRV",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.79
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 78976
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "nethermind",
+            "name": "Nethermind",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.85
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 73664
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "cosmostation",
+            "name": "Cosmostation",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.86
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 70048
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "ebunker",
+            "name": "EBunker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.81
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 63264
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "blockdaemon",
+            "name": "Blockdaemon",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.8
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 62176
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "luganodes",
+            "name": "Luganodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.8
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 60576
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "ether-fi",
+            "name": "Ether.fi",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.76
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 60074.82319389781
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "blockdaemon",
+            "name": "Blockdaemon",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.69
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 55392
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "figment-networks",
+            "name": "Figment",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.93
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 55360
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "coinbase-cloud",
+            "name": "Coinbase Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.65
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 53568
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "luganodes",
+            "name": "Luganodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.74
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 51488
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "frax-finance",
+            "name": "Frax Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.8029900842357467
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 49646.775878742854
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "rocket-pool",
+            "name": "Rocket Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.89
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 40062
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "swell-network",
+            "name": "Swell Network",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.6635019364035153
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 19462.537435921084
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "hord",
+            "name": "Hord",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -195.11
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 17480.42243874063
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "swell-network",
+            "name": "Swell Network",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.6032600906430523
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 16768.929686731328
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stakin",
+            "name": "Stakin by The Tie",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.7
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 16064
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "alphanodes",
+            "name": "Ethernodes.io",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.68
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 14400
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stakely",
+            "name": "Stakely",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.04
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 14400
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "ankr",
+            "name": "ANKR",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.09869
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9095.099369426784
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "mev-protocol",
+            "name": "MEV Protocol",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.708
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8440.908
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "dinero",
+            "name": "Dinero (Pirex ETH)",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.91
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8164.604549021879
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "luganodes",
+            "name": "Luganodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.88
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6400
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "dinero",
+            "name": "Dinero (Pirex ETH)",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.91
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5889.8036941505325
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "yieldnest",
+            "name": "YieldNest",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.8915246925354756
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3920.552898187936
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "rockx",
+            "name": "RockX",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.62
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2784
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stakely",
+            "name": "Stakely",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.16
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2752
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "swell-network",
+            "name": "Swell Network",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.35
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2752
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "dsrv",
+            "name": "DSRV",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.82
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2752
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "blockscape",
+            "name": "Blockscape",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.6
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2752
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "infstones",
+            "name": "InfStones",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.58
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2752
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "swell-network",
+            "name": "Swell Network",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.77
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2240
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stafi-protocol",
+            "name": "Stafi Protocol",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.4205212198987005
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2054.673341866629
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "rocket-pool",
+            "name": "Rocket Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.77
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1920
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "allnodes",
+            "name": "Allnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.66
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1568
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "metapool",
+            "name": "Meta Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 713.5068690655022
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "bifrost-finance",
+            "name": "Bifrost",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 17.729999999999997
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 674.473124217018
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "kiln",
+            "name": "Kiln",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 352
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "kiln",
+            "name": "Kiln",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 352
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 33.20542847758756
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "coinbase",
+            "name": "Coinbase",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.7709543067798874
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 0.20166347292925849
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.5000000000000004
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.25
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.5000000000000004
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.5000000000000004
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.7
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7000000000000002
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.8912027279999997
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.25
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.5000000000000004
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.6
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.7000000000000001
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.9000000000000004
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 7.000000000000001
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.5
+          }
+        ]
+      }
+    ]
+  }
+}

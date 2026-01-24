@@ -1,0 +1,3750 @@
+{
+  "data": {
+    "assets": [
+      {
+        "slug": "cardano",
+        "id": "5d27aa08e03dd80007d1ea6e",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 979
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 13148614784.209715
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.357614
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0.6674732235403713
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 2.367988572037898
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 21451800102.847202
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 57.842413782710736
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 1277697.0
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 2907
+          }
+        ]
+      },
+      {
+        "slug": "waves",
+        "id": "5d27aa0ae03dd80007d1eabf",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 74
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 66651012.76110418
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.666508
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 3.3883564945881295
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 6.1351968413658495
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 21106584.268074892
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 17.595846543903484
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 46219
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 123
+          }
+        ]
+      },
+      {
+        "slug": "stellar",
+        "id": "5d27aa0ae03dd80007d1eac8",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 6837445211.825311
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.210853
+          }
+        ]
+      },
+      {
+        "slug": "eos",
+        "id": "5d27aa0be03dd80007d1ead1",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 121515574.24734142
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.112136
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 31.788974772056378
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 33.10686451977693
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 334808878.1917
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 3.3480887819169998
+          }
+        ]
+      },
+      {
+        "slug": "tron",
+        "id": "5d27aa0ce03dd80007d1eb2e",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Super Representative",
+            "defaultValue": 27
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 27997486463.679295
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.295591
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 3.2565755128972027
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 43899857207.0
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 46.35045912625112
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 314036
+          },
+          {
+            "metricKey": "total_validators",
+            "label": null,
+            "defaultValue": 432
+          }
+        ]
+      },
+      {
+        "slug": "cosmos",
+        "id": "5d27aa0de03dd80007d1eb42",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 200
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 1129917146.6297576
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 2.29
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 7.018825789065963
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 20.424766906327413
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 296455564.52404386
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 60.53176382894724
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 1044951.0
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 603
+          }
+        ]
+      },
+      {
+        "slug": "ethereum-2-0",
+        "id": "5d27aa0de03dd80007d1eb49",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 942851
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 356043081153.40063
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 2951.52
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 2.0015107565438672
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 2.8912027279999997
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 36411772.393870495
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 30.16855592440239
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 942851
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 976484
+          }
+        ]
+      },
+      {
+        "slug": "ontology",
+        "id": "5d27aa0de03dd80007d1eb59",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 15
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 53501998.858376205
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.057362
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 20.490449796312028
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 20.49044979631202
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 215866736.0
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 23.105624211681384
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": null,
+            "defaultValue": 12592
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 244
+          }
+        ]
+      },
+      {
+        "slug": "algorand",
+        "id": "5d27aa0ee03dd80007d1eb6a",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 1049994310.046991
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.118508
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": -0.3567723520546129
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 5.1842093
+          }
+        ]
+      },
+      {
+        "slug": "polkadot",
+        "id": "5d27aa0ee03dd80007d1eb6d",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 600
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 3155421128.9324355
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 1.9
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 1.4273913863794174
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 3.963076171038903
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 837362005.3930503
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 50.49209266131787
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 62562
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 1255
+          }
+        ]
+      },
+      {
+        "slug": "chainlink",
+        "id": "5d27aa0ee03dd80007d1eb70",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 8599052764.007526
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 12.14
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 2.263580810486653
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 2.263580810486653
+          }
+        ]
+      },
+      {
+        "slug": "gnosis",
+        "id": "5d27aa0ee03dd80007d1eb79",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 363763449.67822933
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 137.8
+          }
+        ]
+      },
+      {
+        "slug": "livepeer",
+        "id": "5d27aa0ee03dd80007d1eb8b",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 100
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 168687580.01663142
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 3.43
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 51.23693979017008
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 51.335168182563784
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 26218251.922291942
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 53.403612346361506
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 2544
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 200
+          }
+        ]
+      },
+      {
+        "slug": "irisnet",
+        "id": "5d27aa0fe03dd80007d1ebb8",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 60
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 1134583.07085251
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.00069561
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 11.102503731834389
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 11.10250373183439
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 972203752.1039627
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 48.757506534026696
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 13414
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 307
+          }
+        ]
+      },
+      {
+        "slug": "dai",
+        "id": "5d27aa0fe03dd80007d1ebc7",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 4358562424.473111
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.999307
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 1
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 1
+          }
+        ]
+      },
+      {
+        "slug": "energi",
+        "id": "5d27aa0fe03dd80007d1ebca",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": null,
+            "defaultValue": 350
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 2001034.573532965
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.0194806
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 70.34689213181937
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 82.29394285714285
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 23488000.0
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 22.87687017634226
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": null,
+            "defaultValue": 351
+          },
+          {
+            "metricKey": "total_validators",
+            "label": null,
+            "defaultValue": 351
+          }
+        ]
+      },
+      {
+        "slug": "secret-network",
+        "id": "5d27aa10e03dd80007d1ebeb",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 47
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 53827963.545497715
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.162818
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 145459198.98343617
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 42.122241051689244
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 78381
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 236
+          }
+        ]
+      },
+      {
+        "slug": "orbs",
+        "id": "5d27aa10e03dd80007d1ebfa",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 26
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 50191389.16634238
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.01026304
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 1.8972136200869016
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 868930497.0
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 17.76119946172122
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 1283
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 35
+          }
+        ]
+      },
+      {
+        "slug": "terra",
+        "id": "5d27aa10e03dd80007d1ec0c",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 106
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 208626781.46663767
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 3.82e-05
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 1024506564873.5756
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 15.769070094133353
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 245776
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 582
+          }
+        ]
+      },
+      {
+        "slug": "tezos",
+        "id": "5d34818ecb1d1f0007826c32",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 265
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 620480864.4373773
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.577953
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 4.864637678901795
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 8.457641780422685
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 634661252.4408939
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 59.14248148722518
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 265
+          }
+        ]
+      },
+      {
+        "slug": "havven",
+        "id": "5d46b5c3761531000737af0f",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 142614403.593273
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.415502
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": -22.492695986512498
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0.2271989493587121
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 106336729.96517548
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 49.399473121827214
+          }
+        ]
+      },
+      {
+        "slug": "harmony",
+        "id": "5d46b5c3761531000737af10",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 60
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 53054669.00106035
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.00357838
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 12.19735466442595
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 3075213590.5668607
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 20.29958737951899
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 23242
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 770
+          }
+        ]
+      },
+      {
+        "slug": "solana",
+        "id": "5dc6d77ab3b1090007f5c041",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 787
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 71640267129.43587
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 126.61
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 1.5648944916303975
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 6.114022064987186
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 426371063.89545
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 68.89093042534678
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 1208814.0
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 6770
+          }
+        ]
+      },
+      {
+        "slug": "near-protocol",
+        "id": "5dc82fc27b2b64000719f9ca",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 375
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 1920229044.045265
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 1.49
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 1.998256329661774
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 4.53083124095971
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 606486884.1459714
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 47.161687654213175
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 282971
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 384
+          }
+        ]
+      },
+      {
+        "slug": "kava",
+        "id": "5dc833b7b3b1090007f5d425",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 69
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 86992119.49529222
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.08034
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 9.89461532962983
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 9.894615329629834
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 101065070.918468
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 9.333268064543871
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 77716
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 273
+          }
+        ]
+      },
+      {
+        "slug": "crypto-com-coin",
+        "id": "5dc8355491a51900085071ed",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 100
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 3665053428.85218
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.092072
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 1.1222972510045892
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 1.8044040672806874
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 13103984015.768267
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 13.325096005557416
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 106596
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 288
+          }
+        ]
+      },
+      {
+        "slug": "skale",
+        "id": "5dc83e0bb3b1090007f5d427",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 40
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 61794617.16113227
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.0101916
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 6.546092216000643
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 10.004870821583967
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 1966912769.3826656
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 32.37183623078778
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 40
+          }
+        ]
+      },
+      {
+        "slug": "avalanche",
+        "id": "5dc925cfb3b1090007f5e1fd",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 764
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 5178269611.839315
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 12.04
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 3.3470642838618003
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 7.010454090656827
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 218059184.3344918
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 46.607307416394136
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 54957
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 764
+          }
+        ]
+      },
+      {
+        "slug": "fantom",
+        "id": "5e04fdb0cfd82b00079c6bfc",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 37
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 233643712.65344402
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.083336
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0.08883978838241102
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0.07973950148488017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 370712654.4064862
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 13.222572701300352
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 79697
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 170
+          }
+        ]
+      },
+      {
+        "slug": "elrond",
+        "id": "5e1c9f9bcfd82b00079d9f7f",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": null,
+            "defaultValue": 305
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 171001414.3944409
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 5.86
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 4.93134494713896
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 8.625641938084708
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 14145552.0
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 48.472225025433644
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 210795
+          },
+          {
+            "metricKey": "total_validators",
+            "label": null,
+            "defaultValue": 305
+          }
+        ]
+      },
+      {
+        "slug": "kusama",
+        "id": "5e27000a9d431a0009f71db1",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 998
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 118145630.58023475
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 6.69
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 19088.622443140255
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 84.1500277553249
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 21860
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 1917
+          }
+        ]
+      },
+      {
+        "slug": "coti",
+        "id": "5e4a38d77c73a50008093985",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 48261382.58706638
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.01845305
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": null,
+            "defaultValue": -15.614819171286488
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": null,
+            "defaultValue": 23.090972091649565
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 393976633.83151346
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 15.060891303470958
+          },
+          {
+            "metricKey": "total_validators",
+            "label": null,
+            "defaultValue": 0
+          }
+        ]
+      },
+      {
+        "slug": "makerdao",
+        "id": "5e50ee1072e9230008bee2be",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 1534245267.8388762
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 1569.35
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 6.374080248694439
+          }
+        ]
+      },
+      {
+        "slug": "telos",
+        "id": "5e563eda5a212700076c40ae",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 8140156.210728636
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.01937798
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 8.341565576149312
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 8.341565576149302
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 172646727.62601605
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 41.98452221763251
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 82599
+          }
+        ]
+      },
+      {
+        "slug": "chromia",
+        "id": "5e7f921416a20400085172e7",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 33505901.021728374
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.03925247
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 8.953341732179391
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 93742858.90391399
+          }
+        ]
+      },
+      {
+        "slug": "usd-coin",
+        "id": "5ea986d7e306ac0007dc73e3",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 72522963660.48047
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.9996
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 7
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 7
+          }
+        ]
+      },
+      {
+        "slug": "bitcoin",
+        "id": "5ea986dae306ac0007dc73ed",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 1779526965550.6118
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 89074
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Staked Tokens",
+            "defaultValue": 58514.35582026
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 0.29286281152024823
+          }
+        ]
+      },
+      {
+        "slug": "tether",
+        "id": "5ea986dcf92c230007fce1f8",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 186615740637.4293
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.998475
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 10
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 10
+          }
+        ]
+      },
+      {
+        "slug": "aave",
+        "id": "5ea986dee306ac0007dc73f2",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 2363186377.512733
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 155.64
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 2.926711532578219
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 4.630492481643563
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Staked Tokens",
+            "defaultValue": 2748218.5437799697
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 19.12493580029633
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 20539
+          }
+        ]
+      },
+      {
+        "slug": "maker",
+        "id": "5ea986def92c230007fce1fb",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 935224990.3305622
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 1569.35
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0
+          }
+        ]
+      },
+      {
+        "slug": "trueusd",
+        "id": "5ea986dfe306ac0007dc73f4",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 493599360.55916655
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.998136
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0
+          }
+        ]
+      },
+      {
+        "slug": "decentraland",
+        "id": "5ea986dfe306ac0007dc73f6",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 300152679.6195245
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.156408
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0
+          }
+        ]
+      },
+      {
+        "slug": "nusd",
+        "id": "5ea986e0e306ac0007dc73fd",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 26001550.729780987
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.773932
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0
+          }
+        ]
+      },
+      {
+        "slug": "kyber-network",
+        "id": "5ea986e0f92c230007fce200",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 36007003.98879774
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.211675
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 2.3243179357469224
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 2.3243179357469224
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 41284421.9649278
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 22.72461267401172
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 1128
+          }
+        ]
+      },
+      {
+        "slug": "matic-network",
+        "id": "5f01d33f1165d300072d7b8b",
+        "metrics": null
+      },
+      {
+        "slug": "band-protocol",
+        "id": "5f0451c22d373700079534e6",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 53
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 51133659.44356282
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.300277
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 7.849165106225842
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 18.621347191325256
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 90721665.243486
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 53.02673607783904
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 21552
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 225
+          }
+        ]
+      },
+      {
+        "slug": "e-money",
+        "id": "5f0451d1aff7a5000815c172",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 60
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 470891.45822931075
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.00596014
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 17.176274933596638
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 28.89390242695631
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 44095614.933182
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 32.04251608704767
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 1848
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 154
+          }
+        ]
+      },
+      {
+        "slug": "yearn-finance",
+        "id": "5f253f23a3a32b0007819c20",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 117123360.8513162
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 3337.08
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 5.219919066573218
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 34.449192950854375
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 0.09395405266692405
+          }
+        ]
+      },
+      {
+        "slug": "true-usd",
+        "id": "5f3652b6926c4e0007c2a1ae",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 1213984543.107819
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 1.001
+          }
+        ]
+      },
+      {
+        "slug": "curve-dao-token",
+        "id": "5f368e70611bd80007462e1d",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 527213769.2396938
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.358435
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 1.2466025950958803
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0.3253934063382265
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 762223158.010894
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 66.13804778598053
+          }
+        ]
+      },
+      {
+        "slug": "paxos-standard",
+        "id": "5f398c9693ab870007f0fb77",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 47545462.65155046
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.999053
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0
+          }
+        ]
+      },
+      {
+        "slug": "litecoin",
+        "id": "5f398c974597420008464382",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 5198287759.169401
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 67.71
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0
+          }
+        ]
+      },
+      {
+        "slug": "ripple",
+        "id": "5f398c9893ab870007f0fb7e",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 116281164618.15138
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 1.91
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0
+          }
+        ]
+      },
+      {
+        "slug": "gemini-dollar",
+        "id": "5f398c994597420008464387",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 48763335.816585235
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.998147
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0
+          }
+        ]
+      },
+      {
+        "slug": "persistence",
+        "id": "5f3fd4b22371d100079dacd6",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 68
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 4285243.479009016
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.01759097
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 8.029843585014685
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 22.356524140963394
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 134737793.74558496
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 54.15160593757101
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 21916
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 220
+          }
+        ]
+      },
+      {
+        "slug": "the-graph",
+        "id": "5f3fd5832371d100079dacd7",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 387456019.39719236
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.03622992
+          }
+        ]
+      },
+      {
+        "slug": "akash",
+        "id": "5f3fd6205b8f8400073ca00d",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 100
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 120403142.7566906
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.420623
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 2.631237496928729
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 10.921779943105644
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 107209500.39124109
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 37.39448940096493
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 130103
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 268
+          }
+        ]
+      },
+      {
+        "slug": "stafi-protocol",
+        "id": "5f4a3e04cb00770007c6ccb2",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 20
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 3128880.001711185
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.02007863
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 14.572466799687845
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 16.495359512643752
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 15794001.876874007
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 10.176150278714209
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 775
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 169
+          }
+        ]
+      },
+      {
+        "slug": "mantra-dao",
+        "id": "5f5f995a52aeae0007644ee8",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 33
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 78227672.51390246
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.066563
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 4.224490383036161
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 17.822790223454575
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 519668471.9084493
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 29.732585840801544
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 38353
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 82
+          }
+        ]
+      },
+      {
+        "slug": "pax-gold",
+        "id": "5f62efb3a2f74b00079b0797",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 2035208241.0214381
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 5058.5
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0
+          }
+        ]
+      },
+      {
+        "slug": "nimiq",
+        "id": "5f8416366dc081000709917f",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 17
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 8454595.317761125
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.00062118
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 8.130048780832233
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 16.3125243828941
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Staked Tokens",
+            "defaultValue": 5132332558.84783
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 37.27751574699765
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 2661
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 20
+          }
+        ]
+      },
+      {
+        "slug": "uniswap",
+        "id": "5f91144753487f00075ea5f5",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 3067543024.91706
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 4.83
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0
+          }
+        ]
+      },
+      {
+        "slug": "sushi",
+        "id": "601d7c9d3cb0e00007487917",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 81777312.13910477
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.299527
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 4.680767389561158
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 4.680767389561166
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 29546250.63648318
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 11.80886224382972
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 15496
+          }
+        ]
+      },
+      {
+        "slug": "pancakeswap",
+        "id": "6025303bf12a3a0007c993a6",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 635415426.6535486
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 1.9
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 11.674000294184559
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 6783347.438798404
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 2.0304097957479827
+          }
+        ]
+      },
+      {
+        "slug": "binance-smart-chain",
+        "id": "603107824fc34e0007cd7ba6",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 45
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 120723447848.77313
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 885.4
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 7.384907659001372
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 3.0144802197802196
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 25171282.443062928
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 18.459365525871046
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 12486
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 45
+          }
+        ]
+      },
+      {
+        "slug": "flow",
+        "id": "6042977a2f17040008b6ea35",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 145669928.7301817
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.088975
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 6.950376190476182
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 11.693297343419609
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 41.88685204783684
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 0
+          }
+        ]
+      },
+      {
+        "slug": "injective-protocol",
+        "id": "604a42b7c5c421000777822b",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 50
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 452375918.0260261
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 4.52
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 2.3808951366545816
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 6.2768121024848895
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 58068941.361544356
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 58.068941361544354
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 230979
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 191
+          }
+        ]
+      },
+      {
+        "slug": "certik",
+        "id": "6053aa7b1887d50007942643",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 113
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 38568961.55405032
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.249483
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 16.42619936009129
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 26.55388144053012
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 46899482.48939805
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 30.24836398847387
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 13727
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 232
+          }
+        ]
+      },
+      {
+        "slug": "fuse-network-token",
+        "id": "605cd3dd82ef2700083d63bd",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 14
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 1989679.5555489098
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.00639118
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 19.299381460717434
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 26.72634952132601
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 72826654.58938701
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 23.29686413076935
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 1742
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 14
+          }
+        ]
+      },
+      {
+        "slug": "filecoin",
+        "id": "60649116e85224000730ef20",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 961400562.9387367
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 1.3
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": -7.589889451050302
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 11.24
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Staked Tokens",
+            "defaultValue": 9962237.02397703
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 1.216126034739859
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 214389
+          }
+        ]
+      },
+      {
+        "slug": "orchid-protocol",
+        "id": "606b4f1ce852240007318131",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 12859810.650103336
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.02170031
+          }
+        ]
+      },
+      {
+        "slug": "balancer",
+        "id": "606b5982e852240007884363",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 32261971.850007113
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.498989
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": null,
+            "defaultValue": 0.5573993686733909
+          }
+        ]
+      },
+      {
+        "slug": "wrapped-bitcoin",
+        "id": "606f58c1b6ba6300072e32f2",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 11122364702.146814
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 88976
+          }
+        ]
+      },
+      {
+        "slug": "sentinel",
+        "id": "608679c9a015e40007c4b8bd",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 75
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 1472327.6350209774
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 4.486e-05
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 4.309088726933918
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 12.585414868953752
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 20283270648.027164
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 60.16656918676565
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 16912
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 197
+          }
+        ]
+      },
+      {
+        "slug": "stasis-eurs",
+        "id": "60888229097df60007889a67",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 145338030.3110935
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 1.17
+          }
+        ]
+      },
+      {
+        "slug": "regen",
+        "id": "609536028ff47a00076d0ffb",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 21
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 469185.01869320695
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.00316192
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 1.8650719024158935
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 21.387516593974293
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 124981918.5351129
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 84.24549542410695
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 9714
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 128
+          }
+        ]
+      },
+      {
+        "slug": "mina",
+        "id": "6095360cfe3b3b000794f2b1",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 111767324.780518
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.087914
+          }
+        ]
+      },
+      {
+        "slug": "hydra",
+        "id": "60a3dc01b75cc60008b3127f",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 2026870.9775754309
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.068229
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 17.25643129788983
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 41.37250675071065
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 18199254.9881482
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 49.711644045269836
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 958
+          }
+        ]
+      },
+      {
+        "slug": "euro-coin",
+        "id": "610b72b9fa2ebc0008677b16",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 360009301.6119165
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 1.18
+          }
+        ]
+      },
+      {
+        "slug": "dydx",
+        "id": "610d6818e209350007f6811e",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 40
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 137337368.74237922
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.167429
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": -11.768150183797177
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0.21469520729930466
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Staked Tokens",
+            "defaultValue": 223719976.26956224
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 23.344463766863953
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 33559
+          },
+          {
+            "metricKey": "total_validators",
+            "label": null,
+            "defaultValue": 169
+          }
+        ]
+      },
+      {
+        "slug": "axie-infinity",
+        "id": "611bb540b04a9f000751ef8a",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 444403467.7168024
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 2.64
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 21.826336337581132
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 46.05054410174218
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 40039455.46452716
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 43.179104664192536
+          }
+        ]
+      },
+      {
+        "slug": "akropolis",
+        "id": "612e4c2c1f58f50007efc84e",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 209452.41231442575
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 4.475e-05
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 8.624709078899429
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 9.757509616436524
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 534386940.8544831
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 10.687738817089661
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 1332
+          }
+        ]
+      },
+      {
+        "slug": "api3",
+        "id": "612e4c371f58f50007efc84f",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 57316928.913631424
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.409063
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 11.297799256556162
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 24.5
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 58962245.4439866
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 0.4841653115035456
+          }
+        ]
+      },
+      {
+        "slug": "sifchain",
+        "id": "61692aa37a9cb70007cd5120",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 25
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 30356.796198447788
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 1.71e-06
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 68.53867370813629
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 22470403804.70487
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 25016
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 321
+          }
+        ]
+      },
+      {
+        "slug": "dogecoin",
+        "id": "617af46d3f890a0008212f28",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 20829222773.119583
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.123688
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0
+          }
+        ]
+      },
+      {
+        "slug": "rocket-pool",
+        "id": "618b7a80e09e9e00072337af",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 44787667.29117299
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 2.03
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 6.786258184551208
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 6.8385056101404675
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 9894940.952443644
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 50.242485691905955
+          }
+        ]
+      },
+      {
+        "slug": "paraswap",
+        "id": "61929a969749480007216551",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 3101306.4470535098
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.00284689
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 56.02746238406202
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 10.039040148780952
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Staked Tokens",
+            "defaultValue": 103813391.00082484
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 9.529696894989993
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 3541
+          }
+        ]
+      },
+      {
+        "slug": "presearch",
+        "id": "619386bc16c77700074b4a76",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 2723933.8809839957
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.0029805
+          }
+        ]
+      },
+      {
+        "slug": "osmosis",
+        "id": "61d2a28463359d00071f76c4",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 100
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 40035412.19780713
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.052677
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": -5.177458545364965
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 1.8536402915968486
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 270039283.176738
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 35.52704187843905
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 462009
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 381
+          }
+        ]
+      },
+      {
+        "slug": "staked-near",
+        "id": "61f3f1ac8559e30009f9346d",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 48220468.030413
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 2.19
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 1.6071364354163897
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 4.13
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Staked Tokens",
+            "defaultValue": 32314319.123942524
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 473
+          }
+        ]
+      },
+      {
+        "slug": "evmos",
+        "id": "621e82cd53140f0008432db7",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 20
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 325726.4097972116
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.00063532
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0.35526009458286545
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 5.909602171758863
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 175086156.74917758
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 17.508615674917756
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 197446
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 379
+          }
+        ]
+      },
+      {
+        "slug": "radix",
+        "id": "6228e60c53140f0009ac9d2e",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": null,
+            "defaultValue": 280
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 35874296.91792517
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.00268814
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": null,
+            "defaultValue": 4.423952877145609
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": null,
+            "defaultValue": 6.7711900040468604
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 4430535841.12545
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 33.196464769570376
+          },
+          {
+            "metricKey": "total_validators",
+            "label": null,
+            "defaultValue": 280
+          }
+        ]
+      },
+      {
+        "slug": "comdex",
+        "id": "6228e6389c34940009d1c35c",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 54
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 36091.078274811865
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.00017638
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 8.483942188168836
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 17.519428357504037
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 105766581.44192998
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 51.1221469586598
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 21428
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 162
+          }
+        ]
+      },
+      {
+        "slug": "phala-network",
+        "id": "6231d35b8e830a0009dce501",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 30673839.799780462
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.03713738
+          }
+        ]
+      },
+      {
+        "slug": "apecoin",
+        "id": "6239cd05001cca0009b824f5",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 169514599.7046635
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.186557
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 25.1
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 25.1
+          }
+        ]
+      },
+      {
+        "slug": "aavegotchi",
+        "id": "62469c4ab7d7b8000921199d",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 10073433.342328463
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.196921
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0
+          }
+        ]
+      },
+      {
+        "slug": "asset-mantle",
+        "id": "62826c5ef9b212000866eb2e",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 32
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 192859.74947748808
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 8.354e-05
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 90.08198033084199
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Total Staked Tokens",
+            "defaultValue": 1824125156.7439117
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 41544
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 143
+          }
+        ]
+      },
+      {
+        "slug": "terra-luna-2",
+        "id": "629101c6a40a120008684feb",
+        "metrics": [
+          {
+            "metricKey": "active_validators",
+            "label": "Active Validators",
+            "defaultValue": 126
+          },
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 55073954.51577278
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.080088
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 12.364151052296602
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 30.97962420796902
+          },
+          {
+            "metricKey": "staked_tokens",
+            "label": "Staked Tokens",
+            "defaultValue": 391624177.5993892
+          },
+          {
+            "metricKey": "staking_ratio",
+            "label": "Staking Ratio",
+            "defaultValue": 36.311309771947556
+          },
+          {
+            "metricKey": "total_staking_wallets",
+            "label": "Total Staking Wallets",
+            "defaultValue": 431646
+          },
+          {
+            "metricKey": "total_validators",
+            "label": "Total Validators",
+            "defaultValue": 205
+          }
+        ]
+      },
+      {
+        "slug": "frax",
+        "id": "62b31d09349030000922b6c2",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 274107950.67241627
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 0.992405
+          }
+        ]
+      },
+      {
+        "slug": "ethereum-name-service",
+        "id": "62b4727106461c00087180c0",
+        "metrics": [
+          {
+            "metricKey": "marketcap",
+            "label": "Market Cap",
+            "defaultValue": 350907297.91405916
+          },
+          {
+            "metricKey": "price",
+            "label": "Price",
+            "defaultValue": 9.19
+          },
+          {
+            "metricKey": "real_reward_rate",
+            "label": "Real Reward Rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "reward_rate",
+            "label": "Reward Rate",
+            "defaultValue": 0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "providers": [
+          {
+            "slug": "lido-finance",
+            "name": "Lido Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.427875
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9372167.515604459
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "ether-fi",
+            "name": "Ether.fi",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.0234194289670637
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3390931.822708569
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "binance-staking",
+            "name": "Binance Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.42944
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3174368.736356341
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "kelp-dao",
+            "name": "Kelp",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.87
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 537439.5792168627
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "rocket-pool",
+            "name": "Rocket Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.386970589788928
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 417699.8490109737
+          }
+        ]
+      }
+    ]
+  }
+}

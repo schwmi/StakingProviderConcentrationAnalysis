@@ -651,6 +651,66 @@ class StakingRewardsAPIClient:
 
         return self._execute_query(query, use_cache=use_cache)
 
+    def discover_reward_option_types(self, asset_slugs, limit=500, use_cache=True):
+        """
+        Discover reward option type keys for one or more assets.
+    
+        This is a discovery/helper method to inspect which rewardOption.type keys
+        exist for a given asset (e.g. to distinguish staking entry points from
+        downstream DeFi / wrapper products).
+    
+        Args:
+            asset_slugs (str | list): Single asset slug or list of asset slugs
+                                      (e.g. "ethereum-2-0" or ["ethereum-2-0"])
+            limit (int, optional): Maximum number of rewardOptions to inspect
+                                   (default: 500)
+            use_cache (bool, optional): Whether to use cached responses (default: True)
+    
+        Returns:
+            list of dict: [
+                {
+                  "key": <type_key>,
+                  "label": <type_label>
+                },
+                ...
+            ]
+        """
+        if isinstance(asset_slugs, str):
+            asset_slugs = [asset_slugs]
+    
+        query = f"""
+        {{
+          rewardOptions(
+            where: {{
+              inputAsset: {{ slugs: {json.dumps(asset_slugs)} }}
+            }}
+            limit: {limit}
+          ) {{
+            type {{
+              key
+              label
+            }}
+          }}
+        }}
+        """
+
+        resp = self._execute_query(query, use_cache=use_cache)
+        reward_options = resp.get("data", {}).get("rewardOptions", []) or []
+    
+        seen = {}
+        for ro in reward_options:
+            t = ro.get("type") or {}
+            key = t.get("key")
+            label = t.get("label")
+            if key and key not in seen:
+                seen[key] = label
+    
+        # Stable, predictable output
+        return [
+            {"key": key, "label": seen[key]}
+            for key in sorted(seen.keys())
+        ]
+
     def get_metrics(self, asset=None, provider=None, reward_option=None, validator=None, metric_keys=None, limit=1, use_cache=True):
         """
         Query metrics from the StakingRewards API.
