@@ -1,0 +1,16 @@
+{
+  "data": {
+    "assets": [
+      {
+        "slug": "polkadot",
+        "metrics": [
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 837362005.3930503,
+            "createdAt": "2026-01-18T12:03:51.136255Z"
+          }
+        ]
+      }
+    ]
+  }
+}

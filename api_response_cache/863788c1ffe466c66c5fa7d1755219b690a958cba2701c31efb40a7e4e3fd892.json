@@ -1,0 +1,25 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "providers": [
+          {
+            "slug": "eigenlayer",
+            "name": "EigenLayer",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.04393005407929
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 354137830.6083189
+          }
+        ]
+      }
+    ]
+  }
+}
