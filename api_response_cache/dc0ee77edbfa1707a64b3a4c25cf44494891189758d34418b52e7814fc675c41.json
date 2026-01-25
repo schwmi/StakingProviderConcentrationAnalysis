@@ -1,0 +1,4080 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "providers": [
+          {
+            "slug": "coinbase",
+            "name": "Coinbase",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016538258259676916
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 96221400.931235
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezos-foundation",
+            "name": "Tezos Foundation",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017390172551651685
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 79486185.70286301
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "kiln",
+            "name": "Kiln",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001657217289798338
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 63095904.682835996
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "everstake",
+            "name": "Everstake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016772155375728483
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 45232416.86296199
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "staked",
+            "name": "Staked",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017145818420539075
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 39624602.783520006
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016511552171022041
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 26552591.434358
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "p2p-validator",
+            "name": "P2P.org",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001642428248271115
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 22066496.690679
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "bitcoin-suisse-ag",
+            "name": "Bitcoin Suisse AG",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001694796018234899
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 21893764.824905
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017422956443647448
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 19879759.33757
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001724560007620753
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 15667650.586318
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017799465031580512
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13204605.115156
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "chorus-one",
+            "name": "Chorus One",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016449553160042204
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9831076.690328002
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stake-fish",
+            "name": "stakefish",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016586385876382348
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8911484.14333
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "airgap",
+            "name": "Airgap",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001754322479047899
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7658555.0014619995
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "bakerman-ch",
+            "name": "Bakerman_CH",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016843449895011997
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7366891.742238
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016098872965463558
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7231074.744
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "binance-staking",
+            "name": "Binance Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001679861185852127
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7132389.343095
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016468744036518702
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7081002.142205
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "bake-tz",
+            "name": "Bake Tz",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017378263208164266
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7036418.317407
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001734108358166076
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7027836.086728001
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015823000084988095
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6898233.371673
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001619521569146833
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6897426.054874999
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018309985021509342
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6810237.668221999
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "paytezos",
+            "name": "PayTezos",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014863311008622535
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6344797.85956
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "bake-nug",
+            "name": "Bake Nug",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0005434430501992776
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5487532.448354
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "melange",
+            "name": "Melange",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001635864184729516
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5350696.771943999
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "spice",
+            "name": "Spice",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015311637726987504
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4842174.080186
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "coinone-node",
+            "name": "Coinone Node",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017052840069419577
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4813482.004593
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "baktz",
+            "name": "Baktz",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017175486870862403
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4334937.457457
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezoasis",
+            "name": "TezOasis",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0013536173396143116
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2879857.84919
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018872517167787966
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2499051.213517
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "colossus",
+            "name": "Colossus",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001457646697186679
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2269019.888815
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "xtz-master",
+            "name": "XTZ Master",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001599372703150624
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2256816.018621
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017649481167499026
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2169163.4981259997
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001763754025253059
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2162839.139909
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "money-every-3-days",
+            "name": "Money Every 3 Days",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017579682825648686
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2149885.314188
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezoshodl",
+            "name": "TezosHODL",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016509400617112015
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2071306.944773
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "gate-io",
+            "name": "Gate.io",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017024820258980623
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2010879.1487
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "moonstake",
+            "name": "Moonstake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014569854144930137
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1807793.9823989999
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "pool-of-stake",
+            "name": "Pool of Stake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015947682211633165
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1781992.6694299998
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "dash-master",
+            "name": "Dash Master",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016875746387100177
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1580743.524856
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "baking-benjamins",
+            "name": "Baking Benjamins",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015297129720452814
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1564346.2528559999
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "bitcat",
+            "name": "Bit Cat",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001618770226559257
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1477947.1577130002
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "baking-tacos",
+            "name": "Baking Tacos",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018635493946453205
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1333875.975247
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tez-baker",
+            "name": "Tez Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.0007944423204806918
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1307939.4654950001
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "coinhouse",
+            "name": "Coinhouse",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.274690484476412
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1282628.045465
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016669719444443716
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1195935.3250840001
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "baking-team",
+            "name": "Baking Team",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016202839792342062
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1153068.3740110002
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001641076285542852
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1091082.041357
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "staking-shop",
+            "name": "Staking Shop",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015187072075426836
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1090238.366803
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "objktcom-baker",
+            "name": "objkt.com Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018147639655945198
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1057019.269698
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "ecotez",
+            "name": "EcoTez",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014218339269200118
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 986182.357861
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "riseup-bakery",
+            "name": "Riseup Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016754622542548283
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 976060.141933
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "hitez-1",
+            "name": "HiTEZ 1",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016125955314884187
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 974275.7729839999
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "norn-delegate",
+            "name": "Norn Delegate",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001692350990739648
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 895968.188143
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "hayek-lab",
+            "name": "Hayek Lab",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016538586052847002
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 865493.2134700001
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "ateza",
+            "name": "Ateza",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015834100639696858
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 846400.679334
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0022756638249538893
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 791270.474951
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "adi-daz-barrio-bakery",
+            "name": "Adi_daz Barrio Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001404389654124084
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 765445.831486
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "infstones",
+            "name": "InfStones",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017518280977974077
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 713312.031114
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014075237093371317
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 688642.43622
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 664284.507607
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezosnu",
+            "name": "Tezos.nu",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001261365090772513
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 626904.336632
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tessellated-geometry",
+            "name": "Tessellated Geometry",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0027543534630773588
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 616576.417294
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezmania",
+            "name": "Tezmania",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0019401055026288115
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 596236.153472
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018086833492872844
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 587332.38712
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezex-bakery",
+            "name": "Tezex Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0023166335572106654
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 557040.773695
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "the-shire",
+            "name": "The Shire",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017856764563341156
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 512730.43824499997
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016370670644987701
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 485291.80952300003
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "blockpower",
+            "name": "Blockpower",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0019326820997043188
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 479305.37875599996
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "superbaker",
+            "name": "SuperBaker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018129685536951512
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 475369.694224
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.00035505083958686594
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 461426.774933
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0019708691555264117
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 457843.32442200003
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "la-boulange",
+            "name": "La Boulange",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002412514225485515
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 457283.070819
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tez-blocks",
+            "name": "TEZ Blocks",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0019053747474266573
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 454338.12890699995
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tez-baguette",
+            "name": "Tez Baguette",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001630984930848019
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 452338.63132399996
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "zir0hs-bakery",
+            "name": "Zir0h's bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015762422724893165
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 451437.131968
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0013716323326174546
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 425901.282705
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "citadel",
+            "name": "Citadel.one",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0010069595161020031
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 423318.550262
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016254596600270119
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 406634.283819
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "newroad-capital",
+            "name": "Newroad Network",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014460747915826066
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 386940.607831
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tez-nebraska",
+            "name": "Tez Nebraska",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012654534247587901
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 375047.658351
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezos-canada",
+            "name": "Tezos Canada",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015559716328848866
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 372200.27912900003
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "pinnacle-bakery",
+            "name": "Pinnacle Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016717754923940096
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 354479.589099
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "ceibo-xtz",
+            "name": "Ceibo XTZ",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0021373887434169413
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 353912.034231
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001593446844549449
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 343836.50033
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "kryptstar",
+            "name": "KryptStar",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002330288298220868
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 337568.288154
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.00213363254730551
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 335849.502677
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "anon-bakery",
+            "name": "Anon Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012934400726239991
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 330724.759066
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stakenow",
+            "name": "StakeNow",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008456041983468136
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 307555.59422200004
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002115351578095843
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 299200.955142
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "mitera-net",
+            "name": "Mitera.net",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.00220769072816505
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 289438.38821
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tzc-bakebuddy-2",
+            "name": "TzC - BakeBuddy #2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017602209203611034
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 286507.652075
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tz-bake",
+            "name": "TZ Bake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0021903984593547067
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 272796.062011
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001120657733857679
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 260679.468184
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014819908989101782
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 253569.47036600002
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "bakerisland",
+            "name": "BakerIsland",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014955175926404838
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 252093.715296
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "hodl-farm",
+            "name": "hodl.farm",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001445241197569645
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 245357.824968
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015616244530593912
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 227253.86521000002
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002546844396430311
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 222369.282713
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017384385355231088
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 216724.380778
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "electric-bakery",
+            "name": "Electric Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018718956227402812
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 210724.140245
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "canadian-bakin",
+            "name": "Canadian Bakin'",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0013924845595809658
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 204363.90812699997
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "odins-bakery",
+            "name": "Odins Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0020339208343117254
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 195404.48022599999
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "gold-tz",
+            "name": "GOLD TZ",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008456344958994525
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 193753.729436
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0030179433450047877
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 192254.128389
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "ursamajor",
+            "name": "ursamajor",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001095066962319381
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 192147.590252
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezetetic",
+            "name": "Tezetetic",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016190595225073138
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 188436.94478599998
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "blockshard",
+            "name": "Blockshard",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014397412892253377
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 188154.913986
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "ageaenesbakery",
+            "name": "AgeaenesBakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001367916504656554
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 187086.063966
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "staking-team",
+            "name": "Staking Team",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002557598544037166
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 186201.09311800002
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017703265040502063
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 166710.571535
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014273874932374253
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 165018.66703699998
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "iiakutez-s-baker",
+            "name": "iiaku.tez \ud83c\udf2e \ua729's Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0021200017868988267
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 152317.209562
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "digital-mango",
+            "name": "Digital Mango",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0019179397180403876
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 147493.050068
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "libertz",
+            "name": "Libert\u00e9Z",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018285535017789878
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 147090.67025700002
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezio-bakery",
+            "name": "Tezio Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002327989855753146
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 144421.650172
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "american-tezolution",
+            "name": "American Tezolution",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002021566309311126
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 139271.863236
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "bckeranlage",
+            "name": "B\u00e4ckeranlage",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0019963605553910135
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 133582.458854
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezosteam",
+            "name": "TezoSteam",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014108468917832734
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 130756.385418
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezberry-pie",
+            "name": "Tezberry Pie",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008456485699846946
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 124918.487283
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001593931967104906
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 116889.88363700002
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016751433827135456
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 116183.380482
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "temple-baker",
+            "name": "Temple Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0023240391400787346
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 112846.038349
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "zerostake",
+            "name": "Zerostake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.003471413823251006
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 108178.76289
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002376817258989368
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 105030.60853199998
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "exaion-validator",
+            "name": "Exaion",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002036793476442794
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 101014.146155
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002442580392803137
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 100672.23529000001
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "meria",
+            "name": "Meria",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.0009043842821065776
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 100125.141402
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "sunrise-tez-bakery",
+            "name": "Sunrise Tez Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0027144181580260746
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 100065.22283500001
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "trapdesuuwu-baker",
+            "name": "TrapDesuUwU Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0013538517534488308
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 99173.41566900001
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezos-bakery",
+            "name": "Tezos Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 98760.820763
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "captain-stake",
+            "name": "Captain Stake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008456159452115961
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 93641.856637
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "postchainio",
+            "name": "Postchain.io",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015394310394500415
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 91724.681046
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "bake-tz-for-me",
+            "name": "Bake \ua729 For Me",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0020474649188831394
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 89443.172463
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezeract",
+            "name": "Tezeract",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016083627142682376
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 83853.511341
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0020038760797509536
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 83701.31890800002
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.000845593164726689
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 83700.833773
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001976980308895169
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 82391.229468
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008456726022461475
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 80985.114031
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tzc-bakebuddy-1",
+            "name": "TzC - BakeBuddy #1",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0019617394605724397
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 78470.832746
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0013879324007530448
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 77091.32101099999
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.521121979108289
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 77076.84572600001
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezos-pepe-bakery",
+            "name": "Tezos Pepe Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016783077905916251
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 76995.802777
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "byteblock-baker",
+            "name": "ByteBlock-Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008455807163310477
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 76465.734637
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0021387632267962056
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 74277.861563
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "anchorlight-baking",
+            "name": "Anchorlight Baking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015559937895845844
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 73623.250699
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "asicbaker",
+            "name": "ASICBAKER",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008456405470159162
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 72326.688255
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tezloom",
+            "name": "TezLoom",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 72304.381707
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008455574402326765
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 72248.968466
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002285228411406241
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 68481.037829
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008456560876525774
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 67560.960781
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002007192247956825
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 66622.934759
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "vf-validierung",
+            "name": "VF Validierung \ud83c\udde9\ud83c\uddea",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001828512703429351
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 64672.697297000006
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0013741444103228017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 61195.25668300001
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "the-bakers-man",
+            "name": "The Bakers Man",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008455947764555092
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 60579.523109
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008456294751085903
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 59204.473335
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0025814657991905018
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 56072.817391
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008455022723318986
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 54816.839729
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0023141629557241515
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 52535.757043
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012682833307370897
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 51483.640803
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.003904318880578412
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 50862.410265
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001475946876540312
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 50382.728305
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 47832.304291
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015775055790592562
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 43901.255205
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "midldev-baker",
+            "name": "MIDL.dev baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0024205296608800944
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 41021.633687
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "bitwick-staking",
+            "name": "Bitwick Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.000845663515024481
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 39353.536208000005
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0025087882423192555
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 38975.184057
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.000845654642097935
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 38837.377213
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0026565147218099716
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 37585.019686
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0025878268204044545
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 37373.461827
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008455580542074721
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 35890.486557000004
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "teztillery",
+            "name": "Teztillery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008456487470209264
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 35331.866683
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012681355994938503
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 33477.875793
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008455668821435456
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 31240.992121
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008454171502232194
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 31088.037557000003
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002989784120680094
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 30420.769928999995
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008455224695874277
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 29149.934159
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0019698514368439272
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 28352.713632
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "ecad-infra",
+            "name": "ECAD-Infra",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0030606611884409717
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 27212.45096
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008454199392593664
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 27067.32474
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "andalucia-tezos",
+            "name": "Andalucia Tezos",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0021492662870019512
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 26208.900117
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002152945707532115
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 25395.515803
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "juddybakesct",
+            "name": "JuddyBakesCT",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0021246131516531276
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 25080.996644
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "baguette",
+            "name": "BAGUETTE",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.003982772151798792
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 24847.900092
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008456301232211265
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 24629.224038
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002168479807460695
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 24411.441917999997
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "dulo-stakery",
+            "name": "Dulo Stakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008455657834812583
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 24088.514672
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008454912068012244
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 24080.889451
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "block-bakery",
+            "name": "Block Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008454647552674017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 23964.110974000003
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012680858523981381
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 23749.940023
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008455508717030772
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 23347.368003
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "proof-of-pastry-bakery",
+            "name": "Proof of Pastry Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008455934065499085
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 22430.196741
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008455420441005112
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 20970.305337
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "121",
+            "name": "121",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012682675256857408
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 20907.44466
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008451250501364841
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 19878.466478000002
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0004226950455665126
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 19747.061477
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.003815895210574975
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 18878.215604
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "fafo-bakery",
+            "name": "FAFO Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 17869.884460999998
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008456724680550147
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 16780.199086
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0028602397294357125
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 16476.040561
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.0004227590241094904
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 16098.049037
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "nordbaker",
+            "name": "NordBaker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008454135411187246
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 15318.788883000001
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "tz1",
+            "name": "tz1",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008455302085578901
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 15197.395637
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.004536180668083934
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 14864.008171
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "baked-out-tezos",
+            "name": "Baked Out Tezos",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.003033596981235812
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 14834.630852
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "the-temple",
+            "name": "The Temple",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0034190138322163634
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13461.963997
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13402.99378
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.00570820805099268
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13294.956512
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.003522908158578727
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12876.153878
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "bakerthegrey",
+            "name": "baker.the.grey",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008454672006195706
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12794.003750999998
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.00042276404166640503
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12689.237932
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "ironone-baker",
+            "name": "IronOne Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0035687786369869292
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12631.246388
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.005064757183069876
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12542.453411
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008454883300667824
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12355.049765
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001267839783679702
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12228.452137
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008453309027140716
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12126.238355
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.00042264744731551325
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11905.054027
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012682925617160314
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11336.955982
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11211.181906
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008453126430664156
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11142.251163
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "home-baker",
+            "name": "Home Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10908.605973000002
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.005044132220253767
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10436.345952
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.0024140570848287866
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9441.030653
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.0029335703044847806
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9005.25024
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008452893816871824
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8842.685604
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008456587544364005
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8290.861816
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008453790215485319
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7788.040285
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012680601977029995
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7627.748535
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7508.776896
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.00042255682031248866
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7496.559195
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008454652670495641
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7471.187415
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012684930031052577
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7411.677096
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008456609467172686
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7052.609087
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0004226230339470006
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6957.797524
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012675564684761754
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6701.159186
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.002877875813622722
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6558.061471
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6532.729917
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008452963335029534
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6514.027461
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6327.500849999999
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008451753465990791
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6193.710869
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008450278922486016
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6157.363176
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012684609740641634
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6131.986788
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.000845272450384769
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6118.273125
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008451765198112565
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6113.51562
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008449379229647742
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6109.923118
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008450133800686583
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6109.198955
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.00084551610421519
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6104.543406
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008455250866112417
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6104.455136
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008454800932549098
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6103.087993
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008453722795766605
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6095.692566
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "stakecrypto",
+            "name": "StakeCrypto",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.000845071967622694
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6090.392378
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 67.43776
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 0.483666
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 0.011165
+          }
+        ]
+      },
+      {
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.453330055721395
+          }
+        ]
+      }
+    ]
+  }
+}

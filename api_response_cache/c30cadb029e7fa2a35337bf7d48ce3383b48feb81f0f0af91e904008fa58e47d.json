@@ -1,0 +1,16 @@
+{
+  "data": {
+    "assets": [
+      {
+        "slug": "staked-ether",
+        "metrics": [
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9381594.65632225,
+            "createdAt": "2026-01-25T12:01:32.412906Z"
+          }
+        ]
+      }
+    ]
+  }
+}
