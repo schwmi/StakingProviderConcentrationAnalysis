@@ -1,0 +1,36 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bifrost-finance",
+            "name": "Bifrost",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 11.043
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 18188485.178394824
+          }
+        ]
+      }
+    ]
+  }
+}

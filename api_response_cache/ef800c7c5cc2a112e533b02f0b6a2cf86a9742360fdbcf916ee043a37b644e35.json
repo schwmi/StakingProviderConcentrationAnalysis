@@ -1,0 +1,36 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "smart-contract",
+          "label": "smart-contract"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stader-labs",
+            "name": "Staderlabs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.474228316212914
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 437455902.10555536
+          }
+        ]
+      }
+    ]
+  }
+}

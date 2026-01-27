@@ -1,0 +1,36 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "hosting",
+          "label": "hosting"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "allnodes",
+            "name": "Allnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.348135970654514
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 118469.56763
+          }
+        ]
+      }
+    ]
+  }
+}

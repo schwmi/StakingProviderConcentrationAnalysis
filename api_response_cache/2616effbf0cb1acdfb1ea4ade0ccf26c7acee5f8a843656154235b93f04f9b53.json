@@ -1,0 +1,84 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "smart-contract",
+          "label": "smart-contract"
+        },
+        "inputAssets": [
+          {
+            "slug": "avalanche",
+            "name": "Avalanche",
+            "symbol": "AVAX"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "definitive",
+            "name": "Definitive",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.83864
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "smart-contract",
+          "label": "smart-contract"
+        },
+        "inputAssets": [
+          {
+            "slug": "avalanche",
+            "name": "Avalanche",
+            "symbol": "AVAX"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "definitive",
+            "name": "Definitive",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.376442173603611
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "smart-contract",
+          "label": "smart-contract"
+        },
+        "inputAssets": [
+          {
+            "slug": "avalanche",
+            "name": "Avalanche",
+            "symbol": "AVAX"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "definitive",
+            "name": "Definitive",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.509235282027562
+          }
+        ]
+      }
+    ]
+  }
+}

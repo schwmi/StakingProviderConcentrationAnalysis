@@ -1,0 +1,36 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "near-protocol",
+            "name": "NEAR Protocol",
+            "symbol": "NEAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "metapool",
+            "name": "Meta Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.12
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 32285398.440465603
+          }
+        ]
+      }
+    ]
+  }
+}

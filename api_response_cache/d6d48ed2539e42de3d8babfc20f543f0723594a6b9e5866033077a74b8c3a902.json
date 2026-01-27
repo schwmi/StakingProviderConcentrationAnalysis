@@ -1,0 +1,36 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "partial-staking",
+          "label": "partial-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "coinbase",
+            "name": "Coinbase",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.842278837337453
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 0.20170413316547028
+          }
+        ]
+      }
+    ]
+  }
+}

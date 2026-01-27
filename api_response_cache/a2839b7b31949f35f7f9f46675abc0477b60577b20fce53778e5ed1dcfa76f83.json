@@ -1,0 +1,1384 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.5000000000000004
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.5000000000000004
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.25
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.5000000000000004
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 7.000000000000001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.5000000000000004
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.25
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.6
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.7000000000000001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.9000000000000004
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.7
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7000000000000002
+          }
+        ]
+      }
+    ]
+  }
+}

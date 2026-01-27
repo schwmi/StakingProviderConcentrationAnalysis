@@ -466,20 +466,19 @@ class StakingRewardsAPIClient:
 
         return self._execute_query(query, use_cache=use_cache)
 
-    def get_provider_stake_shares(self, asset_slug, limit=200, is_active=True, include_reward_rate=True, use_cache=True, type_keys=None):
+    def get_provider_stake_shares(
+        self,
+        asset_slug,
+        limit=200,
+        is_active=True,
+        include_reward_rate=True,
+        use_cache=True,
+        type_keys=None,
+    ):
         """
-        Get provider staked tokens plus share of the asset's total staked tokens.
-
-        Args:
-            asset_slug (str): Asset slug to query (e.g., "solana")
-            limit (int, optional): Maximum number of reward options/providers to return (default: 200)
-            is_active (bool|None, optional): If True/False, providers are filtered client-side on isActive.
-                                             Set to None to skip filtering (default: True).
-            include_reward_rate (bool, optional): Include provider reward_rate metric if available (default: True)
-            use_cache (bool, optional): Whether to use cached responses (default: True)
-            type_keys (list|None, optional): List of staking type keys to filter rewardOptions by.
-                                             Defaults to None (no type filter); pass a list to narrow results.
-
+        Get provider staked tokens plus share of the asset's total staked tokens,
+        extended with reward option type and input asset info.
+    
         Returns:
             dict: {
                 "total_staked_tokens": <float|None>,
@@ -488,9 +487,16 @@ class StakingRewardsAPIClient:
                 "providers": [
                     {
                         "provider": <slug>,
+                        "name": <name>,
+                        "is_active": <bool|None>,
                         "staked_tokens": <float|None>,
                         "share": <float|None>,
-                        "reward_rate": <float|None>
+                        "reward_rate": <float|None>,
+                        "reward_option_type_key": <str|None>,
+                        "reward_option_type_label": <str|None>,
+                        "input_asset_slug": <str|None>,
+                        "input_asset_symbol": <str|None>,
+                        "input_asset_name": <str|None>,
                     }, ...
                 ]
             }
@@ -498,7 +504,7 @@ class StakingRewardsAPIClient:
         metric_keys = ["staked_tokens"]
         if include_reward_rate:
             metric_keys.append("reward_rate")
-
+    
         def fetch_reward_options(type_keys_list):
             type_keys_line = f"typeKeys: {json.dumps(type_keys_list)}" if type_keys_list else ""
             query = f"""
@@ -511,11 +517,25 @@ class StakingRewardsAPIClient:
                 limit: {limit}
                 order: {{ metricKey_desc: "staked_tokens" }}
               ) {{
+                # NEW: reward option type (e.g., solo-staking, liquid-staking, etc.)
+                type {{
+                  key
+                  label
+                }}
+    
+                # NEW: the token being staked for this reward option
+                inputAssets(limit: 1) {{
+                  slug
+                  name
+                  symbol
+                }}
+    
                 providers(limit: 1) {{
                   slug
                   name
                   isActive
                 }}
+    
                 metrics(where: {{ metricKeys: {json.dumps(metric_keys)} }}, limit: 5) {{
                   metricKey
                   defaultValue
@@ -524,7 +544,7 @@ class StakingRewardsAPIClient:
             }}
             """
             return self._execute_query(query, use_cache=use_cache)
-
+    
         # Default: no type filter. Users can pass explicit type_keys to narrow if needed.
         requested_type_keys = [] if type_keys is None else type_keys
         ro_result = fetch_reward_options(requested_type_keys)
@@ -537,14 +557,25 @@ class StakingRewardsAPIClient:
             total = total_resp["data"]["assets"][0]["metrics"][0]["defaultValue"]
         except Exception:
             total = None
-
+    
         providers = []
-
+    
         for ro in reward_options:
             provider_info = (ro.get("providers") or [{}])[0]
             if isinstance(is_active, bool) and provider_info.get("isActive") is not is_active:
                 continue
-
+    
+            # NEW: reward option type
+            ro_type = ro.get("type") or {}
+            ro_type_key = ro_type.get("key")
+            ro_type_label = ro_type.get("label")
+    
+            # NEW: input asset (token being staked for this reward option)
+            input_asset = (ro.get("inputAssets") or [{}])[0] if isinstance(ro.get("inputAssets"), list) else {}
+            input_asset_slug = input_asset.get("slug")
+            input_asset_symbol = input_asset.get("symbol")
+            input_asset_name = input_asset.get("name")
+    
             metrics = ro.get("metrics") or []
             staked = None
             reward_rate = None
@@ -553,25 +584,35 @@ class StakingRewardsAPIClient:
                     staked = m.get("defaultValue")
                 elif m.get("metricKey") == "reward_rate":
                     reward_rate = m.get("defaultValue")
-
+    
             share = None
             if total not in (None, 0) and staked is not None:
                 try:
                     share = staked / total
                 except Exception:
                     share = None
-
+    
             providers.append({
                 "provider": provider_info.get("slug"),
                 "name": provider_info.get("name"),
+                "is_active": provider_info.get("isActive"),
                 "staked_tokens": staked,
                 "reward_rate": reward_rate,
                 "share": share,
+    
+                # NEW FIELDS
+                "reward_option_type_key": ro_type_key,
+                "reward_option_type_label": ro_type_label,
+                "input_asset_slug": input_asset_slug,
+                "input_asset_symbol": input_asset_symbol,
+                "input_asset_name": input_asset_name,
             })
-
-        sum_tracked = sum(
-            p["staked_tokens"] for p in providers if p.get("staked_tokens") not in (None, 0)
-        ) if providers else 0
+    
+        sum_tracked = (
+            sum(p["staked_tokens"] for p in providers if p.get("staked_tokens") not in (None, 0))
+            if providers else 0
+        )
+    
         untracked = None
         untracked_share = None
         if total not in (None, 0):
@@ -586,13 +627,14 @@ class StakingRewardsAPIClient:
             except Exception:
                 untracked = None
                 untracked_share = None
-
+    
         return {
             "total_staked_tokens": total,
             "untracked_staked_tokens": untracked,
             "untracked_share": untracked_share,
             "providers": providers,
         }
+
 
     def get_providers(self, asset_slug, is_verified=True, order_by_metric="assets_under_management", limit=10, metric_keys=None, use_cache=True):
         """

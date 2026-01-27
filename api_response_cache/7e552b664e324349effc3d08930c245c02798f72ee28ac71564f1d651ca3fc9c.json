@@ -1,0 +1,5988 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "coinbase01",
+            "name": "Coinbase01",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 16.30962595780269
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 52511340.97194102
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "upbit-staking",
+            "name": "Upbit Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 18914029.92908099
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kiln",
+            "name": "Kiln",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.708795453719006
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 15349051.825537018
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cosmostation",
+            "name": "Cosmostation",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.346659763267134
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 14960019.809897762
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "everstake",
+            "name": "Everstake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.754272887600585
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11676122.886615708
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "staked",
+            "name": "Staked",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.333603305285877
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11363732.366985064
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "binance-staking",
+            "name": "Binance Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.36331426157517
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9436634.190721998
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dokia-capital",
+            "name": "Dokia Capital",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 17.327167489489376
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8635808.214271909
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ledger",
+            "name": "Ledger",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.84616353429982
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8289409.969767001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "blockdaemon",
+            "name": "Blockdaemon",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.343525457102636
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7238152.977756995
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "allnodes",
+            "name": "Allnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.35731740499709
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6706485.033992
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "sg-1",
+            "name": "SG-1",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.35389187188708
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6397045.409336
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "p2p-validator",
+            "name": "P2P.org",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.751729019974665
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6086385.485687825
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "chorus-one",
+            "name": "Chorus One",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.845774786826315
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5817132.833063827
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cloudbyte",
+            "name": "CloudByte",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.36502077259856
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5637388.004262995
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "figment-networks",
+            "name": "Figment",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.51496476580001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5484793.366493767
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stake-fish",
+            "name": "stakefish",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.364273148525523
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4980955.056774854
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cephalopod-equipment",
+            "name": "Cephalopod Equipment",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.358307750517326
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4245443.294251005
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nansen",
+            "name": "Nansen",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.340894049988215
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3928182.813527373
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ccn",
+            "name": "CCN",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.018852819163268
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3436228.9206029703
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "keplr",
+            "name": "Keplr",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.351442358137323
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3310975.3724630005
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "melea",
+            "name": "melea",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.018339280397015
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3249496.937373989
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "sikka",
+            "name": "Sikka",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.353803188906067
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3158512.232762499
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "okex-pool",
+            "name": "OKEx Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.34963035140342
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2942843.1945619965
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "imperator",
+            "name": "Imperator",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.36421438523042
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2625809.720307707
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "provalidator",
+            "name": "Provalidator",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.358559515524075
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2602993.692266996
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "swiss-staking",
+            "name": "Swiss Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.347271610480938
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2347090.424351985
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "posthuman-dvs",
+            "name": "POSTHUMAN | StakeDrop",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.362584835099213
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2172766.958770046
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "boubounode",
+            "name": "BouBouNode",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.3697922275879444
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2124701.2352469848
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "pro-delegators",
+            "name": "PRO Delegators",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.364537196022386
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1953648.1311460221
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "coinone-node",
+            "name": "Coinone Node",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.302743581699147
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1907568.1626219826
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakecito",
+            "name": "Stakecito",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.361990406921958
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1768666.5576349911
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "iqlusion",
+            "name": "Iqlusion",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.279140549804605
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1680733.8101020656
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "citadel",
+            "name": "Citadel.one",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.355939102171966
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1628521.9036069876
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "meria",
+            "name": "Meria",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.293764370880716
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1567731.1707050046
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nodestake",
+            "name": "NodeStake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.362101919568424
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1506422.5847790104
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "polkachucom",
+            "name": "POLKACHU",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.363060137507283
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1492014.918554032
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "spark-pool",
+            "name": "Spark Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.28988631828301
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1355853.8522109974
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "pryzm-stakedrop",
+            "name": "PRYZM",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 16.30739131118764
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1310481.405804079
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakelab",
+            "name": "StakeLab",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.312758033766485
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1300904.7160110052
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "lavenderfive-nodes",
+            "name": "Lavender.Five Nodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.36595850652943
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1114941.1657820132
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakely",
+            "name": "Stakely",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.36628194939713
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1012549.8518039924
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kahuna",
+            "name": "Kahuna",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.35637896051727
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1009074.9607120007
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "high-stakes-switzerland",
+            "name": "High Stakes Switzerland",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.367036285355333
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 985987.1907079335
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "twinstake",
+            "name": "twinstake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.752805448592134
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 965720.7221329812
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "blockhunters",
+            "name": "BlockHunters \ud83c\udfaf",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.336080808423553
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 957696.5136759848
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "enigma",
+            "name": "Enigma",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.367216455556477
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 909319.064372999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "coinbase-custody",
+            "name": "Coinbase Custody",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 16.304477123481
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 901208.1052300009
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cexio",
+            "name": "CEX.IO \u2764\ufe0f\ud83c\uddfa\ud83c\udde6",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.365180787222062
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 836774.2405409984
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ubik-capital",
+            "name": "Ubik Capital",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.354424576702662
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 835304.3642089838
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "thecybernetics",
+            "name": "The_Cybernetics",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.365060564083695
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 834284.8332949992
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dkcmc",
+            "name": "DKCMC",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.365511355544495
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 800445.6930440002
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "shapeshift-dao",
+            "name": "ShapeShift DAO",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.333112616712395
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 773498.6273989943
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "atomicnodes",
+            "name": "Atomic Nodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.32046789290597
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 753941.5342249871
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "leap-wallet",
+            "name": "Leap Wallet",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.35636425018104
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 706725.7565470029
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "coinbase-new",
+            "name": "Coinbase (new)",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.750226422801898
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 687048.3145670001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "simply-staking",
+            "name": "Simply Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.31173283130954
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 677008.8307860001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "0base-vc",
+            "name": "0base.vc",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.34472665592134
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 667768.9843219935
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.36552009770889
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 643888.611884988
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cosmosrescue",
+            "name": "cosmosrescue",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.31384824091106
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 618933.0529349967
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "interstellar-lounge",
+            "name": "Interstellar Lounge \ud83e\udd43 \ud83c\udf78 \ud83c\udf79",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.31694168271014
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 615395.9399190024
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "eco-stake",
+            "name": "ECO Stake \ud83c\udf31",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.365639040189357
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 605565.1659509984
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cryptocrew-validators",
+            "name": "CryptoCrew Validators",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.36281688511751
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 585965.4730419936
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bunkerstakeio",
+            "name": "\ud83d\udee1\ufe0fBunkerstake.io",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.345600437257215
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 572803.5715620035
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "node-guardians",
+            "name": "Node Guardians",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.364731336247306
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 550958.7532750001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stake-zone",
+            "name": "stake.zone",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.275012641246178
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 547764.6962400047
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "quasar",
+            "name": "Quasar",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.347282622297623
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 544323.3834159999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "forbole",
+            "name": "Forbole",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.41070728363647
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 541623.5555990054
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "golden-ratio-staking",
+            "name": "Golden Ratio Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.366175004471252
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 536204.2838280038
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "binary-builders",
+            "name": "Binary Builders",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.355881803548964
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 527343.0872990042
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakin",
+            "name": "Stakin by The Tie",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.35873947051613
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 520707.2412830037
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "croutondigital",
+            "name": "CroutonDigital",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.36541938633259
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 506087.8533329992
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "mantra-dao",
+            "name": "MANTRA",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.30545323607398
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 501609.1790809995
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "colossus",
+            "name": "Colossus",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.321736048070836
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 494638.95847700187
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "jerrys-pool",
+            "name": "Jerry's Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.366483392305977
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 491284.8674930052
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cryptostakecom",
+            "name": "CryptoStake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.35564030625398
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 441202.65884700575
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "infstones",
+            "name": "InfStones",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.236971755021592
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 434642.39179000346
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "moonletwallet",
+            "name": "MoonletWallet",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.367120192864316
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 408628.7527060016
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "01node",
+            "name": "01node",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.363613780170233
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 401757.0396750064
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "biglazycatcom",
+            "name": "\ud83d\udc31biglazycat.com",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.34473497831761
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 399361.78927699995
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "westaking",
+            "name": "WeStaking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.069283485961932
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 367738.73220800376
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "node101",
+            "name": "node101",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.36135484135896
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 365410.5860179997
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "decentralizehk",
+            "name": "decentralizehk",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.23808641926272
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 355373.6003230055
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stir",
+            "name": "Stir",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.245895737547112
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 346328.08507200127
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "witval",
+            "name": "witval",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.353034295589712
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 334486.55860600196
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "silk-nodes",
+            "name": "Silk Nodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.3480690356678
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 326679.06934700196
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.35204649542684
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 323086.60529900395
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "zero-commission-validator",
+            "name": "zero_commission_validator",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 10.192468063769175
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 322121.29320500034
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "citizen-cosmos",
+            "name": "Citizen Cosmos",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.314449589021397
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 320908.5374490034
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cosmic-validator",
+            "name": "Cosmic Validator",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.33649771246442
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 313058.3194360034
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "gata-hub",
+            "name": "GATA HUB",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.27392451379988
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 312075.3929050001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "republic-crypto",
+            "name": "Republic Crypto",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.3558029144754
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 308206.7855570051
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "voidstake",
+            "name": "VoidStake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.364623819912516
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 303664.11252699996
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakewolle",
+            "name": "Stakewolle",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.185571016076963
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 301063.48812500446
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cros-nest",
+            "name": "Crosnest",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.367522021261916
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 299680.80780200264
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "whispernode",
+            "name": "WhisperNode",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.4047402882602618
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 295352.5717749986
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "blockpower",
+            "name": "Blockpower",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.35220848825669
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 275372.84452100314
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "frens",
+            "name": "Frens",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 271494.3212189982
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "blocks-united",
+            "name": "Blocks United",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.357835427993383
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 266657.51222200086
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "zkvalidator",
+            "name": "ZKValidator",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.35321523750791
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 265277.96926800284
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakesystems",
+            "name": "stake.systems",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.365324432645796
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 261130.65937900345
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kalpatech",
+            "name": "KalpaTech",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.346391215290257
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 257119.02191100185
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "oni",
+            "name": "Oni \u26e9\ufe0f",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.33260394381785
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 254390.40856700463
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "sygnum",
+            "name": "Sygnum",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.34406561487014
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 253932.71816300479
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "irisnet-bianjie",
+            "name": "IRISnet-Bianjie",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.490177212622836
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 238317.53746600344
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakerelax",
+            "name": "Stake&Relax \ud83e\udda5",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.365564837457345
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 224760.2133590022
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "chill-validation",
+            "name": "Chill Validation",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.33060146314941
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 224254.8573720011
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "multichain-ventures",
+            "name": "MultiChain Ventures",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.18467611968912
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 222484.29728600604
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "mailanderli",
+            "name": "mailanderli",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.345713219040782
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 222034.18609500164
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "jabbey",
+            "name": "jabbey",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.347923647715376
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 217257.08746700073
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cosmos-spaces",
+            "name": "Cosmos Spaces",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.346953890464363
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 216064.12494600264
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "w3coins",
+            "name": "w3coins",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.364315570034687
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 209033.14716500163
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "huginn",
+            "name": "Huginn",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.35602682553652
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 202076.42641999986
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tienthuattoan",
+            "name": "TTT",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.340808460436936
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 200592.1002729536
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ethicalnode",
+            "name": "EthicalNode",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.306620029248947
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 197789.1060029999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "skystar-capital",
+            "name": "S16 Research Ventures",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.336617293428105
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 197047.16858300258
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dsrv",
+            "name": "DSRV",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.32288847296248
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 190508.80317700276
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "mitera-net",
+            "name": "Mitera.net",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.33710024916419
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 187625.90882500223
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "chiter-in-cosmos",
+            "name": "chiter-in-cosmos",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.330624750615442
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 176797.321499
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "freak12techno",
+            "name": "freak12techno",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.33134583367825
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 175933.24430500247
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "commons-hub",
+            "name": "Commons Hub",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 173360.9680260007
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "easy-2-stake",
+            "name": "Easy 2 Stake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.364565686536928
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 170097.60399400277
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "onbloc-node",
+            "name": "Onbloc Node",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.313593204841183
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 166776.39810600164
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "xprv",
+            "name": "XPRV",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.32443713028245
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 164664.072434
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "defi-wallet",
+            "name": "DeFi Wallet",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.94368980777083
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 163531.97615400143
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tessellated-geometry",
+            "name": "Tessellated Geometry",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.224910184517704
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 162473.93266000133
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "alessandro-mazza",
+            "name": "Alessandro Mazza",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.329773842886812
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 152375.97764800003
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "neopin",
+            "name": "NEOPIN",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.350950610496497
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 151254.07242700402
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ezstakingio",
+            "name": "EZStaking.io",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.30995120125939
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 146343.90551700027
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kintsugi-nodes",
+            "name": "Kintsugi Nodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.345780673124022
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 145603.36106200304
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cosmosvaloper146kwpzhmleafmhtaxulfptyhnvwxzlvm87hwnm",
+            "name": "\ud83c\udf10 KysenPool Sky \u2601\ufe0f ",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.32382616217424
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 143744.89476800087
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "terranodes",
+            "name": "Terranodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.351704026407823
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 143304.05593499992
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "hashquark",
+            "name": "HashKey Cloud",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.342286873015517
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 142642.3917689999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakeflow",
+            "name": "Stakeflow",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.95658865540945
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 136545.97542400152
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dragonstake",
+            "name": "DragonStake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.542445250862126
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 135328.0737300005
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kjnodes",
+            "name": "kjnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.336474515458484
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 133159.059997
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cryptodungeon",
+            "name": "CryptoDungeon",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.355685995703716
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 127482.3874689999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cypher-core",
+            "name": "Cypher Core",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.31986487588608
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 124363.74649999963
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "coinbase-cloud",
+            "name": "Coinbase Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.733534508154484
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 121533.65341900013
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "compass",
+            "name": "Compass",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.329158583843356
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 120032.13639099963
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "atlas-staking-validator",
+            "name": "Atlas-Staking-Validator",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 16.65270975206705
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 119293.34228200003
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cosmos-af",
+            "name": "cosmos Af",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.34412193953107
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 118469.56762999995
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "big-brain-staking",
+            "name": "Big Brain Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.330528343027535
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 103139.50375299995
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nylira-net",
+            "name": "nylira.net",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.289623959461778
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 93175.78768700056
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "crowdcontrol",
+            "name": "CrowdControl",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.348206130655075
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 92644.32769099945
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "smartnodes",
+            "name": "SmartNodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.068898634396618
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 91548.6093220001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ztake",
+            "name": "ZTAKE",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.9598818316554
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 80854.03735199959
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "chainflow",
+            "name": "Chainflow",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.748335616148793
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 77283.15152800025
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "blockscape",
+            "name": "Blockscape",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.363657621162034
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 73715.81640199912
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ping-pub",
+            "name": "Ping.pub",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.29766762889821
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 67094.63173299869
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "replicator-network",
+            "name": "\ud83d\udc7ereplicator.network",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 61169.97283799993
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "daic",
+            "name": "Coinage x DAIC",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.359163946437985
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 58559.546562999276
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "xilodyne",
+            "name": "Xilodyne",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.14213350479736
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 56914.541636
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dforce",
+            "name": "dForce",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.157224885737552
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 56266.98619299958
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "white-whale",
+            "name": "White Whale",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.901397639178334
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 54857.002611000025
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "umbrella",
+            "name": "Umbrella Validator\u2614",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.314881567624404
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 50985.69490999931
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cosmosvaloper1rcp29q3hpd246n6qak7jluqep4v006cdsc2kkl",
+            "name": "2nd only to Certus One in GoS: in3s.com",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 49695.632803999935
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cosmicnode",
+            "name": "CosmicNode",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.358733092065407
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 48475.71864399999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "huobi",
+            "name": "Huobi",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.81114965495943
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 46131.898426999905
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "expedition-by-life-and-crypto",
+            "name": "Expedition | by Life and Crypto",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.339775026549592
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 45257.65698399996
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "syncnode",
+            "name": "syncnode",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.357773481134473
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 34598.672613000235
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "emoneyvaloper1qk3a2lpm5mskwnpsjm25qzs9urqhwclmmqsdva",
+            "name": "Bit Cat\ud83d\udc31",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.1993245502010903
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 32545.359563999995
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "chainlayer",
+            "name": "ChainLayer",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.33040836070191
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 32368.585003000564
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "synclub",
+            "name": "Synclub",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.36386948325012
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 29859.06074100015
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "lunamint",
+            "name": "lunamint",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 17.312793052599297
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 29367.447250000925
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "owallet",
+            "name": "OWALLET",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.354207622829954
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 26760.985388000005
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "commercio-network",
+            "name": "commercio.network",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.549810677112955
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 25995.998077000666
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "staking-fund",
+            "name": "Staking Fund",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.342567663646353
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 18997.70146000068
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "inter-blockchain-services",
+            "name": "Inter Blockchain Services",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.354557101772787
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 15693.089009000001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "snow-fall",
+            "name": "Snow Fall",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.347616332003494
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11997.671676
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ateam",
+            "name": "ATEAM",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11255.78172899979
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nexusecurus",
+            "name": "NexuSecurus",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.234274941270677
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11195.766281
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "astrovault",
+            "name": "Astrovault",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.671953909966433
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4677.815881
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "apeiron-nodes",
+            "name": "Apeiron Nodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3703.1848559999994
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "delight",
+            "name": "DELIGHT",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.327325400604927
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3420.5979649999995
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "navs",
+            "name": "navs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.358139152611873
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3305.1
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "chaintools",
+            "name": "ChainTools",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.367713550455672
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3298
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "when-moon-when-lambo-restake",
+            "name": "\ud83d\ude80 WHEN MOON \ud83c\udf15 WHEN LAMBO \ud83d\udd25 RESTAKE \u2705",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.36571992638081
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3292.2857129999998
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "the-chicken-coop",
+            "name": "The Chicken Coop",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.181553518805732
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3088.707399
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "itrocket",
+            "name": "ITRocket",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.36778601634389
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2235.393199
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.29652306199585
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1118.198888
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "positiva-ultra",
+            "name": "POSITIVA Ultra",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.3677275337758
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1085.598013
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "sr20de",
+            "name": "Sr20de",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.04866640549054
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 669.416037
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nodeasy",
+            "name": "Nodeasy",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 571.4582469999997
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "solidaritynode",
+            "name": "SolidarityNode",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.12500610679089
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 354.325676
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cactus",
+            "name": "Cactus",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 353.606373
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "the-silver-fox",
+            "name": "\ud83e\udd8a The Silver Fox",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.367811759765196
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 341.754325
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "csaxial",
+            "name": "CS_Axial",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.27722411108073
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 304.5370920000001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "titan-validator",
+            "name": "TITAN Validator",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.367811759765196
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 153.097499
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "validarios",
+            "name": "VALIDARIOS",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.363486538048996
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 145.735823
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "luckystar",
+            "name": "LuckyStar",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.348453246093346
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 127.288083
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "gelotto-slash-protected",
+            "name": "Gelotto \ud83d\udee1 Slash Protected",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 9.784833050967444
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 115.055115
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "post-road",
+            "name": "Post Road",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 9.239102732594825
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 110.51744899999987
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "shazoes",
+            "name": "Shazoes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.367811759765196
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 102
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "decomissionned",
+            "name": "decomissionned",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.367811759765196
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 98.836364
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nodeshub",
+            "name": "NodesHub",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.367811759765196
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 98.61474799999999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "mythos-capital",
+            "name": "Mythos Capital",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 7.875200234902654
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 66.12341800000002
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cumulo",
+            "name": "Cumulo",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 19.367811759765196
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 61.892489
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "hulk",
+            "name": "hulk",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.348453246093346
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 50
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nomicone",
+            "name": "\ud83d\ude80 NOMIC.ONE \ud83c\udfde",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.904184746094705
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 49.324359
+          }
+        ]
+      }
+    ]
+  }
+}

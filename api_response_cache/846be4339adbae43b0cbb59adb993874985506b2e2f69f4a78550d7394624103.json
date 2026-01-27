@@ -1,0 +1,36 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "hosting",
+          "label": "hosting"
+        },
+        "inputAssets": [
+          {
+            "slug": "avalanche",
+            "name": "Avalanche",
+            "symbol": "AVAX"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "allnodes",
+            "name": "Allnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.72176377074155
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 17887903.97411705
+          }
+        ]
+      }
+    ]
+  }
+}

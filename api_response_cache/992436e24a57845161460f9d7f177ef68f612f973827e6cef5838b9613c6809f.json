@@ -1,0 +1,26 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "solo-staking",
+          "label": "solo-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.801325027305879
+          }
+        ]
+      }
+    ]
+  }
+}

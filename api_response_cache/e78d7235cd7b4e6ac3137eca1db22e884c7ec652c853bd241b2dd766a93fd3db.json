@@ -1,0 +1,26 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "solo-staking",
+          "label": "solo-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "fetch-ai",
+            "name": "Fetch.ai",
+            "symbol": "FET"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.475901114597666
+          }
+        ]
+      }
+    ]
+  }
+}

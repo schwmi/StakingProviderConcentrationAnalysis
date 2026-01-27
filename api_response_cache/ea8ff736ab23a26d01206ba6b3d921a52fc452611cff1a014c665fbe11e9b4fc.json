@@ -1,0 +1,136 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "near-protocol",
+            "name": "NEAR Protocol",
+            "symbol": "NEAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 7.6
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "near-protocol",
+            "name": "NEAR Protocol",
+            "symbol": "NEAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "near-protocol",
+            "name": "NEAR Protocol",
+            "symbol": "NEAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.2
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "near-protocol",
+            "name": "NEAR Protocol",
+            "symbol": "NEAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "near-protocol",
+            "name": "NEAR Protocol",
+            "symbol": "NEAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          }
+        ]
+      }
+    ]
+  }
+}

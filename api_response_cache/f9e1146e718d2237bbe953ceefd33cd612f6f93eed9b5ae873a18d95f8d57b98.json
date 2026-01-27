@@ -1,0 +1,66 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "drop",
+            "name": "Drop",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 14.738531195861555
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4386517.765382073
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stride",
+            "name": "Stride",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 15.144204763771896
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3724918.1437012674
+          }
+        ]
+      }
+    ]
+  }
+}

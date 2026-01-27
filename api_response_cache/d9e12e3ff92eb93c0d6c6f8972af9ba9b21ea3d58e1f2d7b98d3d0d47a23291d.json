@@ -1,0 +1,657 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "chorus-one",
+            "name": "Chorus One",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "p2p-validator",
+            "name": "P2P.org",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "iqlusion",
+            "name": "Iqlusion",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "01node",
+            "name": "01node",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "everstake",
+            "name": "Everstake",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakin",
+            "name": "Stakin by The Tie",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cosmostation",
+            "name": "Cosmostation",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "sg-1",
+            "name": "SG-1",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "swiss-staking",
+            "name": "Swiss Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "simply-staking",
+            "name": "Simply Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "0base-vc",
+            "name": "0base.vc",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "provalidator",
+            "name": "Provalidator",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakecito",
+            "name": "Stakecito",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakely",
+            "name": "Stakely",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakelab",
+            "name": "StakeLab",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "imperator",
+            "name": "Imperator",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "high-stakes-switzerland",
+            "name": "High Stakes Switzerland",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "posthuman-dvs",
+            "name": "POSTHUMAN | StakeDrop",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "lavenderfive-nodes",
+            "name": "Lavender.Five Nodes",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "blockapsis",
+            "name": "Blockapsis",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "binary-builders",
+            "name": "Binary Builders",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "polkachucom",
+            "name": "POLKACHU",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nodestake",
+            "name": "NodeStake",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "golden-ratio-staking",
+            "name": "Golden Ratio Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "enigma",
+            "name": "Enigma",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "pryzm-stakedrop",
+            "name": "PRYZM",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "pro-delegators",
+            "name": "PRO Delegators",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "meria",
+            "name": "Meria",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kahuna",
+            "name": "Kahuna",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "citadel",
+            "name": "Citadel.one",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      },
+      {
+        "type": {
+          "key": "operator",
+          "label": "operator"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "keplr",
+            "name": "Keplr",
+            "isActive": true
+          }
+        ],
+        "metrics": null
+      }
+    ]
+  }
+}

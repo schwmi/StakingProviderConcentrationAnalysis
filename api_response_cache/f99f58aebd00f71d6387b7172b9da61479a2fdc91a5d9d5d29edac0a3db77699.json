@@ -1,0 +1,966 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wipro",
+            "name": "Wipro",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.499914346849031
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "oogle",
+            "name": "oogle",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.4999039990712486
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ain-group",
+            "name": "ain Group",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.4999132007015277
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "magalu",
+            "name": "Magalu",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.499911445717884
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "la-piper",
+            "name": "LA Piper",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.499885
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bm",
+            "name": "BM",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.4999130886266876
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ustralian-payments-plus",
+            "name": "ustralian Payments Plus",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.499912734639411
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "df",
+            "name": "DF",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.501383035593536
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "shinhan-bank",
+            "name": "Shinhan Bank",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.4999200942213697
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "hainlink-labs",
+            "name": "hainlink Labs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5013818069865676
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "hitachi",
+            "name": "Hitachi",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.499908252022029
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "airobi-securities-exchange",
+            "name": "airobi Securities Exchange",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5013685995252977
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "lockchain-for-energy",
+            "name": "lockchain for Energy",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5469692413733807
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "g",
+            "name": "G",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.4999316828384144
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "eutsche-telekom",
+            "name": "eutsche Telekom",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.4999026830976745
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "epsol",
+            "name": "epsol",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.4998856782475105
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirlds",
+            "name": "wirlds",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.501374888078877
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 450000000.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "rrow-electronics",
+            "name": "rrow Electronics",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5014047244550452
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 448917943.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "servicenow",
+            "name": "ServiceNow",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.4999073037477957
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 448585026.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "mondelz-international",
+            "name": "Mondel\u0113z International",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.4998963007297585
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 448456672.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bitgo",
+            "name": "BitGo",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.499913490398372
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 447707322.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "avery-dennison",
+            "name": "Avery Dennison",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.499918631755613
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 443806164.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "brdn",
+            "name": "brdn",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.501447823650816
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 436682468.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dell",
+            "name": "Dell",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.4999124205240237
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 432544297.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "standard-bank",
+            "name": "Standard Bank",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.4999217274450363
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 431605092.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dentons",
+            "name": "Dentons",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.499946018331426
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 430248023.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "omura",
+            "name": "omura",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.4999133813836467
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 429252961.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ofra-holding",
+            "name": "OFRA Holding",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.501406838327044
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 420625719.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ubisoft",
+            "name": "Ubisoft",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.4999056287030395
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 417035260.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "se",
+            "name": "SE",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5014109010974437
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 380990698.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tata-communications",
+            "name": "Tata Communications",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5013722547160273
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 377395640.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "hedera-hashgraph",
+            "name": "Hedera",
+            "symbol": "HBAR"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "iit-madras",
+            "name": "IIT Madras",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.499924554893896
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 312875728.0
+          }
+        ]
+      }
+    ]
+  }
+}

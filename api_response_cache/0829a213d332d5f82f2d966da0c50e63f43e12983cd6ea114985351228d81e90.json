@@ -1,0 +1,26 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "solo-staking",
+          "label": "solo-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "cosmos",
+            "name": "Cosmos Hub",
+            "symbol": "ATOM"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 20.38717027343705
+          }
+        ]
+      }
+    ]
+  }
+}

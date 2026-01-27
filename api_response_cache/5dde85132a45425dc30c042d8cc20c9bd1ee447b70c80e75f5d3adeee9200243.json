@@ -1,0 +1,578 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "polkadot",
+            "name": "Polkadot",
+            "symbol": "DOT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "wirex",
+            "name": "Wirex",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          }
+        ]
+      }
+    ]
+  }
+}

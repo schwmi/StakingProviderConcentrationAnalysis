@@ -1,0 +1,36 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "hosting",
+          "label": "hosting"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "allnodes",
+            "name": "Allnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.71130577531796
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 51255236.2393163
+          }
+        ]
+      }
+    ]
+  }
+}

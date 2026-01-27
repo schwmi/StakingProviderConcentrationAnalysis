@@ -1,0 +1,36 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "hosting",
+          "label": "hosting"
+        },
+        "inputAssets": [
+          {
+            "slug": "tron",
+            "name": "Tron",
+            "symbol": "TRX"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "allnodes",
+            "name": "Allnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.255166585905912
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 0
+          }
+        ]
+      }
+    ]
+  }
+}

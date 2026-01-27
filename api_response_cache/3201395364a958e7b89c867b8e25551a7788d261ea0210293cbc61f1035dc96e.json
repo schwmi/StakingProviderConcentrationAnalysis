@@ -1,0 +1,3756 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "mysten-1",
+            "name": "Mysten-1",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.832312743718326
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 210587884.02101815
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "mysten-2",
+            "name": "Mysten-2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.8368428658563423
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 173235665.68674633
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "galaxydigital",
+            "name": "Galaxy Digital",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.776080139505011
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 162445586.1015372
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "luganodes",
+            "name": "Luganodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6804956319088842
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 150339345.66948426
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "aftermath-finance",
+            "name": "Aftermath Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7941975037301623
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 146942720.40376678
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "coinbase-cloud",
+            "name": "Coinbase Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6816451003372237
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 141767718.48529804
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dsrv",
+            "name": "DSRV",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7946856711526973
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 135514399.85081556
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "figment-networks",
+            "name": "Figment",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.687050246955367
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 128683134.96993597
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "blockscopenet",
+            "name": " Blockscope.net",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7970484353719365
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 126640561.55072197
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "suilend",
+            "name": "Suilend",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7369055106430646
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 126627950.51894769
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bartestnet",
+            "name": "BartestneT",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7943294118937188
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 123250696.94357747
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "overclock",
+            "name": "Overclock",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.793100775284441
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 120423473.18704593
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "chainode-tech",
+            "name": "Chainode Tech",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.796917207217029
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 119940390.7593097
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "republic-crypto",
+            "name": "Republic Crypto",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6832377681894013
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 117570451.30661106
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "durian",
+            "name": "Durian",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6835790292666262
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 116336776.43056883
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "persimmon",
+            "name": "Persimmon",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6836027407482062
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 116335051.92275566
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "chorus-one",
+            "name": "Chorus One",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6828143147836774
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 111927520.7555711
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "blockdaemon",
+            "name": "Blockdaemon",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.722467184532095
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 111855217.56967926
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "staketab",
+            "name": "Staketab",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.646890374451361
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 110925404.00407661
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "n1stake",
+            "name": "n1stake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7959143716261363
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 110416849.88351244
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "blockvision",
+            "name": "BlockVision",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6458122826659993
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 108979095.36350606
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "triton-one",
+            "name": "Triton One",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.794475368803295
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 104517170.02037506
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "mrgn",
+            "name": "mrgn",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.8171001055571554
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 104186536.07735988
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "p2p-validator",
+            "name": "P2P.org",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7226901133032804
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 92429347.27958968
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "staked",
+            "name": "Staked",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7315400626243274
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 91693971.86526088
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "anchorage-digital",
+            "name": "Anchorage Digital",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7538911447690595
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 89560441.71471101
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "moonlet",
+            "name": "Moonlet",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.776585403505054
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 87311826.89719348
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "staking-defense-league",
+            "name": "Staking Defense League",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7789571856610695
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 86114860.52332583
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kiliglab",
+            "name": "KiligLab",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7786023143791154
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 83863696.2826034
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "contributiondao",
+            "name": "ContributionDAO",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7796685451384842
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 83055263.71590996
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kiln",
+            "name": "Kiln",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.713109011481347
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 82304992.4494088
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bware-labs",
+            "name": "Bware Labs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7779479583148419
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 80839661.79512736
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "artifact",
+            "name": "Artifact",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7783431871407844
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 80602510.42310178
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nodeinfra-decenter",
+            "name": "Nodeinfra",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7795966753384567
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 79681043.33837064
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stardust-staking",
+            "name": "Stardust Staking and Solutions",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7799733132818671
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 79386185.15979448
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tpt",
+            "name": "TPT",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7787476220818874
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 78352921.22379744
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "pops-team-validator",
+            "name": "P-OPS Team",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7791286311684968
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 76836433.1974578
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "trustedpoint",
+            "name": "TrustedPoint",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.77785445413048
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 76308059.15478837
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "everstake",
+            "name": "Everstake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6887099225710085
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 75235342.74848844
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "onbuff",
+            "name": "ONBUFF",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7807654619345532
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 74539282.12889905
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "daic",
+            "name": "Coinage x DAIC",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7787756431509132
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 73866099.4773959
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "anodes",
+            "name": "ANodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7801386599329696
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 72965215.91799203
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cosmostation",
+            "name": "Cosmostation",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7953879872885294
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 70290767.90547495
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "chainflow",
+            "name": "Chainflow",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7821318095458238
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 69603260.0576417
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ankr-labs",
+            "name": "Ankr Labs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.8651093608204339
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 69602858.18893595
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "heeboo",
+            "name": "HEEBOO",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6314610596186263
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 66874760.933051184
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "01node",
+            "name": "01node",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.784957770883552
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 65925564.177508056
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "swyke",
+            "name": "Swyke",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7584503359443313
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 65743106.53682675
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakingcabin",
+            "name": "StakingCabin",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7631853160156616
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 65545747.542598255
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "laine",
+            "name": "Laine",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.782252543589596
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 64050412.1408828
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "okxearn",
+            "name": "OKXEarn",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.916957156463673
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 63133846.035105705
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "staking-facilities",
+            "name": "Staking Facilities",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7619066962180265
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 62611643.91509405
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "citadel",
+            "name": "Citadel.one",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.762853950893297
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 62398450.84359266
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakin",
+            "name": "Stakin by The Tie",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7763626491667035
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 62059796.06320671
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "haedal-protocol",
+            "name": "Haedal Protocol",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.8780414347308823
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 59400326.96667665
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "hashedpotatoes",
+            "name": "HashedPotatoes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.79805271350948
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 56328816.44026113
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "orbr",
+            "name": "ORBR",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.844128705390719
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 56220886.10419594
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ahoy-validator",
+            "name": "Ahoy Validator",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7855854677845457
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 55625001.0781307
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "navi-protocol",
+            "name": "NAVI Protocol",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7392304519595576
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 55055429.08443837
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "studio-mirai",
+            "name": "Studio Mirai",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.719862651618859
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 51544728.300830424
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "h2o-nodes",
+            "name": "H2O Nodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7058895640618563
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 50235577.82809832
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "alphafi",
+            "name": "AlphaFi",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7442621238009763
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 48293532.68234448
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "shinlabs",
+            "name": "Shinlabs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7171941059593834
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 44623471.83572633
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "allnodes",
+            "name": "Allnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7802098548240508
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 44416722.72358548
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cetus",
+            "name": "Cetus",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7189598473858096
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 44382183.20284762
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kuna-labs",
+            "name": "Kuna Labs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7001374430101068
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 42285546.74493041
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nelrann",
+            "name": "Nelrann",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7011957561518063
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 41047015.27874242
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nansen",
+            "name": "Nansen",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6610106128862985
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 39451210.34575461
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nodes-guru",
+            "name": "Nodes.Guru",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7028257531584285
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 38380618.928465895
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "astro-stakers",
+            "name": "Astro Stakers",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6923961719963596
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 38161442.452997975
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "imperator",
+            "name": "Imperator",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907524651035386
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 38114831.76325361
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "proofgroup",
+            "name": "proofgroup",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7092806160374105
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 37996982.86812239
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "synergynodes",
+            "name": "SynergyNodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.701175383830816
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 37764415.56302819
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "syncnode",
+            "name": "syncnode",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6937877733081106
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 35651407.39668795
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "interest-labs",
+            "name": "Interest Labs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.704477297789535
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 35430013.75219741
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "suiet",
+            "name": "Suiet",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6687607435768934
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 35257342.141085126
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "gaucho",
+            "name": "Gaucho",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.704838880263188
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 34693893.703400955
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "chainbase",
+            "name": "Chainbase",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7060717151031184
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 33889566.34506823
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ledger-by-p2porg",
+            "name": "Ledger by P2P.ORG",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6507260473897958
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 33759736.57827182
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ika",
+            "name": "Ika",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6915780192153067
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 33396805.500700142
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "sentio",
+            "name": "Sentio",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.692961345896047
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 32635475.031987857
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "karrier-one",
+            "name": "Karrier One",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6690713995293414
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 32378557.529936522
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tradeport",
+            "name": "TradePort",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6646070617059412
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 31501815.358883236
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakely",
+            "name": "Stakely",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7030226462731126
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 31273580.515723977
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "surf",
+            "name": "Surf",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6976473797555907
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 31031728.89355427
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bluefin",
+            "name": "Bluefin",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7038168090049512
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 30918529.847280424
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bucket-protocol",
+            "name": "Bucket Protocol",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6817940688584503
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 30558326.510297053
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "asymmetric-research",
+            "name": "asymmetric-research",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7591703871009592
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 30178670.607839912
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "encapsulate",
+            "name": "Encapsulate",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.678258307461166
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 29905669.88797104
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "hinode-technologies",
+            "name": "Hinode Technologies",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.688168574409208
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 29654260.90751224
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "juicy-stake",
+            "name": "Juicy Stake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.680584767188066
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 29173135.329093333
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "quantnode",
+            "name": "quantnode",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.677624376258906
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 29128159.017831586
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "blrd",
+            "name": "BLRD",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6779480629030452
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 29122600.364841063
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tdmtech",
+            "name": "TDMTech",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7244534950346286
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 28933702.755627602
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ibrizai",
+            "name": "iBriz.ai",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6884132825342995
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 28917278.203132898
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "latitudesh",
+            "name": "Latitude.sh",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6964042337005756
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 28023992.266349383
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "forbole",
+            "name": "Forbole",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.674269934050995
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 27650707.142390084
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "xprv",
+            "name": "XPRV",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6839099625869647
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 27467403.608113673
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "giverep",
+            "name": "GiveRep",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.697156014484719
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 27253976.375449535
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "brightlystake",
+            "name": "Brightlystake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.701113038030282
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 27250329.047260538
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "b-harvest",
+            "name": "B-Harvest",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.726283491504465
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 27155561.22773409
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cypher-capital",
+            "name": "Cypher Capital",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7025815497683612
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 26700473.591592137
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "hashquark",
+            "name": "HashKey Cloud",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7019023395458244
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 26347156.651283026
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "noders",
+            "name": "NODERS",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.671689707685992
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 26128821.218819354
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "swiss-staking",
+            "name": "Swiss Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6875985416680612
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 25885245.783435993
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "hohzone",
+            "name": "hoh.zone",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6260357259899303
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 25688117.064026207
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stake-fish",
+            "name": "stakefish",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7377971818472886
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 24828939.133535434
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "midldev",
+            "name": "MIDL.dev",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.670876333780348
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 24647253.68473664
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "peeranha",
+            "name": "Peeranha",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.672934953000571
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 23806752.519726925
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "zkvalidator",
+            "name": "ZKValidator",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6984390883980862
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 22696144.337064553
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "scallop",
+            "name": "Scallop",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.670983201331188
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 22296824.965673447
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "senseinode",
+            "name": "SenseiNode",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6999871878674342
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 21789511.65714126
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "scale3labs",
+            "name": "Scale3Labs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7355706783134237
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 18903107.772179943
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cogent-crypto",
+            "name": "Cogent Crypto",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6878413446536993
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 17561975.289923728
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bixinkelepool",
+            "name": "BiXinKeLePool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7016602978336137
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 16590721.367428424
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "doubleup",
+            "name": "DoubleUp",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6711682024933652
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 16488392.577765008
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "node-guardians",
+            "name": "Node Guardians",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6756215323966035
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 16101604.18894978
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "fp-validated",
+            "name": "FP Validated",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6238882409365811
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 15398980.409060422
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "infstones",
+            "name": "InfStones",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.681657604413941
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13764854.396758812
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "lofi-the-yeti",
+            "name": "Lofi The Yeti",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.695704599613223
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13508329.361888036
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "neuler",
+            "name": "Neuler",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.7290008945876119
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13031341.832583964
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "aphelion",
+            "name": "Aphelion",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.5425932201783905
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5699344.588382256
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tenx-protocols",
+            "name": "TenX Protocols",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.741944955025175
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3079482.031517349
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "yolotrump",
+            "name": "YOLOTRUMP",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6577373300288714
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2526842.333261345
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "sui",
+            "name": "Sui",
+            "symbol": "SUI"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "omnistake",
+            "name": "Omnistake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.5773004011795064
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1312966.588747429
+          }
+        ]
+      }
+    ]
+  }
+}

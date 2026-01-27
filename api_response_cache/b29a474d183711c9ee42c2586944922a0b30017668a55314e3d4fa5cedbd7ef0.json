@@ -1,0 +1,720 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "lido-finance",
+            "name": "Lido Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.3815714285714287
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9434104.625990428
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ether-fi",
+            "name": "Ether.fi",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.049297231047854
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3387167.985752562
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "binance-staking",
+            "name": "Binance Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.46448
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3174368.86029906
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kelp-dao",
+            "name": "Kelp",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.52
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 573040.3918143164
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "rocket-pool",
+            "name": "Rocket Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.470057166301557
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 418183.7795839593
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "coinbase",
+            "name": "Coinbase",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.85961
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 393750.6013650619
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "liquid-collective",
+            "name": "Liquid Collective",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.2104763793138202
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 282617.943514946
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakewise",
+            "name": "StakeWise",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 231261.53126552765
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "renzo",
+            "name": "Renzo Protocol",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.475399092175201
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 219455.22622392603
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stader-labs",
+            "name": "Staderlabs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.5
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 137242.95580265176
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "frax-finance",
+            "name": "Frax Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.8052587536872937
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 83228.69914639342
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "frax-finance",
+            "name": "Frax Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.8052587536872937
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 49606.63827135649
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "swell-network",
+            "name": "Swell Network",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.0814689134856192
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 19413.466679291323
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "hord",
+            "name": "Hord",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -195.11
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 17455.791372578067
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "swell-network",
+            "name": "Swell Network",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.6032600906430523
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 16767.542988567544
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ankr",
+            "name": "ANKR",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.67239
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9042.01967819896
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "mev-protocol",
+            "name": "MEV Protocol",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.708
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8440.908
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dinero",
+            "name": "Dinero (Pirex ETH)",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.91
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8164.604549021879
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dinero",
+            "name": "Dinero (Pirex ETH)",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.91
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5889.8036941505325
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "yieldnest",
+            "name": "YieldNest",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.8096250025532425
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3919.0044219834085
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stafi-protocol",
+            "name": "Stafi Protocol",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.0959046533602077
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2054.673341866629
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "metapool",
+            "name": "Meta Pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 713.6903298133066
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bifrost-finance",
+            "name": "Bifrost",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 17.433
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 648.6727716944442
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "ethereum-2-0",
+            "name": "Ethereum",
+            "symbol": "ETH"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 33.20542847758756
+          }
+        ]
+      }
+    ]
+  }
+}
