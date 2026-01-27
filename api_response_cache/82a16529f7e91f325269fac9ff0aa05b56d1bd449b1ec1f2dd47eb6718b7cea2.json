@@ -1,0 +1,158 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "providers": [
+          {
+            "slug": "velora",
+            "name": "Velora",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 10.277776344132562
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 32484682.851145755
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "cian",
+            "name": "CIAN",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.9900000000000002
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 897.0257387045267
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "cian",
+            "name": "CIAN",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.92
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 24.26176323120603
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "cian",
+            "name": "CIAN",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.46
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6.383326890287884
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "cian",
+            "name": "CIAN",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.27
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1.6580361666702121
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "cian",
+            "name": "CIAN",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.9699999999999998
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 0.5214971232317459
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "cian",
+            "name": "CIAN",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 9.97
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 0.1335250056200295
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "cian",
+            "name": "CIAN",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.53
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 0.00013904592929196157
+          }
+        ]
+      }
+    ]
+  }
+}

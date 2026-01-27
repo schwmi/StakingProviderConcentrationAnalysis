@@ -1,0 +1,25 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "providers": [
+          {
+            "slug": "amnis-finance",
+            "name": "Amnis Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.32
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 31027885.129499998
+          }
+        ]
+      }
+    ]
+  }
+}

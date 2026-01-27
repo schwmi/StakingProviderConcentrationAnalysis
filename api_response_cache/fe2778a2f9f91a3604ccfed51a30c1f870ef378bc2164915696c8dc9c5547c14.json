@@ -1,0 +1,25 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "providers": [
+          {
+            "slug": "stader-labs",
+            "name": "Staderlabs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.474228316212914
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 437455902.10555536
+          }
+        ]
+      }
+    ]
+  }
+}

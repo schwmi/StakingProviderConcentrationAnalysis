@@ -1,0 +1,25 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "providers": [
+          {
+            "slug": "allnodes",
+            "name": "Allnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 18.348135970654514
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 118469.56763
+          }
+        ]
+      }
+    ]
+  }
+}

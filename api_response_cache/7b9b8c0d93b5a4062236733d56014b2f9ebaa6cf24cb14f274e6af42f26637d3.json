@@ -1,0 +1,44 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "providers": [
+          {
+            "slug": "luganodes",
+            "name": "Luganodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.9654368492159913
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 14915217.03539446
+          }
+        ]
+      },
+      {
+        "providers": [
+          {
+            "slug": "allnodes",
+            "name": "Allnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 3.9654368492159913
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 0
+          }
+        ]
+      }
+    ]
+  }
+}
