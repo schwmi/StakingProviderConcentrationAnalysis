@@ -1,0 +1,6926 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "coinbase",
+            "name": "Coinbase",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017044200946008082
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 96191211.51723301
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezos-foundation",
+            "name": "Tezos Foundation",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016835966527205283
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 79510130.86313699
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kiln",
+            "name": "Kiln",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016961847716162584
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 63061734.737315
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "everstake",
+            "name": "Everstake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016925470969217332
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 45254730.704546995
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "staked",
+            "name": "Staked",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016448496409406578
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 39620273.27152
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017279485865080723
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 26561003.540042
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "p2p-validator",
+            "name": "P2P.org",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016325537506425255
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 22078360.394836
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bitcoin-suisse-ag",
+            "name": "Bitcoin Suisse AG",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017075313212729232
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 21905341.980917998
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016419717501230317
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 19889012.782486
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018033612548291633
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 15675163.44066
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017108039326611231
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13310564.314505
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "chorus-one",
+            "name": "Chorus One",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016006803625106278
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9208995.987719
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stake-fish",
+            "name": "stakefish",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001761268929815012
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8919181.983177
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "airgap",
+            "name": "Airgap",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.00176923304378013
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7663582.523298999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bakerman-ch",
+            "name": "Bakerman_CH",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017157023044374262
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7368948.900438
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001691695864961271
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7234888.16722
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "binance-staking",
+            "name": "Binance Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015269599551187305
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7135935.7490880005
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016216231765245326
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7084729.141577
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001712891191583697
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7031513.286316
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bake-tz",
+            "name": "Bake Tz",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017038962676990642
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7004028.248547
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018041177957430217
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6902111.8432599995
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016292311398603638
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6901001.375515999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016867817783213098
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6813815.767031
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "paytezos",
+            "name": "PayTezos",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015634665480430171
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6341785.133424
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bake-nug",
+            "name": "Bake Nug",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016368370862588476
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5465406.629539
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "melange",
+            "name": "Melange",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001716631665100239
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5355704.694729
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "spice",
+            "name": "Spice",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017522241188462982
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4832811.323488001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "coinone-node",
+            "name": "Coinone Node",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015379380761462063
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4810798.897516999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "baktz",
+            "name": "Baktz",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016885597276729697
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4335920.978714
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezoasis",
+            "name": "TezOasis",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001650174463322844
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2880957.203477
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018340400803715524
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2499551.818001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "colossus",
+            "name": "Colossus",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016771933347038514
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2269525.44581
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018051826876005666
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2177759.9335519997
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "xtz-master",
+            "name": "XTZ Master",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0019725640892187804
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2173496.9595790002
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001785871547097661
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2170322.7414329997
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "money-every-3-days",
+            "name": "Money Every 3 Days",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015698057682847516
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2149629.6492
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "gate-io",
+            "name": "Gate.io",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016702013849060231
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2069195.630916
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezoshodl",
+            "name": "TezosHODL",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018549576986861265
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2007042.59604
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "moonstake",
+            "name": "Moonstake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001441466468787415
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1808097.119709
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "pool-of-stake",
+            "name": "Pool of Stake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014799539344807113
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1782708.562738
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dash-master",
+            "name": "Dash Master",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001647419229089563
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1581249.739775
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "baking-benjamins",
+            "name": "Baking Benjamins",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018473362592775022
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1565260.8243550002
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bitcat",
+            "name": "Bit Cat",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001636104232981157
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1477726.172629
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "baking-tacos",
+            "name": "Baking Tacos",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018921164229419966
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1326943.196005
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tez-baker",
+            "name": "Tez Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.0008734253237303161
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1308418.7545420001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "coinhouse",
+            "name": "Coinhouse",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.274690484476412
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1282628.045465
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018704087005717818
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1196518.0861300002
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "baking-team",
+            "name": "Baking Team",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0013929824350707382
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1153274.593751
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014885676500830968
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1091287.912066
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "staking-shop",
+            "name": "Staking Shop",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015058554528667334
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1070383.979044
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "objktcom-baker",
+            "name": "objkt.com Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015748197927363476
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1058007.881796
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "hayek-lab",
+            "name": "Hayek Lab",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016539953632900679
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1016409.7050110002
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ecotez",
+            "name": "EcoTez",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001710331620005692
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 986854.993841
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "riseup-bakery",
+            "name": "Riseup Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001503315314884207
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 976253.2841030001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "hitez-1",
+            "name": "HiTEZ 1",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001653764086078152
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 974673.8689909999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "norn-delegate",
+            "name": "Norn Delegate",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 895968.188143
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ateza",
+            "name": "Ateza",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017828504138005618
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 846585.655205
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014490614462650169
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 791439.9396929999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "adi-daz-barrio-bakery",
+            "name": "Adi_daz Barrio Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017143613826673244
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 765854.131742
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "infstones",
+            "name": "InfStones",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 712433.289877
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016065505118148635
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 688898.2667040001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 664284.507607
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezosnu",
+            "name": "Tezos.nu",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001535190252250464
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 627081.2360410001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezmania",
+            "name": "Tezmania",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.00036561739967909217
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 596261.915518
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001807202264531741
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 587592.929177
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezex-bakery",
+            "name": "Tezex Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001524958416930879
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 557765.364087
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "the-shire",
+            "name": "The Shire",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008699014163988056
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 512916.57555999997
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "superbaker",
+            "name": "SuperBaker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018494967013181075
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 494327.505242
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017902612017571525
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 485543.25295200007
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "zir0hs-bakery",
+            "name": "Zir0h's bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0013309242439809399
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 482669.132133
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "blockpower",
+            "name": "Blockpower",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014586468127898234
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 479390.393069
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0019245371665147276
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 461663.312681
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001689081313414607
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 458060.199979
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tez-blocks",
+            "name": "TEZ Blocks",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018769122350900853
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 454779.081129
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tez-baguette",
+            "name": "Tez Baguette",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001833769845751577
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 452494.839445
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "la-boulange",
+            "name": "La Boulange",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016688579192278296
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 429845.115246
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018059741604407272
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 426085.061369
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "citadel",
+            "name": "Citadel.one",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0019262043510110865
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 423437.714986
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017558256238541321
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 406781.363636
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tessellated-geometry",
+            "name": "Tessellated Geometry",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002441366316164324
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 395401.586224
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tez-nebraska",
+            "name": "Tez Nebraska",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001575440629560044
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 375200.47416800004
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezos-canada",
+            "name": "Tezos Canada",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016845522699905832
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 372332.20803399995
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ceibo-xtz",
+            "name": "Ceibo XTZ",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018093936078605259
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 354026.877234
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "pinnacle-bakery",
+            "name": "Pinnacle Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012593556790572774
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 353143.140917
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001830455382543944
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 344029.113075
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kryptstar",
+            "name": "KryptStar",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 337585.33727899997
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 335862.523739
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "anon-bakery",
+            "name": "Anon Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001766957642544774
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 331687.68706699996
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakenow",
+            "name": "StakeNow",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012700252783226567
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 307555.761873
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017733600914945353
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 299265.961739
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "mitera-net",
+            "name": "Mitera.net",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002066375527066853
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 289487.776127
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tzc-bakebuddy-2",
+            "name": "TzC - BakeBuddy #2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0020401782585045282
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 286655.41290399997
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "newroad-capital",
+            "name": "Newroad Network",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 276009.26017799997
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tz-bake",
+            "name": "TZ Bake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 272796.062011
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017683972800902868
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 260831.554537
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016047986243495865
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 253702.13714
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bakerisland",
+            "name": "BakerIsland",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002199389423757382
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 252238.248751
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "hodl-farm",
+            "name": "hodl.farm",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016149768514399018
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 245089.067513
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.003180559608753482
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 238033.93891499998
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002017953022343558
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 227389.038763
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 222369.282713
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017361593875518469
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 216835.23259499998
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "electric-bakery",
+            "name": "Electric Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016155263377439378
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 210808.03791299998
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "canadian-bakin",
+            "name": "Canadian Bakin'",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017991726699610607
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 204475.236707
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "odins-bakery",
+            "name": "Odins Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0013525776602389668
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 195491.513076
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "gold-tz",
+            "name": "GOLD TZ",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017238726787883137
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 193803.348924
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ursamajor",
+            "name": "ursamajor",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.00178438276260298
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 193228.171182
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018340803127921868
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 192339.357182
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezetetic",
+            "name": "Tezetetic",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017105801932552167
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 188504.018967
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "blockshard",
+            "name": "Blockshard",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015184207537672955
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 188425.556727
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ageaenesbakery",
+            "name": "AgeaenesBakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467379274228518
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 187110.29684599998
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "staking-team",
+            "name": "Staking Team",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0016179480278796224
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 186256.657293
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "meria",
+            "name": "Meria",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.000903878109773907
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 184276.17619
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012001383294181725
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 167460.289571
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012441074948199055
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 165097.19326
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "iiakutez-s-baker",
+            "name": "iiaku.tez \ud83c\udf2e \ua729's Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0019526313494253045
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 152386.548318
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "digital-mango",
+            "name": "Digital Mango",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0013680052729651195
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 147534.59750700003
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "libertz",
+            "name": "Libert\u00e9Z",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0010927676644980665
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 147359.908567
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezio-bakery",
+            "name": "Tezio Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0022978753173312242
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 144447.566378
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "american-tezolution",
+            "name": "American Tezolution",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001717175241030946
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 139350.05496
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bckeranlage",
+            "name": "B\u00e4ckeranlage",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017062475696709802
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 133611.05728
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezosteam",
+            "name": "TezoSteam",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012662074730185227
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 130782.43619800001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezberry-pie",
+            "name": "Tezberry Pie",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002004461169889153
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 125135.903256
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "temple-baker",
+            "name": "Temple Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001926434982208674
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 119494.558464
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008466996866198676
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 116905.872447
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002088820690119248
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 116267.87948799999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "zerostake",
+            "name": "Zerostake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018253485983241809
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 108199.47273899999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015347192506898087
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 105084.536173
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "exaion-validator",
+            "name": "Exaion",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012912775825999227
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 101045.94287299999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018039874043071467
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 100717.20043400001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "sunrise-tez-bakery",
+            "name": "Sunrise Tez Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0028165586885016136
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 99525.56167200001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "trapdesuuwu-baker",
+            "name": "TrapDesuUwU Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0020000664599918246
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 99217.504946
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezos-bakery",
+            "name": "Tezos Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.00042333416611066687
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 98764.80857299999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "captain-stake",
+            "name": "Captain Stake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018569062338371274
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 93678.368518
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "postchainio",
+            "name": "Postchain.io",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467468486510403
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 91737.676676
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bake-tz-for-me",
+            "name": "Bake \ua729 For Me",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.000846711988504356
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 89450.784383
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezeract",
+            "name": "Tezeract",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.00200631929440098
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 83877.55279
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002282251560918384
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 83736.22235800001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008466838020748133
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 83715.901885
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0013891553852166795
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 82436.05171300001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467673722379401
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 81001.094168
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tzc-bakebuddy-1",
+            "name": "TzC - BakeBuddy #1",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0024740715786474355
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 78639.354772
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0028583032714604296
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 77140.673491
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.521121979108289
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 77076.84572600001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezos-pepe-bakery",
+            "name": "Tezos Pepe Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467072562414436
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 76757.32870400001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "byteblock-baker",
+            "name": "ByteBlock-Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467394102208191
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 76076.22775399999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0026967542587699803
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 74317.167146
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "anchorlight-baking",
+            "name": "Anchorlight Baking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.0009512639558055837
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 73645.036027
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "asicbaker",
+            "name": "ASICBAKER",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467479274606532
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 72331.17282800001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tezloom",
+            "name": "TezLoom",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0023916048753115974
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 72315.373588
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0015929376813056144
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 72259.684105
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0019164486663220642
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 68513.035459
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.0006455748028412818
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 67578.899046
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467113168809802
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 66641.975393
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "vf-validierung",
+            "name": "VF Validierung \ud83c\udde9\ud83c\uddea",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0023203409270747873
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 64472.819188999994
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 61207.910777000005
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "the-bakers-man",
+            "name": "The Bakers Man",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467108894847088
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 60600.473004
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 59216.98484300001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0017137195753891639
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 56101.658859
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0013912516128731457
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 54824.38366
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 52535.757043
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012700462833836665
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 51495.3345
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467514662911771
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 50868.276786
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018002490033599888
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 50410.135639
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 47832.304291
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002547354231615679
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 43924.722515
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "midldev-baker",
+            "name": "MIDL.dev baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0026115718456402853
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 41049.694686
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bitwick-staking",
+            "name": "Bitwick Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 39353.536208000005
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0014652195857449703
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 38990.774537
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001466364311907467
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 38852.748519
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008466201902580944
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 37590.029487
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.003230442400947722
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 37393.709107
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.000846572011348243
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 35893.832782
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "teztillery",
+            "name": "Teztillery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467245487369001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 35513.650029
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 33477.875793
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008466196816735808
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 31247.883067
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002769782703096921
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 31092.790479000003
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.004829006166695531
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 30445.763387
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0031650468070099714
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 29162.400272
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 28353.807792
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ecad-infra",
+            "name": "ECAD-Infra",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0025939897070351614
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 27229.484271999998
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 27067.32474
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "andalucia-tezos",
+            "name": "Andalucia Tezos",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0027185339846128357
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 26225.299011999996
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0027858919067687378
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 25411.097141
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "juddybakesct",
+            "name": "JuddyBakesCT",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008466933076743127
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 25091.332982
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "baguette",
+            "name": "BAGUETTE",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.004386081011568456
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 24863.264741
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467648807359728
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 24636.920188000004
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018314468415048493
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 24421.635412999996
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dulo-stakery",
+            "name": "Dulo Stakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008466894974597397
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 24095.324318000003
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 24080.889451
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "block-bakery",
+            "name": "Block Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0026614599927533853
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 23968.780721
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012698523773131299
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 23756.609453
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0018779551352312257
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 23357.272717
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.0004233278600472378
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 22506.519346
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "proof-of-pastry-bakery",
+            "name": "Proof of Pastry Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 22430.196741
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008466678806924858
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 20974.917963
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "121",
+            "name": "121",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.00308966175917849
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 20925.670033
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 19878.466478000002
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0004231701910470066
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 19748.908127
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012699101303562414
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 18883.554812
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "fafo-bakery",
+            "name": "FAFO Bakery",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467692976014154
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 17976.207113
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0022859800418283376
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 16788.237409
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.000846553440963717
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 16480.488882
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.001166089820882108
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 16105.87511
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nordbaker",
+            "name": "NordBaker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467552912955754
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 15325.202539000002
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tz1",
+            "name": "tz1",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467513040537706
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 15204.875198
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "telindus-luxembourg",
+            "name": "Telindus Luxembourg",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 14933.264103
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012699957061591857
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 14871.018845
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "baked-out-tezos",
+            "name": "Baked Out Tezos",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0024633301288974163
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 14839.989963
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "the-temple",
+            "name": "The Temple",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.005606461140194995
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13428.370859
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.00042326070659412334
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13407.334741
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008466862810298715
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13298.713271
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12876.153878
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bakerthegrey",
+            "name": "baker.the.grey",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.002724607674970812
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12801.110190000001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12689.237932
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ironone-baker",
+            "name": "IronOne Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12631.246388
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012698732718795774
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12545.998495
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467426316079121
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12361.512501
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12228.452137
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12126.238355
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.004525117149340656
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11346.63947
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11211.181906
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008465168452869081
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11148.179422
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "home-baker",
+            "name": "Home Baker",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10908.605973000002
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10436.345952
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": -0.00042323113944027274
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9446.572162
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9222.428817
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008463732849225608
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8292.732141
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008463277755996607
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7790.155255
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012699770182646023
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7628.713299
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7508.776896
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7496.559195
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7471.187415
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7411.677096
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7052.609087
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6957.797524
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.001269787461320469
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6702.7098989999995
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6558.061471
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6514.027461
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6327.500849999999
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008466016350369165
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6195.461791
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008463165365042189
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6161.9218280000005
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0012695460093930433
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6133.719205
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008465609987812712
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6123.266898
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008466539798230133
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6115.243776
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.004801326505845984
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6114.956105
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008466798450079003
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6110.926164
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.004794615235651483
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6109.566419
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467710721081756
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6106.181398
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.000846769288370654
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6104.813308
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008462825669730179
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6097.413581
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakecrypto",
+            "name": "StakeCrypto",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008467399995668876
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6095.405975
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.0008463666194565047
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6024.519708
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 67.43776
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 0.483666
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 0.011165
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "solo-staking",
+          "label": "solo-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "tezos",
+            "name": "Tezos",
+            "symbol": "XTZ"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 8.447382739633774
+          }
+        ]
+      }
+    ]
+  }
+}

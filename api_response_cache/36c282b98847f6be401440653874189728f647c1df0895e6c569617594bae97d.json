@@ -1,0 +1,3300 @@
+{
+  "data": {
+    "rewardOptions": [
+      {
+        "type": {
+          "key": "solo-staking",
+          "label": "solo-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 875104662.9540635
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "liquid-staking",
+          "label": "liquid-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "amnis-finance",
+            "name": "Amnis Finance",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.32
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 31027885.129499998
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 25855489.25885855
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 25572323.17194854
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 20247449.25231283
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 19265870.06152129
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "jump-crypto",
+            "name": "Jump Crypto",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 19150111.36591472
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 19137176.6726764
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 17003452.66857936
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 16950124.58293643
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 15089603.57543373
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 15089601.61721215
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 14584685.02385072
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 14412096.26602709
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 14149481.63466133
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13407106.34137627
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13362492.80259977
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13043213.76831664
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "everstake",
+            "name": "Everstake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.583078036351272
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 12777114.338890871
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakely",
+            "name": "Stakely",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11965495.95105252
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11914677.47704837
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11297626.07462369
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.934434663115846
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 11080693.10673426
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10767931.13408224
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "staking-facilities",
+            "name": "Staking Facilities",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.3856914399200237
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10637752.141975101
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10384015.44676823
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10318993.85904002
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10223901.51645293
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10219455.90976009
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10197101.87303417
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10125238.22307677
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10059735.05926632
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10059615.5539547
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10023855.75733331
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 10023492.69411381
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9902953.24849266
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9879970.79183344
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9797278.29662844
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9310427.17175757
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "meria",
+            "name": "Meria",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 9186805.46533829
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "chorus-one",
+            "name": "Chorus One",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8656996.45289215
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8584254.18490398
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8578242.26347604
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "forest-staking",
+            "name": "Forest Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8566723.64719195
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8535402.84793233
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "validation-cloud",
+            "name": "Validation Cloud",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8531830.86384626
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "p2p-validator",
+            "name": "P2P.org",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8061500.57859907
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bware-labs",
+            "name": "Bware Labs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8061210.0774894
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7727391.38723004
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "moa",
+            "name": "moa",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7578842.1431718
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7466496.38770185
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7448398.33216356
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nodes-guru",
+            "name": "Nodes.Guru",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7436323.82271849
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7435325.19090488
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "lavenderfive-nodes",
+            "name": "Lavender.Five Nodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7433360.34677955
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7398662.79419616
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "provalidator",
+            "name": "Provalidator",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7279914.10267565
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.992636070422536
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7170100.43853262
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6312245.44551515
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.991529364377183
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6269616.69377131
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tududes",
+            "name": "TuDudes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.5897097460051555
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5873897.27362555
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5840734.34423203
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5822188.35078161
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "aptcore-one",
+            "name": "aptcore.one: Secure, Transparent, and Rewarding Aptos (APT) Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5798734.85882593
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5468769.45782187
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kiln",
+            "name": "Kiln",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5445536.32531313
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.439703760000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5371405.46049182
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.980288310249308
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5300011.76737979
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "daic",
+            "name": "Coinage x DAIC",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5136371.30818184
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5127388.19928043
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.299710200000002
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5105269.94168067
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.989860779803648
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5013159.97543494
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.629903343750001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4778736.08772845
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4778568.66135258
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "StakeS",
+            "name": "StakeS",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4762750.81114646
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4754914.04718505
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4750905.46572358
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4440162.65618915
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.3931945245901645
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4243571.41707653
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4158434.17835997
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4153586.70311758
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4042183.93501915
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3888447.90617582
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3441179.96485739
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.923262301310045
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3411648.56183637
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "senseinode",
+            "name": "SenseiNode",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 15.749275500000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3363676.88161367
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "superfast-org",
+            "name": "superfast-org",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3354111.86497649
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3295860.79635076
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tauruslabs",
+            "name": "tauruslabs",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 4.277581000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3266397.57550737
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3236641.43073333
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3171601.21156691
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3137215.13859472
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dora-factory",
+            "name": "Dora Factory",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.772661416216217
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3132202.70011438
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3070022.25046825
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3069443.15123769
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3048745.28854839
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2940005.04025194
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2896861.62416341
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "crypto-more",
+            "name": "Crypto More",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2891245.33763189
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2649469.80485767
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dsrv-pool",
+            "name": "dsrv-pool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2579947.41306813
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2513250.7135839
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "luganodes",
+            "name": "Luganodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.299710200000002
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2418123.16648707
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.82468605
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2400322.85608987
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.139910477170419
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2317253.65287828
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "juicystak",
+            "name": "juicystak",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.976189147651008
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2295900.04195455
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2201745.16227668
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "certik",
+            "name": "CertiK",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2140033.87424249
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2113435.68976807
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2052134.65080294
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.6496941000000005
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2045432.64589276
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1949195.7264223
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.975031246478874
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1937994.43030592
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.970633692946058
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1892886.60474297
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1714086.27448976
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1699214.7461979
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "dsrv",
+            "name": "DSRV",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.875239280000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1695392.71014808
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1602017.93361612
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "parafi-technologies",
+            "name": "parafi-technologies",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.509700540000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1601377.54886515
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1490189.82462461
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1368150.35109215
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "nansen",
+            "name": "Nansen",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.6496941000000005
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1310745.11469694
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.833019000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1249745.60754336
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1170152.92071266
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakin",
+            "name": "Stakin by The Tie",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1156462.44901496
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1083467.5940306
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1076074.22931015
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1073454.6577701
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.956735190184051
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1037308.78145333
+          }
+        ]
+      }
+    ]
+  }
+}
