@@ -23,11 +23,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 15528906.063673615
+            "defaultValue": 14502158.747452484
           }
         ]
       },
@@ -75,19 +75,19 @@
         ],
         "providers": [
           {
-            "slug": "binance-staking",
-            "name": "Binance Staking",
+            "slug": "jupiter",
+            "name": "Jupiter",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 13623445.83567615
+            "defaultValue": 13136635.32308812
           }
         ]
       },
@@ -113,11 +113,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.86
+            "defaultValue": 5.88
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 13362160.92274946
+            "defaultValue": 12689455.271933928
           }
         ]
       },
@@ -135,8 +135,8 @@
         ],
         "providers": [
           {
-            "slug": "jupiter",
-            "name": "Jupiter",
+            "slug": "binance-staking",
+            "name": "Binance Staking",
             "isActive": true
           }
         ],
@@ -147,7 +147,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 12085652.147278933
+            "defaultValue": 11935346.900962044
           }
         ]
       },
@@ -173,11 +173,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.8169576990388645
+            "defaultValue": 5.768943517206974
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 9900069.312522687
+            "defaultValue": 9702310.69415543
           }
         ]
       },
@@ -233,11 +233,35 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.89
+            "defaultValue": 5.88
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 8484909.69192526
+            "defaultValue": 8459384.920886217
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.35
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7591811.874333148
           }
         ]
       },
@@ -267,61 +291,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 7757485.262161576
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 7563465.708265228
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "p2p-validator",
-            "name": "P2P.org",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.785358913450113
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 7133890.530838925
+            "defaultValue": 7485107.776515055
           }
         ]
       },
@@ -347,11 +317,41 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.72
+            "defaultValue": 5.65
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 7126727.053898203
+            "defaultValue": 7131994.263918786
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "p2p-validator",
+            "name": "P2P.org",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.79491360296798
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7031797.739941464
           }
         ]
       },
@@ -377,11 +377,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.280000000000001
+            "defaultValue": 6.27
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 6563999.253494425
+            "defaultValue": 6658117.725998207
           }
         ]
       },
@@ -401,7 +401,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.9175773096164574
+            "defaultValue": 5.923576852482464
           },
           {
             "metricKey": "staked_tokens",
@@ -431,11 +431,35 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.65
+            "defaultValue": 5.62
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5809845.239567274
+            "defaultValue": 5835483.349063889
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.35
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5615839.291643008
           }
         ]
       },
@@ -461,11 +485,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.815479676898745
+            "defaultValue": 5.83
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5616865.730919444
+            "defaultValue": 5419089.112739254
           }
         ]
       },
@@ -485,59 +509,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 5.81
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5615570.413476119
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.8
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4708339.702173183
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.8
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4290988.903737334
+            "defaultValue": 4682701.536297842
           }
         ]
       },
@@ -563,11 +539,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.919946472787157
+            "defaultValue": 5.927134912459929
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4256480.60155968
+            "defaultValue": 4307486.39143708
           }
         ]
       },
@@ -587,11 +563,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.21
+            "defaultValue": 5.83
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3996550.713529762
+            "defaultValue": 4258959.721866545
           }
         ]
       },
@@ -617,11 +593,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.73
+            "defaultValue": 5.71
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3892489.64863102
+            "defaultValue": 3888188.119255773
           }
         ]
       },
@@ -641,11 +617,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3868747.1532764
+            "defaultValue": 3877416.731127858
           }
         ]
       },
@@ -665,11 +641,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3831177.893514533
+            "defaultValue": 3843416.135932608
           }
         ]
       },
@@ -689,11 +665,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3740345.665272879
+            "defaultValue": 3745816.534570397
           }
         ]
       },
@@ -713,11 +689,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3737433.757223304
+            "defaultValue": 3711485.35994802
           }
         ]
       },
@@ -737,11 +713,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3622451.533425848
+            "defaultValue": 3677348.710969796
           }
         ]
       },
@@ -761,11 +737,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.05
+            "defaultValue": 6
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3616292.0099286
+            "defaultValue": 3623332.35275306
           }
         ]
       },
@@ -785,7 +761,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
@@ -809,11 +785,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3550019.692562018
+            "defaultValue": 3531948.098317081
           }
         ]
       },
@@ -833,11 +809,59 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 6.23
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3473005.92238984
+            "defaultValue": 3469106.730769104
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.930099962441149
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3460216.544810149
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.329999999999999
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3263035.91604585
           }
         ]
       },
@@ -863,11 +887,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.63
+            "defaultValue": 5.67
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3446976.888566009
+            "defaultValue": 3124586.342728342
           }
         ]
       },
@@ -893,11 +917,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.935656965772513
+            "defaultValue": 5.962461902424334
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3438198.9242677316
+            "defaultValue": 3086618.9222989045
           }
         ]
       },
@@ -917,31 +941,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.32
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 3235329.473981037
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.918169600409132
+            "defaultValue": 5.927134912459929
           },
           {
             "metricKey": "staked_tokens",
@@ -975,7 +975,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2792950.57178617
+            "defaultValue": 2890160.848082918
           }
         ]
       },
@@ -995,11 +995,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.81
+            "defaultValue": 5.82
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2598429.40607375
+            "defaultValue": 2771605.697918038
           }
         ]
       },
@@ -1025,11 +1025,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6
+            "defaultValue": 5.94
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2543227.257036378
+            "defaultValue": 2532560.550907114
           }
         ]
       },
@@ -1049,7 +1049,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.918761891201807
+            "defaultValue": 5.927134912459929
           },
           {
             "metricKey": "staked_tokens",
@@ -1073,7 +1073,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.918169600409132
+            "defaultValue": 5.9265419024636845
           },
           {
             "metricKey": "staked_tokens",
@@ -1097,7 +1097,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
@@ -1121,7 +1121,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.918761891201807
+            "defaultValue": 5.927134912459929
           },
           {
             "metricKey": "staked_tokens",
@@ -1145,7 +1145,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
@@ -1169,7 +1169,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.918169600409132
+            "defaultValue": 5.927134912459929
           },
           {
             "metricKey": "staked_tokens",
@@ -1193,7 +1193,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.9175773096164574
+            "defaultValue": 5.9265419024636845
           },
           {
             "metricKey": "staked_tokens",
@@ -1217,7 +1217,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
@@ -1241,7 +1241,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
@@ -1265,7 +1265,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
@@ -1289,7 +1289,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.915800437238432
+            "defaultValue": 5.927134912459929
           },
           {
             "metricKey": "staked_tokens",
@@ -1313,7 +1313,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
@@ -1343,11 +1343,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.9
+            "defaultValue": 5.96
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2264820.839430516
+            "defaultValue": 2310636.206532714
           }
         ]
       },
@@ -1367,7 +1367,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
@@ -1391,7 +1391,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.918761891201807
+            "defaultValue": 5.927134912459929
           },
           {
             "metricKey": "staked_tokens",
@@ -1415,11 +1415,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.01
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2053012.987135985
+            "defaultValue": 2016544.812347729
           }
         ]
       },
@@ -1439,7 +1439,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
@@ -1463,7 +1463,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
@@ -1483,15 +1483,21 @@
             "symbol": "SOL"
           }
         ],
-        "providers": null,
+        "providers": [
+          {
+            "slug": "luganodes",
+            "name": "Luganodes",
+            "isActive": true
+          }
+        ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
+            "defaultValue": 5.69
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1986751.774472969
+            "defaultValue": 1949647.87973508
           }
         ]
       },
@@ -1511,11 +1517,59 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
             "defaultValue": 1937437.661920325
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.03
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1888770.031695725
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.930099962441149
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1881605.316350045
           }
         ]
       },
@@ -1545,37 +1599,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1921821.664351041
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "luganodes",
-            "name": "Luganodes",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.64
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1915203.617142333
+            "defaultValue": 1877196.037921276
           }
         ]
       },
@@ -1595,31 +1619,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1881605.316350045
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.919946472787157
+            "defaultValue": 5.927134912459929
           },
           {
             "metricKey": "staked_tokens",
@@ -1643,41 +1643,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 6.329999999999999
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1868071.358667079
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "solana-compass",
-            "name": "Solana Compass",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.29
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1839327.822237853
+            "defaultValue": 1871222.55977462
           }
         ]
       },
@@ -1697,7 +1667,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
@@ -1721,7 +1691,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
@@ -1745,11 +1715,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 5.69
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1790691.429438702
+            "defaultValue": 1774067.572660386
           }
         ]
       },
@@ -1769,35 +1739,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.68
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1770939.449583591
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1619642.961042447
+            "defaultValue": 1616010.726928561
           }
         ]
       },
@@ -1847,11 +1793,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.27
+            "defaultValue": 6.23
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1567310.99561171
+            "defaultValue": 1588080.225259522
           }
         ]
       },
@@ -1871,11 +1817,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.260000000000001
+            "defaultValue": 6.34
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1538224.355261902
+            "defaultValue": 1562150.07788039
           }
         ]
       },
@@ -1895,11 +1841,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.32
+            "defaultValue": 6.280000000000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1506617.492504645
+            "defaultValue": 1539590.266321827
           }
         ]
       },
@@ -1919,31 +1865,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1478620.87807918
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.918169600409132
+            "defaultValue": 5.922983842486219
           },
           {
             "metricKey": "staked_tokens",
@@ -1967,7 +1889,55 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 6.35
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1473322.326252493
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.930099962441149
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1468620.87807918
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.929506952444904
           },
           {
             "metricKey": "staked_tokens",
@@ -1991,7 +1961,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
@@ -2021,11 +1991,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.280000000000001
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1425201.70219929
+            "defaultValue": 1433468.407430795
           }
         ]
       },
@@ -2051,11 +2021,41 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.16
+            "defaultValue": 6.09
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1403047.954641984
+            "defaultValue": 1388160.903257623
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "solana-compass",
+            "name": "Solana Compass",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.32
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1356498.511294067
           }
         ]
       },
@@ -2075,11 +2075,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.77
+            "defaultValue": 5.69
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1333693.215293796
+            "defaultValue": 1329806.320000559
           }
         ]
       },
@@ -2099,11 +2099,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1321272.127689112
+            "defaultValue": 1322935.555795568
           }
         ]
       },
@@ -2123,11 +2123,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.97
+            "defaultValue": 5.95
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1299435.168156398
+            "defaultValue": 1289715.371684313
           }
         ]
       },
@@ -2151,7 +2151,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1278335.542921358
+            "defaultValue": 1280486.430939978
           }
         ]
       },
@@ -2171,11 +2171,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1252764.146805338
+            "defaultValue": 1253935.98596996
           }
         ]
       },
@@ -2195,7 +2195,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.919946472787157
+            "defaultValue": 5.927134912459929
           },
           {
             "metricKey": "staked_tokens",
@@ -2225,35 +2225,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.81
+            "defaultValue": 6.88
           },
           {
             "metricKey": "staked_tokens",
             "defaultValue": 1196771.628761535
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.08
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1192003.816255996
           }
         ]
       },
@@ -2279,11 +2255,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.3
+            "defaultValue": 6.34
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1171330.03729184
+            "defaultValue": 1194358.504962621
           }
         ]
       },
@@ -2303,11 +2279,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.2
+            "defaultValue": 6.1
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1150859.589102109
+            "defaultValue": 1162105.855406071
           }
         ]
       },
@@ -2357,179 +2333,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
+            "defaultValue": 5.83
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1127276.707440421
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1126995.598577321
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.32
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1113205.355334453
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.32
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1104614.66612658
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.78
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1097109.520496906
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.96
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1075986.339313563
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1075069.584512179
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.32
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1072194.419185696
+            "defaultValue": 1099058.764039661
           }
         ]
       },
@@ -2553,7 +2361,55 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1036243.205396094
+            "defaultValue": 1097919.174994081
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.94
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1081060.844318671
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.34
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1077212.176606854
           }
         ]
       },
@@ -2577,7 +2433,55 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1033682.196614394
+            "defaultValue": 1074254.135604105
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.280000000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1036652.86497756
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.29
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1035656.906255408
           }
         ]
       },
@@ -2601,7 +2505,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1024114.006395752
+            "defaultValue": 1025888.365916839
           }
         ]
       },
@@ -2621,11 +2525,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.14
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1023194.620823244
+            "defaultValue": 1009999.481400502
           }
         ]
       },
@@ -2645,11 +2549,83 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.912838983275057
+            "defaultValue": 5.9117166525575815
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1010001.99643424
+            "defaultValue": 1000001.99643424
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.72
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 997707.631137434
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.309999999999999
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 984654.71466885
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.7
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 976111.351347826
           }
         ]
       },
@@ -2673,7 +2649,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 982757.993510518
+            "defaultValue": 972067.019686218
           }
         ]
       },
@@ -2693,11 +2669,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
+            "defaultValue": 6.280000000000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 970193.994572231
+            "defaultValue": 966189.487569379
           }
         ]
       },
@@ -2717,7 +2693,55 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 6.15
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 921565.849780197
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.68
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 906998.759657252
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
@@ -2741,11 +2765,131 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.32
+            "defaultValue": 6.34
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 898505.153036342
+            "defaultValue": 899957.962636355
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.35
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 893416.386890827
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.35
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 882260.248368157
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 876581.955575551
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 849661.363787173
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.99
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 848131.745096837
           }
         ]
       },
@@ -2769,7 +2913,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 871942.291726526
+            "defaultValue": 844258.172447425
           }
         ]
       },
@@ -2789,11 +2933,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 6.18
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 869694.779319794
+            "defaultValue": 835986.5788782
           }
         ]
       },
@@ -2813,11 +2957,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.01
+            "defaultValue": 6.23
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 863140.248659059
+            "defaultValue": 786787.016787452
           }
         ]
       },
@@ -2837,209 +2981,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 5.68
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 862505.71158232
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.97
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 858006.784465167
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.17
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 835970.670457451
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 832653.96078121
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 809967.566762058
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 783501.088167653
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.21
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 782106.244033884
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "cogent-crypto",
-            "name": "Cogent Crypto",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 776418.434678136
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.67
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 769415.709041503
+            "defaultValue": 770752.475346992
           }
         ]
       },
@@ -3065,11 +3011,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.72
+            "defaultValue": 5.74
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 769389.949224424
+            "defaultValue": 769429.336488066
           }
         ]
       },
@@ -3089,11 +3035,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.8
+            "defaultValue": 5.76
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 768949.064670489
+            "defaultValue": 757165.900978861
           }
         ]
       },
@@ -3113,11 +3059,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.25
+            "defaultValue": 5.930099962441149
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 765730.351475792
+            "defaultValue": 737387.767791143
           }
         ]
       },
@@ -3143,11 +3089,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.67
+            "defaultValue": 5.59
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 729385.503688142
+            "defaultValue": 730677.616480191
           }
         ]
       },
@@ -3167,11 +3113,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.05
+            "defaultValue": 6
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 717115.850745513
+            "defaultValue": 718484.019869123
           }
         ]
       },
@@ -3197,11 +3143,65 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 705079.603952532
+            "defaultValue": 706935.514728851
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 701551.418674632
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cogent-crypto",
+            "name": "Cogent Crypto",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.3
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 683996.772564472
           }
         ]
       },
@@ -3227,11 +3227,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.86
+            "defaultValue": 5.89
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 693872.017833168
+            "defaultValue": 647069.753667385
           }
         ]
       },
@@ -3251,35 +3251,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.32
+            "defaultValue": 6.01
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 691381.1255013
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.71
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 690215.920021686
+            "defaultValue": 647053.214599937
           }
         ]
       },
@@ -3303,7 +3279,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 641579.371202668
+            "defaultValue": 645735.187666579
           }
         ]
       },
@@ -3323,11 +3299,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.97
+            "defaultValue": 5.928913942448661
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 635330.361170937
+            "defaultValue": 636107.40390283
           }
         ]
       },
@@ -3347,11 +3323,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.921723345165183
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 635088.33846858
+            "defaultValue": 633232.420046362
           }
         ]
       },
@@ -3371,11 +3347,287 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.99
+            "defaultValue": 6.01
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 618715.969568741
+            "defaultValue": 628991.919401804
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 621184.472547197
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.2
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 613106.591849827
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "solana-beach-validator",
+            "name": "Solana Beach Validator",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.77
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 608448.091858802
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.23
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 607380.952778184
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 604634.662999414
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.62
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 604531.340567204
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.77
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 604243.977682285
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.77
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 602338.448204804
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stake-fish",
+            "name": "stakefish",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.98
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 602000.605226147
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.29
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 600802.204457332
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.329999999999999
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 579188.858549743
           }
         ]
       },
@@ -3405,37 +3657,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 614633.239657516
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "stake-fish",
-            "name": "stakefish",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.93
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 613900.521583844
+            "defaultValue": 572594.946261527
           }
         ]
       },
@@ -3455,11 +3677,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 612087.971371282
+            "defaultValue": 565379.981274909
           }
         ]
       },
@@ -3479,485 +3701,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.01
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 609154.713604356
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "solana-beach-validator",
-            "name": "Solana Beach Validator",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.81
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 608286.483188583
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 607427.491244712
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.78
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 607057.733046594
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.21
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 600546.432833386
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.64
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 591217.967025708
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.85
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 575413.202594842
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.919354181994482
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 555038.376443389
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.309999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 550928.202496105
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.32
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 545223.176912661
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "validator-com",
-            "name": "Validator.com",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.99
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 532869.520702351
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.32
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 532401.280121921
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 514800.884373124
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 511643.860528411
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "chainflow",
-            "name": "Chainflow",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 501159.462272101
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.25
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 499196.184883235
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 498945.547327001
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 497624.162715461
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.77
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 494289.521705297
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 488299.361466803
+            "defaultValue": 559124.758152987
           }
         ]
       },
@@ -3983,11 +3731,41 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.87
+            "defaultValue": 5.93
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 485502.098430758
+            "defaultValue": 527777.733476059
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "validator-com",
+            "name": "Validator.com",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.97
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 526871.057017088
           }
         ]
       },
@@ -4007,11 +3785,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.04
+            "defaultValue": 5.9265419024636845
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 481729.693137304
+            "defaultValue": 526829.423423796
           }
         ]
       },
@@ -4027,21 +3805,15 @@
             "symbol": "SOL"
           }
         ],
-        "providers": [
-          {
-            "slug": "stardust-staking",
-            "name": "Stardust Staking and Solutions",
-            "isActive": true
-          }
-        ],
+        "providers": null,
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.280000000000001
+            "defaultValue": 6.27
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 463284.428931914
+            "defaultValue": 521693.476856628
           }
         ]
       },
@@ -4057,13 +3829,7 @@
             "symbol": "SOL"
           }
         ],
-        "providers": [
-          {
-            "slug": "chainode-tech",
-            "name": "Chainode Tech",
-            "isActive": true
-          }
-        ],
+        "providers": null,
         "metrics": [
           {
             "metricKey": "reward_rate",
@@ -4071,7 +3837,157 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 461211.645396255
+            "defaultValue": 506463.41763616
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.309999999999999
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 505198.60511282
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.69
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 499602.417635941
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.71
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 495185.479522292
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.930099962441149
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 488299.361466803
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "chainflow",
+            "name": "Chainflow",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.98
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 486274.774192692
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.09
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 464280.464316324
           }
         ]
       },
@@ -4117,60 +4033,6 @@
             "symbol": "SOL"
           }
         ],
-        "providers": [
-          {
-            "slug": "solayer",
-            "name": "Solayer",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 459033.588731235
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.06
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 452507.329165821
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
         "providers": null,
         "metrics": [
           {
@@ -4179,7 +4041,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 450049.076329008
+            "defaultValue": 453346.227876247
           }
         ]
       },
@@ -4199,35 +4061,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 443887.609256067
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.16
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 438657.291532205
+            "defaultValue": 443666.467850554
           }
         ]
       },
@@ -4251,7 +4089,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 434735.687680063
+            "defaultValue": 441016.505895407
           }
         ]
       },
@@ -4271,11 +4109,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.99
+            "defaultValue": 6.03
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 429163.048217337
+            "defaultValue": 440031.764183963
           }
         ]
       },
@@ -4295,11 +4133,239 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.79
+            "defaultValue": 6.01
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 426563.13288494
+            "defaultValue": 431090.253027099
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stardust-staking",
+            "name": "Stardust Staking and Solutions",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.34
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 429481.192958397
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.04
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 429057.177823191
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "solayer",
+            "name": "Solayer",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.03
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 427855.439105492
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.82
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 421389.886128295
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.02
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 413511.44223776
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.01
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 408946.885952757
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 407753.154342723
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.08
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 400784.879291637
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.7
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 399273.490845511
           }
         ]
       },
@@ -4323,7 +4389,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 425211.3092563
+            "defaultValue": 398095.594899303
           }
         ]
       },
@@ -4343,11 +4409,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.96
+            "defaultValue": 5.83
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 422984.351094544
+            "defaultValue": 393381.597770772
           }
         ]
       },
@@ -4367,11 +4433,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 6.01
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 416101.683162091
+            "defaultValue": 393340.849238864
           }
         ]
       },
@@ -4391,11 +4457,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6
+            "defaultValue": 5.75
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 415162.438312597
+            "defaultValue": 375687.916798278
           }
         ]
       },
@@ -4415,11 +4481,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 413055.390848522
+            "defaultValue": 373158.496172992
           }
         ]
       },
@@ -4439,11 +4505,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6
+            "defaultValue": 6.36
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 407261.950678187
+            "defaultValue": 371070.075251754
           }
         ]
       },
@@ -4459,159 +4525,21 @@
             "symbol": "SOL"
           }
         ],
-        "providers": null,
-        "metrics": [
+        "providers": [
           {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 397745.010134956
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
+            "slug": "chainode-tech",
+            "name": "Chainode Tech",
+            "isActive": true
           }
         ],
-        "providers": null,
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.72
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 397050.933564936
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.81
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 392683.984881402
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 380020.655049948
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.71
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 375000
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 372439.444979078
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.32
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 371939.78712139
+            "defaultValue": 370917.431770926
           }
         ]
       },
@@ -4637,11 +4565,35 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.02
+            "defaultValue": 6.03
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 364813.95745104
+            "defaultValue": 361088.238435964
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 359806.035497089
           }
         ]
       },
@@ -4665,31 +4617,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 359577.375023902
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 354126.657352595
+            "defaultValue": 358233.197509683
           }
         ]
       },
@@ -4715,35 +4643,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.309999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 349089.246330825
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
             "defaultValue": 6.329999999999999
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 345996.087104644
+            "defaultValue": 356243.951993118
           }
         ]
       },
@@ -4763,11 +4667,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.97
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 341814.409605102
+            "defaultValue": 355738.613887361
           }
         ]
       },
@@ -4787,11 +4691,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.99
+            "defaultValue": 6.03
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 339024.49984772
+            "defaultValue": 354005.18755448
           }
         ]
       },
@@ -4811,233 +4715,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.08
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 338721.143835581
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.32
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 331522.204608061
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 329817.393904674
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.51
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 329782.296220434
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "ubik-capital",
-            "name": "Ubik Capital",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 327691.847816765
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.309999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 327064.84781505
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.81
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 320002.513810645
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 318506.636244909
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 315731.365099128
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.15
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 311232.99766465
+            "defaultValue": 352208.604767932
           }
         ]
       },
@@ -5061,7 +4743,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 308371.706088751
+            "defaultValue": 345734.029258845
           }
         ]
       },
@@ -5081,11 +4763,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.83
+            "defaultValue": 5.92
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 305226.757279219
+            "defaultValue": 343767.223019219
           }
         ]
       },
@@ -5105,11 +4787,233 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
+            "defaultValue": 6.32
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 302128.020160238
+            "defaultValue": 342758.454626168
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.01
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 342441.530953074
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.9
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 339625.520959138
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.35
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 339427.060365231
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.07
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 339372.280613845
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.35
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 331074.254072614
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.43
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 330351.728892104
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.35
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 328267.218396069
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.35
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 327979.571824272
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "pops-team-validator",
+            "name": "P-OPS Team",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.33
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 322865.12464213
           }
         ]
       },
@@ -5133,7 +5037,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 299658.68347989
+            "defaultValue": 318273.049223673
           }
         ]
       },
@@ -5153,11 +5057,203 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.52
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 298212.565455479
+            "defaultValue": 315895.457465678
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.34
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 315637.186584263
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.83
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 314685.318094545
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.329999999999999
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 314405.839311693
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.15
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 313364.170352107
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.27
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 310688.295865393
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.01
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 308937.141325761
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.76
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 302770.201237702
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.930099962441149
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 298215.460104719
           }
         ]
       },
@@ -5187,7 +5283,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 296695.85779638
+            "defaultValue": 297906.099776058
           }
         ]
       },
@@ -5207,11 +5303,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.01
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 295886.489438238
+            "defaultValue": 292629.74555965
           }
         ]
       },
@@ -5231,11 +5327,59 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.94
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 294967.429029538
+            "defaultValue": 292108.002053098
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.35
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 291558.545705734
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.98
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 291170.936584851
           }
         ]
       },
@@ -5253,19 +5397,19 @@
         ],
         "providers": [
           {
-            "slug": "solstice",
-            "name": "Solstice",
+            "slug": "ubik-capital",
+            "name": "Ubik Capital",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.3
+            "defaultValue": 6.329999999999999
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 294738.304914429
+            "defaultValue": 290641.503806765
           }
         ]
       },
@@ -5285,137 +5429,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 5.99
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 292440.538709764
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 292208.545227486
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 291916.672252289
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.96
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 291415.492608946
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 291367.920457057
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "pops-team-validator",
-            "name": "P-OPS Team",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.328915948501814
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 289996.810522846
+            "defaultValue": 290565.630499481
           }
         ]
       },
@@ -5439,7 +5457,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 289059.084187146
+            "defaultValue": 288035.034710177
           }
         ]
       },
@@ -5459,11 +5477,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.29
+            "defaultValue": 6.08
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 285094.304224094
+            "defaultValue": 286473.630174408
           }
         ]
       },
@@ -5483,11 +5501,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 281848.965928198
+            "defaultValue": 285522.893638919
           }
         ]
       },
@@ -5507,35 +5525,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 6.36
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 280075.6999232
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.309999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 279833.786058421
+            "defaultValue": 284883.669390252
           }
         ]
       },
@@ -5561,11 +5555,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.16
+            "defaultValue": 6.23
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 279695.757645755
+            "defaultValue": 281497.093261863
           }
         ]
       },
@@ -5585,11 +5579,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.01
+            "defaultValue": 6.36
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 277363.862598437
+            "defaultValue": 280121.143171598
           }
         ]
       },
@@ -5609,11 +5603,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.16
+            "defaultValue": 6.08
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 276077.04079496
+            "defaultValue": 274665.492198589
           }
         ]
       },
@@ -5633,11 +5627,35 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 6.36
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 274702.56559069
+            "defaultValue": 270423.353760148
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.19
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 269057.419492478
           }
         ]
       },
@@ -5661,37 +5679,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 272526.931833183
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "globalstake",
-            "name": "Globalstake",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.98
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 266822.919258517
+            "defaultValue": 268809.741313227
           }
         ]
       },
@@ -5717,41 +5705,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.25
+            "defaultValue": 6.34
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 265368.489555468
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "stakr-space",
-            "name": "STAKR.Space",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 265134.582416918
+            "defaultValue": 266218.593299121
           }
         ]
       },
@@ -5775,7 +5733,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 265116.535785722
+            "defaultValue": 263941.721714546
           }
         ]
       },
@@ -5795,11 +5753,185 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.01
+            "defaultValue": 6.02
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 264972.824933871
+            "defaultValue": 262984.490364346
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 261099.452694054
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "globalstake",
+            "name": "Globalstake",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.97
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 259108.858798312
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 258834.587322614
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.35
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 258370.484766274
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.99
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 256325.61186943
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.03
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 254882.363932371
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.3
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 254640.112291478
           }
         ]
       },
@@ -5823,7 +5955,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 264508.309246108
+            "defaultValue": 254621.237938503
           }
         ]
       },
@@ -5847,7 +5979,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 264496.327291641
+            "defaultValue": 254568.562301696
           }
         ]
       },
@@ -5867,107 +5999,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6
+            "defaultValue": 6.34
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 262769.166949841
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.32
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 262210.902234956
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 258241.48802182
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 258126.390441017
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.16
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 257875.53113831
+            "defaultValue": 254486.509733333
           }
         ]
       },
@@ -5993,11 +6029,41 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.13
+            "defaultValue": 6.14
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 256043.385532446
+            "defaultValue": 251192.919390638
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakr-space",
+            "name": "STAKR.Space",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.35
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 249494.359706364
           }
         ]
       },
@@ -6017,11 +6083,107 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.99
+            "defaultValue": 5.929506952444904
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 255869.767064489
+            "defaultValue": 249392.05746023
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.27
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 248588.32994564
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.04
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 248320.539941749
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.1
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 246711.516114571
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.02
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 245126.066217504
           }
         ]
       },
@@ -6045,7 +6207,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 255575.790811254
+            "defaultValue": 245084.770784814
           }
         ]
       },
@@ -6065,11 +6227,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.922907926750533
+            "defaultValue": 5.94
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 254261.886018265
+            "defaultValue": 244966.05947613
           }
         ]
       },
@@ -6089,11 +6251,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.32
+            "defaultValue": 6.02
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 253502.807533721
+            "defaultValue": 244265.655309647
           }
         ]
       },
@@ -6113,11 +6275,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.65
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 252861.767123544
+            "defaultValue": 242523.206539959
           }
         ]
       },
@@ -6137,203 +6299,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6
+            "defaultValue": 6.04
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 251801.789053986
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.98
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 251182.495377893
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.07
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 248101.629136671
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 248045.968097152
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 247702.25479757
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.95
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 247656.414507276
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 247015.8635813
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.99
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 246893.016622425
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 244131.796007109
+            "defaultValue": 242464.484377869
           }
         ]
       },
@@ -6359,11 +6329,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.98
+            "defaultValue": 5.83
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 243433.997138652
+            "defaultValue": 242146.100717199
           }
         ]
       },
@@ -6383,11 +6353,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.01
+            "defaultValue": 6.329999999999999
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 241087.770084614
+            "defaultValue": 242102.624626976
           }
         ]
       },
@@ -6403,7 +6373,13 @@
             "symbol": "SOL"
           }
         ],
-        "providers": null,
+        "providers": [
+          {
+            "slug": "legends",
+            "name": "Legends",
+            "isActive": true
+          }
+        ],
         "metrics": [
           {
             "metricKey": "reward_rate",
@@ -6411,7 +6387,109 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 239956.467899317
+            "defaultValue": 241333.042523407
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "spectrum-staking",
+            "name": "Spectrum Staking",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 239468.980492458
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.329999999999999
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 239258.357403403
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.309999999999999
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 238831.955815809
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.27
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 236235.163685987
           }
         ]
       },
@@ -6435,31 +6513,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 237694.235541354
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.98
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 237565.247963409
+            "defaultValue": 234048.885584922
           }
         ]
       },
@@ -6489,7 +6543,127 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 237524.983998718
+            "defaultValue": 231896.446471811
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.32
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 231280.613471513
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.01
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 229573.624474242
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 228814.018402174
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.02
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 227169.117176571
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.03
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 226649.785934312
           }
         ]
       },
@@ -6513,7 +6687,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 236269.904334327
+            "defaultValue": 225994.981831067
           }
         ]
       },
@@ -6537,7 +6711,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 233223.582006563
+            "defaultValue": 225585.478232387
           }
         ]
       },
@@ -6557,425 +6731,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.02
+            "defaultValue": 6.3
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 232341.754564218
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.97
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 231770.679564806
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.01
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 231432.472708298
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.02
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 229849.846269307
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 227052.860283544
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.29
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 226876.112927822
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 226363.70520311
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 225679.332172038
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "legends",
-            "name": "Legends",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.29
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 224656.501685404
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.01
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 223983.467200682
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 223840.901078943
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.34
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 223511.345925318
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.02
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 223294.96214736
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.99
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 221434.993905775
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.01
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 221233.181744499
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.29
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 221048.693698066
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.16
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 220381.384366756
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.4
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 220000.001
+            "defaultValue": 225257.008896755
           }
         ]
       },
@@ -6999,7 +6759,127 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 219977.163896009
+            "defaultValue": 224134.762105561
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.07
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 222144.093837014
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 221536.852569014
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 220590.006332836
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.01
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 220306.821531364
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 219269.936782134
           }
         ]
       },
@@ -7023,7 +6903,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 219781.922916544
+            "defaultValue": 218823.890459867
           }
         ]
       },
@@ -7043,41 +6923,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.02
+            "defaultValue": 5.86
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 219355.47562974
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "spectrum-staking",
-            "name": "Spectrum Staking",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 219354.18898162
+            "defaultValue": 218705.371304021
           }
         ]
       },
@@ -7101,7 +6951,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 218922.060347235
+            "defaultValue": 218454.158332741
           }
         ]
       },
@@ -7121,11 +6971,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
+            "defaultValue": 6.04
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 217879.419303903
+            "defaultValue": 217641.331951034
           }
         ]
       },
@@ -7145,7 +6995,31 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.921723345165183
+            "defaultValue": 6.04
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 217547.053100243
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.928913942448661
           },
           {
             "metricKey": "staked_tokens",
@@ -7169,11 +7043,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.02
+            "defaultValue": 6.04
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 216559.506258579
+            "defaultValue": 217186.776518255
           }
         ]
       },
@@ -7193,11 +7067,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.309999999999999
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 216156.442491166
+            "defaultValue": 215992.064071236
           }
         ]
       },
@@ -7217,11 +7091,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.16
+            "defaultValue": 6.25
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 215984.654898499
+            "defaultValue": 215933.807084403
           }
         ]
       },
@@ -7241,11 +7115,131 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.280000000000001
+            "defaultValue": 6.05
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 215962.293242868
+            "defaultValue": 214743.632396941
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.04
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 214679.746643215
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 214297.62066624
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.04
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 213658.746576703
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.36
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 213363.260563758
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.01
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 213297.393954468
           }
         ]
       },
@@ -7269,7 +7263,79 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 215881.940367949
+            "defaultValue": 212959.481388129
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.29
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 212670.451712357
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 211335.418548208
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.01
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 211271.514913044
           }
         ]
       },
@@ -7293,7 +7359,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 215586.165503988
+            "defaultValue": 209227.856121151
           }
         ]
       },
@@ -7313,11 +7379,83 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.34
+            "defaultValue": 6.35
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 215478.582970762
+            "defaultValue": 208841.650674381
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.04
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 207954.079978481
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.04
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 207613.919146111
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.89
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 205801.741047382
           }
         ]
       },
@@ -7343,59 +7481,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.96
+            "defaultValue": 5.97
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 214925.862345985
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.04
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 214019.83274624
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.94
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 213917.537688217
+            "defaultValue": 205178.331195473
           }
         ]
       },
@@ -7421,11 +7511,35 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.329999999999999
+            "defaultValue": 6.309999999999999
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 213557.390309503
+            "defaultValue": 205062.044269256
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "solana",
+            "name": "Solana",
+            "symbol": "SOL"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 5.99
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 204829.458159467
           }
         ]
       },
@@ -7449,127 +7563,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 212235.69525896
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.02
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 211494.92227319
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.309999999999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 210731.579611807
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 210485.818717478
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 5.96
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 209590.568390776
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "solana",
-            "name": "Solana",
-            "symbol": "SOL"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.01
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 209421.204909641
+            "defaultValue": 204636.988686662
           }
         ]
       }

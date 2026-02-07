@@ -15,6 +15,36 @@
         ],
         "providers": [
           {
+            "slug": "certik",
+            "name": "CertiK",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.5078616
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1406149.2833709577
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
             "slug": "fuji",
             "name": "Fuji",
             "isActive": true
@@ -23,71 +53,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.5239011299999999
+            "defaultValue": 0.9094583999999999
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1363930.659615418
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "legend",
-            "name": "Legend",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.5954933
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1215000.5522536002
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "defibit",
-            "name": "defibit",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.6253807299999999
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1191317.5825070606
+            "defaultValue": 1216178.807605369
           }
         ]
       },
@@ -113,221 +83,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.72516045
+            "defaultValue": 0.7833283
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1182310.0828331977
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "figment-networks",
-            "name": "Figment",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.5524629
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1170102.795902188
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "tranchess",
-            "name": "Tranchess",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.50679063
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1158378.1468144206
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "legendiii",
-            "name": "LegendIII",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.6614262200000001
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1155567.1078644772
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "mathw",
-            "name": "MathW",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.6373182
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1104637.5399756022
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "certik",
-            "name": "CertiK",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.69556185
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1073734.8666354597
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "namelix",
-            "name": "namelix",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.7709082
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1033349.583157469
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "nodereal",
-            "name": "NodeReal",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.65371566
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1015755.108978452
+            "defaultValue": 1159040.9353354871
           }
         ]
       },
@@ -353,11 +113,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.8169634
+            "defaultValue": 0.8709458
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 978269.5239728708
+            "defaultValue": 1148079.151058068
           }
         ]
       },
@@ -375,19 +135,49 @@
         ],
         "providers": [
           {
-            "slug": "hashquark",
-            "name": "HashKey Cloud",
+            "slug": "legendiii",
+            "name": "LegendIII",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.72816797
+            "defaultValue": 0.75400653
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 940519.066418718
+            "defaultValue": 1136989.7272354297
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "defibit",
+            "name": "defibit",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.77234977
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1124277.9234228008
           }
         ]
       },
@@ -413,11 +203,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.7837235
+            "defaultValue": 0.66588465
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 914032.3108824915
+            "defaultValue": 1114776.5537765655
           }
         ]
       },
@@ -435,19 +225,19 @@
         ],
         "providers": [
           {
-            "slug": "bnbeve",
-            "name": "BNBEve",
+            "slug": "namelix",
+            "name": "namelix",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.76291417
+            "defaultValue": 0.6600707299999999
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 887333.1985480527
+            "defaultValue": 1114661.2855534689
           }
         ]
       },
@@ -465,19 +255,169 @@
         ],
         "providers": [
           {
-            "slug": "avengers",
-            "name": "Avengers",
+            "slug": "nodereal",
+            "name": "NodeReal",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.6007077000000001
+            "defaultValue": 0.9416583
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 852495.9935484484
+            "defaultValue": 1044320.3928859137
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "figment-networks",
+            "name": "Figment",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.6327586199999999
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1035413.3303426564
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "hashquark",
+            "name": "HashKey Cloud",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.7917588
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1018903.5007148007
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "mathw",
+            "name": "MathW",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.79378
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 999136.1334951274
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "tranchess",
+            "name": "Tranchess",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.57344087
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 973015.4506121143
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "legend",
+            "name": "Legend",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.9346693999999999
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 970542.514781398
           }
         ]
       },
@@ -503,11 +443,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.6549235
+            "defaultValue": 0.6027575000000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 839899.946945314
+            "defaultValue": 965376.6674175101
           }
         ]
       },
@@ -525,19 +465,19 @@
         ],
         "providers": [
           {
-            "slug": "shannon",
-            "name": "Shannon",
+            "slug": "bnbeve",
+            "name": "BNBEve",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.65553677
+            "defaultValue": 0.8294197
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 787171.3640622398
+            "defaultValue": 965119.5252308605
           }
         ]
       },
@@ -555,19 +495,19 @@
         ],
         "providers": [
           {
-            "slug": "turing",
-            "name": "Turing",
+            "slug": "avengers",
+            "name": "Avengers",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.7274328299999999
+            "defaultValue": 0.5139557
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 709944.0938106357
+            "defaultValue": 927702.308437042
           }
         ]
       },
@@ -593,11 +533,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.8069707
+            "defaultValue": 0.6086352700000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 673177.4563535016
+            "defaultValue": 843536.4453500023
           }
         ]
       },
@@ -623,11 +563,71 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.7617358000000001
+            "defaultValue": 0.6103843
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 590554.7641078031
+            "defaultValue": 710063.2888476686
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "turing",
+            "name": "Turing",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.64380635
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 627811.685693987
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "shannon",
+            "name": "Shannon",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.61055887
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 613373.7355484721
           }
         ]
       },
@@ -653,11 +653,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.22105754
+            "defaultValue": 0.068826636
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 323098.0504762557
+            "defaultValue": 323126.707912974
           }
         ]
       },
@@ -683,11 +683,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.34857877
+            "defaultValue": 0.32373789999999997
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 300302.381825852
+            "defaultValue": 300342.9746961689
           }
         ]
       },
@@ -713,11 +713,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.35877123
+            "defaultValue": 0.48883674000000005
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 252183.072785425
+            "defaultValue": 252212.42220115248
           }
         ]
       },
@@ -735,79 +735,19 @@
         ],
         "providers": [
           {
-            "slug": "zen",
-            "name": "Zen",
+            "slug": "nansen",
+            "name": "Nansen",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.34093915
+            "defaultValue": 0.36757449999999997
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 230387.3780097207
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "ankr-labs",
-            "name": "Ankr Labs",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.20497593
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 223405.98355215936
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "legendiv",
-            "name": "LegendIV",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.3906464
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 212422.47178688133
+            "defaultValue": 223421.571237586
           }
         ]
       },
@@ -833,11 +773,41 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.36293783
+            "defaultValue": 2.1582727999999998
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 196959.3853392382
+            "defaultValue": 197675.3454499886
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "zen",
+            "name": "Zen",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.34764826
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 185842.33150459616
           }
         ]
       },
@@ -863,41 +833,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.5784995
+            "defaultValue": 0.5643066999999999
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 178601.3163883926
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "blkrazor",
-            "name": "BlkRazor",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.25752403
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 166899.5294618536
+            "defaultValue": 184343.82275034653
           }
         ]
       },
@@ -923,41 +863,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.51648184
+            "defaultValue": 0.75826757
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 166840.39317437075
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "sigm8",
-            "name": "sigm8",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.42073526000000006
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 165393.44332760447
+            "defaultValue": 177922.31380640122
           }
         ]
       },
@@ -983,41 +893,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.8088624000000001
+            "defaultValue": 0.6328802
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 165296.42529279782
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "novax",
-            "name": "NovaX",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.5635513
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 163490.17722401465
+            "defaultValue": 169204.6301495441
           }
         ]
       },
@@ -1043,11 +923,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.5223646000000001
+            "defaultValue": 1.0313335
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 161782.8976936572
+            "defaultValue": 152344.12189747114
           }
         ]
       },
@@ -1065,79 +945,19 @@
         ],
         "providers": [
           {
-            "slug": "star",
-            "name": "STAR",
+            "slug": "blkrazor",
+            "name": "BlkRazor",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.514099
+            "defaultValue": 0.4041254
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 161192.57980102114
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "nexa",
-            "name": "Nexa",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.23898715
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 158263.55756325813
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "coinlix",
-            "name": "coinlix",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.49915556
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 157108.10646620166
+            "defaultValue": 147433.71851110616
           }
         ]
       },
@@ -1163,11 +983,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.28781828
+            "defaultValue": 0.25328824
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 145750.26690282443
+            "defaultValue": 145720.93371009864
           }
         ]
       },
@@ -1193,11 +1013,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.29675828000000004
+            "defaultValue": 0.29925508
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 145712.06867677075
+            "defaultValue": 145691.361961178
           }
         ]
       },
@@ -1223,11 +1043,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.32025864
+            "defaultValue": 0.44584824
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 145437.36850068002
+            "defaultValue": 145417.39760507672
           }
         ]
       },
@@ -1245,19 +1065,19 @@
         ],
         "providers": [
           {
-            "slug": "legendvii",
-            "name": "LegendVII",
+            "slug": "nexa",
+            "name": "Nexa",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.47833650000000005
+            "defaultValue": 0.3804684
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 144511.46768033243
+            "defaultValue": 138775.31821002034
           }
         ]
       },
@@ -1275,19 +1095,19 @@
         ],
         "providers": [
           {
-            "slug": "legendv",
-            "name": "LegendV",
+            "slug": "sigm8",
+            "name": "sigm8",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.641807
+            "defaultValue": 1.3311317
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 140216.00649083828
+            "defaultValue": 132494.0391851805
           }
         ]
       },
@@ -1313,11 +1133,161 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.7743634
+            "defaultValue": 0.5092767500000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 134797.99792938284
+            "defaultValue": 131252.1358745632
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "legendvii",
+            "name": "LegendVII",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.3995720999999999
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 124857.0828683779
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "star",
+            "name": "STAR",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.6102071
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 118460.45957454007
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "coinlix",
+            "name": "coinlix",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.39391243000000004
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 112990.10941977467
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "novax",
+            "name": "NovaX",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.1996005
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 107028.25132954457
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "legendv",
+            "name": "LegendV",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.8210109999999999
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 100750.2799022323
           }
         ]
       },
@@ -1343,11 +1313,67 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0.6873516
+            "defaultValue": 0.838892
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 109885.66424802592
+            "defaultValue": 86341.61215402832
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "legendiv",
+            "name": "LegendIV",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.9363563
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 72894.20833560842
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.8
           }
         ]
       },
@@ -1374,6 +1400,52 @@
           {
             "metricKey": "reward_rate",
             "defaultValue": 0.6
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "custodial",
+          "label": "custodial"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "m2",
+            "name": "M2",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0.5
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "solo-staking",
+          "label": "solo-staking"
+        },
+        "inputAssets": [
+          {
+            "slug": "binance-smart-chain",
+            "name": "BNB Chain",
+            "symbol": "BNB"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 2.3717283516483514
           }
         ]
       },
@@ -1426,78 +1498,6 @@
           {
             "metricKey": "reward_rate",
             "defaultValue": 1.7999999999999998
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "m2",
-            "name": "M2",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.8
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "solo-staking",
-          "label": "solo-staking"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.897761978021978
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        },
-        "inputAssets": [
-          {
-            "slug": "binance-smart-chain",
-            "name": "BNB Chain",
-            "symbol": "BNB"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "m2",
-            "name": "M2",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0.5
           }
         ]
       }

@@ -21,7 +21,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 875104662.9540635
+            "defaultValue": 861157924.7046189
           }
         ]
       },
@@ -47,11 +47,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.32
+            "defaultValue": 5.95
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 31027885.129499998
+            "defaultValue": 31481389.452
           }
         ]
       },
@@ -75,7 +75,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 25855489.25885855
+            "defaultValue": 25594278.86230624
           }
         ]
       },
@@ -99,7 +99,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 25572323.17194854
+            "defaultValue": 24890258.88457255
           }
         ]
       },
@@ -123,31 +123,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 20247449.25231283
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "aptos",
-            "name": "Aptos",
-            "symbol": "APT"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 19265870.06152129
+            "defaultValue": 20264457.84729921
           }
         ]
       },
@@ -177,7 +153,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 19150111.36591472
+            "defaultValue": 19515277.95063443
           }
         ]
       },
@@ -201,7 +177,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 19137176.6726764
+            "defaultValue": 19166694.2621336
           }
         ]
       },
@@ -225,7 +201,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 17003452.66857936
+            "defaultValue": 18931765.34884278
           }
         ]
       },
@@ -249,7 +225,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 16950124.58293643
+            "defaultValue": 17017047.87292203
           }
         ]
       },
@@ -273,7 +249,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 15089603.57543373
+            "defaultValue": 16851140.26274205
           }
         ]
       },
@@ -297,7 +273,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 15089601.61721215
+            "defaultValue": 15112876.03693421
           }
         ]
       },
@@ -321,7 +297,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 14584685.02385072
+            "defaultValue": 15112874.53013276
           }
         ]
       },
@@ -345,7 +321,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 14412096.26602709
+            "defaultValue": 14506799.36192682
           }
         ]
       },
@@ -369,7 +345,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 14149481.63466133
+            "defaultValue": 14389819.66619032
           }
         ]
       },
@@ -393,7 +369,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 13407106.34137627
+            "defaultValue": 14171306.04174098
           }
         ]
       },
@@ -417,7 +393,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 13362492.80259977
+            "defaultValue": 13535050.30959108
           }
         ]
       },
@@ -441,7 +417,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 13043213.76831664
+            "defaultValue": 13495709.3443703
           }
         ]
       },
@@ -467,11 +443,35 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.583078036351272
+            "defaultValue": 1.5149502540914426
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 12777114.338890871
+            "defaultValue": 13372290.11599096
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 13058688.01346326
           }
         ]
       },
@@ -501,7 +501,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 11965495.95105252
+            "defaultValue": 11982763.70418431
           }
         ]
       },
@@ -525,7 +525,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 11914677.47704837
+            "defaultValue": 11937527.88171162
           }
         ]
       },
@@ -549,31 +549,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 11297626.07462369
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "aptos",
-            "name": "Aptos",
-            "symbol": "APT"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.934434663115846
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 11080693.10673426
+            "defaultValue": 11314886.79786902
           }
         ]
       },
@@ -597,7 +573,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 10767931.13408224
+            "defaultValue": 10784540.61971925
           }
         ]
       },
@@ -623,11 +599,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.3856914399200237
+            "defaultValue": 1.385678209476754
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 10637752.141975101
+            "defaultValue": 10653080.57111015
           }
         ]
       },
@@ -651,7 +627,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 10384015.44676823
+            "defaultValue": 10400028.31068586
           }
         ]
       },
@@ -675,7 +651,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 10318993.85904002
+            "defaultValue": 10334902.73689263
           }
         ]
       },
@@ -699,7 +675,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 10223901.51645293
+            "defaultValue": 10252247.11586768
           }
         ]
       },
@@ -723,7 +699,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 10219455.90976009
+            "defaultValue": 10240662.62686752
           }
         ]
       },
@@ -747,7 +723,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 10197101.87303417
+            "defaultValue": 10212829.63484328
           }
         ]
       },
@@ -771,7 +747,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 10125238.22307677
+            "defaultValue": 10075251.01538407
           }
         ]
       },
@@ -795,7 +771,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 10059735.05926632
+            "defaultValue": 10075128.68520079
           }
         ]
       },
@@ -819,7 +795,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 10059615.5539547
+            "defaultValue": 10039314.26845811
           }
         ]
       },
@@ -843,7 +819,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 10023855.75733331
+            "defaultValue": 10038946.94449691
           }
         ]
       },
@@ -867,7 +843,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 10023492.69411381
+            "defaultValue": 10011372.85944944
           }
         ]
       },
@@ -891,7 +867,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 9902953.24849266
+            "defaultValue": 9953750.72149506
           }
         ]
       },
@@ -915,7 +891,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 9879970.79183344
+            "defaultValue": 9895210.36397622
           }
         ]
       },
@@ -939,7 +915,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 9797278.29662844
+            "defaultValue": 9812391.01869533
           }
         ]
       },
@@ -963,7 +939,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 9310427.17175757
+            "defaultValue": 9324471.9232955
           }
         ]
       },
@@ -993,7 +969,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 9186805.46533829
+            "defaultValue": 9200498.60597351
           }
         ]
       },
@@ -1023,7 +999,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 8656996.45289215
+            "defaultValue": 8688068.75213477
           }
         ]
       },
@@ -1047,7 +1023,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 8584254.18490398
+            "defaultValue": 8597481.18083238
           }
         ]
       },
@@ -1071,7 +1047,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 8578242.26347604
+            "defaultValue": 8591473.18312022
           }
         ]
       },
@@ -1101,7 +1077,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 8566723.64719195
+            "defaultValue": 8579084.293332
           }
         ]
       },
@@ -1125,7 +1101,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 8535402.84793233
+            "defaultValue": 8546063.04441914
           }
         ]
       },
@@ -1155,7 +1131,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 8531830.86384626
+            "defaultValue": 8544154.51534644
           }
         ]
       },
@@ -1185,7 +1161,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 8061500.57859907
+            "defaultValue": 8073706.86778932
           }
         ]
       },
@@ -1215,7 +1191,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 8061210.0774894
+            "defaultValue": 8072838.94214485
           }
         ]
       },
@@ -1239,7 +1215,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 7727391.38723004
+            "defaultValue": 7707441.16601893
           }
         ]
       },
@@ -1265,11 +1241,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0
+            "defaultValue": 6.75468927
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 7578842.1431718
+            "defaultValue": 7590390.12387286
           }
         ]
       },
@@ -1289,11 +1265,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0
+            "defaultValue": 6.999678000000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 7466496.38770185
+            "defaultValue": 7478011.70604261
           }
         ]
       },
@@ -1313,11 +1289,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0
+            "defaultValue": 6.999678000000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 7448398.33216356
+            "defaultValue": 7459886.15252579
           }
         ]
       },
@@ -1343,11 +1319,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0
+            "defaultValue": 6.999678000000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 7436323.82271849
+            "defaultValue": 7447792.80814355
           }
         ]
       },
@@ -1367,11 +1343,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0
+            "defaultValue": 6.879270694954129
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 7435325.19090488
+            "defaultValue": 7446381.39908568
           }
         ]
       },
@@ -1401,7 +1377,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 7433360.34677955
+            "defaultValue": 7444826.33569631
           }
         ]
       },
@@ -1421,11 +1397,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0
+            "defaultValue": 6.999678000000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 7398662.79419616
+            "defaultValue": 7413055.1524252
           }
         ]
       },
@@ -1451,11 +1427,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 0
+            "defaultValue": 6.999678000000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 7279914.10267565
+            "defaultValue": 7290418.22635333
           }
         ]
       },
@@ -1475,11 +1451,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.992636070422536
+            "defaultValue": 6.992255223753978
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 7170100.43853262
+            "defaultValue": 7204632.22082707
           }
         ]
       },
@@ -1503,7 +1479,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 6312245.44551515
+            "defaultValue": 6321982.47875914
           }
         ]
       },
@@ -1523,11 +1499,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.991529364377183
+            "defaultValue": 6.982542925336597
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 6269616.69377131
+            "defaultValue": 6272962.62951075
           }
         ]
       },
@@ -1553,11 +1529,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.5897097460051555
+            "defaultValue": 6.5441434
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5873897.27362555
+            "defaultValue": 5882546.84771375
           }
         ]
       },
@@ -1581,7 +1557,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5840734.34423203
+            "defaultValue": 5849743.02699935
           }
         ]
       },
@@ -1605,7 +1581,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5822188.35078161
+            "defaultValue": 5831169.00494142
           }
         ]
       },
@@ -1635,7 +1611,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5798734.85882593
+            "defaultValue": 5807678.18213132
           }
         ]
       },
@@ -1659,7 +1635,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5468769.45782187
+            "defaultValue": 5479067.67233377
           }
         ]
       },
@@ -1685,11 +1661,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.999678
+            "defaultValue": 6.6920712648789
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5445536.32531313
+            "defaultValue": 5459993.20850713
           }
         ]
       },
@@ -1713,7 +1689,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5371405.46049182
+            "defaultValue": 5378894.52416633
           }
         ]
       },
@@ -1733,11 +1709,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.980288310249308
+            "defaultValue": 6.999678000000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5300011.76737979
+            "defaultValue": 5308159.66461178
           }
         ]
       },
@@ -1767,7 +1743,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5136371.30818184
+            "defaultValue": 5143081.35802554
           }
         ]
       },
@@ -1791,7 +1767,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5127388.19928043
+            "defaultValue": 5135294.50501578
           }
         ]
       },
@@ -1815,55 +1791,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5105269.94168067
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "aptos",
-            "name": "Aptos",
-            "symbol": "APT"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.989860779803648
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 5013159.97543494
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "aptos",
-            "name": "Aptos",
-            "symbol": "APT"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.629903343750001
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4778736.08772845
+            "defaultValue": 5117969.18237386
           }
         ]
       },
@@ -1887,7 +1815,55 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4778568.66135258
+            "defaultValue": 5020875.77107472
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4785265.95457643
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.6496941000000005
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4783392.75601516
           }
         ]
       },
@@ -1917,7 +1893,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4762750.81114646
+            "defaultValue": 4770096.80718306
           }
         ]
       },
@@ -1941,7 +1917,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4754914.04718505
+            "defaultValue": 4762245.12836186
           }
         ]
       },
@@ -1965,7 +1941,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4750905.46572358
+            "defaultValue": 4758233.53760258
           }
         ]
       },
@@ -1989,7 +1965,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4440162.65618915
+            "defaultValue": 4443901.78638155
           }
         ]
       },
@@ -2009,35 +1985,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 5.3931945245901645
+            "defaultValue": 6.271523577181208
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4243571.41707653
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "aptos",
-            "name": "Aptos",
-            "symbol": "APT"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.999678000000001
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4158434.17835997
+            "defaultValue": 4235775.26388647
           }
         ]
       },
@@ -2061,7 +2013,31 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4153586.70311758
+            "defaultValue": 4160702.04375742
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4159992.89608976
           }
         ]
       },
@@ -2085,7 +2061,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4042183.93501915
+            "defaultValue": 4048418.86678243
           }
         ]
       },
@@ -2109,7 +2085,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3888447.90617582
+            "defaultValue": 3893670.06885454
           }
         ]
       },
@@ -2133,7 +2109,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3441179.96485739
+            "defaultValue": 3446487.2978503
           }
         ]
       },
@@ -2153,11 +2129,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.923262301310045
+            "defaultValue": 6.726710055710307
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3411648.56183637
+            "defaultValue": 3416787.90215483
           }
         ]
       },
@@ -2183,11 +2159,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 15.749275500000001
+            "defaultValue": 6.625481377358492
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3363676.88161367
+            "defaultValue": 3367221.91935575
           }
         ]
       },
@@ -2213,11 +2189,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.999678000000001
+            "defaultValue": 6.509700540000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3354111.86497649
+            "defaultValue": 3359282.16240358
           }
         ]
       },
@@ -2241,37 +2217,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3295860.79635076
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "aptos",
-            "name": "Aptos",
-            "symbol": "APT"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "tauruslabs",
-            "name": "tauruslabs",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 4.277581000000001
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 3266397.57550737
+            "defaultValue": 3300942.32839367
           }
         ]
       },
@@ -2295,7 +2241,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3236641.43073333
+            "defaultValue": 3241633.29274019
           }
         ]
       },
@@ -2319,7 +2265,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3171601.21156691
+            "defaultValue": 3176492.93840773
           }
         ]
       },
@@ -2343,7 +2289,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3137215.13859472
+            "defaultValue": 3142053.67799991
           }
         ]
       },
@@ -2369,11 +2315,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.772661416216217
+            "defaultValue": 6.960243194366197
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3132202.70011438
+            "defaultValue": 3136888.40904055
           }
         ]
       },
@@ -2397,7 +2343,55 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3070022.25046825
+            "defaultValue": 3081571.50196508
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.982309071960298
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3074176.61317013
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 0
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 3074136.78812966
           }
         ]
       },
@@ -2421,7 +2415,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3069443.15123769
+            "defaultValue": 3053446.04980989
           }
         ]
       },
@@ -2445,55 +2439,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3048745.28854839
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "aptos",
-            "name": "Aptos",
-            "symbol": "APT"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.999678000000001
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 2940005.04025194
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "aptos",
-            "name": "Aptos",
-            "symbol": "APT"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.999678000000001
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 2896861.62416341
+            "defaultValue": 2944539.32592021
           }
         ]
       },
@@ -2543,11 +2489,35 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2817271.58628507
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
             "defaultValue": 0
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2649469.80485767
+            "defaultValue": 2652767.52448479
           }
         ]
       },
@@ -2577,7 +2547,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2579947.41306813
+            "defaultValue": 2606447.82488696
           }
         ]
       },
@@ -2601,7 +2571,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2513250.7135839
+            "defaultValue": 2590907.7909546
           }
         ]
       },
@@ -2631,7 +2601,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2418123.16648707
+            "defaultValue": 2407537.04647148
           }
         ]
       },
@@ -2651,11 +2621,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.82468605
+            "defaultValue": 6.999678000000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2400322.85608987
+            "defaultValue": 2404024.88925902
           }
         ]
       },
@@ -2675,11 +2645,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.139910477170419
+            "defaultValue": 6.093483127741936
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2317253.65287828
+            "defaultValue": 2320776.83045791
           }
         ]
       },
@@ -2705,11 +2675,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.976189147651008
+            "defaultValue": 6.509700540000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2295900.04195455
+            "defaultValue": 2299123.38858352
           }
         ]
       },
@@ -2733,7 +2703,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2201745.16227668
+            "defaultValue": 2205203.2442023
           }
         ]
       },
@@ -2763,7 +2733,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2140033.87424249
+            "defaultValue": 2143869.37260865
           }
         ]
       },
@@ -2787,7 +2757,31 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2113435.68976807
+            "defaultValue": 2115524.44092785
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 2048586.9610116
           }
         ]
       },
@@ -2811,31 +2805,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 2052134.65080294
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "aptos",
-            "name": "Aptos",
-            "symbol": "APT"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.6496941000000005
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 2045432.64589276
+            "defaultValue": 2031094.83082165
           }
         ]
       },
@@ -2859,55 +2829,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1949195.7264223
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "aptos",
-            "name": "Aptos",
-            "symbol": "APT"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.975031246478874
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1937994.43030592
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "aptos",
-            "name": "Aptos",
-            "symbol": "APT"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.970633692946058
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1892886.60474297
+            "defaultValue": 1952007.46269016
           }
         ]
       },
@@ -2931,7 +2853,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1714086.27448976
+            "defaultValue": 1940982.16472515
           }
         ]
       },
@@ -2955,7 +2877,55 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1699214.7461979
+            "defaultValue": 1891565.43549444
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1716730.44910244
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.999678000000001
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1701834.5070804
           }
         ]
       },
@@ -2981,11 +2951,35 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.875239280000001
+            "defaultValue": 6.833019000000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1695392.71014808
+            "defaultValue": 1697632.41711347
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "aptos",
+            "name": "Aptos",
+            "symbol": "APT"
+          }
+        ],
+        "providers": null,
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 6.442489701492539
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 1604270.13949129
           }
         ]
       },
@@ -3009,7 +3003,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1602017.93361612
+            "defaultValue": 1492378.56063907
           }
         ]
       },
@@ -3039,7 +3033,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1601377.54886515
+            "defaultValue": 1470413.50217369
           }
         ]
       },
@@ -3063,31 +3057,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1490189.82462461
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "aptos",
-            "name": "Aptos",
-            "symbol": "APT"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.999678000000001
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1368150.35109215
+            "defaultValue": 1369923.75623555
           }
         ]
       },
@@ -3113,11 +3083,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.6496941000000005
+            "defaultValue": 6.999678000000001
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1310745.11469694
+            "defaultValue": 1317475.48200258
           }
         ]
       },
@@ -3137,11 +3107,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 6.833019000000001
+            "defaultValue": 6.756210939130436
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1249745.60754336
+            "defaultValue": 1251596.74670496
           }
         ]
       },
@@ -3165,37 +3135,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1170152.92071266
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "aptos",
-            "name": "Aptos",
-            "symbol": "APT"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "stakin",
-            "name": "Stakin by The Tie",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.999678000000001
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1156462.44901496
+            "defaultValue": 1171870.92837266
           }
         ]
       },
@@ -3219,7 +3159,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1083467.5940306
+            "defaultValue": 1085046.97368664
           }
         ]
       },
@@ -3243,7 +3183,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1076074.22931015
+            "defaultValue": 1077426.70487707
           }
         ]
       },
@@ -3267,31 +3207,7 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1073454.6577701
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "aptos",
-            "name": "Aptos",
-            "symbol": "APT"
-          }
-        ],
-        "providers": null,
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 6.956735190184051
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 1037308.78145333
+            "defaultValue": 1075096.33582302
           }
         ]
       }

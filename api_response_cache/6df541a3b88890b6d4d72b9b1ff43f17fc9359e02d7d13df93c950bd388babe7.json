@@ -23,11 +23,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.6211739151867688
+            "defaultValue": 1.6017249184390439
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 3588824171.9546237
+            "defaultValue": 3611792809.14008
           }
         ]
       },
@@ -53,11 +53,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.6211739151867688
+            "defaultValue": 1.6017249184390439
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 1523763709.5523632
+            "defaultValue": 1523892391.314623
           }
         ]
       },
@@ -83,101 +83,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.6211739151867688
+            "defaultValue": 1.6017249184390439
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 972108770.385562
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "eternals",
-            "name": "Eternals",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.6211739151867688
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 827411667.4092677
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "galactic-guardians",
-            "name": "Galactic Guardians",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.6211739151867688
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 824360967.1069314
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "guru-node",
-            "name": "Guru Node",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.6211739151867688
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 823710344.1273736
+            "defaultValue": 1007993789.8242496
           }
         ]
       },
@@ -203,11 +113,71 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.6211739151867688
+            "defaultValue": 1.6017249184390439
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 823395943.8609871
+            "defaultValue": 834222143.4822865
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "guru-node",
+            "name": "Guru Node",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6017249184390439
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 829041042.4722744
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "eternals",
+            "name": "Eternals",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6017249184390439
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 828697201.0839983
           }
         ]
       },
@@ -233,11 +203,41 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.6211739151867688
+            "defaultValue": 1.6017249184390439
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 822263346.6242727
+            "defaultValue": 826446416.2177391
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "galactic-guardians",
+            "name": "Galactic Guardians",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6017249184390439
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 826335570.7951676
           }
         ]
       },
@@ -263,11 +263,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.6211739151867688
+            "defaultValue": 1.6017249184390439
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 503708940.27465963
+            "defaultValue": 503759440.27465963
           }
         ]
       },
@@ -293,11 +293,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.6211739151867688
+            "defaultValue": 1.6017249184390439
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 339528690.14099544
+            "defaultValue": 349112593.1411033
           }
         ]
       },
@@ -317,11 +317,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 315182256.8323015
+            "defaultValue": 345949893.70977664
           }
         ]
       },
@@ -347,11 +347,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 160155420.46632594
+            "defaultValue": 161917533.98978928
           }
         ]
       },
@@ -377,11 +377,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 112906342.4401399
+            "defaultValue": 114041129.07292202
           }
         ]
       },
@@ -407,7 +407,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.6211739151867688
+            "defaultValue": 1.6017249184390439
           },
           {
             "metricKey": "staked_tokens",
@@ -437,71 +437,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 97227902.10312773
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "kiln",
-            "name": "Kiln",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.6572682017164244
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 51996502.55754822
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "allnodes",
-            "name": "Allnodes",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112587759405848
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 51244731.2955372
+            "defaultValue": 96798879.89968371
           }
         ]
       },
@@ -531,7 +471,67 @@
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 50810001.0
+            "defaultValue": 71890001.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "hosting",
+          "label": "hosting"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "allnodes",
+            "name": "Allnodes",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301015
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 51311173.49851983
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kiln",
+            "name": "Kiln",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.690709636130102
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 50466187.60379521
           }
         ]
       },
@@ -557,11 +557,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 42505825.591265135
+            "defaultValue": 44883492.77030681
           }
         ]
       },
@@ -587,11 +587,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 33724107.18910177
+            "defaultValue": 33646040.26807835
           }
         ]
       },
@@ -617,11 +617,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 32749979.7823684
+            "defaultValue": 32787158.061974846
           }
         ]
       },
@@ -647,11 +647,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 32357386.25667425
+            "defaultValue": 32359303.863654494
           }
         ]
       },
@@ -677,11 +677,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 25352407.463627238
+            "defaultValue": 26177585.838429254
           }
         ]
       },
@@ -707,11 +707,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.6662065239419568
+            "defaultValue": 1.6462172772845725
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 25146113.556996565
+            "defaultValue": 25155709.519270007
           }
         ]
       },
@@ -737,11 +737,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 23208885.28691659
+            "defaultValue": 23796711.69079368
           }
         ]
       },
@@ -789,19 +789,19 @@
         ],
         "providers": [
           {
-            "slug": "swisscro",
-            "name": "SwissCro",
+            "slug": "icy-road-0-fee",
+            "name": "Icy Road - 0% Fee",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 21240702.783891514
+            "defaultValue": 21592793.937536858
           }
         ]
       },
@@ -819,19 +819,19 @@
         ],
         "providers": [
           {
-            "slug": "icy-road-0-fee",
-            "name": "Icy Road - 0% Fee",
+            "slug": "swisscro",
+            "name": "SwissCro",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 21076367.424600802
+            "defaultValue": 21459296.576597616
           }
         ]
       },
@@ -857,11 +857,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 20539872.952849597
+            "defaultValue": 20573811.18830897
           }
         ]
       },
@@ -887,11 +887,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.6211739151867688
+            "defaultValue": 1.6017249184390439
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 18837562.275325857
+            "defaultValue": 18838561.026675146
           }
         ]
       },
@@ -917,11 +917,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 18456837.561732173
+            "defaultValue": 18477412.72657566
           }
         ]
       },
@@ -947,11 +947,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.5311086976763926
+            "defaultValue": 1.5127402007479858
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 15657512.213263655
+            "defaultValue": 15665150.810859656
           }
         ]
       },
@@ -977,11 +977,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 15532015.61491521
+            "defaultValue": 15543884.39763021
           }
         ]
       },
@@ -1007,11 +1007,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 12727990.971208956
+            "defaultValue": 13066331.355837794
           }
         ]
       },
@@ -1037,11 +1037,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 12196244.745523738
+            "defaultValue": 12519451.599555735
           }
         ]
       },
@@ -1067,11 +1067,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 11497470.405587288
+            "defaultValue": 11586536.396926317
           }
         ]
       },
@@ -1097,11 +1097,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 10907964.409610804
+            "defaultValue": 10923373.768137604
           }
         ]
       },
@@ -1127,11 +1127,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 10131851.870306117
+            "defaultValue": 10375942.645624878
           }
         ]
       },
@@ -1157,41 +1157,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 9359738.725630209
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "ateamthrive",
-            "name": "ATeamThrive \ud83c\udf31",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 8471202.693853475
+            "defaultValue": 9596748.98538268
           }
         ]
       },
@@ -1217,11 +1187,41 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 8470816.737298103
+            "defaultValue": 8672300.577427616
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ateamthrive",
+            "name": "ATeamThrive \ud83c\udf31",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 8471148.158443782
           }
         ]
       },
@@ -1247,41 +1247,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 8152155.429748511
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "supermoon",
-            "name": "Supermoon",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 7806868.771366915
+            "defaultValue": 8179330.086582861
           }
         ]
       },
@@ -1307,11 +1277,41 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 6888207.198269936
+            "defaultValue": 7882876.511984801
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "supermoon",
+            "name": "Supermoon",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 7812840.075809714
           }
         ]
       },
@@ -1337,11 +1337,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 6830816.575629845
+            "defaultValue": 6816626.8174358765
           }
         ]
       },
@@ -1367,41 +1367,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 6678354.062446396
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "the-abyss-0-in-2021",
-            "name": "The Abyss (0% in 2021)",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 6493677.0934524415
+            "defaultValue": 6703412.7869533
           }
         ]
       },
@@ -1427,11 +1397,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 6451063.672444088
+            "defaultValue": 6575721.235295307
           }
         ]
       },
@@ -1457,11 +1427,41 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 6409398.374162364
+            "defaultValue": 6495079.672205592
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "the-abyss-0-in-2021",
+            "name": "The Abyss (0% in 2021)",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 6421656.064141391
           }
         ]
       },
@@ -1487,11 +1487,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 6399608.02371447
+            "defaultValue": 6392213.912630269
           }
         ]
       },
@@ -1517,11 +1517,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5962164.314481841
+            "defaultValue": 6027315.2171768015
           }
         ]
       },
@@ -1547,11 +1547,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5731341.495720979
+            "defaultValue": 5746472.606124546
           }
         ]
       },
@@ -1577,11 +1577,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5702937.7058926895
+            "defaultValue": 5732616.512866322
           }
         ]
       },
@@ -1607,101 +1607,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5692284.91933567
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "abyss-finance",
-            "name": "Abyss Finance",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 5540262.35831097
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "medusanodecom-0-fee",
-            "name": "\ud83e\udd91 Medusanode.com | 0% fee",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 5519672.2824626025
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "coinpayu",
-            "name": "Coinpayu",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 5511923.96883606
+            "defaultValue": 5723587.15105681
           }
         ]
       },
@@ -1727,11 +1637,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5508380.915456208
+            "defaultValue": 5589338.517800802
           }
         ]
       },
@@ -1749,19 +1659,19 @@
         ],
         "providers": [
           {
-            "slug": "pickle-rick",
-            "name": "\ud83e\udd52 Pickle Rick \ud83e\udd52",
+            "slug": "medusanodecom-0-fee",
+            "name": "\ud83e\udd91 Medusanode.com | 0% fee",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5297382.937534546
+            "defaultValue": 5523020.790948312
           }
         ]
       },
@@ -1779,19 +1689,19 @@
         ],
         "providers": [
           {
-            "slug": "moonrise",
-            "name": "Moonrise",
+            "slug": "abyss-finance",
+            "name": "Abyss Finance",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5164012.683840324
+            "defaultValue": 5502549.751602439
           }
         ]
       },
@@ -1809,679 +1719,19 @@
         ],
         "providers": [
           {
-            "slug": "eco-stake",
-            "name": "ECO Stake \ud83c\udf31",
+            "slug": "coinpayu",
+            "name": "Coinpayu",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 5084916.962414983
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "gate-earn",
-            "name": "Gate Earn",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 5002346.0
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "dh-node",
-            "name": "DH Node",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4922180.072356191
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "polkachucom",
-            "name": "POLKACHU",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4863629.131997659
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "communitydriven",
-            "name": "CommunityDriven \ud83d\ude80",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4815080.324751342
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "surfcrypto-0-fee-reliable-community-validator",
-            "name": "SurfCrypto 0% Fee - Reliable Community Validator",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4731142.479866714
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "kerfuffle",
-            "name": "Kerfuffle",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4722004.76950495
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "icy-squid-game-win-25k-cro",
-            "name": "\ud83e\udd91 Icy Squid Game | Win 25k CRO",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4711864.46561699
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "defier",
-            "name": "Defier",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4574931.949236856
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "frens",
-            "name": "Frens",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4520135.400129591
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "osiris",
-            "name": "Osiris",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4511001.675399062
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "greennodept-rewards",
-            "name": "greennode.pt Rewards",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4502683.909312329
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "cromium",
-            "name": "Cromium",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4464086.47741124
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "mjolnir",
-            "name": "\u26a1mjolnir",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4458079.098948983
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "simba",
-            "name": "Simba",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4444507.0562770935
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "ascension",
-            "name": "Ascension",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4441636.756080808
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "selfliquidity",
-            "name": "SelfLiquidity",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4412986.447113193
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "kingstaker",
-            "name": "Kingstaker \ud83c\uddf3\ud83c\uddf1",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4411289.22355294
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "jeffreyrentalcom",
-            "name": "\ud83c\udfe1 Jeffreyrental.com",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4409350.879074915
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "cromintercom-0-fee-1-max",
-            "name": "CROMinter.com | 0% Fee, 1% Max",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4342531.289157581
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "orion",
-            "name": "Orion",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4304380.473790302
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "ebisus-bay",
-            "name": "\u26e9\ufe0f Ebisu's Bay",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4297085.03615028
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "forza",
-            "name": "FORZA",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 4289233.260062853
+            "defaultValue": 5498168.793765061
           }
         ]
       },
@@ -2507,11 +1757,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4264614.050987065
+            "defaultValue": 5182615.039663522
           }
         ]
       },
@@ -2529,19 +1779,19 @@
         ],
         "providers": [
           {
-            "slug": "golden-ratio-staking",
-            "name": "Golden Ratio Staking",
+            "slug": "moonrise",
+            "name": "Moonrise",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4262694.241674292
+            "defaultValue": 5170927.365214216
           }
         ]
       },
@@ -2559,19 +1809,19 @@
         ],
         "providers": [
           {
-            "slug": "crorunner",
-            "name": "CroRunner",
+            "slug": "pickle-rick",
+            "name": "\ud83e\udd52 Pickle Rick \ud83e\udd52",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4261605.546560522
+            "defaultValue": 5167877.622122826
           }
         ]
       },
@@ -2589,19 +1839,19 @@
         ],
         "providers": [
           {
-            "slug": "stakepool",
-            "name": "StakePool",
+            "slug": "kingstaker",
+            "name": "Kingstaker \ud83c\uddf3\ud83c\uddf1",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4259964.290338374
+            "defaultValue": 5129594.978624202
           }
         ]
       },
@@ -2619,19 +1869,19 @@
         ],
         "providers": [
           {
-            "slug": "scrumptious",
-            "name": "SCRUMPTIOUS",
+            "slug": "eco-stake",
+            "name": "ECO Stake \ud83c\udf31",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4247316.368674234
+            "defaultValue": 5103593.980969561
           }
         ]
       },
@@ -2649,19 +1899,289 @@
         ],
         "providers": [
           {
-            "slug": "bcw-cc-node",
-            "name": "BCW CC Node",
+            "slug": "dh-node",
+            "name": "DH Node",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4235215.59283814
+            "defaultValue": 5027422.449089769
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "gate-earn",
+            "name": "Gate Earn",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 5012346.0
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "polkachucom",
+            "name": "POLKACHU",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4924589.840839759
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "communitydriven",
+            "name": "CommunityDriven \ud83d\ude80",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4824503.967107312
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "icy-squid-game-win-25k-cro",
+            "name": "\ud83e\udd91 Icy Squid Game | Win 25k CRO",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4753011.881548652
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "surfcrypto-0-fee-reliable-community-validator",
+            "name": "SurfCrypto 0% Fee - Reliable Community Validator",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4735681.437934093
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "kerfuffle",
+            "name": "Kerfuffle",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4695063.580492592
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "defier",
+            "name": "Defier",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4664124.584993095
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "mjolnir",
+            "name": "\u26a1mjolnir",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4626505.524414062
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "simba",
+            "name": "Simba",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4583830.948118042
           }
         ]
       },
@@ -2687,11 +2207,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4229258.9083460225
+            "defaultValue": 4579308.105483185
           }
         ]
       },
@@ -2709,19 +2229,19 @@
         ],
         "providers": [
           {
-            "slug": "euphoria",
-            "name": "Euphoria",
+            "slug": "frens",
+            "name": "Frens",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4224042.048353625
+            "defaultValue": 4526250.178234569
           }
         ]
       },
@@ -2739,19 +2259,19 @@
         ],
         "providers": [
           {
-            "slug": "lastation",
-            "name": "Lastation",
+            "slug": "osiris",
+            "name": "Osiris",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4219760.953946292
+            "defaultValue": 4506805.402161872
           }
         ]
       },
@@ -2769,19 +2289,139 @@
         ],
         "providers": [
           {
-            "slug": "sg-the-satay-stakers",
-            "name": "[SG] The Satay Stakers",
+            "slug": "golden-ratio-staking",
+            "name": "Golden Ratio Staking",
             "isActive": true
           }
         ],
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4214154.646983934
+            "defaultValue": 4503685.643481201
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "orion",
+            "name": "Orion",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4497097.38358993
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "greennodept-rewards",
+            "name": "greennode.pt Rewards",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4493210.885464001
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "bcw-cc-node",
+            "name": "BCW CC Node",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4467588.73642304
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "jeffreyrentalcom",
+            "name": "\ud83c\udfe1 Jeffreyrental.com",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4456160.325079523
           }
         ]
       },
@@ -2807,11 +2447,371 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.7112391326971448
+            "defaultValue": 1.6907096361301017
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4207640.902926194
+            "defaultValue": 4448773.720573583
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "scrumptious",
+            "name": "SCRUMPTIOUS",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4445327.8260656735
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ascension",
+            "name": "Ascension",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4441469.295574797
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "selfliquidity",
+            "name": "SelfLiquidity",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4424142.7991376035
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "euphoria",
+            "name": "Euphoria",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4365116.266716046
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "crorunner",
+            "name": "CroRunner",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4364834.226701471
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "forza",
+            "name": "FORZA",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4352962.119503523
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cromintercom-0-fee-1-max",
+            "name": "CROMinter.com | 0% Fee, 1% Max",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4351243.113850671
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "lastation",
+            "name": "Lastation",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4351225.281880812
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "sg-the-satay-stakers",
+            "name": "[SG] The Satay Stakers",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4343351.917430242
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "cromium",
+            "name": "Cromium",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4328333.006935375
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "ebisus-bay",
+            "name": "\u26e9\ufe0f Ebisu's Bay",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4327591.43222617
+          }
+        ]
+      },
+      {
+        "type": {
+          "key": "pos",
+          "label": "pos"
+        },
+        "inputAssets": [
+          {
+            "slug": "crypto-com-coin",
+            "name": "Cronos",
+            "symbol": "CRO"
+          }
+        ],
+        "providers": [
+          {
+            "slug": "stakepool",
+            "name": "StakePool",
+            "isActive": true
+          }
+        ],
+        "metrics": [
+          {
+            "metricKey": "reward_rate",
+            "defaultValue": 1.6907096361301017
+          },
+          {
+            "metricKey": "staked_tokens",
+            "defaultValue": 4324314.082368993
           }
         ]
       },
@@ -2837,41 +2837,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.6409882630390515
+            "defaultValue": 1.6213015563310764
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 4199541.15587291
-          }
-        ]
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        },
-        "inputAssets": [
-          {
-            "slug": "crypto-com-coin",
-            "name": "Cronos",
-            "symbol": "CRO"
-          }
-        ],
-        "providers": [
-          {
-            "slug": "raul-node-commission-0",
-            "name": "Raul-node commission 0%",
-            "isActive": true
-          }
-        ],
-        "metrics": [
-          {
-            "metricKey": "reward_rate",
-            "defaultValue": 0
-          },
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 2785467.272062403
+            "defaultValue": 4297933.029890291
           }
         ]
       },
@@ -2891,7 +2861,7 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 1.8013043502075208
+            "defaultValue": 1.7796943538211596
           }
         ]
       },

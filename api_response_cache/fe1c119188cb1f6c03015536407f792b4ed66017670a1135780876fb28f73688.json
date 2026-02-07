@@ -1417,11 +1417,11 @@
         "metrics": [
           {
             "metricKey": "reward_rate",
-            "defaultValue": 2.92
+            "defaultValue": -11.99
           },
           {
             "metricKey": "staked_tokens",
-            "defaultValue": 24.261763204383076
+            "defaultValue": 24.279607581650577
           }
         ]
       },
