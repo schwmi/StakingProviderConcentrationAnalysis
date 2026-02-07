@@ -107,14 +107,13 @@ class StakingRewardsAPIClient:
             ) from http_err
         result = response.json()
 
-        # Save to cache
-        if use_cache:
-            try:
-                with open(cache_file, 'w') as f:
-                    json.dump(result, f, indent=2)
-            except IOError:
-                # If we can't write to cache, continue anyway
-                pass
+        # We always write the newest query to cache
+        try:
+            with open(cache_file, "w") as f:
+                json.dump(result, f, indent=2)
+        except IOError:
+            # cache write failure should never break the request
+            pass
 
         return result
 
