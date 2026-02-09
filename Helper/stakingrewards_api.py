@@ -3,6 +3,7 @@ import json
 import hashlib
 import requests
 from pathlib import Path
+from datetime import datetime, timezone
 
 
 class StakingRewardsAPIClient:
@@ -79,7 +80,11 @@ class StakingRewardsAPIClient:
         if use_cache and cache_file.exists():
             try:
                 with open(cache_file, 'r') as f:
-                    return json.load(f)
+                    cached = json.load(f)
+                # Support both legacy cache format and new metadata wrapper
+                if isinstance(cached, dict) and "response" in cached and "_cache_meta" in cached:
+                    return cached["response"]
+                return cached
             except (json.JSONDecodeError, IOError):
                 # If cache is corrupted, continue to make API call
                 pass
@@ -110,7 +115,17 @@ class StakingRewardsAPIClient:
         # We always write the newest query to cache
         try:
             with open(cache_file, "w") as f:
-                json.dump(result, f, indent=2)
+                cache_payload = {
+                    "_cache_meta": {
+                        "retrieved_at_utc": datetime.now(timezone.utc).isoformat(),
+                        "query": query.strip(),
+                        "variables": variables or {},
+                        "cache_key": cache_key,
+                        "base_url": self.BASE_URL,
+                    },
+                    "response": result,
+                }
+                json.dump(cache_payload, f, indent=2)
         except IOError:
             # cache write failure should never break the request
             pass
