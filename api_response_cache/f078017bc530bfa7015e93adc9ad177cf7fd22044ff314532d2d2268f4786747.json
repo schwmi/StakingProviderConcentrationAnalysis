@@ -1,0 +1,1031 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:32:28.207902+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"tron\"] }\n                  \n                }\n                limit: 300\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "f078017bc530bfa7015e93adc9ad177cf7fd22044ff314532d2d2268f4786747",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "valkyrie-investments",
+              "name": "Valkyrie Investments",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.1890272373043738
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4360549232.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "poloniex",
+              "name": "Poloniex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.1396243755609357
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3332842529.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "tronalliance",
+              "name": "TRONALLIANCE",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.142972251978475
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3217576452.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "crypto-labs",
+              "name": "Crypto Labs",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.1530366053081766
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2914553701.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "binance-staking",
+              "name": "Binance Staking",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.540429998265267
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2407622883.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "blockanalysis",
+              "name": "BlockAnalysis",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.1757305385065715
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2404035592.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "jd-investment",
+              "name": "jd investment",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.252042312430337
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1512916399.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cryptoai",
+              "name": "cryptoAI",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.256341815544708
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1481966446.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "blockchainorg",
+              "name": "BlockchainOrg",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.256588798129901
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1480226958.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "huobiwallet",
+              "name": "Huobi_Wallet",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.256816408704056
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1478627518.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "intelligence-quant",
+              "name": "Intelligence Quant",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.25720209388017
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1475925150.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "smart-consensus",
+              "name": "Smart Consensus",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.257220845986365
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1475794012.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "antinvestmentgroup",
+              "name": "antinvestmentgroup",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.2573674808598843
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1474769362.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "chain-cloud",
+              "name": "Chain Cloud",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.257370579612099
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1474747724.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "metaverse-home",
+              "name": "metaverse home",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.2573781263806847
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1474695029.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "luganodes",
+              "name": "Luganodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.1258851599816633
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1275275456.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "okx-earn",
+              "name": "OKX Earn",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.1685470088022956
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1224322578.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "kiln",
+              "name": "Kiln",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.1392089259351854
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1206020553.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "staked",
+              "name": "Staked",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.986206518442831
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1145786238.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "p2p-validator",
+              "name": "P2P.org",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.182206544066446
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1026180055.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "tronspark",
+              "name": "TronSpark",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.2034297435975447
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 955827667.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "google-cloud",
+              "name": "Google Cloud",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 945486863.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "staking4all",
+              "name": "Staking4All",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.1203595199102327
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 901431456.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cryptochain",
+              "name": "CryptoChain",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.236245918028185
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 864215259.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "httpsokcoinjp",
+              "name": "https://okcoin.jp/",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.2570489529516444
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 814713744.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "nansen",
+              "name": "Nansen",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.2570640313513124
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 814679921.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "moonstake",
+              "name": "Moonstake",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.7415535537770075
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 406429
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "allnodes",
+              "name": "Allnodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.2365066230719908
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.5
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.8000000000000003
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "solo-staking",
+            "label": "solo-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.2364923265355934
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "atomicnodes",
+              "name": "Atomic Nodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.2956345149050743
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.7999999999999998
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:58.532220+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"hedera-hashgraph\"] }\n                  typeKeys: [\"smart-contract\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "fdd650b02b2f27a29a3f8206908abbf007412951a4b06797ba66969c53ff6aa3",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          },
+          "inputAssets": [
+            {
+              "slug": "hedera-hashgraph",
+              "name": "Hedera",
+              "symbol": "HBAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stader-labs",
+              "name": "Staderlabs",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.480251973428229
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 436863920.664681
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

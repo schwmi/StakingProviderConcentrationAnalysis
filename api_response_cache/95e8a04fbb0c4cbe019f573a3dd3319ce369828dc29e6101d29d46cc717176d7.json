@@ -1,16 +1,25 @@
 {
-  "data": {
-    "assets": [
-      {
-        "slug": "solana",
-        "metrics": [
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 421307525.2539689,
-            "createdAt": "2026-02-06T23:10:37.679272Z"
-          }
-        ]
-      }
-    ]
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:49.908269+00:00",
+    "query": "{\n          assets(where: { slugs: [\"solana\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "95e8a04fbb0c4cbe019f573a3dd3319ce369828dc29e6101d29d46cc717176d7",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": [
+        {
+          "slug": "solana",
+          "metrics": [
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 418071241.72895706,
+              "createdAt": "2026-02-11T23:13:14.860579Z"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

@@ -1,0 +1,45 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:52.339907+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"tron\"] }\n                  typeKeys: [\"hosting\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "82063a58d41cf43a7a606ae1431ad50caeb3df75677812b0fca424068df253f0",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "tron",
+              "name": "Tron",
+              "symbol": "TRX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "allnodes",
+              "name": "Allnodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.2365066230719908
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

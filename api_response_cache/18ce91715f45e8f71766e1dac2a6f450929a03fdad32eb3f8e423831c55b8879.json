@@ -1,0 +1,75 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:10.289533+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"cosmos\"] }\n                  typeKeys: [\"liquid-staking\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "18ce91715f45e8f71766e1dac2a6f450929a03fdad32eb3f8e423831c55b8879",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "cosmos",
+              "name": "Cosmos Hub",
+              "symbol": "ATOM"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "drop",
+              "name": "Drop",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 14.225333401985472
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4377992.548564244
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "cosmos",
+              "name": "Cosmos Hub",
+              "symbol": "ATOM"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stride",
+              "name": "Stride",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 15.144204763771896
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3495560.149858573
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,2238 +1,2925 @@
 {
-  "data": {
-    "rewardOptions": [
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "solo-staking",
-          "label": "solo-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "smart-contract",
-          "label": "smart-contract"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "liquid-staking",
-          "label": "liquid-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "smart-contract",
-          "label": "smart-contract"
-        }
-      },
-      {
-        "type": {
-          "key": "smart-contract",
-          "label": "smart-contract"
-        }
-      },
-      {
-        "type": {
-          "key": "smart-contract",
-          "label": "smart-contract"
-        }
-      },
-      {
-        "type": {
-          "key": "smart-contract",
-          "label": "smart-contract"
-        }
-      },
-      {
-        "type": {
-          "key": "smart-contract",
-          "label": "smart-contract"
-        }
-      },
-      {
-        "type": {
-          "key": "smart-contract",
-          "label": "smart-contract"
-        }
-      },
-      {
-        "type": {
-          "key": "smart-contract",
-          "label": "smart-contract"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "actively-validated-service",
-          "label": "actively-validated-service"
-        }
-      },
-      {
-        "type": {
-          "key": "lending",
-          "label": "lending"
-        }
-      },
-      {
-        "type": {
-          "key": "partial-staking",
-          "label": "partial-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      },
-      {
-        "type": {
-          "key": "operator",
-          "label": "operator"
-        }
-      }
-    ]
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:10.593116+00:00",
+    "query": "{\n          rewardOptions(\n            where: {\n              inputAsset: { slugs: [\"ethereum-2-0\"] }\n            }\n            limit: 500\n          ) {\n            type {\n              key\n              label\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "b1e85d24cfb049f4929e97181292d2517435d1616120a4430479daa183ce3260",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "solo-staking",
+            "label": "solo-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          }
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          }
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          }
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          }
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          }
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          }
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "actively-validated-service",
+            "label": "actively-validated-service"
+          }
+        },
+        {
+          "type": {
+            "key": "lending",
+            "label": "lending"
+          }
+        },
+        {
+          "type": {
+            "key": "partial-staking",
+            "label": "partial-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "operator",
+            "label": "operator"
+          }
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        }
+      ]
+    }
   }
 }

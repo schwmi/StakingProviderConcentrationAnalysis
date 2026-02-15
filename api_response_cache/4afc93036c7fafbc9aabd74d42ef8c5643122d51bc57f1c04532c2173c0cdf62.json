@@ -1,16 +1,25 @@
 {
-  "data": {
-    "assets": [
-      {
-        "slug": "near-protocol",
-        "metrics": [
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 596182106.791728,
-            "createdAt": "2026-02-04T08:04:21.166701Z"
-          }
-        ]
-      }
-    ]
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:08.493499+00:00",
+    "query": "{\n          assets(where: { slugs: [\"near-protocol\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "4afc93036c7fafbc9aabd74d42ef8c5643122d51bc57f1c04532c2173c0cdf62",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": [
+        {
+          "slug": "near-protocol",
+          "metrics": [
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 596182106.791728,
+              "createdAt": "2026-02-04T08:04:21.166701Z"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

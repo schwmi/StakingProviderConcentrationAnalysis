@@ -1,0 +1,45 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:02.521296+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"sui\"] }\n                  typeKeys: [\"liquid-staking\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "1b4dd3b907ce1ea773c1c54405d32f9a91de7c8ea28c046d78289497923bc7f8",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "sui",
+              "name": "Sui",
+              "symbol": "SUI"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "aftermath-finance",
+              "name": "Aftermath Finance",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.693791536037496
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 5390357.143896509
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

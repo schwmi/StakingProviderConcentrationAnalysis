@@ -1,0 +1,35 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:04.843200+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"crypto-com-coin\"] }\n                  typeKeys: [\"solo-staking\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "c92abb99a94574a19bd3652894660b766715ef8dc698b9df261db78325651594",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "solo-staking",
+            "label": "solo-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "crypto-com-coin",
+              "name": "Cronos",
+              "symbol": "CRO"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.7698291354325313
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

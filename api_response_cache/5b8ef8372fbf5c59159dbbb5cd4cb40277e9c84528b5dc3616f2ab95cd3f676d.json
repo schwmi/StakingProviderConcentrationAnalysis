@@ -1,0 +1,35 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:07.971185+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"polkadot\"] }\n                  typeKeys: [\"solo-staking\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "5b8ef8372fbf5c59159dbbb5cd4cb40277e9c84528b5dc3616f2ab95cd3f676d",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "solo-staking",
+            "label": "solo-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.601590187275061
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

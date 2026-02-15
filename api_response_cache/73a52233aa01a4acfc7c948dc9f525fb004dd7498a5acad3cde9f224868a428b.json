@@ -1,0 +1,45 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:05.872954+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"polkadot\"] }\n                  typeKeys: [\"liquid-staking\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "73a52233aa01a4acfc7c948dc9f525fb004dd7498a5acad3cde9f224868a428b",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "bifrost-finance",
+              "name": "Bifrost",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 9.972
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 17045435.96963595
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

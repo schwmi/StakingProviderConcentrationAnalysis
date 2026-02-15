@@ -1,16 +1,25 @@
 {
-  "data": {
-    "assets": [
-      {
-        "slug": "tron",
-        "metrics": [
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 44159713613.0,
-            "createdAt": "2026-02-07T10:07:57.571043Z"
-          }
-        ]
-      }
-    ]
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:52.076536+00:00",
+    "query": "{\n          assets(where: { slugs: [\"tron\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "dd152db1eab6134d6389927bee816d45895833d29513a7861a3f118bddbbcdc0",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": [
+        {
+          "slug": "tron",
+          "metrics": [
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 44172266014.0,
+              "createdAt": "2026-02-15T06:08:34.640262Z"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

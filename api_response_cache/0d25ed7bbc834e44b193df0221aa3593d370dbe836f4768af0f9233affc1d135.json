@@ -1,16 +1,25 @@
 {
-  "data": {
-    "assets": [
-      {
-        "slug": "binance-smart-chain",
-        "metrics": [
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 24991011.796963256,
-            "createdAt": "2026-02-07T10:03:34.179595Z"
-          }
-        ]
-      }
-    ]
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:48.635470+00:00",
+    "query": "{\n          assets(where: { slugs: [\"binance-smart-chain\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "0d25ed7bbc834e44b193df0221aa3593d370dbe836f4768af0f9233affc1d135",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": [
+        {
+          "slug": "binance-smart-chain",
+          "metrics": [
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 25712726.565635603,
+              "createdAt": "2026-02-15T06:01:48.863413Z"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

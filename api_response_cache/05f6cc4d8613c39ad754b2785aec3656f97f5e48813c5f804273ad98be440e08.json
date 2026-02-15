@@ -1,0 +1,717 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:59.095414+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"avalanche\"] }\n                  typeKeys: [\"custodial\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "05f6cc4d8613c39ad754b2785aec3656f97f5e48813c5f804273ad98be440e08",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wirex",
+              "name": "Wirex",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.7999999999999998
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0.5
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.5000000000000004
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.7
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.5
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

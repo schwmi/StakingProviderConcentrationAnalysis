@@ -1,16 +1,25 @@
 {
-  "data": {
-    "assets": [
-      {
-        "slug": "avalanche",
-        "metrics": [
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 227253154.52531442,
-            "createdAt": "2026-02-07T09:02:14.757441Z"
-          }
-        ]
-      }
-    ]
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:59.330975+00:00",
+    "query": "{\n          assets(where: { slugs: [\"avalanche\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "55b174ae745452f8c7ccdcce45931767273bad9f46c94d9eab782287fdc4134b",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": [
+        {
+          "slug": "avalanche",
+          "metrics": [
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 232433249.3954017,
+              "createdAt": "2026-02-15T05:02:04.552234Z"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

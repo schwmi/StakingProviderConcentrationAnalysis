@@ -1,0 +1,255 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:47.827122+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"ethereum-2-0\"] }\n                  typeKeys: [\"smart-contract\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "cd609d4db1c559dc979ffde652dc5b8d009aaf53e26fe7d5e3a7b7195be56217",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "velora",
+              "name": "Velora",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 14.133696358275008
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 32484682.851145755
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cian",
+              "name": "CIAN",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0.29
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 903.1802753091513
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cian",
+              "name": "CIAN",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": -40.22
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 24.292220253972168
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cian",
+              "name": "CIAN",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.9699999999999998
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 5.980438091380365
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cian",
+              "name": "CIAN",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 0.6632060903114758
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cian",
+              "name": "CIAN",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.9800000000000004
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 0.5227194209940599
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cian",
+              "name": "CIAN",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": -38.09
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 0.13367897355183034
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cian",
+              "name": "CIAN",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.21
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 0.00013906135143048405
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

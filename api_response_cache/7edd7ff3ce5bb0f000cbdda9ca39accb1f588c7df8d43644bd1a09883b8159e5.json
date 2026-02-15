@@ -1,0 +1,45 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:12.163662+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"aptos\"] }\n                  typeKeys: [\"liquid-staking\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "7edd7ff3ce5bb0f000cbdda9ca39accb1f588c7df8d43644bd1a09883b8159e5",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "aptos",
+              "name": "Aptos",
+              "symbol": "APT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "amnis-finance",
+              "name": "Amnis Finance",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.97
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 31514056.595999997
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

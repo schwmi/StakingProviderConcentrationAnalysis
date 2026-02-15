@@ -1,0 +1,45 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:46.110288+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"ethereum-2-0\"] }\n                  typeKeys: [\"lending\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "da72ce002a9aca1470a3557199ea8aad5e1796db1ef8b0dc8ff9fb4d3a6d6764",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "lending",
+            "label": "lending"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "segment",
+              "name": "Segment Finance",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0.16035764338425076
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 48.2689573826933
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,210 +1,225 @@
 {
-  "data": {
-    "rewardOptions": [
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:11.706299+00:00",
+    "query": "{\n          rewardOptions(\n            where: {\n              inputAsset: { slugs: [\"tron\"] }\n            }\n            limit: 500\n          ) {\n            type {\n              key\n              label\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "df7cc266d8ebc5d8c59d74aaf70308115b42bcb39e1dc20fbe132513e7c6e73e",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "solo-staking",
+            "label": "solo-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
         }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "solo-staking",
-          "label": "solo-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "hosting",
-          "label": "hosting"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "custodial",
-          "label": "custodial"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      }
-    ]
+      ]
+    }
   }
 }

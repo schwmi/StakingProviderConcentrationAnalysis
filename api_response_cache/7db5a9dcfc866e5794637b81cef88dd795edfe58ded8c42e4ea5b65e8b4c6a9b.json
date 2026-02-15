@@ -1,0 +1,5847 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:57.176897+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"cardano\"] }\n                  typeKeys: [\"pos\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "7db5a9dcfc866e5794637b81cef88dd795edfe58ded8c42e4ea5b65e8b4c6a9b",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "na",
+              "name": "N/A",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2235502897712323
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1002848938.137322
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "kiln",
+              "name": "Kiln",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.065516343446851
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 745988320.1986549
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "upbit-staking",
+              "name": "Upbit Staking",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.3727935482650007
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 518028558.8228071
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cardano-foundation-private",
+              "name": "Cardano Foundation - Private",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.002931838690478
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 456219291.195992
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "everstake",
+              "name": "Everstake",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.174263803776149
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 445190233.95736307
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "adavault",
+              "name": "ADAvault",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.393179077892558
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 261449103.664607
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "1-percent-pool",
+              "name": "1 Percent Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.3244108787960402
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 222884099.77711397
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wpbj",
+              "name": "WPBJ",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.851454225941582
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 221422210.84881198
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "etoro",
+              "name": "eToro",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.3438794670803365
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 220137375.746982
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "adalite-stake-pool",
+              "name": "NuFi",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.44188379245646
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 218922479.64301902
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "ada-ocean",
+              "name": "ADA Ocean",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.3117608232228064
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 191134905.300468
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "blockdaemon",
+              "name": "Blockdaemon",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2464277944432713
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 179585661.928612
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "digital-fortress",
+              "name": "Digital Fortress",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.4912356556056925
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 171325641.08976403
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "moonstake",
+              "name": "Moonstake",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.6086380556303834
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 160914207.058099
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "infstones",
+              "name": "InfStones",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.431064697831188
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 155449104.666318
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.2077205161902849
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 143403766.677785
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "nedscaveio",
+              "name": "NEDSCAVE.IO",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2135992813077383
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 117734254.457568
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "sition-pool",
+              "name": "SITION POOL",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2256835985172727
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 115000357.248115
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "everstake-partner",
+              "name": "Everstake Partner",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2960164826836333
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 112985458.648358
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "blockngine",
+              "name": "BlockNgine",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.07631624336019
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 94404935.122976
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.0252480835534903
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 92675174.788752
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "spire-staking-top-10-operator",
+              "name": "Spire Staking | \ud83c\udfc6 Top 10 Operator",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.501879343633917
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 84150379.516286
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "a-cardanoland-pool-acl",
+              "name": "A CardanoLand pool ACL",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.8683258152305433
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 84104084.410386
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cardano-cafe",
+              "name": "Cardano Cafe",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.307278102040222
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 81904626.755114
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "blade-staking-pool",
+              "name": "BLADE Staking Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.9296439847001252
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 76636608.86704
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cardano-suisse",
+              "name": "Cardano Suisse",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.9215862639250003
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 76502599.108992
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.319984993325446
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 76333994.755574
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.916803199511301
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 76333928.932828
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.5559725360072663
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 76330128.028179
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.0987611061750626
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 76315090.573217
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.673567633307478
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 76276173.642745
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.3260528619004344
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 76116818.990712
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.8300711711624924
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 76082470.040465
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.998808681587678
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 75631579.380545
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.3034241482571534
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 74825188.956355
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.096669184456831
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 74740092.003522
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "4-nordic-pool",
+              "name": "#4 Nordic Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.9463584876603643
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 74628056.139649
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "nordic-pool",
+              "name": "Nordic Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.253690584416536
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 74533669.671335
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.769975514901289
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 74034553.813895
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.4694625895200475
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 74033297.655844
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.67324789916686
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 74029883.161102
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.1844418204711697
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 74027864.915762
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "pilot-pool",
+              "name": "Pilot Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.5991616641004778
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 73935063.227899
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.872428533705405
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 73849492.075146
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "ogam-pool",
+              "name": "Ogam Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.734404789745811
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 73525697.341208
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "south-pool-0pct",
+              "name": "South Pool 0PCT",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.759637281422161
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 73394253.349032
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cardano-ag-pool-private",
+              "name": "Cardano AG Pool - Private",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.144701623438542
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 73066604.268269
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "nordic-0pct-pool-3",
+              "name": "Nordic 0PCT Pool 3",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.3725405051031467
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 72887663.37626
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.1562335871917346
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 72717420.249105
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "adalovelacepool",
+              "name": "ADALovelacePool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.6928283814757767
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 72004023.115999
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cardaniansio",
+              "name": "CARDANIANS.io",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.721623599209466
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 71953795.915193
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "dark",
+              "name": "dark",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.8439644022709927
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 71060017.593471
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "kind-orange-heisenberg",
+              "name": "Kind Orange Heisenberg",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2877634816251593
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70533069.963021
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "ledger-by-figment-4",
+              "name": "Ledger by Figment 4",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.3205992947225313
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70390323.43872
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "upbeat-beige-euler",
+              "name": "Upbeat Beige Euler",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.1957942049073984
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70337357.342729
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wacky-gold-maxwell",
+              "name": "Wacky Gold Maxwell",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.1631691086671783
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70332375.307725
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "gmo-coin-staking-pool",
+              "name": "GMO Coin Staking Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.0035808882661517
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70314370.86891
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "thin-blue-galileo",
+              "name": "Thin Blue Galileo",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.134621192357183
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70192913.908619
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "admiring-red-hertz",
+              "name": "Admiring Red Hertz",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.5616354602834885
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70192384.788163
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "fervent-vermilion-galileo",
+              "name": "Fervent Vermilion Galileo",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.5986863886246137
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70078807.007313
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stakebowlpool1",
+              "name": "StakeBowlPool1",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.346151923331453
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70070604.502737
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "lucky-azure-gauss",
+              "name": "Lucky Azure Gauss",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.0274111869290876
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70054858.47813
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "ubiquitous-teal-aslan",
+              "name": "Ubiquitous Teal Aslan",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.5339737689203163
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70048776.377563
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "tidy-lilac-kepler",
+              "name": "Tidy Lilac Kepler",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.0076216165741316
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70039653.042061
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "fancy-mango-dirac",
+              "name": "Fancy Mango Dirac",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.3701755887616165
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70026061.590972
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "serene-salmon-pascal",
+              "name": "Serene Salmon Pascal",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2714504216799254
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70024615.189731
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "relaxed-mustard-hopper",
+              "name": "Relaxed Mustard Hopper",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.436092660721468
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70024077.721759
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "tall-zaffre-darwin",
+              "name": "Tall Zaffre Darwin",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.1069331080974725
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70021084.67897
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "fancy-burgundy-archimedes",
+              "name": "Fancy Burgundy Archimedes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.79839087399059
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70020983.811278
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.27163413650356
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70018952.056342
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.3704508861451483
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70017928.970695
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "titanstaking",
+              "name": "TITANstaking",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.4718264937027756
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70015179.594224
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stakebowlpool2",
+              "name": "StakeBowlPool2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.3045746182933047
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 70000010.90707
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "lovelacecommunitypool",
+              "name": "LovelaceCommunityPool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.9900243353568146
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 69631900.46234
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "fika-pool",
+              "name": "FIKA Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.285345239734857
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 69365926.217735
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "etoro-pool-2",
+              "name": "eToro Pool 2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.4587143883981635
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 68720278.04369
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "blue-cheese-stakehouse",
+              "name": "Blue Cheese Stakehouse",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.4196950736000225
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 68552809.757441
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "aichi-stake-pool",
+              "name": "Aichi Stake Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.290461895045447
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 68494257.030069
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "securestakingio",
+              "name": "SecureStaking.io",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.6729242687637593
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 68172059.561274
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "datadyneearth",
+              "name": "dataDyne.earth",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.88521734854679
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 68006016.31216
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "tech-pool",
+              "name": "Tech pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.9613875718863722
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 67055044.218216
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "clovernodes",
+              "name": "CloverNodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.8937724084793377
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 67005346.235148
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "atada-stakepool-austria",
+              "name": "ATADA Stakepool Austria",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.9417627693505677
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 66820332.898781
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "inactive-pool-dont-delegate",
+              "name": "Inactive pool. Dont delegate.",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.583274470231271
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 66747090.46378
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "happypercents",
+              "name": "HappyPercents",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2492479985719966
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 66678887.319533
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "biglazycat",
+              "name": "BigLazyCat",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.1985192034542402
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 65860434.463917
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "titanstaking-2",
+              "name": "TITANstaking #2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.742541202796326
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 65660340.643695
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "ada-snake-pool",
+              "name": "ADA Snake POOL",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.9953695278709787
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 65445395.767659
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "fair-pool-01",
+              "name": "Fair Pool #01",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.427236767346631
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 64631240.581591
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "blockdaemon-stake-pool-3",
+              "name": "Blockdaemon \ud83e\uddf1\ud83d\ude08 Stake Pool 3",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.11160104837988
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 64387787.220322
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "one-community-ada",
+              "name": "One Community ADA",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.4064016896649854
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 64308764.233279
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "octaspool",
+              "name": "OctasPool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.413184126662086
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 63913152.639553
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "maracuja-pool",
+              "name": "Maracuja-Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.066577421646139
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 63641659.402887
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "swimmingpool16",
+              "name": "SwimmingPool16",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2143842040443267
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 62482566.115234
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "balance-stake-pool",
+              "name": "Balance Stake Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.8185855846483294
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 62147929.286735
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "atada-2-stakepool-in-austria",
+              "name": "ATADA-2 Stakepool in Austria",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.0480110638170954
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 61081417.708063
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "swimmingpool14",
+              "name": "SwimmingPool14",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.9663262308747467
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 59693917.284825
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "rocky-mountain-pool",
+              "name": "Rocky Mountain Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.6764160877194505
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 59448301.576625
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "garden-pool-two",
+              "name": "Garden Pool Two",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.427819305660418
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 58890880.704955
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "polypool",
+              "name": "POLYPool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.556507622244403
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 57653169.700284
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "bravo-pool",
+              "name": "Bravo pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.522932784894694
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 57621934.922036
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "zzz2",
+              "name": "ZZZ2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.8806376483194767
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 57603793.74558
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "steakandada",
+              "name": "Steak.and.ADA",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.475343063711435
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 57438654.567288
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "p2p-tangem",
+              "name": "P2P & Tangem",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.1181832174133435
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 57325216.004204
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "etoro-pool-3",
+              "name": "eToro Pool 3",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.162996777000385
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 57000088.465081
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "lovelacepool",
+              "name": "Lovelacepool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.238345114133589
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 56804824.936577
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "ada-australia",
+              "name": "ADA Australia",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.8704849717468133
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 56720347.33473
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "tokai-stake-pool",
+              "name": "Tokai Stake Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.566780186991906
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 56625919.106041
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "three-securestakingio",
+              "name": "THREE SecureStaking.io",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.425338049152405
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 56113490.566756
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "ledger-by-figment-3",
+              "name": "Ledger by Figment 3",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.4205896525738053
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 56075243.588385
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "queen-ada",
+              "name": "Queen Ada",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.267633534601119
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 55982263.154543
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "adafr",
+              "name": "ADAFR",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.711368214198754
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 55927611.238705
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cardano-with-paul",
+              "name": "Cardano With Paul \u2618\ufe0f",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.3262463187518314
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 55520612.899862
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "blockdaemon-stake-pool-2",
+              "name": "Blockdaemon \ud83e\uddf1\ud83d\ude08 Stake Pool 2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.62461282497364
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 55315099.006839
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "terminada",
+              "name": "Terminada",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.0745539187582094
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 54041400.944696
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "able-stakepool-in-qubec-canada",
+              "name": "ABLE Stakepool in \u269c\ufe0fQu\u00e9bec - \ud83c\udf41Canada",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.706329569407493
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 53684233.012097
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "dyne",
+              "name": "DYNE",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.8913133085085472
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 53647113.401784
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "two-securestakingio",
+              "name": "TWO SecureStaking.io",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.286934186682369
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 53438960.069153
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "straight-pool",
+              "name": "Straight Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.442667114442788
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 53000635.164678
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "allnodes",
+              "name": "Allnodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.4198272922255697
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 52118980.340124
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "eco-pool",
+              "name": "ECO Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.010929630058498
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 51590426.720419
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "onyx-stake-pool-3",
+              "name": "ONYX Stake Pool #3",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.0878291599540235
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 51585969.951581
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "adastat-pool",
+              "name": "AdaStat Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.7349490112367913
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 51580205.840568
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "army-of-spies",
+              "name": "Army of Spies",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.4078818997563136
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 50581531.42429
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "sasa-stake-pool",
+              "name": "SASA Stake Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2423640488599488
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 50377025.036751
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "figment-6",
+              "name": "Figment 6",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.0616571039690794
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 50292063.752346
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "viper-stake-pool",
+              "name": "\ud83d\udc0dViper Stake Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.29866979914382
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 50066410.637594
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.556807969414046
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 50006986.072426
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.1917679740868294
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 50000387.958891
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.5571537352528555
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 50000224.372006
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "adapop",
+              "name": "ADAPOP",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.8001169725639872
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 49948430.645309
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "crowdano-stakepool",
+              "name": "Crowdano Stakepool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.6459443393413835
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 49618035.894259
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "boom",
+              "name": "BOOM",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.371058979435382
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 49589214.101585
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "dapp-central-stake-pool",
+              "name": "Dapp Central Stake Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.055236557565138
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 49350340.872531
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cool2",
+              "name": "COOL2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.825033390827127
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 49288479.992433
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "leaf-pool",
+              "name": "LEAF pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2486776097760064
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 49256745.601819
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "biglazycat2",
+              "name": "BigLazyCat2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.859639690357064
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 48995292.451314
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "liqwid",
+              "name": "Liqwid",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.854632105566399
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 48993904.02213
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.605983613440412
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 48812245.842032
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.3165828390666725
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 47306423.567024
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cardanode-staking",
+              "name": "CardaNode Staking",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.198317027799024
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 47247729.034784
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "aaaa-pool",
+              "name": "AAAA pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.7432224901588764
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 47070464.135972
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "flowr-stake-pool",
+              "name": "FLOWR Stake Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.964968397293623
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 46914747.135358
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "btv1",
+              "name": "BTV1",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.223558957201329
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 46667542.551338
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "four-securestakingio",
+              "name": "FOUR SecureStaking.io",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.232124781455362
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 46495865.553349
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "azureada",
+              "name": "AzureADA",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2869778872734887
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 45381265.150531
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "planetarium39",
+              "name": "planetarium39",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.1364671601156706
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 45330348.999862
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "btv2",
+              "name": "BTV2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.1897441809545235
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 45281804.61931
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "btv3",
+              "name": "BTV3",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.559830233576387
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 45041734.023401
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "crypto-capital-venture",
+              "name": "(Crypto Capital Venture)",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.894350353877818
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 45025811.726446
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "ray-network",
+              "name": "Ray Network",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.176854578792842
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 44454555.939193
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "hermes-stakepool-germany-1",
+              "name": "Hermes Stakepool Germany #1",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.0193786346656726
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 43338573.767139
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "swimmingpool18",
+              "name": "SwimmingPool18",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.8720616218106896
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 43314874.908193
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "blue-ocean-stake-pool",
+              "name": "Blue Ocean Stake Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.197784361156653
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 43022099.818582
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cardaniansio-3",
+              "name": "CARDANIANS.io #3",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.1997162691544467
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 42935107.078124
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2643730501206245
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 42740896.17457
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "swimmingpool19",
+              "name": "SwimmingPool19",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.0564511132284333
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 42609572.145676
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "atlasstakepool",
+              "name": "AtlasStakePool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.8466196908857917
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 42528882.83738
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "x-stakepool2",
+              "name": "X-StakePool2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.441009273267529
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 42500843.702472
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wavepooldigital",
+              "name": "wavepool.digital",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.732813138480166
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 41998923.750239
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "moksh-stake-pool",
+              "name": "Moksh Stake Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.105236427862265
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 41656984.896253
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "ada-north-pool",
+              "name": "ADA NORTH POOL",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.442450979197178
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 41596991.237553
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "nufi-adalite-d",
+              "name": "Nu.Fi & AdaLite D",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.6153115292857514
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 41432030.495935
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "luganodes",
+              "name": "Luganodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.3425724060795696
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 41304774.138133
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "minswap",
+              "name": "Minswap",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.709719436463357
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 39684274.988931
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "bloom-six",
+              "name": "Bloom Six",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.171545166742833
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 39415429.577553
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stakitio-pool-by-tobg",
+              "name": "stakit.io Pool by TOBG",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2582577995270343
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 38758860.785318
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.1527081569337665
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 38530773.496712
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "keen-lemon-fermi",
+              "name": "Keen Lemon Fermi",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.2600786352371016
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 38403571.927797
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.8351183755795146
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 38127053.933206
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "adastrong",
+              "name": "AdaStrong",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.9469135391541257
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 37689205.978535
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "ktn3",
+              "name": "KTN3",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.570999958789865
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 37661122.926515
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "smug",
+              "name": "SM\u20b3UG",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.5412121281444207
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 37541616.457058
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "zetetic-stake-pool",
+              "name": "Zetetic Stake Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.228928105262441
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 37228335.199681
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "sunshine-stake-pool",
+              "name": "Sunshine Stake Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.729978856196915
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 37157705.213953
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "garden-pool-four",
+              "name": "Garden Pool Four",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.6236790185735743
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 36912666.235539
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "qzsbu",
+              "name": "qzsbu",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.7001444177700518
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 36692932.858006
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "japan2",
+              "name": "JAPAN2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2020912046306265
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 36640088.627337
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cardano-dave",
+              "name": "Cardano Dave",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.7063392886337145
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 36488970.569935
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "crypto-capital-venture-pool3",
+              "name": "(Crypto Capital Venture) #Pool3",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.029612007675526
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 36341019.845826
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "nufi-adalite-e",
+              "name": "Nu.Fi & AdaLite E",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.0367676283088763
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 36217932.06438
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "elegant-gold-heisenberg",
+              "name": "Elegant Gold Heisenberg",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.673265794034132
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 36213331.717923
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "sake-pool",
+              "name": "Sake Pool\ud83c\udf76",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.9008670795127864
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 35774531.617203
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cardaniansio-2",
+              "name": "CARDANIANS.io #2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.8410155024083896
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 35720313.046291
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "into-the-cryptoverse",
+              "name": "Into the Cryptoverse",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.3851953504964554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 35662907.893438
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "nkr-ada-pool",
+              "name": "NKR ADA POOL",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.2746297639788566
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 35484442.272086
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "thoughtful-iris-albattani",
+              "name": "Thoughtful Iris Albattani",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.287777225453157
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 35260898.624141
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "crypto-capital-venture-pool2",
+              "name": "(Crypto Capital Venture) #Pool2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.223860660962114
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 35241678.865947
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "atomicnodes",
+              "name": "Atomic Nodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.300108680248249
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 35058741.885456994
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "curly-viridian-moore",
+              "name": "Curly Viridian Moore",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.974390189600617
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 35019106.692854
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "futuristic-cadet-swartz",
+              "name": "Futuristic Cadet Swartz",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.369874193146488
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 35012247.114204
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "grandiose-charcoal-nobel",
+              "name": "Grandiose Charcoal Nobel",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.304145176199538
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 35010415.863498
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "responsible-rose-coanda",
+              "name": "Responsible Rose Coanda",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.3164470883536232
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 35007848.686978
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "gleaming-cyan-davinci",
+              "name": "Gleaming Cyan Davinci",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.633718150778134
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 35006320.225132
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cardano-with-paul-2",
+              "name": "Cardano With Paul 2 \u2618\ufe0f",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.3259573234350075
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 34681496.624472
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wave-1",
+              "name": "Wave-1",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.290722476304199
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 34456107.469942
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "bloom",
+              "name": "Bloom Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.690959726135855
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 34396688.180635
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stakepool-service-no2",
+              "name": "StakePool Service No.2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.8341017946366727
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 33927881.497912
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "ada-4-good",
+              "name": "ADA 4 GOOD",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.360365185203531
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 33619732.266214
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "cardano",
+              "name": "Cardano",
+              "symbol": "ADA"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "1-percent-pool-v2",
+              "name": "1 Percent Pool (v2)",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.4741153677506906
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 33486731.84665
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

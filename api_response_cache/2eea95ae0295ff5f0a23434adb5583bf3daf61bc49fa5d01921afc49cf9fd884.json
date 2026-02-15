@@ -1,0 +1,435 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:32:36.336575+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"near-protocol\"] }\n                  \n                }\n                limit: 300\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "2eea95ae0295ff5f0a23434adb5583bf3daf61bc49fa5d01921afc49cf9fd884",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "metapool",
+              "name": "Meta Pool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.32
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 27954500.230826832
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "kiln",
+              "name": "Kiln",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.3772626980165805
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 20241521.371876366
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "p2p-validator",
+              "name": "P2P.org",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.275581172186298
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 10530118.437734498
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stakin",
+              "name": "Stakin by The Tie",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.551425118778964
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4599643.548220008
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "chorus-one",
+              "name": "Chorus One",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.300055131245238
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3910965.5178960143
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stakely",
+              "name": "Stakely",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.551425118778964
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1320540.003674911
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "colossus",
+              "name": "Colossus",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.275581172186298
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1008985.3362079221
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "senseinode",
+              "name": "SenseiNode",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.275581172186298
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 435677.6073206929
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "allnodes",
+              "name": "Allnodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.597399109877741
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.2
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "solo-staking",
+            "label": "solo-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.597399109877741
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "custodial",
+            "label": "custodial"
+          },
+          "inputAssets": [
+            {
+              "slug": "near-protocol",
+              "name": "NEAR Protocol",
+              "symbol": "NEAR"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "m2",
+              "name": "M2",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 7.6
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

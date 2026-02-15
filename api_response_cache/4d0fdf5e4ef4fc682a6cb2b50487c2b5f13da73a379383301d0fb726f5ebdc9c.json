@@ -1,0 +1,75 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:05.606054+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"polkadot\"] }\n                  typeKeys: [\"hosting\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "4d0fdf5e4ef4fc682a6cb2b50487c2b5f13da73a379383301d0fb726f5ebdc9c",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "luganodes",
+              "name": "Luganodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.601590187275061
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 14915217.03539446
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "allnodes",
+              "name": "Allnodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.601590187275061
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,16 +1,25 @@
 {
-  "data": {
-    "assets": [
-      {
-        "slug": "sui",
-        "metrics": [
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 7307955294.344588,
-            "createdAt": "2026-02-07T09:34:57.723111Z"
-          }
-        ]
-      }
-    ]
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:02.280233+00:00",
+    "query": "{\n          assets(where: { slugs: [\"sui\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "0f0a8d00dde56efc84b99211f9bb8ce1f193500c8390697e814068be5c362438",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": [
+        {
+          "slug": "sui",
+          "metrics": [
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 7430633619.556416,
+              "createdAt": "2026-02-15T05:37:27.592537Z"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

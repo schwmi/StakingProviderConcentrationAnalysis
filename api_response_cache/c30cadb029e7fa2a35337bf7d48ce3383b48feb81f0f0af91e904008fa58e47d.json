@@ -1,16 +1,25 @@
 {
-  "data": {
-    "assets": [
-      {
-        "slug": "staked-ether",
-        "metrics": [
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 9576492.227083893,
-            "createdAt": "2026-02-07T00:03:38.399262Z"
-          }
-        ]
-      }
-    ]
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:53.622630+00:00",
+    "query": "{\n          assets(where: { slugs: [\"staked-ether\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "c30cadb029e7fa2a35337bf7d48ce3383b48feb81f0f0af91e904008fa58e47d",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": [
+        {
+          "slug": "staked-ether",
+          "metrics": [
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 9525694.573466517,
+              "createdAt": "2026-02-15T00:03:17.589716Z"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

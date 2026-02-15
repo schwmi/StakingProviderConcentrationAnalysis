@@ -1,0 +1,45 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:11.547670+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"cosmos\"] }\n                  typeKeys: [\"smart-contract\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "7d3be5e72331d924c38444a4db074c8571dd95a5671bf9ff7685740e6d4ec891",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          },
+          "inputAssets": [
+            {
+              "slug": "cosmos",
+              "name": "Cosmos Hub",
+              "symbol": "ATOM"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "astroport",
+              "name": "Astroport",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.1490990000000005
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 104719.42952934299
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

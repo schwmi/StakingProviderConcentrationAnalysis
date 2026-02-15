@@ -1,0 +1,75 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:59.938437+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"avalanche\"] }\n                  typeKeys: [\"liquid-staking\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "bb5bb2a1313daa037679722d05692c7ca80c064a9ca8028c0cf034cab442e1e7",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "benqi-liquid-staking",
+              "name": "BENQI Liquid Staking",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.946222137912147
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 24236721.14944267
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "gogopool",
+              "name": "GoGoPool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.05296836932394
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2806468.9322156957
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

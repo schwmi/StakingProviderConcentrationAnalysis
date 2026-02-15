@@ -1,16 +1,25 @@
 {
-  "data": {
-    "assets": [
-      {
-        "slug": "aptos",
-        "metrics": [
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 861157924.7046189,
-            "createdAt": "2026-02-07T10:05:12.647298Z"
-          }
-        ]
-      }
-    ]
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:12.402345+00:00",
+    "query": "{\n          assets(where: { slugs: [\"aptos\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "601647e45c28c7934b03f4edfeeabe5a2d045031ea5568c996f091be2783cfe0",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": [
+        {
+          "slug": "aptos",
+          "metrics": [
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 836237520.7257934,
+              "createdAt": "2026-02-15T06:06:51.533017Z"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

@@ -1,0 +1,35 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:58.777165+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"hedera-hashgraph\"] }\n                  typeKeys: [\"solo-staking\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "ad872c62e0a0932c1a0e697832060ba560aa14ac3e97e2c6cc14f9f6dc93649f",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "solo-staking",
+            "label": "solo-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "hedera-hashgraph",
+              "name": "Hedera",
+              "symbol": "HBAR"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.4828418365346296
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

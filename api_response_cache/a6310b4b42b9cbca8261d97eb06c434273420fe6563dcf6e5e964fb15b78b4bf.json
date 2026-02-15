@@ -1,210 +1,219 @@
 {
-  "data": {
-    "rewardOptions": [
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:12.625182+00:00",
+    "query": "{\n          rewardOptions(\n            where: {\n              inputAsset: { slugs: [\"hedera-hashgraph\"] }\n            }\n            limit: 500\n          ) {\n            type {\n              key\n              label\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "a6310b4b42b9cbca8261d97eb06c434273420fe6563dcf6e5e964fb15b78b4bf",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "smart-contract",
+            "label": "smart-contract"
+          }
+        },
+        {
+          "type": {
+            "key": "solo-staking",
+            "label": "solo-staking"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
         }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "smart-contract",
-          "label": "smart-contract"
-        }
-      },
-      {
-        "type": {
-          "key": "solo-staking",
-          "label": "solo-staking"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      },
-      {
-        "type": {
-          "key": "pos",
-          "label": "pos"
-        }
-      }
-    ]
+      ]
+    }
   }
 }

@@ -1,16 +1,25 @@
 {
-  "data": {
-    "assets": [
-      {
-        "slug": "hedera-hashgraph",
-        "metrics": [
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 15956277042.0,
-            "createdAt": "2026-02-07T08:59:11.009439Z"
-          }
-        ]
-      }
-    ]
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:58.207733+00:00",
+    "query": "{\n          assets(where: { slugs: [\"hedera-hashgraph\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "4504c535512036ee310c1824e2daee8eae40a425fe18f1fa2f6e663c3a986337",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": [
+        {
+          "slug": "hedera-hashgraph",
+          "metrics": [
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 16006445971.0,
+              "createdAt": "2026-02-15T05:00:40.168975Z"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

@@ -1,0 +1,35 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:49.299122+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"binance-smart-chain\"] }\n                  typeKeys: [\"solo-staking\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "1b9b9128195f16f1a115c3f2173bda12a44436d211c9680dd0e55184f1e934b3",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "solo-staking",
+            "label": "solo-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "binance-smart-chain",
+              "name": "BNB Chain",
+              "symbol": "BNB"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.6542757142857145
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

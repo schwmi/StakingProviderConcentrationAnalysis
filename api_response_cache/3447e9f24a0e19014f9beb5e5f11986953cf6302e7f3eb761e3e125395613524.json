@@ -1,16 +1,25 @@
 {
-  "data": {
-    "assets": [
-      {
-        "slug": "crypto-com-coin",
-        "metrics": [
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 13282535833.520134,
-            "createdAt": "2026-02-07T08:38:33.68353Z"
-          }
-        ]
-      }
-    ]
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:03.789991+00:00",
+    "query": "{\n          assets(where: { slugs: [\"crypto-com-coin\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "3447e9f24a0e19014f9beb5e5f11986953cf6302e7f3eb761e3e125395613524",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": [
+        {
+          "slug": "crypto-com-coin",
+          "metrics": [
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 13353737324.173386,
+              "createdAt": "2026-02-15T04:38:43.910987Z"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

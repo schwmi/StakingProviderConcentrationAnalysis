@@ -1,0 +1,255 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:50.414558+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"solana\"] }\n                  typeKeys: [\"liquid-staking\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "a8ecb9f1a03f94d08a761542326f57f4c005950d0e9b49c4589cf9add83b3a09",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "solana",
+              "name": "Solana",
+              "symbol": "SOL"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "jito-network",
+              "name": "Jito Network",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 7.186375
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 13979696.39345446
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "solana",
+              "name": "Solana",
+              "symbol": "SOL"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "binance-staking",
+              "name": "Binance Staking",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.6296740000000005
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 8557431.78426265
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "solana",
+              "name": "Solana",
+              "symbol": "SOL"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "marinade",
+              "name": "Marinade Finance",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.972203059961423
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3042959.094252709
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "solana",
+              "name": "Solana",
+              "symbol": "SOL"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "bybit",
+              "name": "Bybit",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.759443
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1593567.295054389
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "solana",
+              "name": "Solana",
+              "symbol": "SOL"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "solayer",
+              "name": "Solayer",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.64
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1196771.628761535
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "solana",
+              "name": "Solana",
+              "symbol": "SOL"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "solblaze",
+              "name": "Solblaze",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 7.0262459999999995
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1141662.897591439
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "solana",
+              "name": "Solana",
+              "symbol": "SOL"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "sanctum",
+              "name": "Sanctum",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 7.23
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 460841.390607378
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "solana",
+              "name": "Solana",
+              "symbol": "SOL"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "solanahub",
+              "name": "SolanaHub",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.849813
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 14791.925034667
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

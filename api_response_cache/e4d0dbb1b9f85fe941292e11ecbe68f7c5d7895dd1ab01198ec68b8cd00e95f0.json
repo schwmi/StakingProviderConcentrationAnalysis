@@ -1,0 +1,1284 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:45.773747+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"ethereum-2-0\"] }\n                  typeKeys: [\"hosting\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "e4d0dbb1b9f85fe941292e11ecbe68f7c5d7895dd1ab01198ec68b8cd00e95f0",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "p2p-validator",
+              "name": "P2P.org",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.7020615492499998
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 959886.4642857146
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "everstake",
+              "name": "Everstake",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.9
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 764940
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "bitcoin-suisse-ag",
+              "name": "Bitcoin Suisse AG",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.89
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 632000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.26
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 602319.38
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stake-fish",
+              "name": "stakefish",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.88
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 346798
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "kiln",
+              "name": "Kiln",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.844275315
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 280348
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "allnodes",
+              "name": "Allnodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.95
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 208714
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "infstones",
+              "name": "InfStones",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.0969282901569564
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 205600
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "staking-facilities",
+              "name": "Staking Facilities",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.837352003015948
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 150853.31931419202
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "a41",
+              "name": "a41",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.89
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 108236.79427145218
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "pier-two",
+              "name": "Pier Two",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.8
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 55322
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "chorus-one",
+              "name": "Chorus One",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.69
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 48352
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "darma-capital",
+              "name": "DARMA Capital",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.68
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 28640
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "chainup-cloud",
+              "name": "ChainUp Cloud",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.94
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 27520
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "blox-staking",
+              "name": "Blox Staking",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.53
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 10975
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "rockx",
+              "name": "RockX",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.85
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 8512
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.9314287906481273
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 8498
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "ebunker",
+              "name": "EBunker",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.05
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 8261
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "xhash",
+              "name": "XHash",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.83
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 7488
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "meria",
+              "name": "Meria",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.84
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 6176
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cryptonative-systems",
+              "name": "Cryptonative Systems",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.58
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 5184
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "finoa-consensus-services",
+              "name": "Finoa Consensus Services",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.77
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4896
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "lighthouse",
+              "name": "Lighthouse",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3.04
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4677
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "prysm-ethereum-client",
+              "name": "Prysm Ethereum Client",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.45
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4608
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "hyperledger-besu",
+              "name": "Hyperledger Besu",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.56
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4608
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "teku",
+              "name": "Teku",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.41
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4608
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "nimbus",
+              "name": "Nimbus",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.43
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4394
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "alphanodes",
+              "name": "Ethernodes.io",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.78
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4352
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "serenita",
+              "name": "Serenita",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.95
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3299
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "erigon",
+              "name": "Erigon",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.55
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2080
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "w3labs",
+              "name": "w3labs",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.41
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2048
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "colossus",
+              "name": "Colossus",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.56
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1309
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "validation-cloud",
+              "name": "Validation Cloud",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.63
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1184
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "myrmidonstaking",
+              "name": "Myrmidon",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 3
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 991
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stakely",
+              "name": "Stakely",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.28
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 532
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "chainlabo",
+              "name": "ChainLabo",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.15
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 518
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "globalstake",
+              "name": "Globalstake",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.28
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 256
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "brick-towers",
+              "name": "Brick Towers",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.28
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 160
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "astro-stakers",
+              "name": "Astro Stakers",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.27
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 128
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "senseinode",
+              "name": "SenseiNode",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.26
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 128
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "blockdaemon",
+              "name": "Blockdaemon",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.27
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 64
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "twinstake",
+              "name": "twinstake",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 2.28
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 32
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "ethereum-2-0",
+              "name": "Ethereum",
+              "symbol": "ETH"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "launchnodes",
+              "name": "Launchnodes",
+              "isActive": true
+            }
+          ],
+          "metrics": null
+        }
+      ]
+    }
+  }
+}

@@ -1,16 +1,25 @@
 {
-  "data": {
-    "assets": [
-      {
-        "slug": "polkadot",
-        "metrics": [
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 873510248.7906985,
-            "createdAt": "2026-02-07T07:15:56.015756Z"
-          }
-        ]
-      }
-    ]
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:05.350048+00:00",
+    "query": "{\n          assets(where: { slugs: [\"polkadot\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "38831852bcb99157272c50cd4d56a50fc4aa5b793f58d5a0bac817ed13476638",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": [
+        {
+          "slug": "polkadot",
+          "metrics": [
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 879270851.2935772,
+              "createdAt": "2026-02-15T04:56:56.780197Z"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

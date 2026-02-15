@@ -1,16 +1,25 @@
 {
-  "data": {
-    "assets": [
-      {
-        "slug": "cosmos",
-        "metrics": [
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 301240690.91541165,
-            "createdAt": "2026-02-07T09:00:52.004846Z"
-          }
-        ]
-      }
-    ]
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:10.061268+00:00",
+    "query": "{\n          assets(where: { slugs: [\"cosmos\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "189587b14ab8caae69dcde864f44c4983f0422d3eaa40fcb895eb7aadefd2b54",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": [
+        {
+          "slug": "cosmos",
+          "metrics": [
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 303066688.27227557,
+              "createdAt": "2026-02-15T05:06:12.095723Z"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

@@ -1,0 +1,7821 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:32:36.049552+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"polkadot\"] }\n                  \n                }\n                limit: 300\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "94af9e89b78036e06c5e3f7ff31ec4f39628e329fade2c9f9e5372181ce36272",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "p2p-validator",
+              "name": "P2P.org",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.029295840421701
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 114801046.37335828
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "posdog",
+              "name": "PosDog",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 53967347.48651569
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "bifrost-finance",
+              "name": "Bifrost",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 9.972
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 17045435.96963595
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "luganodes",
+              "name": "Luganodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.601590187275061
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 14915217.03539446
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "kiln",
+              "name": "Kiln",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 13761922.554769127
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "iceberg-nodes",
+              "name": "\ud83e\uddca Iceberg Nodes \ud83e\uddca",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.527625390193053
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 12723565.435511453
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "zug-capital",
+              "name": "Zug Capital",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911309
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 12715829.717718216
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "coinbase",
+              "name": "Coinbase",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.67346297229306
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 12686576.744925171
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "dotkeeper",
+              "name": "DotKeeper",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 9213460.391622916
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "jaco",
+              "name": "Jaco",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.506936401967891
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 7974205.323798916
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "meria",
+              "name": "Meria",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.317408613298207
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 7580886.2603956815
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cryptostakecom",
+              "name": "CryptoStake",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.274473040311975
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 6376153.787972303
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "paranodesio",
+              "name": "ParaNodes.io",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911309
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 6360471.241271825
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "saxemberg",
+              "name": "SAXEMBERG",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.235709489470326
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4787808.819176397
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "hodlfarm",
+              "name": "\ud83d\udc11 HODL.FARM \ud83d\udc11",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.541805906216279
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4785083.964115571
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "novasama",
+              "name": "\ud83c\udf0cNovasama\ud83c\udf0c",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.042009678656058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4784185.7267835615
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "talismanxyz",
+              "name": "talisman.xyz",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.04200967865606
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4771962.003803239
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "dozenodescom",
+              "name": "DOZENODES.COM",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.3695363558957
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4771817.363133387
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "figment-networks",
+              "name": "Figment",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547556
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4771771.418854545
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "turboflakesio",
+              "name": "turboflakes.io",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.330912286215824
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 4771563.217204098
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "dragonstake",
+              "name": "DragonStake",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.390704721139931
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3191384.672801275
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "gametheory",
+              "name": "\u265eGameTheory\u265c",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.158241359484016
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3191343.7418837873
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "gatotech",
+              "name": "GATOTECH",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.390704721139933
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3189879.5953540765
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "prostakerscom",
+              "name": "ProStakers.com\ud83d\udc8e",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.596441279921345
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3189758.4949820926
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "mile",
+              "name": "Mile",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.042009678656058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3189514.0827873237
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "polkadotters",
+              "name": "Polkadotters",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.390695006338802
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3189460.3650445794
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cosmotron",
+              "name": "COSMOTRON",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.274471696895835
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3188867.9677629946
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "rockx",
+              "name": "RockX",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3184534.247248984
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "staker-space",
+              "name": "Staker Space",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3181120.4701900855
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "legend",
+              "name": "Legend",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137548818166582
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3180495.2752843006
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "swiss-bond",
+              "name": "Swiss Bond",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.027311291748966
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 3179203.5082921884
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "exnesscom",
+              "name": "Exness",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.4733420626971645
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2839779.145489842
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "polkastats",
+              "name": "PolkaStats",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2570874.156266112
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "subwallet",
+              "name": "SubWallet",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1981835.3517021048
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1900693.7597379473
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1900608.277221731
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1690627.3943435452
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688546.6795292501
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688296.8700851633
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688249.321852624
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688219.7794024425
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688211.8133517203
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688188.3318435007
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688173.3649858525
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688171.5419191173
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688159.6420681314
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688139.9949192812
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688104.1136533692
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688087.741341018
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688075.089544996
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688046.2557812557
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1688039.9741680084
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1687886.78724481
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1687877.4991938714
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1687866.209076319
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1687826.0816218643
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "simply-staking",
+              "name": "Simply Staking",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.693314636172182
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1682804.3176455384
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1652111.9506347089
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1652071.2911886529
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1652055.4565754265
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1625971.8063164616
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cryptobeesxyz",
+              "name": "\ud83d\udc1d CRYPTOBEES.XYZ",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.297719376477566
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1596591.28653772
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "anamix",
+              "name": "ANAMIX",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.506936401967891
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1596402.6683088515
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "luganodes",
+              "name": "Luganodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.460851274516266
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1595881.2391978789
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "vf-validierung",
+              "name": "VF Validierung \ud83c\udde9\ud83c\uddea",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.50693640196789
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1595508.9233270432
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "helixstreetfoundation",
+              "name": "helixstreet.foundation",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.50693640196789
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1595452.1610204773
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "khastor",
+              "name": "Khastor",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.50693640196789
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1595394.2660414935
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "nodeasy",
+              "name": "Nodeasy",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.158241359484016
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1595379.4292500762
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "validorange",
+              "name": "ValidOrange",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.460851274516264
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1595076.4594487469
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "snzpool-1",
+              "name": "SNZPool-1",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.506936401967891
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1595043.57169189
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "honeystakexyz",
+              "name": "\ud83c\udf6f HoneyStake.xyz \ud83c\udf6f",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.460851274516266
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1595033.382756363
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stakeworldio",
+              "name": "Stakeworld.io",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.274473040311973
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594963.814790232
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "yellowfin-tuna",
+              "name": "\ud83d\udc1fYellowFin Tuna\ud83d\udc1f",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.611544914713052
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594919.9284532743
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "keepnode",
+              "name": "KeepNode",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.390704721139933
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594871.5346001785
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "tesla",
+              "name": "Tesla",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594794.359177703
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "digitalghostxyz",
+              "name": "digitalghost.xyz",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.623168071172682
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594759.6575622854
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cypher-labs",
+              "name": "Cypher Labs",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.460851274516266
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594758.8140487443
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "rotkonet",
+              "name": "ROTKO.NET",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.518559570050687
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594757.6074347228
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "day7",
+              "name": "\u2728\ud83d\udc4d\u2728 Day7 \u2728\ud83d\udc4d\u2728",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.042009678656056
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594747.7265978907
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wdmaster",
+              "name": "wdmaster",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.623168071172682
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594747.6229672576
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "zugian-duck",
+              "name": "\ud83d\ude82 Zugian Duck \ud83e\udd86",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.158241359484014
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594742.8644440947
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stakesu",
+              "name": "STAKE.SU",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594721.133440052
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "gtstaking",
+              "name": "GTSTAKING",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.50693640196789
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594712.9799353331
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stake-hulk",
+              "name": "STAKE HULK\ud83d\udc7d",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.62316808279585
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594701.2030840525
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "gurustaking",
+              "name": "GuruStaking\ud83d\udc73",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.623168082795848
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594650.9567300612
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "dionysus",
+              "name": "Dionysus\ud83c\udf47",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.390704721139933
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594643.9357723575
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "sio34",
+              "name": "Sio34",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.448820561553912
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594613.0163582887
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "daniel-jacobus-greeff",
+              "name": "Daniel Jacobus Greeff",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.50693640196789
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594606.849517064
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "1RG5T6zGY4XovW75mTgpH6Bx7Y6uwwMmPToMCJSdMwdm4EW",
+              "name": "IOSG Ventures",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.274473040311973
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594535.3296352604
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "hypersphere",
+              "name": "Hypersphere",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.158241359484016
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594512.8734069043
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "kuzo",
+              "name": "KUZO",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.62316808279585
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594508.4583936522
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "coinstudio",
+              "name": "CoinStudio",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.042009678656056
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594494.7855035395
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "staking4all",
+              "name": "Staking4All",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.50693640196789
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594492.6708664387
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "snowcape",
+              "name": "Snowcape",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.50693640196789
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594480.57907034
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "v01",
+              "name": "V01",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.042009678656056
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594448.1981333843
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "alfastake",
+              "name": "Alfastake",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.623168071172682
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594436.3992299573
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "wetez",
+              "name": "Wetez",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.50693640196789
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594432.547235677
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "globalstake",
+              "name": "Globalstake",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.042009678656056
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594414.437693926
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "polkachucom",
+              "name": "POLKACHU",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.50693640196789
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594337.321053122
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "168node",
+              "name": "168NODE",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.50693640196789
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594306.256229366
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "v02",
+              "name": "V02",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.042009678656056
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1594209.845627172
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "sik-crifferentde",
+              "name": "Sik | crifferent.de",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.042009678656056
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1593917.4927249548
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "itrocket",
+              "name": "ITRocket",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.042009678656056
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1593276.9020835715
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "hirish",
+              "name": "hirish",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.042009678656058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1593238.936536979
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "bueno-validatoro",
+              "name": "BUENO VALIDATORO",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.053632846738852
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1593223.53281279
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cp287-cloudwalk",
+              "name": "CP287-CLOUDWALK",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.042009678656056
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1593220.599540275
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "shad",
+              "name": "\ud83c\udccf Shad",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.042009678656058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1593201.533195462
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "validandina",
+              "name": "\ud83c\udf0e ValidAndina \ud83c\udfd4\ufe0f",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.042009678656056
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1593186.084984905
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "denis-soldatov",
+              "name": "Denis S. Soldatov",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.693314636172182
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1592863.6783585416
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "helikon",
+              "name": "\u26f0 HELIKON \u26f0",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.274473040311973
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1592739.1389462238
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "locozoo",
+              "name": "locozoo",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.60159017567347
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1592319.1171035988
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "n-fuse-validator-1-stash",
+              "name": "n-fuse Validator #1 Stash",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.460851274516266
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1591713.692496161
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.460851274516266
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1591701.8934777298
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "cosmoon",
+              "name": "Cosmoon",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.06471651379327
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1591619.7925352317
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.460851274516266
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590748.4357484444
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590708.4493842649
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590702.122907794
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590701.5793325217
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.460851274516266
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590679.1064158631
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590630.7647404808
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590620.3769812435
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590619.8756951243
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590573.5786541253
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590573.5636000643
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590566.0750741863
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590383.2366976708
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590383.2366976705
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "amforc",
+              "name": "Amforc",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911309
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590352.1541979255
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "staked-tech",
+              "name": "Staked Tech",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590333.2590888464
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "ryabina",
+              "name": "Ryabina",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590297.639832928
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stakepool247",
+              "name": "StakePool24/7",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.253542481656808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1590089.6725095515
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.48557428540231
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1589863.007841861
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.36955838352956
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1589858.7221266655
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.48557428540231
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1589758.2594221344
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "pier-two",
+              "name": "Pier Two",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1588636.2152736725
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1587861.1121195531
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "masternode24",
+              "name": "Masternode24",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.693314636172182
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1587782.858212869
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "pdm-capital",
+              "name": "PDM Capital",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1587348.330179731
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1586652.531228182
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1586633.1089342884
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1586616.7805642656
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "stakenodepowernode",
+              "name": "STAKENODE_POWERNODE",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1585822.881981403
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.677123805139697
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1584514.5999093766
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "staked",
+              "name": "Staked",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.460851274516266
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1580724.399049061
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "rocknode",
+              "name": "rocknode",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.693314636172182
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1580498.0132506841
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "decentralization-guadrians",
+              "name": "Decentralization Guadrians",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.042009678656056
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1580485.6369617789
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.079518628847683
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1579131.4686198216
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.079518628847683
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1579131.4686198216
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1579131.4686198216
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1579131.4686198216
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.079518628847683
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1579131.4686198216
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1579131.4686198211
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.079518628847683
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1578949.5829404136
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1564063.8854055142
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1563916.3927838237
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "trustmebro",
+              "name": "\ud83e\udd43TRUST\u2248ME\u2248BRO\ud83e\udd43",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.460851274516266
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1563873.9171638223
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1563715.2919810305
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1563676.0502850125
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1563674.6050533992
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1563671.2541771643
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1563669.7374193305
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1563664.9140244268
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1563643.8600664907
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1563636.8774975128
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1563622.9169078325
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1563598.9234730722
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1563597.6300181407
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1563593.0268421075
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "zetetic-validator",
+              "name": "Zetetic Validator",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.678100038603963
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1555253.1467293473
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1519061.546474528
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1519061.546474528
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1519061.546474528
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1518968.8303156856
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1513923.4237703849
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1513781.3912789763
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1513775.7663035863
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1513752.7251928109
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1513702.9956196952
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1505500.9018868487
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1504816.5302279957
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1504632.413504666
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1504632.413504666
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1504632.413504666
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1500251.40616
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1500000.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1500000.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1453485.4655195489
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1453358.9092173788
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1453283.2233900195
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1453231.4873707467
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1453225.6660668282
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1432223.236912988
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1432018.8428863336
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1432008.4985656156
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431978.6808306195
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431973.4447234585
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431969.3113660004
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431687.207159138
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431664.9229043205
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431612.062915917
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431605.7535965398
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431598.667493639
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431564.1858396158
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431562.180761786
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431557.3024006789
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431548.4573686053
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431539.3077209736
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431443.3590476152
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431439.9050533718
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431347.6376541764
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431344.5988070052
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431162.846164103
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431140.3371347885
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431137.1613242943
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431126.8285594764
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431122.7539054176
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431103.8539683197
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431092.931385952
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431092.664623738
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.673462972293057
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431088.1115372928
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1431076.8656947347
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1430920.1190203708
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 7.541033621728791
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1420174.12602142
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "brc",
+              "name": "BRC",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 7.541033621728791
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1419732.3231860837
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 7.541033621728791
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1419732.3231860837
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 7.541033621728791
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1419732.3231860837
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 7.541033621728791
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1419606.1029692956
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1400187.3963674824
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1400104.1793436825
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399971.2471108662
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399679.6242528793
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399623.4968077324
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399534.5576997143
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399532.816113852
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399516.7562658205
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399507.0426115517
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399506.0549138784
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399502.5509038994
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399496.7898135511
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399495.063267388
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399489.7695369993
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399488.4539189301
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399485.4059773176
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399470.205132578
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399461.665361463
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399455.5172720896
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399438.677383663
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399433.856721172
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399420.5865824064
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399418.5424647047
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399417.8138630437
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399398.9055182452
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399393.6219634712
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399365.817342934
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399360.7410161626
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399346.2222089844
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399320.8528972045
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1358046.767745187
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1358046.767745187
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1358046.7677451868
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1357963.8791485229
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.079518628847683
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1357954.971256341
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.079518628847683
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1357954.971256341
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.079518628847683
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1357954.971256341
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.079518628847683
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1357872.0882624905
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1356366.9465171285
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1356366.9465171285
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1356366.9465171283
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1356284.1604486152
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.079518628847683
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1351339.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.079518628847683
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1351339.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.079518628847683
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1351339.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1350233.3333333335
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1350233.3333333333
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1350233.3333333333
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1333192.6657052145
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1333192.6657052145
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1333192.6657052145
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1333192.6657052145
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1333192.6657052145
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1333054.008121678
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1332579.9724344264
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1331741.978913903
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1331741.978913903
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1331741.9789139028
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1331650.1599688593
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1331465.907661884
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1331465.907661884
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1331465.907661884
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.021510677911307
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1331465.9076618839
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1327924.4600153014
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1326851.3466086823
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1326851.3466086823
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1326851.3466086823
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1326851.3466086823
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1326851.3466086823
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 11.137526579784058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1326726.2073701075
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1325499.0489406593
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1322935.657233462
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "polkadot",
+              "name": "Polkadot",
+              "symbol": "DOT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 10.441431168547554
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1322882.6574659217
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:31:13.257180+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"aptos\"] }\n                  typeKeys: [\"solo-staking\"]\n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "b44c49a70e31727712dda9b81efc73a494d185d758eec29cfc59b862a32464f4",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "solo-staking",
+            "label": "solo-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "aptos",
+              "name": "Aptos",
+              "symbol": "APT"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.999678000000001
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 836237520.725793
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

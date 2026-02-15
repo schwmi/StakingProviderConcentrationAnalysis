@@ -1,16 +1,25 @@
 {
-  "data": {
-    "assets": [
-      {
-        "slug": "cardano",
-        "metrics": [
-          {
-            "metricKey": "staked_tokens",
-            "defaultValue": 21548886254.64275,
-            "createdAt": "2026-02-07T10:23:25.492019Z"
-          }
-        ]
-      }
-    ]
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T06:30:57.485153+00:00",
+    "query": "{\n          assets(where: { slugs: [\"cardano\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "89c9fa72e6600d8a1b2aad9b0582a4ca9bf4c624b265c518cafee8534cf1037b",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": [
+        {
+          "slug": "cardano",
+          "metrics": [
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 21331418207.342484,
+              "createdAt": "2026-02-15T04:23:30.322141Z"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
