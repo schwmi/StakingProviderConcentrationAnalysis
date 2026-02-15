@@ -32,9 +32,8 @@ class StakingRewardsAPIClient:
             "Content-Type": "application/json"
         }
 
-        # Set up cache directory
         self.cache_dir = Path(cache_dir)
-        self.cache_dir.mkdir(exist_ok=True)
+        self.cache_dir.mkdir(parents=True, exist_ok=True)
 
     def _get_cache_key(self, query, variables=None):
         """
@@ -47,14 +46,11 @@ class StakingRewardsAPIClient:
         Returns:
             str: A unique cache key (hash)
         """
-        # Create a deterministic representation of the query and variables
         cache_data = {
             "query": query.strip(),
             "variables": variables or {}
         }
-        # Convert to JSON string with sorted keys for consistency
         cache_string = json.dumps(cache_data, sort_keys=True)
-        # Generate hash
         return hashlib.sha256(cache_string.encode()).hexdigest()
 
     def _execute_query(self, query, variables=None, use_cache=True):
@@ -72,24 +68,19 @@ class StakingRewardsAPIClient:
         Raises:
             requests.exceptions.RequestException: If the request fails
         """
-        # Generate cache key
         cache_key = self._get_cache_key(query, variables)
         cache_file = self.cache_dir / f"{cache_key}.json"
 
-        # Try to load from cache if enabled
         if use_cache and cache_file.exists():
             try:
-                with open(cache_file, 'r') as f:
+                with open(cache_file, "r", encoding="utf-8") as f:
                     cached = json.load(f)
-                # Support both legacy cache format and new metadata wrapper
                 if isinstance(cached, dict) and "response" in cached and "_cache_meta" in cached:
                     return cached["response"]
                 return cached
             except (json.JSONDecodeError, IOError):
-                # If cache is corrupted, continue to make API call
                 pass
 
-        # Make API call
         payload = {"query": query}
         if variables:
             payload["variables"] = variables
@@ -102,7 +93,6 @@ class StakingRewardsAPIClient:
         try:
             response.raise_for_status()
         except requests.exceptions.HTTPError as http_err:
-            # Bubble up richer context for easier debugging
             try:
                 error_body = response.json()
             except Exception:
@@ -112,9 +102,8 @@ class StakingRewardsAPIClient:
             ) from http_err
         result = response.json()
 
-        # We always write the newest query to cache
         try:
-            with open(cache_file, "w") as f:
+            with open(cache_file, "w", encoding="utf-8") as f:
                 cache_payload = {
                     "_cache_meta": {
                         "retrieved_at_utc": datetime.now(timezone.utc).isoformat(),
@@ -127,7 +116,6 @@ class StakingRewardsAPIClient:
                 }
                 json.dump(cache_payload, f, indent=2)
         except IOError:
-            # cache write failure should never break the request
             pass
 
         return result
@@ -165,15 +153,12 @@ class StakingRewardsAPIClient:
         Raises:
             requests.exceptions.RequestException: If the request fails
         """
-        # Build where clause
         where_clause = where or {}
         if symbols:
             where_clause["symbols"] = symbols
 
-        # Build query arguments
         args = []
         if where_clause:
-            # Convert to GraphQL syntax (no quotes around keys)
             where_parts = []
             for key, value in where_clause.items():
                 where_parts.append(f"{key}: {json.dumps(value)}")
@@ -184,7 +169,6 @@ class StakingRewardsAPIClient:
 
         args_str = f"({', '.join(args)})" if args else ""
 
-        # Build GraphQL query
         query = f"""
         {{
           assets{args_str} {{
@@ -201,7 +185,7 @@ class StakingRewardsAPIClient:
 
     def execute_raw_query(self, query, use_cache=True):
         """
-        Executes an raw query string 1:1
+        Execute a raw GraphQL query string as provided.
 
         Args:
             query (str): The raw GraphQL query string
@@ -232,17 +216,14 @@ class StakingRewardsAPIClient:
         Raises:
             requests.exceptions.RequestException: If the request fails
         """
-        # Build metrics where clause
         metrics_where = {}
         if metric_keys:
             metrics_where["metricKeys"] = metric_keys
         if created_before:
             metrics_where["createdAt_lt"] = created_before
 
-        # Build metrics arguments
         metrics_args = []
         if metrics_where:
-            # Convert to GraphQL syntax (no quotes around keys)
             where_parts = []
             for key, value in metrics_where.items():
                 where_parts.append(f"{key}: {json.dumps(value)}")
@@ -252,7 +233,6 @@ class StakingRewardsAPIClient:
         if metrics_limit is not None:
             metrics_args.append(f"limit: {metrics_limit}")
 
-        # Default order to createdAt desc if not specified
         order_clause = order or {"createdAt": "desc"}
         order_parts = []
         for key, value in order_clause.items():
@@ -262,7 +242,6 @@ class StakingRewardsAPIClient:
 
         metrics_args_str = f"({', '.join(metrics_args)})" if metrics_args else ""
 
-        # Build GraphQL query
         query = f"""
         {{
           assets(where: {{slugs: [{json.dumps(slug)}]}}, limit: 1) {{
@@ -281,19 +260,19 @@ class StakingRewardsAPIClient:
 
     def get_validators(self, symbol, limit=1, use_cache=True):
         """
-        Query validators for a specific symbol
+        Query the `active_validators` metric for a specific asset symbol.
 
         Args:
             symbol (str): Asset symbol to query
-            limit (int, optional): Maximum number of metrics to return (default: 1)
+            limit (int, optional): Maximum number of metric records to return (default: 1)
             use_cache (bool, optional): Whether to use cached responses (default: True)
 
         Returns:
-            dict: The JSON response containing validator data
+            dict: The JSON response containing asset data with `active_validators` metrics
         """
         query = f"""
         {{
-          assets(where: {{ symbols: ["{symbol}"] }}, limit: 1) {{
+          assets(where: {{ symbols: [{json.dumps(symbol)}] }}, limit: 1) {{
             id
             name
             slug
@@ -312,7 +291,7 @@ class StakingRewardsAPIClient:
 
     def get_staked_tokens(self, asset_slug, limit=1, use_cache=True):
         """
-        Query the staked tokens
+        Query validator-level `staked_tokens` metrics for reward options on an asset.
 
         Args:
             asset_slug (str): Asset slug to query
@@ -323,11 +302,11 @@ class StakingRewardsAPIClient:
             dict: The JSON response containing staked tokens data
         """
         type_keys = json.dumps(self.DEFAULT_TYPE_KEYS)
-        query = """
-               {{
+        query = f"""
+        {{
          rewardOptions(
            where: {{
-             inputAsset: {{ slugs: ["{asset_slug}"] }}
+             inputAsset: {{ slugs: [{json.dumps(asset_slug)}] }}
              typeKeys: {type_keys}
            }}
            limit: 10
@@ -341,13 +320,13 @@ class StakingRewardsAPIClient:
              status {{
                label
              }}
-             metrics(where: {{ metricKeys: ["staked_tokens"] }}, limit: 1) {{
+            metrics(where: {{ metricKeys: ["staked_tokens"] }}, limit: 1) {{
                metricKey
                defaultValue
              }}
             }}
           }}
-        }}""".format(asset_slug=asset_slug, limit=limit, type_keys=type_keys)
+        }}"""
 
         return self._execute_query(query, use_cache=use_cache)
 
@@ -492,7 +471,15 @@ class StakingRewardsAPIClient:
         """
         Get provider staked tokens plus share of the asset's total staked tokens,
         extended with reward option type and input asset info.
-    
+
+        Args:
+            asset_slug (str): Asset slug to query (e.g., "solana")
+            limit (int, optional): Maximum number of reward options to inspect (default: 200)
+            is_active (bool|None, optional): Filter by provider active status. Use None to disable filtering.
+            include_reward_rate (bool, optional): Whether to include `reward_rate` when available (default: True)
+            use_cache (bool, optional): Whether to use cached responses (default: True)
+            type_keys (list|None, optional): Reward option type keys to filter by. None means no type filter.
+
         Returns:
             dict: {
                 "total_staked_tokens": <float|None>,
@@ -531,13 +518,11 @@ class StakingRewardsAPIClient:
                 limit: {limit}
                 order: {{ metricKey_desc: "staked_tokens" }}
               ) {{
-                # NEW: reward option type (e.g., solo-staking, liquid-staking, etc.)
                 type {{
                   key
                   label
                 }}
-    
-                # NEW: the token being staked for this reward option
+
                 inputAssets(limit: 1) {{
                   slug
                   name
@@ -559,12 +544,10 @@ class StakingRewardsAPIClient:
             """
             return self._execute_query(query, use_cache=use_cache)
     
-        # Default: no type filter. Users can pass explicit type_keys to narrow if needed.
         requested_type_keys = [] if type_keys is None else type_keys
         ro_result = fetch_reward_options(requested_type_keys)
         reward_options = ro_result.get("data", {}).get("rewardOptions", []) or []
 
-        # Fetch total staked tokens (aggregate)
         total_resp = self.get_total_staked_tokens(asset_slug=asset_slug, metrics_limit=1, use_cache=use_cache)
         total = None
         try:
@@ -579,12 +562,10 @@ class StakingRewardsAPIClient:
             if isinstance(is_active, bool) and provider_info.get("isActive") is not is_active:
                 continue
     
-            # NEW: reward option type
             ro_type = ro.get("type") or {}
             ro_type_key = ro_type.get("key")
             ro_type_label = ro_type.get("label")
-    
-            # NEW: input asset (token being staked for this reward option)
+
             input_asset = (ro.get("inputAssets") or [{}])[0] if isinstance(ro.get("inputAssets"), list) else {}
             input_asset_slug = input_asset.get("slug")
             input_asset_symbol = input_asset.get("symbol")
@@ -614,7 +595,6 @@ class StakingRewardsAPIClient:
                 "reward_rate": reward_rate,
                 "share": share,
     
-                # NEW FIELDS
                 "reward_option_type_key": ro_type_key,
                 "reward_option_type_label": ro_type_label,
                 "input_asset_slug": input_asset_slug,
@@ -622,9 +602,8 @@ class StakingRewardsAPIClient:
                 "input_asset_name": input_asset_name,
             })
     
-        sum_tracked = (
-            sum(p["staked_tokens"] for p in providers if p.get("staked_tokens") not in (None, 0))
-            if providers else 0
+        sum_tracked = sum(
+            p["staked_tokens"] for p in providers if p.get("staked_tokens") not in (None, 0)
         )
     
         untracked = None
@@ -632,7 +611,6 @@ class StakingRewardsAPIClient:
         if total not in (None, 0):
             try:
                 untracked = total - sum_tracked
-                # If provider totals exceed the aggregate (e.g., mixed staking types), avoid negative remainder.
                 if untracked < 0:
                     untracked = None
                     untracked_share = None
@@ -668,20 +646,16 @@ class StakingRewardsAPIClient:
         Raises:
             requests.exceptions.RequestException: If the request fails
         """
-        # Default metric keys
         if metric_keys is None:
             metric_keys = ["reward_rate"]
 
-        # Build providers where clause
         where_parts = []
         where_parts.append(f"rewardOptions: {{inputAsset: {{slugs: [{json.dumps(asset_slug)}]}}}}")
         where_parts.append(f"isVerified: {json.dumps(is_verified)}")
         providers_where = "{" + ", ".join(where_parts) + "}"
 
-        # Build order clause
         order_clause = f"{{metricKey_desc: {json.dumps(order_by_metric)}}}"
 
-        # Build GraphQL query
         query = f"""
         {{
           providers(
@@ -761,7 +735,6 @@ class StakingRewardsAPIClient:
             if key and key not in seen:
                 seen[key] = label
     
-        # Stable, predictable output
         return [
             {"key": key, "label": seen[key]}
             for key in sorted(seen.keys())
@@ -789,14 +762,11 @@ class StakingRewardsAPIClient:
         Raises:
             requests.exceptions.RequestException: If the request fails
         """
-        # Default metric keys
         if metric_keys is None:
             metric_keys = ["marketcap"]
 
-        # Build where clause
         where_parts = []
 
-        # For None values, use null in GraphQL
         where_parts.append(f"asset: {json.dumps(asset) if asset is not None else 'null'}")
         where_parts.append(f"provider: {json.dumps(provider) if provider is not None else 'null'}")
         where_parts.append(f"rewardOption: {json.dumps(reward_option) if reward_option is not None else 'null'}")
@@ -805,7 +775,6 @@ class StakingRewardsAPIClient:
 
         where_str = "{" + ", ".join(where_parts) + "}"
 
-        # Build GraphQL query
         query = f"""
         {{
           metrics(
@@ -821,5 +790,3 @@ class StakingRewardsAPIClient:
         """
 
         return self._execute_query(query, use_cache=use_cache)
-
-    # Query methods will be added here as you provide them
