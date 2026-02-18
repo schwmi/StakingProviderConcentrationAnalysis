@@ -1,0 +1,14 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T12:20:09.664607+00:00",
+    "query": "{\n          assets(where: { slugs: [\"comos\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "2320c7a0161201cfb32453bd55fd81c442740ea6ddce43c10836bf41ddeb9cd0",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": []
+    }
+  }
+}

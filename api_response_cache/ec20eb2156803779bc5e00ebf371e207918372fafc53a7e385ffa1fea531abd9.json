@@ -1,0 +1,4977 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T12:23:56.682102+00:00",
+    "query": "{\n              rewardOptions(\n                where: {\n                  inputAsset: { slugs: [\"avalanche\"] }\n                  \n                }\n                limit: 200\n                order: { metricKey_desc: \"staked_tokens\" }\n              ) {\n                type {\n                  key\n                  label\n                }\n\n                inputAssets(limit: 1) {\n                  slug\n                  name\n                  symbol\n                }\n    \n                providers(limit: 1) {\n                  slug\n                  name\n                  isActive\n                }\n    \n                metrics(where: { metricKeys: [\"staked_tokens\", \"reward_rate\"] }, limit: 5) {\n                  metricKey\n                  defaultValue\n                }\n              }\n            }",
+    "variables": {},
+    "cache_key": "ec20eb2156803779bc5e00ebf371e207918372fafc53a7e385ffa1fea531abd9",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "benqi-liquid-staking",
+              "name": "BENQI Liquid Staking",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.946222137912147
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 24237447.060752492
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "allnodes",
+              "name": "Allnodes",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.657267499298469
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 16002563.061525792
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.462647085427873
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2999996.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.15377589255186
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2999990.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.711711803343855
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2999990.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.493777888690794
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2999990.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.051365333699043
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2995774.6555094724
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "082",
+              "name": "082",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.461713905828048
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2985425.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.071969307924013
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2879999.96
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.0692798053512265
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2879999.96
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.070632383859247
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2879999.96
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "gogopool",
+              "name": "GoGoPool",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.05296836932394
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2806468.9322156957
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.5893512654828195
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2775188.81743203
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.774234074349245
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2755743.451356923
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.0732915856949985
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2744999.96990303
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.594171504988388
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2701215.7126500634
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "091",
+              "name": "091",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.339724545613042
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2699999.968901058
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.0744409544054685
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2699999.96
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.677989868284387
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2696086.5871878555
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.298922144750444
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2679141.911014283
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.632142786702236
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2653966.475212344
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.171183083776578
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2565678.518626423
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.680364023311657
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2548159.7303716675
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "senseinode",
+              "name": "SenseiNode",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.484213706839853
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2546673.431212532
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.5057402019311255
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2542499.91
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2524680.761100212
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.294396906888639
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2520906.335160698
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.463148427080976
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2516072.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.203889700434488
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2235101.8296778696
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.617732442347646
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2202941.989986309
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.684323689918672
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2202940.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.115664146139758
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2150000.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.08415811091096
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2039258.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.123612812748524
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 2024994.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.933185674269801
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1999999.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.030656070006981
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1999999.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "060",
+              "name": "060",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.502426351922734
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1995117.9147612127
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.25992804072587
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1950000.000000001
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "kiln",
+              "name": "Kiln",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.12698874972383
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1889325.093365808
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.477523016029121
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1806808.089878618
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.4782745473090495
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1800000.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.253351947076342
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1765796.710152202
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.509564428161551
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1754999.94
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.3237960227783026
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1750000.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.331546766398905
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1750000.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.507462585327421
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1690777.272405295
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.240151039032641
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1686195.5456831655
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.019845859384947
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1578903.154620467
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1561287.208022851
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.0058112608711
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1549665.779792398
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "085",
+              "name": "085",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.909517587052591
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1512005.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1509725.648889114
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.037061361777957
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1500000.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1499998.868086215
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1499998.63
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1499997.978867156
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "086",
+              "name": "086",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.108410587768862
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1498000.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.367903327134096
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1474934.082756083
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.040203863370047
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1446546.26885125
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.925319382033252
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1399999.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1397166.492795596
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.1258859268801675
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1354141.76
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "096",
+              "name": "096",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.1810667881234735
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1349999.999974465
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.044546985336989
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1329671.252807383
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.855129944396176
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1318385.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.0355764147190705
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1243815.504400148
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1220215.9
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.492627622422626
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1216315.9549904289
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.240151584417783
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1212755.143829057
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.015615447007873
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1188000.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1170222.300568226
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.026084449584083
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1163894.507689474
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.032996738235907
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1155000.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.0474585947483215
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1149459.299541656
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "059",
+              "name": "059",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.294084774547827
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1137708.602828386
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1122679.656069146
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1112157.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1112000.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.064493901100694
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1099998.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.998594476580917
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1025430.242920091
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.994621975568143
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1023000.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.000797558253355
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1023000.0
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "028",
+              "name": "028",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.003293914609198
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 1009744.212103785
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.064510314844337
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 953727
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "049",
+              "name": "049",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.009272676538883
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 930199.075602602
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.938651889659125
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 900000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 836841.750531193
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.293529830014075
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 832495.065083816
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 832326.997064037
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.835174011691241
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 799999
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.472669818632223
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 789473.684
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.296227959820702
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 779919.5703530151
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.053471473592344
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 776988
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.3317574683717375
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 769110.6748399651
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.123238353807748
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 760016.24
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 751660.105830072
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.989188378892201
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 726236.866787307
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.022576041197058
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 726025
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.027573684703003
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 726000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.029011764132124
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 726000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "chorus-one",
+              "name": "Chorus One",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 1.0147353041480622
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 723941.48014461
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 719473.770200276
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.291931578602646
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 711571.331233564
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.32731222915716
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 705127.454314287
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.995638202998758
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 704299.158957559
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 700000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.013724941505643
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 693000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.02116699685907
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 693000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "027",
+              "name": "027",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.00407827126212
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 693000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 669999.189042713
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.0378211927037615
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 663601.21643959
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.990597023025627
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 660000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.016755712074859
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 660000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.996993755989371
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 660000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 644165.104867758
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "tranquil-grizzly",
+              "name": "Tranquil Grizzly",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.22439817286238
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 632859.806294773
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.503152954748711
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 629999.97
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "014",
+              "name": "014",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.005862202166184
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 627000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.030168315929276
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 627000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.997319476383731
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 627000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.288286101140909
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 626574.983763826
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 606095.408147986
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.614240536404702
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 600016
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.035203272732083
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 600000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.106196964183066
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 599999
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.756204983204549
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 599999
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 599998.104316352
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "051",
+              "name": "051",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.004500706902572
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 594000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 591108.969101666
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.498376622657185
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 583857.203511439
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 583758.032766
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.516851463390564
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 582575.57849079
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.477509485909828
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 578000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 568865
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 568000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 549528.326348854
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.3575575665746955
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 544000.439212041
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.288321083358575
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 538136.292491788
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 518570.116572062
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.286637203023875
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 514603.58382834
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 508527.460178336
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 500000.099029662
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 500000.099029384
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 500000.09902928
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 500000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.42794397620068
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 499962.2795063269
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 498126.168119436
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.04524316843264
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 496605
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "031",
+              "name": "031",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.006944697153752
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 495000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.9969619407931685
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 462000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.992357058215244
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 462000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.991889456120808
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 462000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.036465330733173
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 462000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "050",
+              "name": "050",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.006162772602223
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 462000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 454351.808474549
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 447427.6890145
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.001704340774958
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 443755.563209342
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 441070.280734958
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 437960.218135875
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "majqa",
+              "name": "Majqa",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.504115837649409
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 435540.2358332941
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 424178.22235849
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 420607.537407386
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 412465.980935402
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 399998.99
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.996460305645209
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 396000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 387576.243393652
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.040850192913351
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 369600
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 368599.219465387
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.012015341094032
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 363000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.041486772058463
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 363000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.042229136337157
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 363000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.471810651617756
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 360800.58037251496
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "055",
+              "name": "055",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.176461842972804
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 360000.040904653
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 358149.238326146
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "016",
+              "name": "016",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.007572604761772
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 356800.924397398
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.286663558824033
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 323896.141740128
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 310983.29813147
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.39148222693278
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 302394.92963023204
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.509678551560909
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 300099.999988695
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 295100.099107243
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 289381.587997434
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 6.31513362733525
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 286134.01102078
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.4716784764849935
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 281210.7984355701
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.995979520107265
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 280902.928607238
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 275597
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.0277817930989075
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 270180.738487606
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 268812.311178109
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 267990.515849011
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.030624454827599
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 264000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 4.999403244392598
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 261569.757079909
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.517672290782536
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 260417.523824248
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "the-validator",
+              "name": "The Validator",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.800125888336427
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 258099
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "xlabs",
+              "name": "xLabs",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.344778440783599
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 254574.89173903712
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": [
+            {
+              "slug": "fat-owl",
+              "name": "Fat Owl",
+              "isActive": true
+            }
+          ],
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.376060398701201
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 253304.3370625149
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.01241667046586
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 251712.118381386
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 5.188240198401858
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 251486.377128667
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 250000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 250000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 250000
+            }
+          ]
+        },
+        {
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          },
+          "inputAssets": [
+            {
+              "slug": "avalanche",
+              "name": "Avalanche",
+              "symbol": "AVAX"
+            }
+          ],
+          "providers": null,
+          "metrics": [
+            {
+              "metricKey": "reward_rate",
+              "defaultValue": 0
+            },
+            {
+              "metricKey": "staked_tokens",
+              "defaultValue": 250000
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

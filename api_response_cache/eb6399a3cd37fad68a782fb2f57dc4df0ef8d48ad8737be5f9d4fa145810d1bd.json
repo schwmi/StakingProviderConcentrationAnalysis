@@ -1,0 +1,14 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T12:20:51.987353+00:00",
+    "query": "{\n          assets(where: { slugs: [\"etherium-2.0\"] }, limit: 1) {\n            slug\n            metrics(\n              where: { metricKeys: [\"staked_tokens\"] }\n              order: { createdAt: desc }\n              limit: 1\n            ) {\n              metricKey\n              defaultValue\n              createdAt\n            }\n          }\n        }",
+    "variables": {},
+    "cache_key": "eb6399a3cd37fad68a782fb2f57dc4df0ef8d48ad8737be5f9d4fa145810d1bd",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "assets": []
+    }
+  }
+}

@@ -1,0 +1,1550 @@
+{
+  "_cache_meta": {
+    "retrieved_at_utc": "2026-02-15T12:23:57.127041+00:00",
+    "query": "{\n  rewardOptions(\n    where: { inputAsset: { slugs: [\"avalanche\"] } }\n    limit: 200\n    order: { metricKey_desc: \"staked_tokens\" }\n  ) {\n    providers(limit: 1) { slug name }\n    type { key label }\n  }\n}",
+    "variables": {},
+    "cache_key": "07bc9ee56c891250a302063caaa7aeaa4fd948d9b56a56a9ef3da61e3e9fc2ee",
+    "base_url": "https://api.stakingrewards.com/public/query"
+  },
+  "response": {
+    "data": {
+      "rewardOptions": [
+        {
+          "providers": [
+            {
+              "slug": "benqi-liquid-staking",
+              "name": "BENQI Liquid Staking"
+            }
+          ],
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "allnodes",
+              "name": "Allnodes"
+            }
+          ],
+          "type": {
+            "key": "hosting",
+            "label": "hosting"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "082",
+              "name": "082"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "gogopool",
+              "name": "GoGoPool"
+            }
+          ],
+          "type": {
+            "key": "liquid-staking",
+            "label": "liquid-staking"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "091",
+              "name": "091"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "senseinode",
+              "name": "SenseiNode"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "060",
+              "name": "060"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "kiln",
+              "name": "Kiln"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "085",
+              "name": "085"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "086",
+              "name": "086"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "096",
+              "name": "096"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "059",
+              "name": "059"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "028",
+              "name": "028"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "049",
+              "name": "049"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "chorus-one",
+              "name": "Chorus One"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "027",
+              "name": "027"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "tranquil-grizzly",
+              "name": "Tranquil Grizzly"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "014",
+              "name": "014"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "051",
+              "name": "051"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "031",
+              "name": "031"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "050",
+              "name": "050"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "majqa",
+              "name": "Majqa"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "055",
+              "name": "055"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "016",
+              "name": "016"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "the-validator",
+              "name": "The Validator"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "xlabs",
+              "name": "xLabs"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": [
+            {
+              "slug": "fat-owl",
+              "name": "Fat Owl"
+            }
+          ],
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        },
+        {
+          "providers": null,
+          "type": {
+            "key": "pos",
+            "label": "pos"
+          }
+        }
+      ]
+    }
+  }
+}

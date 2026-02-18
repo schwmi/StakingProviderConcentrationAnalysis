@@ -1,0 +1,20 @@
+\begin{table}
+\caption{Staking-type classification policy used for effective stake aggregation.}
+\label{tab:staking_type_policy}
+\begin{tabular}{l c p{8.5cm}}
+\toprule
+asset & included & rationale \\
+\midrule
+pos & \checkmark & Structural \\
+operator & \checkmark & Structural \\
+liquid-staking & \checkmark & Structural \\
+hosting & \checkmark & Structural \\
+actively-validated-service & \checkmark & Structural \\
+partial-staking & \checkmark & Structural \\
+solo-staking & \checkmark & Structural \\
+custodial & \times & Financial Wrapper \\
+lending & \times & Financial Wrapper \\
+smart-contract & \times & Financial Wrapper \\
+\bottomrule
+\end{tabular}
+\end{table}
