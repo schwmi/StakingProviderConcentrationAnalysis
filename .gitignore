@@ -1,5 +1,7 @@
 # Environment variables
 .env
+.env.*
+!.env.example
 
 # Python
 __pycache__/
@@ -8,13 +10,20 @@ __pycache__/
 *.so
 .Python
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# macOS
-.DS_Store
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
 # Virtual environments
 venv/
 env/
 ENV/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
